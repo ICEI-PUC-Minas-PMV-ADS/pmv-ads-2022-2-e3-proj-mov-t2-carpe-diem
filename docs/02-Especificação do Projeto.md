@@ -46,8 +46,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Sarah Arellano (Auxiliar de farmácia)         |Pesquisar informações sobre proibições e permissões no local. |Programar melhor as viagens com seus animais domésticos.|
 |Emanuel Keese  (Aposentado por invalidez)     |Comparar informações sobre a estrutura dos imóveis.           |Encontrar o melhor imóvel no quesito acessibilidade.    |
 |Charles Stark   (Estudante)                   |Consultar disponibilidade dos imóveis.                        |Conseguir planejar o período de férias.                 |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Paola Avelar (mãe de dois filhos pequenos)    |Consultar a existência de playground no local ou nas proximidades. |Conseguir que as crianças tenham um local específico para brincarem.
 |Ricardo Oliveira (Estudante EAD)           |Consultar a existência de acesso a internet no local.         |Estudar a noite e nos períodos de intervalo entre os passeios.|
 |Bruna Cintra (Estudante)                   |Consultar os locais de esportes radicais nas proximidades do local de estadia. | Conseguir montar um roteiro de passeios com os amigos |
