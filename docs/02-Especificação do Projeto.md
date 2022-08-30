@@ -23,17 +23,17 @@ Quadro 1 - Personas
 
 | Paola Avelar      |                                    |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-|IMAGEM             |**Idade:** 29 anos - **Ocupação:** Professora e mãe de dois filhos de 3 e 5 anos |**Aplicativos:** _Youtube, Instagram_, _WhatsApp_.|
+|![image](img/Persona-PaolaAvelar.jpg) |**Idade:** 29 anos - **Ocupação:** Professora e mãe de dois filhos de 3 e 5 anos |**Aplicativos:** _Youtube, Instagram_, _WhatsApp_.|
 |**Motivações:**  Agendar férias com a família em um local em que as crianças possam brincar.|**Frustrações:** Dificuldade em encontrar locais de estadia com playground no local ou nas proximidades. |**_Hobbies_, História:** Gosta de aproveitar o tempo livre com a família. Frequenta cinema e clube esportivo com regularidade.|
 
 | Ricardo Oliveira      |                                    |                                        |                    
 |--------------------|------------------------------------|----------------------------------------|
-|IMAGEM|**Idade:** 20 anos - **Ocupação:** Estudante EAD de jogos digitais|**Aplicativos:** Jogos online, _Youtube, Instagram_, _WhatsApp_.|
+|![image](img/Persona-RicardoOliveira.jpg)|**Idade:** 20 anos - **Ocupação:** Estudante EAD de jogos digitais|**Aplicativos:** Jogos online, _Youtube, Instagram_, _WhatsApp_.|
 |**Motivações:**  Viajar com a família para um local com bom acesso a internet|**Frustrações:** Não consegue coincidir férias da faculdade com as férias da família e, por isso procura locais com bom acesso a internet. |**_Hobbies_, História:** Viaja regularmente com a família indo para sítios ou locais de pesca.|
 
 | Bruna Cintra          |                                    |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-|IMAGEM  |**Idade:** 17 anos - **Ocupação:** Estudante  | **Aplicativos:** _Youtube, Instagram_, _WhatsApp_. |
+|![image](img/Persona-BrunaCintra.jpg)  |**Idade:** 17 anos - **Ocupação:** Estudante  | **Aplicativos:** _Youtube, Instagram_, _WhatsApp_. |
 |**Motivações:**  Gosta de viajar em grupo para locais onde possam curtir a natureza e praticar esportes radicais. |**Frustrações:** Encontrar locais de esportes radicais próximos entre si. |**_Hobbies_, História:** Viajar é o principal hobbie. Viaja com o seu grupo pelo o menos duas vezes ao ano.|
 
 
