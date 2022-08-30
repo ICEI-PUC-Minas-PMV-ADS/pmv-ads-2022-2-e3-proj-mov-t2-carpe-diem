@@ -5,14 +5,14 @@
 
 `TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA`
+`PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO MÓVEL EM UM AMBIENTE DE NEGÓCIO`
 
 `SEMESTRE 02/2022`
 
 
 Com a presença da internet no dia a dia de todos, seja no auxílio aos estudos, no entretenimento em geral, bem como no oferecimento de serviços de estadia em hotéis, pousadas e/ou casas, nem todos os serviços disponíveis estão capacitados ou preocupados em aproximar/interagir com o público interessado em locação de imóveis no litoral brasileiro, de forma digital.
 
-Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade e aproximar a interação entre o anfitrião (locador) e o hóspede (locatário), promovendo o acesso a uma plataforma de serviço online de locação de imóveis mobiliados, por temporada, de curta e média permanência, nas regiões litorâneas do Brasil, de forma 100% digital, segura e automatizada.
+Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade entre a cartela de imóveis oferecidos pela aplicação e o usuário, promovendo o acesso a uma plataforma de serviço online de locação de imóveis mobiliados, por temporada, de curta e média permanência, nas regiões litorâneas do Brasil, de forma 100% digital, segura e automatizada.
 
 
 ## Integrantes
@@ -27,7 +27,7 @@ Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade e aproxi
 ## Orientador
 
 
-* Mateus Curcino
+* Mateus Curcino de Lima
 
 
 ## Instruções de utilização
