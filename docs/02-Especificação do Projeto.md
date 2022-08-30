@@ -21,6 +21,20 @@ Quadro 1 - Personas
 |IMAGEM           |**Idade:** 27 anos - **Ocupação:** Estudante de nutrição  |**Aplicativos:** _Linkedin, Instagram_, _WhatsApp_.|
 |**Motivações:** Conseguir atuar na área do esporte|**Frustrações:** Não conseguir planejar as férias da faculdade |**_Hobbies_, História:** Estudante de nutrição. Estagiário em um clube esportivo. Gosta de planejar com calma as férias da faculdade. |
 
+| Paola Avelar      |                                    |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM             |**Idade:** 29 anos - **Ocupação:** Professora e mãe de dois filhos de 3 e 5 anos |**Aplicativos:** _Youtube, Instagram_, _WhatsApp_.|
+|**Motivações:**  Agendar férias com a família em um local em que as crianças possam brincar.|**Frustrações:** Dificuldade em encontrar locais de estadia com playground no local ou nas proximidades. |**_Hobbies_, História:** Gosta de aproveitar o tempo livre com a família. Frequenta cinema e clube esportivo com regularidade.|
+
+| Ricardo Oliveira      |                                    |                                        |                    
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM|**Idade:** 20 anos - **Ocupação:** Estudante EAD de jogos digitais|**Aplicativos:** Jogos online, _Youtube, Instagram_, _WhatsApp_.|
+|**Motivações:**  Viajar com a família para um local com bom acesso a internet|**Frustrações:** Não consegue coincidir férias da faculdade com as férias da família e, por isso procura locais com bom acesso a internet. |**_Hobbies_, História:** Viaja regularmente com a família indo para sítios ou locais de pesca.|
+
+| Bruna Avelar  |                                    |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM  |**Idade:** 17 anos - **Ocupação:** Estudante  | **Aplicativos:** _Youtube, Instagram_, _WhatsApp_. |
+|**Motivações:**  Gosta de viajar em grupo para locais onde possam curtir a natureza e praticar esportes radicais. |**Frustrações:** Encontrar locais de esportes radicais próximos entre si. |**_Hobbies_, História:** Viajar é o principal hobbie. Viaja com o seu grupo pelo o menos duas vezes ao ano.|
 
 ## Histórias de Usuários
 
@@ -33,6 +47,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Charles Stark   (Estudante)                   |Consultar disponibilidade dos imóveis.                        |Conseguir planejar o período de férias.                 |
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Paola Avelar (mãe de dois filhos pequenos)    |Consultar a existência de playground no local ou nas proximidades. |Conseguir que as crianças tenham um local específico para brincarem.
+|   Ricardo Oliveira (Estudante EAD)           |Consultar a existência de acesso a internet no local.         |Estudar a noite e nos períodos de intervalo entre os passeios.|
+|   Bruna Avelar (Estudante)                   |Consultar os locais de esportes radicais nas proximidades do local de estadia. | Conseguir montar um roteiro de passeios com os amigos |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
