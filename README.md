@@ -1,23 +1,34 @@
-# TÍTULO DO PROJETO
+# Gerenciador de Imóveis - Carpe Diem
 
-`CURSO`
+![logo melhor](https://user-images.githubusercontent.com/91228798/187469032-9f316ffe-b3ef-43c6-9f3d-c93063215607.png)
 
-`DISCIPLINA`
 
-`SEMESTRE`
+`TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA`
+
+`SEMESTRE 02/2022`
+
+
+Com a presença da internet no dia a dia de todos, seja no auxílio aos estudos, no entretenimento em geral, bem como no oferecimento de serviços de estadia em hotéis, pousadas e/ou casas, nem todos os serviços disponíveis estão capacitados ou preocupados em aproximar/interagir com o público interessado em locação de imóveis no litoral brasileiro, de forma digital.
+
+Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade e aproximar a interação entre o anfitrião (locador) e o hóspede (locatário), promovendo o acesso a uma plataforma de serviço online de locação de imóveis mobiliados, por temporada, de curta e média permanência, nas regiões litorâneas do Brasil, de forma 100% digital, segura e automatizada.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+ 
+* Eduardo Lordeiro Alves
+* Fabiana Bicalho Palhano Rocha Cossenzo
+* Jaqueline Camara Poletto
+* Nayara Katlin Oliveira da Silva
+
 
 ## Orientador
 
-* Nome completo do professor 1
+
+* Mateus Curcino
+
 
 ## Instruções de utilização
 
