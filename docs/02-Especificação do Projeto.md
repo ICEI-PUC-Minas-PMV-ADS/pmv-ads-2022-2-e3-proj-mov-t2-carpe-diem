@@ -1,33 +1,36 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados no projeto foi estabelecido com a participação dos usuários por meio de entrevista online com tópicos previamente estipulados. A partir dessa interação consolidamos os dados coletados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As pessoas retratadas durante o processo de compreensão do problema são apresentadas nas figuras que seguem.
+Quadro 1 - Personas
+| Sarah Arellano    |                                    |                                        |                     
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM |**Idade:** 30 anos - **Ocupação:** Auxiliar de farmácia |**Aplicativos:** _WhatsApp, Instagram_.|
+|**Motivações:**  Gosta muito de viajar.|**Frustrações:** Não gosta de frequentar hotéis, pois não pode levar seus animais de estimação.|**_Hobbies_, História:** Gosta de se exercitar na academia e ama viagens curtas.|
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+| Emanuel Keese    |                                    |                                        |                     
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM |**Idade:** 52 anos - **Ocupação:** Aposentado por invalidez|**Aplicativos:** _WhatsApp_|
+|**Motivações:** Gosta de realizar as sessões de fisioterapia na praia, pois se sente motivado.|**Frustrações:** Dificuldade em se deslocar de um lugar para o outro. Julgamento da sociedade em relação às pessoas com deficiência.|**_Hobbies_, História:** Amava andar de moto e sofreu acidente de trânsito no qual perdeu um braço e uma perna (ambos do lado esquerdo).|
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+| Charles Stark   |                                    |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|IMAGEM           |**Idade:** 27 anos - **Ocupação:** Estudante de nutrição  |**Aplicativos:** _Linkedin, Instagram_, _WhatsApp_.|
+|**Motivações:** Conseguir atuar na área do esporte|**Frustrações:** Não conseguir planejar as férias da faculdade |**_Hobbies_, História:** Estudante de nutrição. Estagiário em um clube esportivo. Gosta de planejar com calma as férias da faculdade. |
+
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
+|EU COMO... `PERSONA`                          | QUERO/PRECISO ... `FUNCIONALIDADE`                           |PARA ... `MOTIVO/VALOR`                                 |
+|----------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------|
+|Sarah Arellano (Auxiliar de farmácia)         |Pesquisar informações sobre proibições e permissões no local. |Programar melhor as viagens com seus animais domésticos.|
+|Emanuel Keese  (Aposentado por invalidez)     |Comparar informações sobre a estrutura dos imóveis.           |Encontrar o melhor imóvel no quesito acessibilidade.    |
+|Charles Stark   (Estudante)                   |Consultar disponibilidade dos imóveis.                        |Conseguir planejar o período de férias.                 |
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
