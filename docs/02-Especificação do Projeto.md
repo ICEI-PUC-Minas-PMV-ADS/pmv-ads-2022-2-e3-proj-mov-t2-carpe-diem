@@ -11,7 +11,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                     
 |--------------------|-----------------------------------------------------------|
-|IMAGEM              |**Sarah Arellano** <br><br> **Idade:** 30 anos |
+|![Persona - Sarah Arellano](https://user-images.githubusercontent.com/91228798/187772915-1db1b408-dcd5-40c3-9257-0c69f496ca02.jpeg)|**Sarah Arellano** <br><br> **Idade:** 30 anos |
 | | **Ocupação:** Auxiliar de farmácia |
 | | **Aplicativos:** _WhatsApp, Instagram_. |
 | | **Motivações:**  Gosta muito de viajar.|
@@ -20,7 +20,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                     
 |--------------------|-----------------------------------------------------------|
-|IMAGEM              | **Emanuel Keese** <br><br> **Idade:** 52 anos |
+| ![Persona - Emanuel Keese](https://user-images.githubusercontent.com/91228798/187773262-688ba4ac-f838-49c1-b603-0db26596d246.jpg)| **Emanuel Keese** <br><br> **Idade:** 52 anos |
 | | **Ocupação:** Aposentado por invalidez |
 | | **Aplicativos:** _WhatsApp_|
 | | **Motivações:** Gosta de realizar as sessões de fisioterapia na praia, pois se sente motivado.|
@@ -29,7 +29,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     | 
 |--------------------|-----------------------------------------------------------|
-|IMAGEM              | **Charles Stark** <br><br> **Idade:** 27 anos |
+| ![Persona - Charles Stark](https://user-images.githubusercontent.com/91228798/187773372-1e7ab23e-879d-4a26-9d13-c0a75b83e078.jpg)| **Charles Stark** <br><br> **Idade:** 27 anos |
 | | **Ocupação:** Estudante de nutrição  |
 | | **Aplicativos:** _Linkedin, Instagram_, _WhatsApp_.|
 | | **Motivações:** Conseguir atuar na área do esporte|
@@ -38,7 +38,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |
 |--------------------|-----------------------------------------------------------|
-|![image](img/Persona-PaolaAvelar.jpg) | **Paola Avelar** <br><br> **Idade:** 29 anos 
+|![Persona - Paola Avelar](https://user-images.githubusercontent.com/91228798/187773471-91c00a5d-1cf6-4539-b481-db4324f28c9b.jpeg)| **Paola Avelar** <br><br> **Idade:** 29 anos 
 | | **Ocupação:** Professora e mãe de dois filhos de 3 e 5 anos |
 | | **Aplicativos:** _Youtube, Instagram_, _WhatsApp_.|
 | | **Motivações:**  Agendar férias com a família em um local em que as crianças possam brincar.|
@@ -47,7 +47,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |                           
 |--------------------|-----------------------------------------------------------|
-|![image](img/Persona-RicardoOliveira.jpg)| **Ricardo Oliveira** <br><br> **Idade:** 20 anos 
+|![Persona - Ricardo Oliveira](https://user-images.githubusercontent.com/91228798/187773651-f0ff7533-08f3-479f-a2aa-fabfde7dfadc.jpeg)| **Ricardo Oliveira** <br><br> **Idade:** 20 anos 
 | | **Ocupação:** Estudante EAD de jogos digitais|
 | | **Aplicativos:** Jogos online, _Youtube, Instagram_, _WhatsApp_.|
 | | **Motivações:**  Viajar com a família para um local com bom acesso a internet|
@@ -56,7 +56,7 @@ Quadro 1 - Personas
 
 | FOTO               | INFORMAÇÕES COLETADAS                                     |
 |--------------------|-----------------------------------------------------------|
-|![image](img/Persona-BrunaCintra.jpg)  | **Bruna Cintra** <br><br> **Idade:** 17 anos 
+|![Persona - Bruna Cintra](https://user-images.githubusercontent.com/91228798/187773888-6c4b73de-9f9a-48a8-97f2-10221241cc09.jpeg)| **Bruna Cintra** <br><br> **Idade:** 17 anos 
 | | **Ocupação:** Estudante  | 
 | | **Aplicativos:** _Youtube, Instagram_, _WhatsApp_. |
 | | **Motivações:**  Gosta de viajar em grupo para locais onde possam curtir a natureza e praticar esportes radicais. |
