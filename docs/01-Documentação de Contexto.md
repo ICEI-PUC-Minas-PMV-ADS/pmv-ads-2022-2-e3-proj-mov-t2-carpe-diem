@@ -1,46 +1,49 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A cada dia as pessoas tem preferido programar suas viagens de férias antecipadamente e com a maior comodidade, conforto e segurança possíveis.
+
+Além das opções de hotéis e pousadas que oferecem total comodidade, sempre houve a possibilidade de se alugar uma casa para temporada, porém muitas vezes só se teria como ver o imóvel alugado quando chegasse no local. Há algum tempo a tecnologia e a internet nos permite realizar esta ação de uma forma muito mais clara e segura, admitindo a visualização de fotos e solução de dúvidas, antes mesmo de fechar a locação.
+
+Sendo assim, o serviço de locação por temporada tem sofrido um aumento no número de procuras, e não somente como opção de lazer, mas também para trabalho, pois, após o início da pandemia de SARS Covid-19, muitas empresas adotaram o _home-office_. Neste mesmo contexto da pandemia, muitas pessoas também preferem a locação de temporada, pois o fluxo dentro da hospedagem fica restrito. (VILLAR, 2021)
+
+O serviço de locação por temporada sempre foi uma oportunidade para quem procura esse tipo de hospedagem. Também podemos citar algumas vantagens como: redução de custos, maior liberdade e privacidade, pois não será necessário correr para não perder o horário do café da manhã, além de poder reunir com amigos e/ou familiares no mesmo local. (BIGViagem, 2016 e TemporadaLivre, 2019)
+
+Diante desse contexto, surge a necessidade de uma plataforma focada no serviço online de locação por temporada de imóveis nas regiões litorâneas, oferecendo não somente conforto, qualidade e segurança na disponibilização ou locação de um imóvel, mas também uma interação 100% digital, segura e automatizada.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Com a presença da internet se tornando essencial no dia a dia de todos, seja no auxílio aos estudos, no entretenimento em geral, bem como no oferecimento de serviços de estadia em hotéis, pousadas e/ou casas, nem todos os serviços disponíveis estão capacitados ou preocupados em aproximar/interagir com o público interessado em locação de imóveis no litoral brasileiro, de forma digital.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade entre a cartela de imóveis oferecidos pela aplicação e o usuário, promovendo o acesso a um serviço _online_ de locação de imóveis por temporada, nas regiões litorâneas do Brasil.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Nosso projeto tem como objetivo central a criação de um _software_ que proporcione a disponibilização de acesso a uma cartela de imóveis mobiliados, disponíveis para locação de curta e média permanência, no litoral brasileiro, de forma 100% digital, segura e automatizada, para que o usuário interaja.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos citar:
+
+- Disponibilizar o acesso a imóveis mobiliados para locação de curta e média permanência;
+- Permitir ao usuário a busca de imóveis cadastrados na plataforma;
+- Apresentar o perfil de acesso, para melhor trato e gestão do cadastro.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O que impulsionou a elaboração deste projeto foi entender que, em um mundo onde a tecnologia e a popularização da internet tem mudado constantemente a forma como as pessoas consomem, negociam e até tomam decisões, disponibilizar uma ferramenta online para locação de imóveis de curta e média permanência, que seja ágil, segura e de fácil acesso, vai ao encontro das necessidades atuais e pode trazer muitos benefícios para o usuário (GO BlogCredpago, 2021).
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O usuário obtém de forma fácil e ágil uma gama de imóveis para sua escolha, podendo ter uma boa noção do imóvel que pretende locar através de fotos e detalhes do imóvel fornecidos na ferramenta. Também pode reservar seu imóvel sem muita burocracia e com economia de tempo, já que através da tela do seu _smartphone_, o hóspede pode selecionar o imóvel com as características que deseja, com apenas alguns _"clicks"_.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além disso, desde 2020, com o surgimento da pandemia causada pela SARS Covid-19, iniciou-se um crescimento sem precedentes nas reservas em _sites_ e plataformas de aluguéis de temporada, popularizando o chamado "turismo de isolamento". Algumas plataformas chegaram a divulgar aumento de até 150% na busca por imóveis isolados de temporada (Campos, 2022).
+
+Também como consequência da mesma pandemia, segundo estudo realizado pela Brain Inteligência Estratégica (2020), o setor imobiliário foi um dos mais impactados e isso ocorreu 93% na forma presencial, diferentemente das modalidades digitais que foram bem menos afetadas (apud Castro; Leso; Cortimiglia, 2020).
+
+Diante disso, uma aplicação online que faça a ligação entre a cartela de imóveis e o usuário torna-se de grande utilidade numa era onde características como agilidade, facilidade e segurança são tão valorizadas.
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+As pessoas trabalham por um longo período durante o ano e como uma forma de descansar e fugir da rotina elas buscam viajar durante as férias ou feriados prolongados. Essas viagens abrangem destinos tanto para o litoral quanto para pontos turísticos, que por sua vez possuem infraestruturas de hospedagem que lhes oferecem acomodações.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Daí surge o público alvo que utilizará o sistema de gerenciamento de imóveis para temporada. Esse público compreende as pessoas que buscam uma acomodação para alugar. Não há distinção de gênero para o usuário, porém no quesito faixa etária, para se usar o sistema deverá ter a maioridade. Também serão abrangidas todas as classes sociais, pois observa-se um grande potencial advindo de quaisquer uma dessas classes.
