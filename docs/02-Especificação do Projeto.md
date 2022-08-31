@@ -200,6 +200,17 @@ Fonte: Elaborado pelos autores
 
 # Matriz de Rastreabilidade
 
+Figura 1 - Matriz de Rastreabilidade
+
+![image](https://user-images.githubusercontent.com/89549220/187574295-8945403c-059f-44bf-a403-6783dcf9f57d.png)
+
+Fonte: Elaborado pelos autores
+
+
+Veja [aqui](https://docs.google.com/spreadsheets/d/1MyE8Zmx_8N57_9V7qry-D7qlmqnQPI8S/edit#gid=724734350) nossa RTM completa.
+
+
+
 A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
 
 A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
