@@ -2,62 +2,63 @@
 
 A definição exata do problema e os pontos mais relevantes a serem tratados no projeto foi estabelecido com a participação dos usuários por meio de entrevista online com tópicos previamente estipulados. A partir dessa interação consolidamos os dados coletados na forma de personas e histórias de usuários.
 
+
 ## Personas
 
 As pessoas retratadas durante o processo de compreensão do problema são apresentadas nas figuras que seguem.
+
 Quadro 1 - Personas
-| Sarah Arellano    |                                    |                                        |                     
+
+| Sarah Arellano     |                                    |                                        |                     
 |--------------------|------------------------------------|----------------------------------------|
 |IMAGEM |**Idade:** 30 anos - **Ocupação:** Auxiliar de farmácia |**Aplicativos:** _WhatsApp, Instagram_.|
 |**Motivações:**  Gosta muito de viajar.|**Frustrações:** Não gosta de frequentar hotéis, pois não pode levar seus animais de estimação.|**_Hobbies_, História:** Gosta de se exercitar na academia e ama viagens curtas.|
 
-| Emanuel Keese    |                                    |                                        |                     
+| Emanuel Keese      |                                    |                                        |                     
 |--------------------|------------------------------------|----------------------------------------|
 |IMAGEM |**Idade:** 52 anos - **Ocupação:** Aposentado por invalidez|**Aplicativos:** _WhatsApp_|
 |**Motivações:** Gosta de realizar as sessões de fisioterapia na praia, pois se sente motivado.|**Frustrações:** Dificuldade em se deslocar de um lugar para o outro. Julgamento da sociedade em relação às pessoas com deficiência.|**_Hobbies_, História:** Amava andar de moto e sofreu acidente de trânsito no qual perdeu um braço e uma perna (ambos do lado esquerdo).|
 
-| Charles Stark   |                                    |                                        |
+| Charles Stark      |                                    |                                        |
 |--------------------|------------------------------------|----------------------------------------|
 |IMAGEM           |**Idade:** 27 anos - **Ocupação:** Estudante de nutrição  |**Aplicativos:** _Linkedin, Instagram_, _WhatsApp_.|
 |**Motivações:** Conseguir atuar na área do esporte|**Frustrações:** Não conseguir planejar as férias da faculdade |**_Hobbies_, História:** Estudante de nutrição. Estagiário em um clube esportivo. Gosta de planejar com calma as férias da faculdade. |
 
-| Paola Avelar      |                                    |                                        |
+| Paola Avelar       |                                    |                                        |
 |--------------------|------------------------------------|----------------------------------------|
 |![image](img/Persona-PaolaAvelar.jpg) |**Idade:** 29 anos - **Ocupação:** Professora e mãe de dois filhos de 3 e 5 anos |**Aplicativos:** _Youtube, Instagram_, _WhatsApp_.|
 |**Motivações:**  Agendar férias com a família em um local em que as crianças possam brincar.|**Frustrações:** Dificuldade em encontrar locais de estadia com playground no local ou nas proximidades. |**_Hobbies_, História:** Gosta de aproveitar o tempo livre com a família. Frequenta cinema e clube esportivo com regularidade.|
 
-| Ricardo Oliveira      |                                    |                                        |                    
+| Ricardo Oliveira   |                                    |                                        |                    
 |--------------------|------------------------------------|----------------------------------------|
 |![image](img/Persona-RicardoOliveira.jpg)|**Idade:** 20 anos - **Ocupação:** Estudante EAD de jogos digitais|**Aplicativos:** Jogos online, _Youtube, Instagram_, _WhatsApp_.|
 |**Motivações:**  Viajar com a família para um local com bom acesso a internet|**Frustrações:** Não consegue coincidir férias da faculdade com as férias da família e, por isso procura locais com bom acesso a internet. |**_Hobbies_, História:** Viaja regularmente com a família indo para sítios ou locais de pesca.|
 
-| Bruna Cintra          |                                    |                                        |
+| Bruna Cintra       |                                    |                                        |
 |--------------------|------------------------------------|----------------------------------------|
 |![image](img/Persona-BrunaCintra.jpg)  |**Idade:** 17 anos - **Ocupação:** Estudante  | **Aplicativos:** _Youtube, Instagram_, _WhatsApp_. |
 |**Motivações:**  Gosta de viajar em grupo para locais onde possam curtir a natureza e praticar esportes radicais. |**Frustrações:** Encontrar locais de esportes radicais próximos entre si. |**_Hobbies_, História:** Viajar é o principal hobbie. Viaja com o seu grupo pelo o menos duas vezes ao ano.|
 
+Fonte: Elaborado pelos autores
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Registramos as histórias de usuários no quadro abaixo, diante da informação coletada do dia a dia das personas identificadas para o projeto.Registramos as histórias de usuários no quadro abaixo, diante da informação coletada do dia a dia das personas identificadas para o projeto.
 
-|EU COMO... `PERSONA`                          | QUERO/PRECISO ... `FUNCIONALIDADE`                           |PARA ... `MOTIVO/VALOR`                                 |
-|----------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------|
-|Sarah Arellano (Auxiliar de farmácia)         |Pesquisar informações sobre proibições e permissões no local. |Programar melhor as viagens com seus animais domésticos.|
-|Emanuel Keese  (Aposentado por invalidez)     |Comparar informações sobre a estrutura dos imóveis.           |Encontrar o melhor imóvel no quesito acessibilidade.    |
-|Charles Stark   (Estudante)                   |Consultar disponibilidade dos imóveis.                        |Conseguir planejar o período de férias.                 |
-|Paola Avelar (mãe de dois filhos pequenos)    |Consultar a existência de playground no local ou nas proximidades. |Conseguir que as crianças tenham um local específico para brincarem.
+Quadro 2 - História de Usuários
+
+|EU COMO... `PERSONA`                       | QUERO/PRECISO ... `FUNCIONALIDADE`                           |PARA ... `MOTIVO/VALOR`                                 |
+|-------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------|
+|Sarah Arellano (Auxiliar de farmácia)      |Pesquisar informações sobre proibições e permissões no local. |Programar melhor as viagens com seus animais domésticos.|
+|Emanuel Keese  (Aposentado por invalidez)  |Comparar informações sobre a estrutura dos imóveis.           |Encontrar o melhor imóvel no quesito acessibilidade.    |
+|Charles Stark   (Estudante)                |Consultar disponibilidade dos imóveis.                        |Conseguir planejar o período de férias.                 |
+|Paola Avelar (mãe de dois filhos pequenos) |Consultar a existência de playground no local ou nas proximidades. |Conseguir que as crianças tenham um local específico para brincarem.
 |Ricardo Oliveira (Estudante EAD)           |Consultar a existência de acesso a internet no local.         |Estudar a noite e nos períodos de intervalo entre os passeios.|
 |Bruna Cintra (Estudante)                   |Consultar os locais de esportes radicais nas proximidades do local de estadia. | Conseguir montar um roteiro de passeios com os amigos |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Fonte: Elaborado pelos autores
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
