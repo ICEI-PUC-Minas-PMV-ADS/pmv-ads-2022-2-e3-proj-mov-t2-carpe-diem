@@ -91,66 +91,112 @@ Usar o seguinte modelo:
 ![Indicadores de Desempenho](img/02-indic-desemp.png)
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
+
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+O propósito funcional do projeto é definido por meio dos requisitos funcionais que descrevem ações que o sistema deve estar apto a executar, assim como os requisitos não funcionais que descrevem os atributos que o sistema deve possuir de maneira geral. Estes requisitos são relacionados nas tabelas a seguir.
+
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+Apresentamos a seguir os requisitos funcionais que o projeto deverá atender.
+
+Quadro 3 - Requisitos Funcionais
+
+|ID    | Descrição do Requisito                                                                                                                    | Prioridade |
+|------|-------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|RF-001| A aplicação deve permitir ao usuário realizar o cadastro.                                                                                 | ALTA       | 
+|RF-002| A aplicação deve permitir ao usuário gerenciar seu cadastro.                                                                              | ALTA       |
+|RF-003| A aplicação deve permitir ao usuário realizar a busca de imóveis através da funcionalidade de filtros como localidade ("cidade destino"). | ALTA       |
+|RF-004| A aplicação deve disponibilizar um formulário de fale conosco para esclarecer dúvidas relacionadas ao _site_.                             | MÉDIA      |
+|RF-005| A aplicação deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado.                              | MÉDIA      |
+|RF-006| A aplicação deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados.                            | ALTA       |
+|RF-007| A aplicação deve disponibilizar informações detalhadas quanto às características dos imóveis.                                             | ALTA       |
+|RF-008| A aplicação deve permitir acesso à documentação de política de privacidade e termos e condições de uso.                                   | BAIXA      |
+|RF-009| A aplicação deve permitir acesso às suas redes sociais.                                                                                   | BAIXA      |
+
+Fonte: Elaborado pelos autores
+
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+Apresentamos a seguir os requisitos não funcionais que o projeto deverá atender.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+Quadro 4 - Requisitos Não Funcionais
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|ID     | Descrição do Requisito                                                                                               |Prioridade |
+|-------|----------------------------------------------------------------------------------------------------------------------|-----------|
+|RNF-001| A aplicação deve ser compatível com os principais dispositivos e sistemas operacionais do mercado (_Android e IOS_). | ALTA      | 
+|RNF-002| A aplicação deve ter bom nível de contraste entre os elementos da tela.                                              | MÉDIA     |
+|RNF-003| A aplicação deve ser responsiva.                                                                                     | ALTA      |
+|RNF-004| Para o desenvolvimento da aplicação devem ser utilizadas as linguagens, IDEs e _frameworks_ como: CSS3, JavaScript, React-Native, Json-Server e SQLite.| ALTA |
+|RNF-005| A aplicação deve processar requisições do usuário em no máximo 10s.                                                  | MÉDIA     |
+|RNF-006| A aplicação deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).                                          | ALTA      |
+|RNF-007| A aplicação deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana.                        | ALTA      |
+|RNF-008| XXXXXXXXXXXXXXXXXXXX                                                                                                 | BAIXA     |
+
+Fonte: Elaborado pelos autores
+
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+Apresentamos na tabela abaixo, tópicos consideráveis que limitam a execução do projeto e que se configuram como encargos necessários para seu desenvolvimento.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+Quadro 5 - Restrições
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+|ID   | Restrição                                                                                                                |
+|-----|--------------------------------------------------------------------------------------------------------------------------|
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 07/12/2022.                  |
+|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho.                                                            |
+|RE-03| O aplicativo deve se restringir às tecnologias propostas pelo curso.                                                     |
+|RE-04| A rotina de estudos da faculdade e do projeto deve se adequar e ser compartilhado com a família e o trabalho remunerado. |
+|RE-05| A organização do projeto e do grupo deve possibilitar sua execução de forma assíncrona.                                  |
+|RE-06| Não pode ser desenvolvido um módulo de _backend_                                                                         |
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+Fonte: Elaborado pelos autores
+
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+O diagrama de caso de uso, comumente oriundo da especificação dos requisitos funcionais do sistema, descreve as principais funcionalidades do sistema que será projetado pelo grupo e sua interação com os possíveis usuários (DevMedia, 2022). Segundo Ivar Jacobson, podemos dizer que um caso de uso é um "documento narrativo que descreve a sequência de eventos de um ator que usa um sistema para completar um processo" (Wikipédia, 2020).
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+Graficamente é representado com elementos como os atores, os casos de uso e seus relacionamentos entre si. Seu objetivo principal é ilustrar de forma abstrata, a interação dos elementos externos com as funcionalidades do sistema, ou seja, “a finalidade de um diagrama de caso de uso é apresentar um tipo de diagrama de contexto que apresenta os elementos externos de um sistema e as maneiras segundo as quais eles as utilizam” (Wikipédia, 2020).
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema que será projetado.
+
+Figura 1 - Diagrama de Casos de Uso
+
+Fonte: Elaborado pelos autores
+
+
+Quadro 6 - Casos de Uso
+
+| ATOR         | DESCRIÇÃO                                                                      |
+|--------------|--------------------------------------------------------------------------------|
+| Usuário      | Pessoa interessada em alugar um imóvel de temporada.                           |
+| Fale Conosco | Serviço disponibilizado pelo site para esclarecimento de dúvidas dos usuários. |
+
+
+| CASO DE USO              | DESCRIÇÃO                                                                           | REQUISITO FUNCIONAL |
+|--------------------------|-------------------------------------------------------------------------------------|---------------------|
+| Esclarecer Dúvidas       | O usuário pode enviar formulário no Fale Conosco disponibilizado pela aplicação.    | RF-004 |
+| Criar conta              | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação. | RF-001 |
+| Alterar dados cadastrais | O usuário pode fazer alterações referentes ao seu cadastro pessoal.                 | RF-002 |
+| Excluir conta            | O usuário pode excluir sua conta quando assim o desejar.                            | RF-002 |
+| Fazer _login_            | O usuário deve fazer _login_ para acessar sua conta.                                | RF-006 |
+| Redefinir senha          | O usuário pode redefinir sua senha se necessário.                                   | RF-005 |
+| Buscar imóveis           | O usuário pode buscar e filtrar os imóveis disponíveis na aplicação.                | RF-003 |
+| Visualizar as características dos imóveis | O usuário pode visualizar as características específicas de cada imóvel disponível para locação. | RF-007 |
+
+
+| RELACIONAMENTO | DESCRIÇÃO                                                         |
+|----------------|-------------------------------------------------------------------|
+| INCLUSÃO       | Para fazer _login_, o usuário deve primeiro criar sua conta.      |
+|                | Para alterar dados cadastrais, o usuário deve realizar o _login_. |
+|                | Para excluir sua conta, o usuário deve realizar o _login_.        |
+| EXTENSÃO       | Se o usuário esquecer sua senha ou preferir redefiní-la, poderá fazer informando seu _e-mail_ de cadastro. |
+
+Fonte: Elaborado pelos autores
 
 # Matriz de Rastreabilidade
 
