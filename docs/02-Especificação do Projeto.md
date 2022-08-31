@@ -9,35 +9,59 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 
 Quadro 1 - Personas
 
-| Sarah Arellano     |                                    |                                        |                     
-|--------------------|------------------------------------|----------------------------------------|
-|IMAGEM |**Idade:** 30 anos - **Ocupação:** Auxiliar de farmácia |**Aplicativos:** _WhatsApp, Instagram_.|
-|**Motivações:**  Gosta muito de viajar.|**Frustrações:** Não gosta de frequentar hotéis, pois não pode levar seus animais de estimação.|**_Hobbies_, História:** Gosta de se exercitar na academia e ama viagens curtas.|
+| FOTO               | INFORMAÇÕES COLETADAS                                     |                     
+|--------------------|-----------------------------------------------------------|
+|IMAGEM              |**Sarah Arellano** <br><br> **Idade:** 30 anos |
+| | **Ocupação:** Auxiliar de farmácia |
+| | **Aplicativos:** _WhatsApp, Instagram_. |
+| | **Motivações:**  Gosta muito de viajar.|
+| | **Frustrações:** Não gosta de frequentar hotéis, pois não pode levar seus animais de estimação.|
+| | **_Hobbies_, História:** Gosta de se exercitar na academia e ama viagens curtas.|
 
-| Emanuel Keese      |                                    |                                        |                     
-|--------------------|------------------------------------|----------------------------------------|
-|IMAGEM |**Idade:** 52 anos - **Ocupação:** Aposentado por invalidez|**Aplicativos:** _WhatsApp_|
-|**Motivações:** Gosta de realizar as sessões de fisioterapia na praia, pois se sente motivado.|**Frustrações:** Dificuldade em se deslocar de um lugar para o outro. Julgamento da sociedade em relação às pessoas com deficiência.|**_Hobbies_, História:** Amava andar de moto e sofreu acidente de trânsito no qual perdeu um braço e uma perna (ambos do lado esquerdo).|
+| FOTO               | INFORMAÇÕES COLETADAS                                     |                     
+|--------------------|-----------------------------------------------------------|
+|IMAGEM              | **Emanuel Keese** <br><br> **Idade:** 52 anos |
+| | **Ocupação:** Aposentado por invalidez |
+| | **Aplicativos:** _WhatsApp_|
+| | **Motivações:** Gosta de realizar as sessões de fisioterapia na praia, pois se sente motivado.|
+| | **Frustrações:** Dificuldade em se deslocar de um lugar para o outro. Julgamento da sociedade em relação às pessoas com deficiência.|
+| | **_Hobbies_, História:** Amava andar de moto e sofreu acidente de trânsito no qual perdeu um braço e uma perna (ambos do lado esquerdo).|
 
-| Charles Stark      |                                    |                                        |
-|--------------------|------------------------------------|----------------------------------------|
-|IMAGEM           |**Idade:** 27 anos - **Ocupação:** Estudante de nutrição  |**Aplicativos:** _Linkedin, Instagram_, _WhatsApp_.|
-|**Motivações:** Conseguir atuar na área do esporte|**Frustrações:** Não conseguir planejar as férias da faculdade |**_Hobbies_, História:** Estudante de nutrição. Estagiário em um clube esportivo. Gosta de planejar com calma as férias da faculdade. |
+| FOTO               | INFORMAÇÕES COLETADAS                                     | 
+|--------------------|-----------------------------------------------------------|
+|IMAGEM              | **Charles Stark** <br><br> **Idade:** 27 anos |
+| | **Ocupação:** Estudante de nutrição  |
+| | **Aplicativos:** _Linkedin, Instagram_, _WhatsApp_.|
+| | **Motivações:** Conseguir atuar na área do esporte|
+| | **Frustrações:** Não conseguir planejar as férias da faculdade |
+| | **_Hobbies_, História:** Estudante de nutrição. Estagiário em um clube esportivo. Gosta de planejar com calma as férias da faculdade. |
 
-| Paola Avelar       |                                    |                                        |
-|--------------------|------------------------------------|----------------------------------------|
-|![image](img/Persona-PaolaAvelar.jpg) |**Idade:** 29 anos - **Ocupação:** Professora e mãe de dois filhos de 3 e 5 anos |**Aplicativos:** _Youtube, Instagram_, _WhatsApp_.|
-|**Motivações:**  Agendar férias com a família em um local em que as crianças possam brincar.|**Frustrações:** Dificuldade em encontrar locais de estadia com playground no local ou nas proximidades. |**_Hobbies_, História:** Gosta de aproveitar o tempo livre com a família. Frequenta cinema e clube esportivo com regularidade.|
+| FOTO               | INFORMAÇÕES COLETADAS                                     |
+|--------------------|-----------------------------------------------------------|
+|![image](img/Persona-PaolaAvelar.jpg) | **Paola Avelar** <br><br> **Idade:** 29 anos 
+| | **Ocupação:** Professora e mãe de dois filhos de 3 e 5 anos |
+| | **Aplicativos:** _Youtube, Instagram_, _WhatsApp_.|
+| | **Motivações:**  Agendar férias com a família em um local em que as crianças possam brincar.|
+| | **Frustrações:** Dificuldade em encontrar locais de estadia com playground no local ou nas proximidades. |
+| | **_Hobbies_, História:** Gosta de aproveitar o tempo livre com a família. Frequenta cinema e clube esportivo com regularidade.|
 
-| Ricardo Oliveira   |                                    |                                        |                    
-|--------------------|------------------------------------|----------------------------------------|
-|![image](img/Persona-RicardoOliveira.jpg)|**Idade:** 20 anos - **Ocupação:** Estudante EAD de jogos digitais|**Aplicativos:** Jogos online, _Youtube, Instagram_, _WhatsApp_.|
-|**Motivações:**  Viajar com a família para um local com bom acesso a internet|**Frustrações:** Não consegue coincidir férias da faculdade com as férias da família e, por isso procura locais com bom acesso a internet. |**_Hobbies_, História:** Viaja regularmente com a família indo para sítios ou locais de pesca.|
+| FOTO               | INFORMAÇÕES COLETADAS                                     |                           
+|--------------------|-----------------------------------------------------------|
+|![image](img/Persona-RicardoOliveira.jpg)| **Ricardo Oliveira** <br><br> **Idade:** 20 anos 
+| | **Ocupação:** Estudante EAD de jogos digitais|
+| | **Aplicativos:** Jogos online, _Youtube, Instagram_, _WhatsApp_.|
+| | **Motivações:**  Viajar com a família para um local com bom acesso a internet|
+| | **Frustrações:** Não consegue coincidir férias da faculdade com as férias da família e, por isso procura locais com bom acesso a internet. |
+| | **_Hobbies_, História:** Viaja regularmente com a família indo para sítios ou locais de pesca.|
 
-| Bruna Cintra       |                                    |                                        |
-|--------------------|------------------------------------|----------------------------------------|
-|![image](img/Persona-BrunaCintra.jpg)  |**Idade:** 17 anos - **Ocupação:** Estudante  | **Aplicativos:** _Youtube, Instagram_, _WhatsApp_. |
-|**Motivações:**  Gosta de viajar em grupo para locais onde possam curtir a natureza e praticar esportes radicais. |**Frustrações:** Encontrar locais de esportes radicais próximos entre si. |**_Hobbies_, História:** Viajar é o principal hobbie. Viaja com o seu grupo pelo o menos duas vezes ao ano.|
+| FOTO               | INFORMAÇÕES COLETADAS                                     |
+|--------------------|-----------------------------------------------------------|
+|![image](img/Persona-BrunaCintra.jpg)  | **Bruna Cintra** <br><br> **Idade:** 17 anos 
+| | **Ocupação:** Estudante  | 
+| | **Aplicativos:** _Youtube, Instagram_, _WhatsApp_. |
+| | **Motivações:**  Gosta de viajar em grupo para locais onde possam curtir a natureza e praticar esportes radicais. |
+| | **Frustrações:** Encontrar locais de esportes radicais próximos entre si. |
+| | **_Hobbies_, História:** Viajar é o principal hobbie. Viaja com o seu grupo pelo o menos duas vezes ao ano.|
 
 Fonte: Elaborado pelos autores
 
