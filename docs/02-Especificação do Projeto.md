@@ -285,4 +285,4 @@ d) Equipe de _Design_
 
 ## Gestão de Orçamento
 
-![Tabela do Orçamento](img/ORÇAMENTO RECURSOS.png)
+![Orçamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem/blob/main/docs/img/OR%C3%87AMENTO%20RECURSOS.png)
