@@ -44,6 +44,6 @@ Diante disso, uma aplicação online que faça a ligação entre a cartela de im
 
 ## Público-Alvo
 
-As pessoas trabalham por um longo período durante o ano e como uma forma de descansar e fugir da rotina elas buscam viajar durante as férias ou feriados prolongados. Essas viagens abrangem destinos tanto para o litoral quanto para pontos turísticos, que por sua vez possuem infraestruturas de hospedagem que lhes oferecem acomodações.
+As pessoas trabalham por um longo período durante o ano e como uma forma de descansar e fugir da rotina elas buscam viajar durante as férias ou feriados prolongados. Essas viagens abrangem destinos tanto para o litoral quanto para pontos turísticos, que por sua vez possuem uma rede de imóveis que lhes oferece boas acomodações.
 
-Daí surge o público alvo que utilizará o sistema de gerenciamento de imóveis para temporada. Esse público compreende as pessoas que buscam uma acomodação para alugar. Não há distinção de gênero para o usuário, porém no quesito faixa etária, para se usar o sistema deverá ter a maioridade. Também serão abrangidas todas as classes sociais, pois observa-se um grande potencial advindo de quaisquer uma dessas classes.
+Daí surge o público alvo que utilizará o sistema de pesquisa de imóveis para temporada. Esse público compreende as pessoas que buscam uma acomodação para alugar. Não há distinção de gênero para o usuário, porém no quesito faixa etária, para se usar o sistema deverá ter a maioridade. Também serão abrangidas todas as classes sociais, pois observa-se um grande potencial advindo de quaisquer uma dessas classes.
