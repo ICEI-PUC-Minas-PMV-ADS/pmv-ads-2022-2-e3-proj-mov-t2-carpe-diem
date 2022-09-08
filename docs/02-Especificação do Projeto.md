@@ -157,7 +157,6 @@ Quadro 4 - Requisitos Não Funcionais
 |RNF-005| A aplicação deve processar requisições do usuário em no máximo 10s.                                                  | MÉDIA     |
 |RNF-006| A aplicação deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).                                          | ALTA      |
 |RNF-007| A aplicação deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana.                        | ALTA      |
-|RNF-008| XXXXXXXXXXXXXXXXXXXX                                                                                                 | BAIXA     |
 
 Fonte: Elaborado pelos autores
 
@@ -276,11 +275,13 @@ c) Equipe de Desenvolvimento
   -	Fabiana Bicalho Palhano Rocha Cossenzo
   -	Jaqueline Camara Poletto
   -	Nayara Katlin Oliveira da Silva
+  -	Pedro Henrique Trindade Silva
 
 d) Equipe de _Design_ 
   -	Eduardo Lordeiro Alves
   -	Fabiana Bicalho Palhano Rocha Cossenzo
   -	Nayara Katlin Oliveira da Silva
+  -	Pedro Henrique Trindade Silva
 
 
 ## Gestão de Orçamento
