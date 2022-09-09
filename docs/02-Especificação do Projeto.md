@@ -243,14 +243,15 @@ Veja [aqui](https://docs.google.com/spreadsheets/d/1MyE8Zmx_8N57_9V7qry-D7qlmqnQ
 
 De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
 
-
 ## Gerenciamento de Tempo
 
 O projeto está dividido em etapas com datas precisas de conclusão. Cada etapa não deverá extrapolar as datas determinadas no diagrama de rede simplificado:
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
-O projeto ainda foi divido em atividades e estimado o tempo necessário para executá-las.
+## Diagrama de Gantt
+
+O projeto foi divido em atividades e estimado o tempo necessário para executá-las:
 
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
 
