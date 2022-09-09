@@ -246,29 +246,18 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão. Abaixo o diagrama de rede simplificado:
+O projeto está dividido em etapas com datas precisas de conclusão. Cada etapa não deverá extrapolar as datas determinadas no diagrama de rede simplificado:
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+O projeto ainda foi divido em atividades e estimado o tempo necessário para executá-las.
 
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
 
 
-## Gerenciamento de Equipe e Gerenciamento do Cronograma
+## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-
-O gerenciamento do cronograma da equipe se dará conforme abaixo:
-
-![Cronograma](img/cronograma.png)
-
-Veja [aqui](docs/cronograma/cronogramaCarpeDiem.pod) nosso cronograma completo.
-
-
-### Divisão de Papéis
-
-Sua organização está apresentada conforme abaixo:
+A organização da equipe está apresentada conforme abaixo:
 
 a) _Scrum Master_
   -	Fabiana Bicalho Palhano Rocha Cossenzo
@@ -288,6 +277,14 @@ d) Equipe de _Design_
   -	Fabiana Bicalho Palhano Rocha Cossenzo
   -	Nayara Katlin Oliveira da Silva
   -	Pedro Henrique Trindade Silva
+
+## Gerenciamento do Cronograma
+
+O gerenciamento do cronograma da equipe será realizado com o auxílio do software ProjectLibre que é uma ferramenta de uso gratuito.
+
+![Cronograma](img/cronograma.png)
+
+Veja [aqui](cronograma/cronogramaCarpeDiem.pod) nosso cronograma completo. É possível baixá-lo e visualizá-lo utilizando o software ProjectLibre.
 
 
 ## Gestão de Orçamento
