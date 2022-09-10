@@ -223,6 +223,7 @@ Quadro 6 - Casos de Uso
 
 Fonte: Elaborado pelos autores
 
+
 # Matriz de Rastreabilidade
 
 A matriz de rastreabilidade é uma ferramenta usada para explicitar a relação e para facilitar a visualização desse relacionamento direto dos requisitos entre si ou com outros artefatos ou componentes do projeto. Com ela tonrna-se possível rastrear a origem dos requisitos, os elos que os ligam com outros elementos, encontrar inconsistências e garantir que os diferentes níveis do projeto estejam alinhados entre si (ESPINHA, 2022).
@@ -236,24 +237,34 @@ Figura 1 - Matriz de Rastreabilidade
 Fonte: Elaborado pelos autores
 
 
-Veja [aqui](https://docs.google.com/spreadsheets/d/1MyE8Zmx_8N57_9V7qry-D7qlmqnQPI8S/edit#gid=724734350) nossa RTM completa.
+Veja [aqui](https://docs.google.com/spreadsheets/d/1MyE8Zmx_8N57_9V7qry-D7qlmqnQPI8S/edit#gid=724734350) nossa Matriz de Rastreabilidade de Requisitos completa.
 
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+Segundo Espinha (2022), o gerenciamento de projetos é um conjunto de práticas utilizadas para perfazer o planejamento, a execução, o monitoramento e o controle dos projetos de uma organização. E gerenciar de forma eficiente facilita a comunicação e a coordenação da equipe, além de permitir um maior entendimento sobre os indicadores de desempenho.
+
+Pensando nisso e na probabilidade de aumentar a chance de sucesso do projeto, nosso trabalho procura utilizar ferramentas e técnicas comprovadamente eficientes no gerenciamento de um projeto.
+
 
 ## Gerenciamento de Tempo
 
-O projeto está dividido em etapas com datas precisas de conclusão. Cada etapa não deverá extrapolar as datas determinadas no diagrama de rede simplificado:
+Pretendendo demonstrar uma visão geral das atividades e das relações entre elas, além de mostrar os prazos das atividades, nosso projeto está dividido em etapas com datas precisas de conclusão. Cada etapa não deverá extrapolar as datas determinadas no diagrama de rede simplificado:
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
+
 ## Diagrama de Gantt
 
-O projeto foi divido em atividades e estimado o tempo necessário para executá-las:
+Também conhecido como Gráfico de Gantt, é uma ferramenta visual utilizada para controlar o cronograma de um projeto, ajudando a avaliar os prazos de entrega e os recursos críticos, mostrando um painel com as tarefas que precisam ser realizadas, a relação de precedência entre elas, quando as tarefas serão iniciadas, sua duração, o responsável e a previsão de término (LEÃO, 2022).
+
+Nessa perspectiva, demonstamos abaixo o Diagrama de Gantt elaborado pela equipe.
+
+Figura x - Diagrama de Gantt
 
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
+
+Fonte: Elaborado pelos autores (Software ProjectLibre)
 
 
 ## Gerenciamento de Equipe
