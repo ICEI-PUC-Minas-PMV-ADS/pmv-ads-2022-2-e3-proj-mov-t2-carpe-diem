@@ -1,5 +1,7 @@
 # Referências
 
+Ágere TI. **Gerenciamento de equipe: como ele impacta no sucesso da empresa?** 2019. Disponível em: <https://agereti.com.br/blog/gerenciamento-de-equipe-como-ele-impacta-no-sucesso-da-empresa/>. Acessado em 09/09/2022.
+
 ASSIS, Karla. **Como Usar a Psicologia das Cores para Otimizar seu Marketing Online**. Abril de 2019. Disponível em: <https://pt.semrush.com/blog/como-usar-a-psicologia-das-cores-para-otimizar-seu-marketing-online/?kw=&cmp=BR_POR_SRCH_DSA_Blog_Core_BU_PT&label=dsa_pagefeed&Network=g&Device=c&utm_content=485541499897&kwid=dsa-897840244969&cmpid=9874598594&agpid=102029997244&BU=Core&extid=&adpos=&gclid=Cj0KCQjw6pOTBhCTARIsAHF23fJ8tWFB5N0Y2waPaZde0lASzkH60J3Q6uoqOx2zF7x3jqqnNrXQTLcaAp5lEALw_wcB>. Acessado em 24/04/2022.
 
 BIGViagem. **Aluguel por temporada – Vantagens e Desvantagens**. Agosto de 2016. Disponível em: <https://bigviagem.com/aluguel-por-temporada-vantagens-e-desvantagens/>. Acessado em 19/02/2022.
@@ -10,13 +12,21 @@ CASTRO, Luíza M. S.; LESO, Bernardo Henrique; CORTIMIGLIA, Marcelo N. **Transf
 
 Cellbiol. **3-10: Website Page Layouts**. Disponível em: <http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/>. Acessado em 23/04/2022.
 
+COUTINHO, Thiago. **Veja agora como gerenciar um projeto e se atingir grandes resultados!** Janeiro de 2020. Disponível em: <https://www.voitto.com.br/blog/artigo/gerenciamento-de-projetos-o-que-e>. Acessado em 09/09/2022.
+
 DevMedia. **O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML**. Disponível em: <https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408>. Acessado em 09/03/2022.
+
+DIAS, Fernanda. **Gerenciamento de Projetos de A a Z.** Janeiro de 2020. Disponível em: <https://www.voitto.com.br/blog/artigo/gerenciamento-de-projetos>. Acessado em 09/09/2022.
+
+ESPINHA, Roberto Gil. **Gerenciamento de Projetos: o que é e qual a sua importância?** Disponível em: <https://artia.com/blog/gerenciamento-de-projetos/#:~:text=O%20gerenciamento%20de%20projetos%20%C3%A9,dos%20projetos%20em%20uma%20organiza%C3%A7%C3%A3o.>. Acessado em 09/09/2022.
 
 ESPINHA, Roberto Gil. **Matriz de Rastreabilidade de Requisitos: saiba como gerenciar as mudanças no escopo**. Julho de 2020. Disponível em: <https://artia.com/blog/matriz-de-rastreabilidade/#:~:text=matriz%20de%20rastreabilidade.-,O%20que%20%C3%A9%20matriz%20de%20rastreabilidade%20de%20requisitos%3F,ser%C3%A3o%20afetados%20com%20tal%20mudan%C3%A7a.>. Acessado em 05/09/2022.
 
 FIGUEIRÊDO, Eduardo. **A Influência das Cores na Publicidade e Propaganda**. Dezembro de 2016. Disponível em: <http://www.marketingmoderno.com.br/a-influencia-das-cores-na-publicidade-e-propaganda/>. Acessado em 24/04/2022.
 
 Go BlogCredpago. **Entenda como a tecnologia facilita o aluguel de imóveis**. Abril de 2021. Disponível em: <https://blog.credpago.com.br/como-a-tecnologia-facilita-o-aluguel-de-imoveis/>. Acessado em 20/02/2022.
+
+LEÃO, Thiago. **Gráfico de Gantt: o que é, como funciona e como montar o seu**. Junho de 2022. Disponível em: <https://www.nomus.com.br/blog-industrial/grafico-de-gantt/>. Acessado em 09/09/2022.
 
 LITTLEFIELD, Andrew. **Guia da Metodologia Ágil e Scrum para Iniciantes**. Outubro de 2016. Disponível em: <https://blog.trello.com/br/scrum-metodologia-agil>. Acessado em 12/03/2022.
 
