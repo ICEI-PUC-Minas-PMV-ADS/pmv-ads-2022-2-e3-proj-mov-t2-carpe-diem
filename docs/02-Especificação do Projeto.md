@@ -247,27 +247,37 @@ Segundo Espinha (2022), o gerenciamento de projetos é um conjunto de práticas 
 Pensando nisso e na probabilidade de aumentar a chance de sucesso do projeto, nosso trabalho procura utilizar ferramentas e técnicas comprovadamente eficientes no gerenciamento de um projeto.
 
 
-## Gerenciamento de Tempo
+## Gerenciamento de Tempo / Cronograma
 
 Pretendendo demonstrar uma visão geral das atividades e das relações entre elas, além de mostrar os prazos das atividades, nosso projeto está dividido em etapas com datas precisas de conclusão. Cada etapa não deverá extrapolar as datas determinadas no diagrama de rede simplificado:
 
+Figura 2 - Cronograma
+
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
+Fonte: Elaborado pelos autores
 
-## Diagrama de Gantt
+
+### Diagrama de Gantt
 
 Também conhecido como Gráfico de Gantt, é uma ferramenta visual utilizada para controlar o cronograma de um projeto, ajudando a avaliar os prazos de entrega e os recursos críticos, mostrando um painel com as tarefas que precisam ser realizadas, a relação de precedência entre elas, quando as tarefas serão iniciadas, sua duração, o responsável e a previsão de término (LEÃO, 2022).
 
-Nessa perspectiva, demonstamos abaixo o Diagrama de Gantt elaborado pela equipe.
+Nessa perspectiva, demonstamos abaixo o Diagrama de Gantt elaborado pela equipe, para o gerenciamento do tempo/cronograma, realizado com o auxílio do software ProjectLibre.
 
-Figura x - Diagrama de Gantt
+Figura 3 - Diagrama de Gantt
+
+![Cronograma](img/cronograma.png)
 
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
 
 Fonte: Elaborado pelos autores (Software ProjectLibre)
 
+Veja [aqui](cronograma/cronogramaCarpeDiem.pod) nosso cronograma completo. É possível baixá-lo e visualizá-lo utilizando o software ProjectLibre.
+
 
 ## Gerenciamento de Equipe
+
+O gerenciamento de uma equipe aborda várias estratégias, dentre elas reduzir conflitos, melhorar os indicadores, engajar/motivar a equipe, otimizar valores, conceder _feedbacks_, entre outras, mas todas em busca do principal objetivo: atingir o propósito apresentado no projeto.
 
 A organização da equipe está apresentada conforme abaixo:
 
@@ -290,16 +300,12 @@ d) Equipe de _Design_
   -	Nayara Katlin Oliveira da Silva
   -	Pedro Henrique Trindade Silva
 
-## Gerenciamento do Cronograma
-
-O gerenciamento do cronograma da equipe será realizado com o auxílio do software ProjectLibre que é uma ferramenta de uso gratuito.
-
-![Cronograma](img/cronograma.png)
-
-Veja [aqui](cronograma/cronogramaCarpeDiem.pod) nosso cronograma completo. É possível baixá-lo e visualizá-lo utilizando o software ProjectLibre.
-
 
 ## Gestão de Orçamento
+
+A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do projeto. De acordo com Dias (2020), é de extrema importância que o cronograma esteja alinhado com o planejamento dos custos do projeto, com a finalidade de que os imprevistos sejam minimizados ao longo de sua execução.
+
+Figura 4 - Orçamento
 
 ![Orçamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem/blob/main/docs/img/OR%C3%87AMENTO%20RECURSOS.png)
 
