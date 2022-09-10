@@ -257,6 +257,16 @@ Figura 2 - Cronograma
 
 Fonte: Elaborado pelos autores
 
+Para organização e distribuição das tarefas do projeto, o grupo utilizará o aplicativo de gerenciamento de projetos _Git Projects_, conforme figura ilustrativa abaixo.
+
+Figura 3 - _Git Projects_
+
+![image](https://user-images.githubusercontent.com/89549220/189464942-bbd65bfe-27ea-4cd7-a240-71efaf3c8aa8.png)
+
+Fonte: Elaborado pelos autores
+
+Para visualizá-lo adequadamente torna-se necessário se direcionar para a aba _Projects_, ou atravé do [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/95).
+
 
 ### Diagrama de Gantt
 
@@ -264,7 +274,7 @@ Também conhecido como Gráfico de Gantt, é uma ferramenta visual utilizada par
 
 Nessa perspectiva, demonstamos abaixo o Diagrama de Gantt elaborado pela equipe, para o gerenciamento do tempo/cronograma, realizado com o auxílio do software ProjectLibre.
 
-Figura 3 - Diagrama de Gantt
+Figura 4 - Diagrama de Gantt
 
 ![Cronograma](img/cronograma.png)
 
@@ -305,7 +315,7 @@ d) Equipe de _Design_
 
 A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do projeto. De acordo com Dias (2020), é de extrema importância que o cronograma esteja alinhado com o planejamento dos custos do projeto, com a finalidade de que os imprevistos sejam minimizados ao longo de sua execução.
 
-Figura 4 - Orçamento
+Figura 5 - Orçamento
 
 ![Orçamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem/blob/main/docs/img/OR%C3%87AMENTO%20RECURSOS.png)
 
