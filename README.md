@@ -22,7 +22,7 @@ Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade entre a 
 * Fabiana Bicalho Palhano Rocha Cossenzo
 * Jaqueline Camara Poletto
 * Nayara Katlin Oliveira da Silva
-* Pedro Henrique Trindade Silva
+* Pedro Henrique Trindade Silva 
 
 
 ## Orientador
