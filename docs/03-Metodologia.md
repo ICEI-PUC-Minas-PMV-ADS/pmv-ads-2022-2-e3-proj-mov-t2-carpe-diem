@@ -10,14 +10,14 @@ Em todos os artefatos produzidos no projeto, para melhor entendimento e padroniz
 
 Os artefatos do projeto são acompanhados e evoluídos com a ajuda de diferentes plataformas, cada qual com sua função específica. A combinação dos ambientes com suas respectivas finalidades é apresentada no quadro abaixo.
 
-Quadro x - Ambientes de Trabalho
+Quadro 7 - Ambientes de Trabalho
 
 | AMBIENTE | PLATAFORMA | LINK DE ACESSO |
 |----------|------------|----------------|
-|Repositório de Código Fonte | GitHub | |
-|Documento do Projeto | GitHub Docs | |
-|Documento e Imagens do Projeto | Google Drive | |
-|Projeto de Interface e _Wireframes_ | Figma | |
+|Repositório de Código Fonte | _GitHub_ | |
+|Documento do Projeto | _GitHub Docs_ | |
+|Documento e Imagens do Projeto | _Google Drive_ | |
+|Projeto de Interface e _Wireframes_ | _Figma_ | |
 |Gerenciamento do Projeto | _Git Projects_ | |
 
 Fonte: Elaborado pelos autores
@@ -25,34 +25,34 @@ Fonte: Elaborado pelos autores
 
 ## Gestão de Código Fonte
 
-De acordo com Vietro (2015), é importante observar o uso de técnicas e metodologias para o desenvolvimento de sistemas, buscando melhorar as práticas atuais. Diante disso torna-se essencial o gerenciamento do software, e isso envolve administrar as várias etapas do processo, como, por exemplo: requisitos do sistema, arquitetura do software, padrões de codificação, gerência de configuração, deploy, entre outros.
+De acordo com Vietro (2015), é importante observar o uso de técnicas e metodologias para o desenvolvimento de sistemas, buscando melhorar as práticas atuais. Diante disso torna-se essencial o gerenciamento do _software_, e isso envolve administrar as várias etapas do processo, como, por exemplo: requisitos do sistema, arquitetura do _software_, padrões de codificação, gerência de configuração, _deploy_, entre outros.
 
-Pensando nesse contexto, o grupo optou por utilizar um processo fundamentado no GitFlow para a gestão do código fonte do software que será desenvolvido.
+Pensando nesse contexto, o grupo optou por utilizar um processo fundamentado no _GitFlow_ para a gestão do código fonte do _software_ que será desenvolvido.
 
-O GitFlow é um framework criado em 2010 e considerado um ótimo modelo de branching, além de ser usado para trabalhar em conjunto com o sistema de controle de versão Git (VIETRO, 2015). Assim sendo, as manutenções do código serão efetuadas definindo-se os papéis de cada branch em separado, como eles devem interagir entre si, e com a identificação de Branch Master, Branch Develop, Feature Branch, Release Branch, Maintenance Branch (Hotfix).
+O _GitFlow_ é um _framework_ criado em 2010 e considerado um ótimo modelo de _branching_, além de ser usado para trabalhar em conjunto com o sistema de controle de versão _Git_ (VIETRO, 2015). Assim sendo, as manutenções do código serão efetuadas definindo-se os papéis de cada _branch_ em separado, como eles devem interagir entre si, e com a identificação de _Branch Master, Branch Develop, Feature Branch, Release Branch, Maintenance Branch (Hotfix)_.
 
-Figura 2 - _GitFlow Workflow_
+Figura 6 - _GitFlow Workflow_
 Modelo de Fluxo de Controle do Código Fonte no Repositório _Git_
 
 ![image](https://user-images.githubusercontent.com/89549220/189541206-16bbdc25-c85d-4188-b87d-62775f1694e4.png)
 
 Fonte: Vietro (2015)
 
-Esse modelo de workflow utiliza dois branches principais para guardar o histórico do projeto, ao invés de trabalhar com apenas um Branch Master. O Branch Master guarda o histórico oficial das entregas, já o Branch Develop serve como integração entre todos os branches de funcionalidades (Feature Branches). Cada funcionalidade deve ter seu próprio branch, e ele deve ser criado a partir do Branch Develop. Quando uma funcionalidade for concluída, ela é mesclada (merged) novamente com o seu branch pai. Quando o Branch Develop estiver com funcionalidades suficientes para uma entrega, criaremos um branch de entrega (Release Branch). Com isso, damos início ao próximo ciclo de entrega, ou seja, nenhuma nova funcionalidade pode ser incluída a partir desse momento. Quando estivermos prontos para realizar a entrega, o Release Branch é mesclada com os branches Master e Develop. O Maintenance Branches (Hotfix) são usados para corrigir rapidamente algum problema em produção. Este é o único branch que deve ser criado a partir do Master. Assim que a correção for finalizada, o branch é fechado e mesclado com o Master e Develop, mantendo assim as linhas completamente atualizadas (VIETRO, 2015).
+Esse modelo de _workflow_ utiliza dois _branches_ principais para guardar o histórico do projeto, ao invés de trabalhar com apenas um _Branch Master_. O _Branch Master_ guarda o histórico oficial das entregas, já o _Branch Develop_ serve como integração entre todos os _branches_ de funcionalidades (_Feature Branches_). Cada funcionalidade deve ter seu próprio _branch_, e ele deve ser criado a partir do _Branch Develop_. Quando uma funcionalidade for concluída, ela é mesclada (_merged_) novamente com o seu _branch_ pai. Quando o _Branch Develop_ estiver com funcionalidades suficientes para uma entrega, criaremos um _branch_ de entrega (_Release Branch_). Com isso, damos início ao próximo ciclo de entrega, ou seja, nenhuma nova funcionalidade pode ser incluída a partir desse momento. Quando estivermos prontos para realizar a entrega, o _Release Branch_ é mesclada com os _branches Master e Develop_. O _Maintenance Branches (Hotfix)_ são usados para corrigir rapidamente algum problema em produção. Este é o único _branch_ que deve ser criado a partir do _Master_. Assim que a correção for finalizada, o _branch_ é fechado e mesclado com o _Master e Develop_, mantendo assim as linhas completamente atualizadas (VIETRO, 2015).
 
 
 ## Gerenciamento de Projeto
 
-O grupo decidiu por utilizar a metodologia Ágil, sendo escolhido o Scrum como base para definição do processo de desenvolvimento do projeto.
+O grupo decidiu por utilizar a metodologia Ágil, sendo escolhido o _Scrum_ como base para definição do processo de desenvolvimento do projeto.
 
 ### Divisão de Papéis
 
 A organização da equipe está apresentada conforme abaixo:
 
-a) Scrum Master
+a) _Scrum Master_
 - Fabiana Bicalho Palhano Rocha Cossenzo
 
-b) Product Owner
+b) _Product Owner_
 - Eduardo Lordeiro Alves
 
 c) Equipe de Desenvolvimento
@@ -62,7 +62,7 @@ c) Equipe de Desenvolvimento
 - Nayara Katlin Oliveira da Silva
 - Pedro Henrique Trindade Silva
 
-d) Equipe de Design
+d) Equipe de _Design_
 - Eduardo Lordeiro Alves
 - Fabiana Bicalho Palhano Rocha Cossenzo
 - Nayara Katlin Oliveira da Silva
@@ -71,45 +71,45 @@ d) Equipe de Design
 
 ### Processo
 
-Na organização e na distribuição das tarefas do projeto, o grupo utiliza o aplicativo de gerenciamento de projetos denominado Git Projects, onde o mesmo está estruturado com as seguintes listas:
+Na organização e na distribuição das tarefas do projeto, o grupo utiliza o aplicativo de gerenciamento de projetos denominado _Git Projects_, onde o mesmo está estruturado com as seguintes listas:
 
 - Documentação: sequência das tarefas referentes à documentação de contexto que serão trabalhadas pela equipe, conforme cronograma do curso.
-- Product Backlog: local onde é adicionado as tarefas a serem trabalhadas pela equipe, assim como as tarefas que forem identificadas no andamento do projeto.
-- To Do: representa o Sprint Backlog atual que está sendo trabalhado.
-- In Progress: tarefas que foram iniciadas são adicionadas nessa lista.
-- Test (CQ - Checagem de Qualidade): lista das tarefas que foram concluídas. Nesse estágio cabe-se ainda uma revisão para verificar a qualidade.
-- Done: nesta lista são adicionadas as tarefas que passaram pela Checagem de Qualidade e estão prontas para serem enviadas e/ou entregues.
-- Locked: lista onde será relacionado e especificado o que está impedindo a conclusão da tarefa, juntamente com um comentário sobre o que está travando a tarefa.
+- _Product Backlog_: local onde é adicionado as tarefas a serem trabalhadas pela equipe, assim como as tarefas que forem identificadas no andamento do projeto.
+- _To Do_: representa o _Sprint Backlog_ atual que está sendo trabalhado.
+- _In Progress_: tarefas que foram iniciadas são adicionadas nessa lista.
+- _Test_ (CQ - Checagem de Qualidade): lista das tarefas que foram concluídas. Nesse estágio cabe-se ainda uma revisão para verificar a qualidade.
+- _Done_: nesta lista são adicionadas as tarefas que passaram pela Checagem de Qualidade e estão prontas para serem enviadas e/ou entregues.
+- _Locked_: lista onde será relacionado e especificado o que está impedindo a conclusão da tarefa, juntamente com um comentário sobre o que está travando a tarefa.
 
-O quadro gerenciado pelo grupo no aplicativo Git Projects está disponível através da URL especificada no Quadro 7 e é apresentado, em seu estado atual, congênere figura abaixo. A caracterização da estrutura montada se fundamentou no artigo escrito por Littlefield (2016), assim como nos conceitos de Scrum de Schwaber e Sutherland (2020).
+O quadro gerenciado pelo grupo no aplicativo _Git Projects_ está disponível através da URL especificada no Quadro 7 e é apresentado, em seu estado atual, congênere figura abaixo. A caracterização da estrutura montada se fundamentou no artigo escrito por Littlefield (2016), assim como nos conceitos de _Scrum_ de Schwaber e Sutherland (2020).
 
-Figura 3 - Tela do Git Projects para Gerenciamento do Projeto
+Figura 7 - Tela do _Git Projects_ para Gerenciamento do Projeto
 
 (inserir print)
 
-Fonte: Git Projects - Elaborado pelos autores
+Fonte: _Git Projects_ - Elaborado pelos autores
 
 
 ## Controle de Versão
 
-A hospedagem do repositório, definida pela faculdade, será no GitHub, sendo assumido para o controle de versão do projeto, a utilização do Git.
+A hospedagem do repositório, definida pela faculdade, será no _GitHub_, sendo assumido para o controle de versão do projeto, a utilização do _Git_.
 
-O sistema de controle de versão moderno e mais utilizado é o Git e, com ele, é possível acompanhar as alterações de código realizadas no decorrer da codificação, assim como ser possível reverter para versões anteriores e específicas (Taysser-Ghergal et al, 2022).
+O sistema de controle de versão moderno e mais utilizado é o _Git_ e, com ele, é possível acompanhar as alterações de código realizadas no decorrer da codificação, assim como ser possível reverter para versões anteriores e específicas (Taysser-Ghergal et al, 2022).
 
-No que tange ao gerenciamento das Issues, optamos por adotar no projeto as etiquetas: documentation, delivery, planning, invalid, help wanted e code review.
+No que tange ao gerenciamento das _Issues_, optamos por adotar no projeto as etiquetas: _documentation, delivery, planning, invalid, help wanted e code review_.
 
 A tarefas estão etiquetadas em função da natureza da atividade e seguem o esquema de cores/categorias conforme abaixo:
 
-- Documentation
-- Delivery
-- Planning
-- Invalid
-- Help Wanted
-- Code Review
+- _Documentation_
+- _Delivery_
+- _Planning_
+- _Invalid_
+- _Help Wanted_
+- _Code Review_
 
-Figura x - Labels
+Figura 8 - _Labels_
 
-![image](https://user-images.githubusercontent.com/89549220/189541499-a8b5eef8-fe05-43a5-8b43-51c009696aba.png)
+![image](https://user-images.githubusercontent.com/89549220/189544708-3db922a0-8c11-497e-9a60-4532d8d81a9d.png)
 
 Fonte: Elaborado pelos Autores
 
@@ -119,17 +119,17 @@ Fonte: Elaborado pelos Autores
 As ferramentas aplicadas no projeto são:
 
 a) Editor de código:
-Visual Studio Code e Visual Studio.
-Possuem integração com o Git, sendo possível realizar commits do GitHub para o Visual Studio e/ou Visual Studio Code.
+- _Visual Studio Code_ e _Expo_.
+- Possuem integração com o _Git_, sendo possível realizar _commits_ do _GitHub_ para o _Visual Studio Code_.
 
 b) Ferramentas de Comunicação:
-WhatsApp, Discord, Microsoft Teams, Git Projects.
-São ferramentas completas e úteis para a gestão da equipe, viabilizando as chamadas de vídeo, de áudio e/ou por chat, seja pelo computador ou pelo smartphone.
+- _WhatsApp, Discord, Microsoft Teams, Git Projects_.
+- São ferramentas completas e úteis para a gestão da equipe, viabilizando as chamadas de vídeo, de áudio e/ou por _chat_, seja pelo computador ou pelo _smartphone_.
 
 c) Ferramentas para Criação de Diagramas:
-Lucidchart e Visio
-Possui acesso gratuito e de fácil interação, sendo possível criar diagramas conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
+- _Lucidchart e Visio_
+- Possui acesso gratuito e de fácil interação, sendo possível criar diagramas conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
 
-d) Ferramentas de Desenho de Tela (Wireframing):
-Figma
-Possui acesso gratuito e de fácil interação, sendo possível criar wireframes conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
+d) Ferramentas de Desenho de Tela (_Wireframing_):
+- Figma
+- Possui acesso gratuito e de fácil interação, sendo possível criar _wireframes_ conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
