@@ -85,7 +85,7 @@ O quadro gerenciado pelo grupo no aplicativo _Git Projects_ está disponível 
 
 Figura 7 - Tela do _Git Projects_ para Gerenciamento do Projeto
 
-(inserir print)
+![image](https://user-images.githubusercontent.com/89549220/189545411-8a18a026-942a-4351-b070-023625461d2c.png)
 
 Fonte: _Git Projects_ - Elaborado pelos autores
 
@@ -109,7 +109,7 @@ A tarefas estão etiquetadas em função da natureza da atividade e seguem o esq
 
 Figura 8 - _Labels_
 
-![image](https://user-images.githubusercontent.com/89549220/189544708-3db922a0-8c11-497e-9a60-4532d8d81a9d.png)
+![image](https://user-images.githubusercontent.com/89549220/189545382-42e3f64f-2c34-402e-8c63-35058660181d.png)
 
 Fonte: Elaborado pelos Autores
 
@@ -131,5 +131,5 @@ c) Ferramentas para Criação de Diagramas:
 - Possui acesso gratuito e de fácil interação, sendo possível criar diagramas conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
 
 d) Ferramentas de Desenho de Tela (_Wireframing_):
-- Figma
+- _Figma_
 - Possui acesso gratuito e de fácil interação, sendo possível criar _wireframes_ conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
