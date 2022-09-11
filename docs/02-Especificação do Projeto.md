@@ -313,7 +313,10 @@ d) Equipe de _Design_
 
 ## Gestão de Orçamento
 
-A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do projeto. De acordo com Dias (2020), é de extrema importância que o cronograma esteja alinhado com o planejamento dos custos do projeto, com a finalidade de que os imprevistos sejam minimizados ao longo de sua execução.
+A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do projeto. De acordo com Dias (2020), é de extrema importância que o cronograma esteja alinhado com o planejamento dos custos do projeto, com a finalidade de que os imprevistos sejam minimizados ao longo de sua execução, conforme o Guia de referência PMBoK.
+
+Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de cinco meses, para a contratação de 05 stakeholders, 05 estações de 
+trabalho, assinatura de plano de acesso à internet com IP fixo, licença de software de desenvolvimento e da infraestrutura de um local físico.
 
 Figura 5 - Orçamento
 
