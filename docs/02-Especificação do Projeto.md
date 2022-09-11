@@ -265,14 +265,14 @@ Figura 3 - _Git Projects_
 
 Fonte: Elaborado pelos autores
 
-Para visualizá-lo adequadamente torna-se necessário se direcionar para a aba _Projects_, ou atravé do [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/95).
+Para visualizá-lo adequadamente torna-se necessário se direcionar para a aba _Projects_, ou através do [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/95).
 
 
 ### Diagrama de Gantt
 
 Também conhecido como Gráfico de Gantt, é uma ferramenta visual utilizada para controlar o cronograma de um projeto, ajudando a avaliar os prazos de entrega e os recursos críticos, mostrando um painel com as tarefas que precisam ser realizadas, a relação de precedência entre elas, quando as tarefas serão iniciadas, sua duração, o responsável e a previsão de término (LEÃO, 2022).
 
-Nessa perspectiva, demonstamos abaixo o Diagrama de Gantt elaborado pela equipe, para o gerenciamento do tempo/cronograma, realizado com o auxílio do software ProjectLibre.
+Nessa perspectiva, demonstamos abaixo o Diagrama de Gantt elaborado pela equipe, para o gerenciamento do tempo/cronograma, realizado com o auxílio do _software ProjectLibre_.
 
 Figura 4 - Diagrama de Gantt
 
@@ -282,7 +282,7 @@ Figura 4 - Diagrama de Gantt
 
 Fonte: Elaborado pelos autores (Software ProjectLibre)
 
-Veja [aqui](cronograma/cronogramaCarpeDiem.pod) nosso cronograma completo. É possível baixá-lo e visualizá-lo utilizando o software ProjectLibre.
+Veja [aqui](cronograma/cronogramaCarpeDiem.pod) nosso cronograma completo. É possível baixá-lo e visualizá-lo utilizando o _software ProjectLibre_.
 
 
 ## Gerenciamento de Equipe
@@ -315,8 +315,7 @@ d) Equipe de _Design_
 
 A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do projeto. De acordo com Dias (2020), é de extrema importância que o cronograma esteja alinhado com o planejamento dos custos do projeto, com a finalidade de que os imprevistos sejam minimizados ao longo de sua execução, conforme o Guia de referência PMBoK.
 
-Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de cinco meses, para a contratação de 05 stakeholders, 05 estações de 
-trabalho, assinatura de plano de acesso à internet com IP fixo, licença de software de desenvolvimento e da infraestrutura de um local físico.
+Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de 05 (cinco) meses, para a contratação de 05 (cinco) stakeholders, 05 (cinco) estações de trabalho, assinatura de plano de acesso à internet com IP fixo, licença de _software_ de desenvolvimento e da infraestrutura de um local físico.
 
 Figura 5 - Orçamento
 
