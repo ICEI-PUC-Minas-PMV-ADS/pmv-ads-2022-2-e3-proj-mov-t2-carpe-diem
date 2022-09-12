@@ -89,6 +89,8 @@ Figura 7 - Tela do _Git Projects_ para Gerenciamento do Projeto
 
 Fonte: _Git Projects_ - Elaborado pelos autores
 
+Para visualizá-lo adequadamente torna-se necessário se direcionar para a aba _Projects_, ou através do [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/95).
+
 
 ## Controle de Versão
 
