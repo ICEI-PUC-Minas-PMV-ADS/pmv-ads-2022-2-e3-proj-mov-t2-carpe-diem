@@ -17,9 +17,9 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades se relacionam entre si na aplicação interativa.]
+O Modelo ER representa através de um diagrama como as entidades se relacionam entre si na aplicação interativa.
 
-![MER]([[img/](docs/img/MER CarpeDiem.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem/blob/main/docs/img/MER%20CarpeDiem.png)
+![Modelo ER](img/MER.png)
 
 Fonte: Elaborado pelos autores.
 
