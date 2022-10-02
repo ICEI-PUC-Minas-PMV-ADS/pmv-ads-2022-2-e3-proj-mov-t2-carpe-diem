@@ -108,9 +108,9 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho (Etapa 2)
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
 ![Indicadores de Desempenho 1](img/02-indic-desemp-1.png)
+
+![Indicadores de Desempenho 2](img/02-indic-desemp-2.png)
 
 
 ## Requisitos
