@@ -297,7 +297,6 @@ b) _Product Owner_
 c) Equipe de Desenvolvimento
   -	Eduardo Lordeiro Alves
   -	Fabiana Bicalho Palhano Rocha Cossenzo
-  -	Jaqueline Camara Poletto
   -	Nayara Katlin Oliveira da Silva
   -	Pedro Henrique Trindade Silva
 
