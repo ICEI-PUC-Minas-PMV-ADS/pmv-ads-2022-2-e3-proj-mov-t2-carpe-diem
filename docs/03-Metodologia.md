@@ -14,11 +14,11 @@ Quadro 7 - Ambientes de Trabalho
 
 | AMBIENTE | PLATAFORMA | LINK DE ACESSO |
 |----------|------------|----------------|
-|Repositório de Código Fonte | _GitHub_ | |
-|Documento do Projeto | _GitHub Docs_ | |
-|Documento e Imagens do Projeto | _Google Drive_ | |
-|Projeto de Interface e _Wireframes_ | _Figma_ | |
-|Gerenciamento do Projeto | _Git Projects_ | |
+|Repositório de Código Fonte | _GitHub_ | em desenvolvimento |
+|Documento do Projeto | _GitHub Docs_ | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem/tree/main/docs |
+|Documento e Imagens do Projeto | _Google Drive_ | https://drive.google.com/drive/folders/1G8_-1YddGMTzaDmhfjCvY4k_b3dFiXZA |
+|Projeto de Interface e _Wireframes_ | _Figma_ | https://www.figma.com/proto/MLy9JYx8OgyEiwEaGnb4JB/CarpeDiem-Mobile-(Wireframe)?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2 |
+|Gerenciamento do Projeto | _Git Projects_ | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/95 |
 
 Fonte: Elaborado pelos autores
 
