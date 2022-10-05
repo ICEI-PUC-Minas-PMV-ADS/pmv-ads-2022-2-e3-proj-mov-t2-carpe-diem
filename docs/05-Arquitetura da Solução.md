@@ -1,45 +1,79 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+A arquitetura de solução apresenta como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação. Seguem abaixo os principais elementos relacionados a esse tópico.
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
-
-![Arquitetura da Solução](img/02-mob-arch.png)
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+(perguntar professor)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades se relacionam entre si na aplicação interativa.
+O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa. Segue abaixo a representação do Modelo ER:
+
+Figura x - Modelo ER
 
 ![Modelo ER](img/MER.png)
 
 Fonte: Elaborado pelos autores.
 
+
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária. Segue abaixo a representação do Esquema Relacional:
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+Figura y - Esquema Relacional
+
+![Esquema Relacional_Mobile](https://user-images.githubusercontent.com/89549220/193962871-3369ea16-d256-4983-9f37-49826326c30d.png)
+
+Fonte: Elaborado pelos autores
+
+
+## Diagrama de Componentes
+
+Compreendemos nessa seção os componentes que fazem parte da arquitetura da solução, consoante figura adiante.
+
+Figura z - Arquitetura da Solução
+
+(inserir imagem)
+
+Fonte: Elaborado pelos autores
+
+
+A arquitetura da solução concretizada conta com os seguintes módulos:
+
+- Navegador - Interface básica do sistema 
+   * Páginas Web - Conjunto de arquivos HTML5, CSS3, JavaScript, Bootstrap e imagens que efetivam as funcionalidades do sistema.
+- Hospedagem - local na Internet onde as páginas serão mantidas e conectadas pelo navegador. 
+   * Plataforma Azure
+- Local Storage - armazenamento mantido no Navegador, onde são empreendidos bancos de dados baseados no JSON (JavaScript Object Notation).  
+   * Dados do Hóspede
+   * Dados do Cadastro do Imóvel
+   * Dados da Reserva do Imóvel
+
 
 ## Modelo Físico
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+
 
 ## Tecnologias Utilizadas
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+
+- Linguagens e _frameworks_ utilizadas para desenvolver o projeto: HTML5, CSS3, JavaScript, C#, _Bootstrap_, _Media Queries_, .NET
+- IDEs de desenvolvimento: Visual Studio Code e Visual Studio
+- Plataforma para hospedagem do site: Azure
+- Plataforma para hospedagem dos arquivos: GitHub e Google Drive
+- Ferramenta de versionamento: Git e GitHub Desktop
+- Ferramenta para a criação de logo e imagens: Figma, Ilustrator, CorelDraw
+- Ferramenta para criação do template / wireframing: Figma e Adobe XD
+- Ferramenta para criação de diagramas e fluxos: Lucidchart e Visio
+- Banco de Dados: SQL Server
+
 
 ## Hospedagem
 
