@@ -1,14 +1,14 @@
-# Arquitetura da Solução
+# 5. Arquitetura da Solução
 
 A arquitetura de solução apresenta como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação. Seguem abaixo os principais elementos relacionados a esse tópico.
 
 
-## Diagrama de Classes
+## 5.1 Diagrama de Classes
 
 (perguntar professor)
 
 
-## Modelo ER
+## 5.2 Modelo ER
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa. Segue abaixo a representação do Modelo ER:
 
@@ -19,7 +19,7 @@ Figura x - Modelo ER
 Fonte: Elaborado pelos autores.
 
 
-## Esquema Relacional
+## 5.3 Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária. Segue abaixo a representação do Esquema Relacional:
 
@@ -30,7 +30,7 @@ Figura y - Esquema Relacional
 Fonte: Elaborado pelos autores
 
 
-## Diagrama de Componentes
+## 5.4 Diagrama de Componentes
 
 Compreendemos nessa seção os componentes que fazem parte da arquitetura da solução, consoante figura adiante.
 
@@ -43,8 +43,8 @@ Fonte: Elaborado pelos autores
 
 A arquitetura da solução concretizada conta com os seguintes módulos:
 
-- Navegador - Interface básica do sistema 
-   * Páginas Web - Conjunto de arquivos HTML5, CSS3, JavaScript, Bootstrap e imagens que efetivam as funcionalidades do sistema.
+- Navegador - Interface básica do sistema (adaptar)
+   * Páginas Web - Conjunto de arquivos JavaScript, Bootstrap e imagens que efetivam as funcionalidades do sistema.
 - Hospedagem - local na Internet onde as páginas serão mantidas e conectadas pelo navegador. 
    * Plataforma Azure
 - Local Storage - armazenamento mantido no Navegador, onde são empreendidos bancos de dados baseados no JSON (JavaScript Object Notation).  
@@ -53,29 +53,29 @@ A arquitetura da solução concretizada conta com os seguintes módulos:
    * Dados da Reserva do Imóvel
 
 
-## Modelo Físico
+## 5.5 Modelo Físico
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
 
-## Tecnologias Utilizadas
+## 5.6 Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços _web, frameworks_, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
-- Linguagens e _frameworks_ utilizadas para desenvolver o projeto: HTML5, CSS3, JavaScript, C#, _Bootstrap_, _Media Queries_, .NET
-- IDEs de desenvolvimento: Visual Studio Code e Visual Studio
-- Plataforma para hospedagem do site: Azure
-- Plataforma para hospedagem dos arquivos: GitHub e Google Drive
-- Ferramenta de versionamento: Git e GitHub Desktop
-- Ferramenta para a criação de logo e imagens: Figma, Ilustrator, CorelDraw
-- Ferramenta para criação do template / wireframing: Figma e Adobe XD
+- Linguagens e _frameworks_ utilizadas para desenvolver o projeto: JavaScript
+- IDEs de desenvolvimento: Visual Studio Code e Expo
+- Plataforma para hospedagem do site: Expo
+- Plataforma para hospedagem dos arquivos: _GitHub e Google Drive_
+- Ferramenta de versionamento: _Git e GitHub Desktop_
+- Ferramenta para a criação de logo e imagens: Figma, CorelDraw
+- Ferramenta para criação do _template / wireframe_: Figma e Adobe XD
 - Ferramenta para criação de diagramas e fluxos: Lucidchart e Visio
-- Banco de Dados: SQL Server
+- Banco de Dados: SQLite
 
 
-## Hospedagem
+## 5.7 Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
 
@@ -86,7 +86,8 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
 > - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
-## Qualidade de Software
+
+## 5.8 Qualidade de Software
 
 Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
 
