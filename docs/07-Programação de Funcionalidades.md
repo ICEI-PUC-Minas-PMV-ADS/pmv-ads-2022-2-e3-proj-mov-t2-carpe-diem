@@ -1,15 +1,19 @@
-# Programação de Funcionalidades
+# 7. Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Apresentamos a implementação da aplicação descrita por meio dos requisitos funcionais abordados no Item 2 "Especificação do Projeto", tópico xxxxx, relacionando os requisitos atendidos aos artefatos da funcionalidade criados.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Quadro x - Programação das Funcionalidades
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+| ID    | Descrição do Requisito | Artefatos da Funcionalidade |
+|-------|------------------------|-----------------------------|
+| RF-01 | A aplicação deve permitir ao usuário realizar o cadastro. | em desenvolvimento |
+| RF-02 | A aplicação deve permitir ao usuário gerenciar seu cadastro. | em desenvolvimento |
+| RF-03 | A aplicação deve permitir ao usuário realizar a busca de imóveis através da funcionalidade de filtros como localidade ("cidade destino"). | em desenvolvimento |
+| RF-04 | A aplicação deve disponibilizar um formulário de fale conosco para esclarecer dúvidas relacionadas ao site. | em desenvolvimento |
+| RF-05 | A aplicação deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado. | em desenvolvimento |
+| RF-06 | A aplicação deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | em desenvolvimento |
+| RF-07 | A aplicação deve disponibilizar informações detalhadas quanto às características dos imóveis. | em desenvolvimento |
+| RF-08 | A aplicação deve permitir acesso à documentação de política de privacidade e termos e condições de uso. | em desenvolvimento |
+| RF-09 | A aplicação deve permitir acesso às suas redes sociais. | em desenvolvimento |
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+Fonte: Elaborado pelos autores
