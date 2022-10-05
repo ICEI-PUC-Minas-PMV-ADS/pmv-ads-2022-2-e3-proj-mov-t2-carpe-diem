@@ -1,12 +1,12 @@
 
-# Metodologia
+# 3. Metodologia
 
 A metodologia pormenoriza as ferramentas aplicadas pelo grupo na organização e na estruturação da implantação das tarefas do projeto, assim como nas plataformas e artefatos utilizados para a manutenção e conservação dos códigos.
 
 Em todos os artefatos produzidos no projeto, para melhor entendimento e padronização, a nomenclatura usuário será utilizada para os casos específicos do ator. 
 
 
-## Relação de Ambientes de Trabalho
+## 3.1 Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são acompanhados e evoluídos com a ajuda de diferentes plataformas, cada qual com sua função específica. A combinação dos ambientes com suas respectivas finalidades é apresentada no quadro abaixo.
 
@@ -23,7 +23,7 @@ Quadro 8 - Ambientes de Trabalho
 Fonte: Elaborado pelos autores
 
 
-## Gestão de Código Fonte
+## 3.2 Gestão de Código Fonte
 
 De acordo com Vietro (2015), é importante observar o uso de técnicas e metodologias para o desenvolvimento de sistemas, buscando melhorar as práticas atuais. Diante disso torna-se essencial o gerenciamento do _software_, e isso envolve administrar as várias etapas do processo, como, por exemplo: requisitos do sistema, arquitetura do _software_, padrões de codificação, gerência de configuração, _deploy_, entre outros.
 
@@ -41,11 +41,12 @@ Fonte: Vietro (2015)
 Esse modelo de _workflow_ utiliza dois _branches_ principais para guardar o histórico do projeto, ao invés de trabalhar com apenas um _Branch Master_. O _Branch Master_ guarda o histórico oficial das entregas, já o _Branch Develop_ serve como integração entre todos os _branches_ de funcionalidades (_Feature Branches_). Cada funcionalidade deve ter seu próprio _branch_, e ele deve ser criado a partir do _Branch Develop_. Quando uma funcionalidade for concluída, ela é mesclada (_merged_) novamente com o seu _branch_ pai. Quando o _Branch Develop_ estiver com funcionalidades suficientes para uma entrega, criaremos um _branch_ de entrega (_Release Branch_). Com isso, damos início ao próximo ciclo de entrega, ou seja, nenhuma nova funcionalidade pode ser incluída a partir desse momento. Quando estivermos prontos para realizar a entrega, o _Release Branch_ é mesclada com os _branches Master e Develop_. O _Maintenance Branches (Hotfix)_ são usados para corrigir rapidamente algum problema em produção. Este é o único _branch_ que deve ser criado a partir do _Master_. Assim que a correção for finalizada, o _branch_ é fechado e mesclado com o _Master e Develop_, mantendo assim as linhas completamente atualizadas (VIETRO, 2015).
 
 
-## Gerenciamento de Projeto
+## 3.3 Gerenciamento de Projeto
 
 O grupo decidiu por utilizar a metodologia Ágil, sendo escolhido o _Scrum_ como base para definição do processo de desenvolvimento do projeto.
 
-### Divisão de Papéis
+
+### 3.3.1 Divisão de Papéis
 
 A organização da equipe está apresentada conforme abaixo:
 
@@ -68,7 +69,7 @@ d) Equipe de _Design_
 - Pedro Henrique Trindade Silva
 
 
-### Processo
+### 3.3.2 Processo
 
 Na organização e na distribuição das tarefas do projeto, o grupo utiliza o aplicativo de gerenciamento de projetos denominado _Git Projects_, onde o mesmo está estruturado com as seguintes listas:
 
@@ -91,7 +92,7 @@ Fonte: _Git Projects_ - Elaborado pelos autores
 Para visualizá-lo adequadamente torna-se necessário se direcionar para a aba _Projects_, ou através do [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/95).
 
 
-## Controle de Versão
+## 3.4 Controle de Versão
 
 A hospedagem do repositório, definida pela faculdade, será no _GitHub_, sendo assumido para o controle de versão do projeto, a utilização do _Git_.
 
@@ -115,7 +116,7 @@ Figura 11 - _Labels_
 Fonte: Elaborado pelos Autores
 
 
-### Ferramentas
+## 3.5 Ferramentas
 
 As ferramentas aplicadas no projeto são:
 
