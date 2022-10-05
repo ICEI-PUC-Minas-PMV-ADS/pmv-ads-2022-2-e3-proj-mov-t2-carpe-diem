@@ -84,9 +84,9 @@ Quadro 2 - História de Usuários
 Fonte: Elaborado pelos autores
 
 
-## Modelagem do Processo de Negócio (Etapa 2)
+## Modelagem do Processo de Negócio
 
-### Análise da Situação Atual (Etapa 2)
+### Análise da Situação Atual
 
 Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
 
@@ -98,19 +98,34 @@ Apresente aqui uma descrição da sua proposta abordando seus limites e suas lig
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
 
+Figura 1 - (Nome)
+
 ![Processo 1](img/02-bpmn-proc-1.png)
+
+Fonte: Elaborado pelos autores
+
 
 ### Processo 2 – NOME DO PROCESSO (Etapa 2)
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 
+Figura 2 - (Nome)
+
 ![Processo 2](img/02-bpmn-proc-2.png)
+
+Fonte: Elaborado pelos autores
+
 
 ## Indicadores de Desempenho (Etapa 2)
 
+Quadro 3 - Indicadores
+
 ![Indicadores de Desempenho 1](img/02-indic-desemp-1.png)
 
+
 ![Indicadores de Desempenho 2](img/02-indic-desemp-2.png)
+
+Fonte: Elaborado pelos autores
 
 
 ## Requisitos
@@ -122,7 +137,7 @@ O propósito funcional do projeto é definido por meio dos requisitos funcionais
 
 Apresentamos a seguir os requisitos funcionais que o projeto deverá atender.
 
-Quadro 3 - Requisitos Funcionais
+Quadro 4 - Requisitos Funcionais
 
 |ID    | Descrição do Requisito                                                                                                                    | Prioridade |
 |------|-------------------------------------------------------------------------------------------------------------------------------------------|------------|
@@ -143,7 +158,7 @@ Fonte: Elaborado pelos autores
 
 Apresentamos a seguir os requisitos não funcionais que o projeto deverá atender.
 
-Quadro 4 - Requisitos Não Funcionais
+Quadro 5 - Requisitos Não Funcionais
 
 |ID     | Descrição do Requisito                                                                                               |Prioridade |
 |-------|----------------------------------------------------------------------------------------------------------------------|-----------|
@@ -162,7 +177,7 @@ Fonte: Elaborado pelos autores
 
 Apresentamos na tabela abaixo, tópicos consideráveis que limitam a execução do projeto e que se configuram como encargos necessários para seu desenvolvimento.
 
-Quadro 5 - Restrições
+Quadro 6 - Restrições
 
 |ID   | Restrição                                                                                                                |
 |-----|--------------------------------------------------------------------------------------------------------------------------|
@@ -184,14 +199,14 @@ Graficamente é representado com elementos como os atores, os casos de uso e seu
 
 Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema que será projetado.
 
-Figura 1 - Diagrama de Casos de Uso
+Figura 3 - Diagrama de Casos de Uso
 
 ![Eixo3 - CarpeDiem Mobile - Página 1](https://user-images.githubusercontent.com/89549220/188034330-d3188afb-fb81-4302-9e3b-79b65dcac2fd.png)
 
 Fonte: Elaborado pelos autores
 
 
-Quadro 6 - Casos de Uso
+Quadro 7 - Casos de Uso
 
 | ATOR         | DESCRIÇÃO                                                                      |
 |--------------|--------------------------------------------------------------------------------|
@@ -227,7 +242,7 @@ A matriz de rastreabilidade é uma ferramenta usada para explicitar a relação 
 
 Nossa matriz contempla todos os requisitos funcionais e não funcionais que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
-Figura 1 - Matriz de Rastreabilidade
+Figura 4 - Matriz de Rastreabilidade
 
 ![image](https://user-images.githubusercontent.com/89549220/187574295-8945403c-059f-44bf-a403-6783dcf9f57d.png)
 
@@ -248,7 +263,7 @@ Pensando nisso e na probabilidade de aumentar a chance de sucesso do projeto, no
 
 Pretendendo demonstrar uma visão geral das atividades e das relações entre elas, além de mostrar os prazos das atividades, nosso projeto está dividido em etapas com datas precisas de conclusão. Cada etapa não deverá extrapolar as datas determinadas no diagrama de rede simplificado:
 
-Figura 2 - Cronograma
+Figura 5 - Cronograma
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
@@ -256,7 +271,7 @@ Fonte: Elaborado pelos autores
 
 Para organização e distribuição das tarefas do projeto, o grupo utilizará o aplicativo de gerenciamento de projetos _Git Projects_, conforme figura ilustrativa abaixo.
 
-Figura 3 - _Git Projects_
+Figura 6 - _Git Projects_
 
 ![image](https://user-images.githubusercontent.com/89549220/189464942-bbd65bfe-27ea-4cd7-a240-71efaf3c8aa8.png)
 
@@ -271,7 +286,7 @@ Também conhecido como Gráfico de Gantt, é uma ferramenta visual utilizada par
 
 Nessa perspectiva, demonstamos abaixo o Diagrama de Gantt elaborado pela equipe, para o gerenciamento do tempo/cronograma, realizado com o auxílio do _software ProjectLibre_.
 
-Figura 4 - Diagrama de Gantt
+Figura 7 - Diagrama de Gantt
 
 ![Cronograma](img/cronograma.png)
 
@@ -313,7 +328,7 @@ A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do pr
 
 Para a elaboração da tabela de orçamento a seguir, foram considerados os custos em um período de 05 (cinco) meses, para a contratação de 05 (cinco) stakeholders, 05 (cinco) estações de trabalho, assinatura de plano de acesso à internet com IP fixo, licença de _software_ de desenvolvimento e da infraestrutura de um local físico.
 
-Figura 5 - Orçamento
+Figura 8 - Orçamento
 
 ![Orçamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem/blob/main/docs/img/OR%C3%87AMENTO%20RECURSOS.png)
 
