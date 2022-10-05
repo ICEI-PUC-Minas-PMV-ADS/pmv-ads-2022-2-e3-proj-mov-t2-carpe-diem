@@ -10,7 +10,7 @@ Em todos os artefatos produzidos no projeto, para melhor entendimento e padroniz
 
 Os artefatos do projeto são acompanhados e evoluídos com a ajuda de diferentes plataformas, cada qual com sua função específica. A combinação dos ambientes com suas respectivas finalidades é apresentada no quadro abaixo.
 
-Quadro 7 - Ambientes de Trabalho
+Quadro 8 - Ambientes de Trabalho
 
 | AMBIENTE | PLATAFORMA | LINK DE ACESSO |
 |----------|------------|----------------|
@@ -31,7 +31,7 @@ Pensando nesse contexto, o grupo optou por utilizar um processo fundamentado no�
 
 O _GitFlow_ é um _framework_ criado em 2010 e considerado um ótimo modelo de _branching_, além de ser usado para trabalhar em conjunto com o sistema de controle de versão _Git_ (VIETRO, 2015). Assim sendo, as manutenções do código serão efetuadas definindo-se os papéis de cada _branch_ em separado, como eles devem interagir entre si, e com a identificação de _Branch Master, Branch Develop, Feature Branch, Release Branch, Maintenance Branch (Hotfix)_.
 
-Figura 6 - _GitFlow Workflow_
+Figura 9 - _GitFlow Workflow_
 Modelo de Fluxo de Controle do Código Fonte no Repositório _Git_
 
 ![image](https://user-images.githubusercontent.com/89549220/189541206-16bbdc25-c85d-4188-b87d-62775f1694e4.png)
@@ -82,7 +82,7 @@ Na organização e na distribuição das tarefas do projeto, o grupo utiliza o a
 
 O quadro gerenciado pelo grupo no aplicativo _Git Projects_ está disponível através da URL especificada no Quadro 7 e é apresentado, em seu estado atual, congênere figura abaixo. A caracterização da estrutura montada se fundamentou no artigo escrito por Littlefield (2016), assim como nos conceitos de _Scrum_ de Schwaber e Sutherland (2020).
 
-Figura 7 - Tela do _Git Projects_ para Gerenciamento do Projeto
+Figura 10 - Tela do _Git Projects_ para Gerenciamento do Projeto
 
 ![image](https://user-images.githubusercontent.com/89549220/189545411-8a18a026-942a-4351-b070-023625461d2c.png)
 
@@ -108,7 +108,7 @@ A tarefas estão etiquetadas em função da natureza da atividade e seguem o esq
 - _Help Wanted_
 - _Code Review_
 
-Figura 8 - _Labels_
+Figura 11 - _Labels_
 
 ![image](https://user-images.githubusercontent.com/89549220/189545382-42e3f64f-2c34-402e-8c63-35058660181d.png)
 
