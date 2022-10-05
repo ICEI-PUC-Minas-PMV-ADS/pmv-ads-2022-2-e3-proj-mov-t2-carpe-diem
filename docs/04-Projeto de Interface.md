@@ -24,3 +24,32 @@ Conforme exposto no item "Diagrama de Fluxo", podemos visualizar as telas do pro
 
 Congênere _link_ abaixo, apresentamos o _Wireframe_ Interativo confecionado no Figma, cujo objetivo é detalhar a interatividade com a aplicação e facilitar os testes com os usuários.
 
+https://www.figma.com/proto/MLy9JYx8OgyEiwEaGnb4JB/CarpeDiem-Mobile-(Wireframe)?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2
+
+
+### _Wireframe_ Estático
+
+Com o objetivo de apresentar de forma estática as telas da aplicação criada pelo grupo, apresentamos o _print_ das mesmas, de acordo com as seções abaixo.
+
+#### Tela x
+
+escrever pequeno texto explicativo
+
+Figura x - Nome da Tela
+
+(inserir imagem)
+
+Fonte: Elaborado pelos autores
+
+
+#### Tela y
+
+escrever pequeno texto explicativo
+
+Figura y - Nome da Tela
+
+(inserir imagem)
+
+Fonte: Elaborado pelos autores
+
+(seguir padrão para todas as telas)
