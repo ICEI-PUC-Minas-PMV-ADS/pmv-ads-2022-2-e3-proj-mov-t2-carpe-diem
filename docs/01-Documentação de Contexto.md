@@ -1,4 +1,4 @@
-# Introdução
+# 1. Introdução
 
 A cada dia as pessoas tem preferido programar suas viagens de férias antecipadamente e com a maior comodidade, conforto e segurança possíveis.
 
@@ -11,14 +11,14 @@ O serviço de locação por temporada sempre foi uma oportunidade para quem proc
 Diante desse contexto, surge a necessidade de uma plataforma focada no serviço online de locação por temporada de imóveis nas regiões litorâneas, oferecendo não somente conforto, qualidade e segurança na disponibilização ou locação de um imóvel, mas também uma interação 100% digital, segura e automatizada.
 
 
-## Problema
+## 1.1 Problema
 
 Com a presença da internet se tornando essencial no dia a dia de todos, seja no auxílio aos estudos, no entretenimento em geral, bem como no oferecimento de serviços de estadia em hotéis, pousadas e/ou casas, nem todos os serviços disponíveis estão capacitados ou preocupados em aproximar/interagir com o público interessado em locação de imóveis no litoral brasileiro, de forma digital.
 
 Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade entre a cartela de imóveis oferecidos pela aplicação e o usuário, promovendo o acesso a um serviço _online_ de locação de imóveis por temporada, nas regiões litorâneas do Brasil.
 
 
-## Objetivos
+## 1.2 Objetivos
 
 Nosso projeto tem como objetivo central a criação de um _software_ que proporcione a disponibilização de acesso a uma cartela de imóveis mobiliados, disponíveis para locação de curta e média permanência, no litoral brasileiro, de forma 100% digital, segura e automatizada, para que o usuário interaja.
 
@@ -29,7 +29,7 @@ Como objetivos específicos, podemos citar:
 - Apresentar o perfil de acesso, para melhor trato e gestão do cadastro.
 
 
-## Justificativa
+## 1.3 Justificativa
 
 O que impulsionou a elaboração deste projeto foi entender que, em um mundo onde a tecnologia e a popularização da internet tem mudado constantemente a forma como as pessoas consomem, negociam e até tomam decisões, disponibilizar uma ferramenta online para locação de imóveis de curta e média permanência, que seja ágil, segura e de fácil acesso, vai ao encontro das necessidades atuais e pode trazer muitos benefícios para o usuário (GO BlogCredpago, 2021).
 
@@ -42,7 +42,7 @@ Também como consequência da mesma pandemia, segundo estudo realizado pela Brai
 Diante disso, uma aplicação online que faça a ligação entre a cartela de imóveis e o usuário torna-se de grande utilidade numa era onde características como agilidade, facilidade e segurança são tão valorizadas.
 
 
-## Público-Alvo
+## 1.4 Público-Alvo
 
 As pessoas trabalham por um longo período durante o ano e como uma forma de descansar e fugir da rotina elas buscam viajar durante as férias ou feriados prolongados. Essas viagens abrangem destinos tanto para o litoral quanto para pontos turísticos, que por sua vez possuem uma rede de imóveis que lhes oferece boas acomodações.
 
