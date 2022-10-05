@@ -1,9 +1,9 @@
-# Especificações do Projeto
+# 2. Especificações do Projeto
 
 A definição exata do problema e os pontos mais relevantes a serem tratados no projeto foi estabelecido com a participação dos usuários por meio de entrevista online com tópicos previamente estipulados. A partir dessa interação consolidamos os dados coletados na forma de personas e histórias de usuários.
 
 
-## Personas
+## 2.1 Personas
 
 As pessoas retratadas durante o processo de compreensão do problema são apresentadas nas figuras que seguem.
 
@@ -66,7 +66,7 @@ Quadro 1 - Personas
 Fonte: Elaborado pelos autores
 
 
-## Histórias de Usuários
+## 2.2 Histórias de Usuários
 
 Registramos as histórias de usuários no quadro abaixo, diante da informação coletada do dia a dia das personas identificadas para o projeto.Registramos as histórias de usuários no quadro abaixo, diante da informação coletada do dia a dia das personas identificadas para o projeto.
 
@@ -84,17 +84,17 @@ Quadro 2 - História de Usuários
 Fonte: Elaborado pelos autores
 
 
-## Modelagem do Processo de Negócio
+## 2.3 Modelagem do Processo de Negócio
 
-### Análise da Situação Atual
+### 2.3.1 Análise da Situação Atual
 
 Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
 
-### Descrição Geral da Proposta (Etapa 2)
+### 2.3.2 Descrição Geral da Proposta (Etapa 2)
 
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
-### Processo 1 – NOME DO PROCESSO (Etapa 2)
+### 2.3.3 Processo 1 – NOME DO PROCESSO (Etapa 2)
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
 
@@ -105,7 +105,7 @@ Figura 1 - (Nome)
 Fonte: Elaborado pelos autores
 
 
-### Processo 2 – NOME DO PROCESSO (Etapa 2)
+### 2.3.4 Processo 2 – NOME DO PROCESSO (Etapa 2)
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 
@@ -116,7 +116,7 @@ Figura 2 - (Nome)
 Fonte: Elaborado pelos autores
 
 
-## Indicadores de Desempenho (Etapa 2)
+## 2.4 Indicadores de Desempenho (Etapa 2)
 
 Quadro 3 - Indicadores
 
@@ -128,12 +128,12 @@ Quadro 3 - Indicadores
 Fonte: Elaborado pelos autores
 
 
-## Requisitos
+## 2.5 Requisitos
 
 O propósito funcional do projeto é definido por meio dos requisitos funcionais que descrevem ações que o sistema deve estar apto a executar, assim como os requisitos não funcionais que descrevem os atributos que o sistema deve possuir de maneira geral. Estes requisitos são relacionados nas tabelas a seguir.
 
 
-### Requisitos Funcionais
+### 2.5.1 Requisitos Funcionais
 
 Apresentamos a seguir os requisitos funcionais que o projeto deverá atender.
 
@@ -154,7 +154,7 @@ Quadro 4 - Requisitos Funcionais
 Fonte: Elaborado pelos autores
 
 
-### Requisitos não Funcionais
+### 2.5.2 Requisitos não Funcionais
 
 Apresentamos a seguir os requisitos não funcionais que o projeto deverá atender.
 
@@ -173,7 +173,7 @@ Quadro 5 - Requisitos Não Funcionais
 Fonte: Elaborado pelos autores
 
 
-## Restrições
+## 2.6 Restrições
 
 Apresentamos na tabela abaixo, tópicos consideráveis que limitam a execução do projeto e que se configuram como encargos necessários para seu desenvolvimento.
 
@@ -191,7 +191,7 @@ Quadro 6 - Restrições
 Fonte: Elaborado pelos autores
 
 
-## Diagrama de Casos de Uso
+## 2.7 Diagrama de Casos de Uso
 
 O diagrama de caso de uso, comumente oriundo da especificação dos requisitos funcionais do sistema, descreve as principais funcionalidades do sistema que será projetado pelo grupo e sua interação com os possíveis usuários (DevMedia, 2022). Segundo Ivar Jacobson, podemos dizer que um caso de uso é um "documento narrativo que descreve a sequência de eventos de um ator que usa um sistema para completar um processo" (Wikipédia, 2020).
 
@@ -236,7 +236,7 @@ Quadro 7 - Casos de Uso
 Fonte: Elaborado pelos autores
 
 
-# Matriz de Rastreabilidade
+## 2.8 Matriz de Rastreabilidade
 
 A matriz de rastreabilidade é uma ferramenta usada para explicitar a relação e para facilitar a visualização desse relacionamento direto dos requisitos entre si ou com outros artefatos ou componentes do projeto. Com ela tonrna-se possível rastrear a origem dos requisitos, os elos que os ligam com outros elementos, encontrar inconsistências e garantir que os diferentes níveis do projeto estejam alinhados entre si (ESPINHA, 2022).
 
@@ -252,14 +252,14 @@ Fonte: Elaborado pelos autores
 Veja [aqui](https://docs.google.com/spreadsheets/d/1MyE8Zmx_8N57_9V7qry-D7qlmqnQPI8S/edit#gid=724734350) nossa Matriz de Rastreabilidade de Requisitos completa.
 
 
-# Gerenciamento de Projeto
+## 2.9 Gerenciamento de Projeto
 
 Segundo Espinha (2022), o gerenciamento de projetos é um conjunto de práticas utilizadas para perfazer o planejamento, a execução, o monitoramento e o controle dos projetos de uma organização. E gerenciar de forma eficiente facilita a comunicação e a coordenação da equipe, além de permitir um maior entendimento sobre os indicadores de desempenho.
 
 Pensando nisso e na probabilidade de aumentar a chance de sucesso do projeto, nosso trabalho procura utilizar ferramentas e técnicas comprovadamente eficientes no gerenciamento de um projeto.
 
 
-## Gerenciamento de Tempo / Cronograma
+## 2.10 Gerenciamento de Tempo / Cronograma
 
 Pretendendo demonstrar uma visão geral das atividades e das relações entre elas, além de mostrar os prazos das atividades, nosso projeto está dividido em etapas com datas precisas de conclusão. Cada etapa não deverá extrapolar as datas determinadas no diagrama de rede simplificado:
 
@@ -280,7 +280,7 @@ Fonte: Elaborado pelos autores
 Para visualizá-lo adequadamente torna-se necessário se direcionar para a aba _Projects_, ou através do [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/95).
 
 
-### Diagrama de Gantt
+### 2.10.1 Diagrama de Gantt
 
 Também conhecido como Gráfico de Gantt, é uma ferramenta visual utilizada para controlar o cronograma de um projeto, ajudando a avaliar os prazos de entrega e os recursos críticos, mostrando um painel com as tarefas que precisam ser realizadas, a relação de precedência entre elas, quando as tarefas serão iniciadas, sua duração, o responsável e a previsão de término (LEÃO, 2022).
 
@@ -297,7 +297,7 @@ Fonte: Elaborado pelos autores (Software ProjectLibre)
 Veja [aqui](cronograma/cronogramaCarpeDiem.pod) nosso cronograma completo. É possível baixá-lo e visualizá-lo utilizando o _software ProjectLibre_.
 
 
-## Gerenciamento de Equipe
+## 2.11 Gerenciamento de Equipe
 
 O gerenciamento de uma equipe aborda várias estratégias, dentre elas reduzir conflitos, melhorar os indicadores, engajar/motivar a equipe, otimizar valores, conceder _feedbacks_, entre outras, mas todas em busca do principal objetivo: atingir o propósito apresentado no projeto.
 
@@ -322,7 +322,7 @@ d) Equipe de _Design_
   -	Pedro Henrique Trindade Silva
 
 
-## Gestão de Orçamento
+## 2.12 Gestão de Orçamento
 
 A gestão financeira de um projeto ajuda a estimar os gastos e orçamentos do projeto. De acordo com Dias (2020), é de extrema importância que o cronograma esteja alinhado com o planejamento dos custos do projeto, com a finalidade de que os imprevistos sejam minimizados ao longo de sua execução, conforme o Guia de referência PMBoK.
 
