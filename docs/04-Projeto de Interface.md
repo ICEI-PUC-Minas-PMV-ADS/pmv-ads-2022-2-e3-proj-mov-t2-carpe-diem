@@ -10,7 +10,8 @@ Descrevemos no diagrama apresentado na figura abaixo o fluxo de interação do u
 
 Figura 12 - Diagrama de Fluxo
 
-(Nayara inserir diagrama)
+<img width="811" alt="DIAGRAMA_DE_FLUXO_-_EIXO_3" src="https://user-images.githubusercontent.com/91228798/193960824-818cd781-4484-4384-a352-7757b8ad07e8.png">
+
 
 Fonte: Elaborado pelos autores
 
