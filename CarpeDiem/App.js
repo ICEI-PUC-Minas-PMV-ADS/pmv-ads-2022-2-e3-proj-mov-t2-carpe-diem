@@ -33,6 +33,13 @@ export default function App() {
           style={{ display: "block" }}
         />
       </View>
+
+      <View style={styles.containerLogo}>
+        <Image
+          source={require("./src/assets/logo.png")}
+          style={{ width: 100, height: 100 }}
+        />
+      </View>
     </KeyboardAvoidingView>
   );
 }
@@ -43,6 +50,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#F1ECE9",
+  },
+  containerLogo: {
+    flex: 1,
+    alignItems: "center",
   },
   socialMediaIcons: {
     paddingVertical: 15,
