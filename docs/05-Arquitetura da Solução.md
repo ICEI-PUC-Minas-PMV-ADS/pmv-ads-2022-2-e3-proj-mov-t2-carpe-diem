@@ -100,24 +100,24 @@ Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como
 No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
 
 A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+Com base nessas características e nas respectivas sub-características, identificamos as sub-características que utilizararemos como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade.
 
 
 ### 5.8.1 Métricas de Qualidade de _Software_
 
 Quadro 9 - Métricas de Qualidade
 
-| CARACTERÍSTICA DE QUALIDADE | SUBCARACTERÍSTICAS DE QUALIDADE ESCOLHIDAS |     JUSTIFICATIVA     | 
-|-----------------------------|--------------------------------------------|-----------------------|
-| Funcionalidade              | Acurácia; Segurança de Acesso              | Verificar se as funcionalidades estão de acordo com os requisitos levantados e a capacidade do _software_ de evitar o acesso não autorizado a dados | 
-| Confiabilidade              | Maturidade; Recuperabilidade               | Verificar a capacidade do software em manter seu nível de desempenho | 
-| Usabilidade                 | Inteligibilidade; Apreensibilidade         | Pensar em usabilidade é fundamental para medir o esforço do usuário em utilizar o _software_ | 
-| Eficiência                  | Comportamento em relação ao tempo          | Avaliar o relacionamento entre o nível de desempenho do _software_ e a quantidade de recursos utilizada , sob condições estabelecidas  |
-| Manutenibilidade            | Analisibilidade; Testabilidade             | Validar o _software_ e avaliar o risco de efeitos inesperados ocasionados por modificações |
-| Portabilidade               | Adaptabilidade; Capacidade de instalação   | Testar a facilidade de instalação e a capacidade do _software_ em ser transferido de um ambiente para outro | 
+| CARACTERÍSTICA DE QUALIDADE | SUB-CARACTERÍSTICAS DE QUALIDADE ESCOLHIDAS |     JUSTIFICATIVA     | 
+|-----------------------------|---------------------------------------------|-----------------------|
+| Funcionalidade              | Acurácia; Segurança de Acesso               | Verificar se as funcionalidades estão de acordo com os requisitos levantados e a capacidade do _software_ de evitar o acesso não autorizado a dados | 
+| Confiabilidade              | Maturidade; Recuperabilidade                | Verificar a capacidade do software em manter seu nível de desempenho | 
+| Usabilidade                 | Inteligibilidade; Apreensibilidade          | Pensar em usabilidade é fundamental para medir o esforço do usuário em utilizar o _software_ | 
+| Eficiência                  | Comportamento em relação ao tempo           | Avaliar o relacionamento entre o nível de desempenho do _software_ e a quantidade de recursos utilizada , sob condições estabelecidas  |
+| Manutenibilidade            | Analisibilidade; Testabilidade              | Validar o _software_ e avaliar o risco de efeitos inesperados ocasionados por modificações |
+| Portabilidade               | Adaptabilidade; Capacidade de instalação    | Testar a facilidade de instalação e a capacidade do _software_ em ser transferido de um ambiente para outro | 
 
 
-| SUBCARACTERÍSTICA                 | MÉTRICAS DE QUALIDADE DE _SOFTWARE_                                                   | PESO |
+| SUB-CARACTERÍSTICA                | MÉTRICAS DE QUALIDADE DE _SOFTWARE_                                                   | PESO |
 |-----------------------------------|---------------------------------------------------------------------------------------|------|
 | Acurácia                          | O _software_ gera resultados corretos e precisos para cada funcionalidade proposta?   | Alto |
 | Acurácia                          | O _software_ é capaz de executar completamente todas as funções propostas?            | Alto |
