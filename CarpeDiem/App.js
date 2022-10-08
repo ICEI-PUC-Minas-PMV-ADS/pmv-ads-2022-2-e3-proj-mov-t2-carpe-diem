@@ -86,6 +86,10 @@ export default function App() {
         <TouchableOpacity style={styles.btnEsqueceuSenha}>
           <Text style={styles.esqueceuSenhaText}>Esqueceu a senha?</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity style={styles.btnEntrar}>
+          <Text style={styles.entrarText}>ENTRAR</Text>
+        </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>
   );
@@ -117,6 +121,21 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 7,
     fontFamily: "Quicksand",
+  },
+  btnEntrar: {
+    backgroundColor: "#6FDDE3",
+    width: "90%",
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 15,
+    fontSize: 17,
+    borderRadius: 20,
+    padding: 7,
+    height: 45,
+  },
+  entrarText: {
+    fontWeight: "700",
+    fontSize: 16,
   },
   btnEsqueceuSenha: {
     alignItems: "center",
