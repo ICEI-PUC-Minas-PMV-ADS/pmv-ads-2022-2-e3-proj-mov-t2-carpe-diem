@@ -1,11 +1,11 @@
-# 6. _TEMPLATE_ PADRÃO DA APLICAÇÃO
+# 6. _Template_ Padrão da Aplicação
 
 _Layout_ padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade, tipografia e iconografia.
 
 Para melhor visualização, acesse: https://fabipalhano.github.io/carpe-diem-guide-style/
 
 
-## 6.1 _LAYOUT_ DA APLICAÇÃO
+## 6.1 _Layout_ da Aplicação
 
 Visando determinar e padronizar a disposição dos vários elementos e seções da aplicação, o _layout_ será apresentado conforme demonstrado a seguir.
 
@@ -20,7 +20,7 @@ Figura 28 - _Layout_
 Fonte: Cellbiol (2022)
 
 
-## 6.2 CORES DA APLICAÇÃO
+## 6.2 Cores da Aplicação
 
 ### 6.2.1 Cores da Logo
 
@@ -49,7 +49,7 @@ Figura 31 - Cores Neutras
 Fonte: Elaborado pelos autores
 
 
-## 6.3 SIGNIFICADOS DAS CORES
+## 6.3 Significados das Cores
 
 **AZUL**<br>
 Bastante utilizada em conteúdos corporativos por transmitir credibilidade, segundo Assis (2019), também pode ser considerada uma opção conservadora. Por ser uma cor classificada como fria, pode trazer sensações de frescor. Para Significados.com.br (2022), a cor azul está relacionada com a nobreza e costuma ser usada para transmitir harmonia, tranquilidade e serenidade.
@@ -76,7 +76,7 @@ Representa a paz, a purificação, a inocência e a clareza. Também é reconhec
 A cor preta é o resultado da absorção de todas as radiações do espectro solar. Esta cor é considerada uma cor sofisticada e elegante (Significados.com.br, 2022).
 
 
-## 6.4 TIPOGRAFIA
+## 6.4 Tipografia
 
 Fonte Quicksand - https://fonts.google.com/specimen/Quicksand#standard-styles
 
@@ -93,7 +93,7 @@ Style Regular / **Style Bold**
 ![font size2-1](https://user-images.githubusercontent.com/89549220/194722709-1e6017de-bef1-494b-b4f2-9d3ce8c94ad2.png)
 
 
-## 6.5 ICONOGRAFIA
+## 6.5 Iconografia
 
 - Padronizados através do pacote de ícones de interface, baseados em vetores no formato SVG;
 - Style Regular;
@@ -115,7 +115,7 @@ Style Regular / **Style Bold**
 ![iconografia5](https://user-images.githubusercontent.com/89549220/194722892-7cf3f873-b715-4e93-a8a1-c8b1108828bd.png)
 
 
-## 6.6 _TEMPLATE_ DA APLICAÇÃO
+## 6.6 _Template_ da Aplicação
 
 O _template_ das telas da aplicação criada até o momento contém os seguintes _layouts_:
 
