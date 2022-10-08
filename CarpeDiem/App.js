@@ -67,6 +67,22 @@ export default function App() {
       <View style={styles.linhaSeparadora}>
         <LinhaSeparadora color="black" />
       </View>
+
+      <View style={styles.containerTextInput}>
+        <TextInput
+          style={styles.textInput}
+          placeholder="Email"
+          autocorrect={false}
+          onChangeText={() => {}}
+        ></TextInput>
+
+        <TextInput
+          style={styles.textInput}
+          placeholder="Senha"
+          autocorrect={false}
+          onChangeText={() => {}}
+        ></TextInput>
+      </View>
     </KeyboardAvoidingView>
   );
 }
@@ -81,6 +97,22 @@ const styles = StyleSheet.create({
   containerLogo: {
     flex: 1,
     alignItems: "center",
+  },
+  containerTextInput: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    width: "90%",
+  },
+  textInput: {
+    backgroundColor: "#FBCB2B",
+    width: "90%",
+    marginBottom: 15,
+    color: "#222",
+    fontSize: 17,
+    borderRadius: 20,
+    padding: 7,
+    fontFamily: "Quicksand",
   },
   socialMediaIcons: {
     paddingVertical: 15,
