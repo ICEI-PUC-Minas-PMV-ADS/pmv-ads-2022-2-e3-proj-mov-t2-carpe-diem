@@ -82,6 +82,10 @@ export default function App() {
           autocorrect={false}
           onChangeText={() => {}}
         ></TextInput>
+
+        <TouchableOpacity style={styles.btnEsqueceuSenha}>
+          <Text style={styles.esqueceuSenhaText}>Esqueceu a senha?</Text>
+        </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>
   );
@@ -114,6 +118,16 @@ const styles = StyleSheet.create({
     padding: 7,
     fontFamily: "Quicksand",
   },
+  btnEsqueceuSenha: {
+    alignItems: "center",
+    justifyContent: "center",
+    width: "170px",
+    height: "50px",
+    padding: 7,
+  },
+  esqueceuSenhaText: {
+    fontSize: 10,
+  },
   socialMediaIcons: {
     paddingVertical: 15,
     paddingHorizontal: 10,
@@ -142,8 +156,7 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     fontSize: 36,
   },
-  bemvindoSubText: {socialMediaIcons
-  },
+  bemvindoSubText: { socialMediaIcons },
   linhaSeparadora: {
     paddingVertical: 15,
     paddingHorizontal: 10,
