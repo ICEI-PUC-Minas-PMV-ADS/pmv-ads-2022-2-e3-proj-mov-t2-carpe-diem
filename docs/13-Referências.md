@@ -30,6 +30,8 @@ LEÃO, Thiago. **Gráfico de Gantt: o que é, como funciona e como montar o seu*
 
 LITTLEFIELD, Andrew. **Guia da Metodologia Ágil e Scrum para Iniciantes**. Outubro de 2016. Disponível em: <https://blog.trello.com/br/scrum-metodologia-agil>. Acessado em 12/03/2022.
 
+RABELLO, Guilherme. **Descubra quais são os indicadores de performance mais utilizados**. Julho de 2022. Disponível em: <https://www.siteware.com.br/metodologias/quais-sao-indicadores-de-performance/>. Acessado em 08/10/2022.
+
 SCHWABER, Ken e SUTHERLAND, Jeff. **O Guia do Scrum. O Guia Definitivo para o Scrum: As Regras do Jogo**. Novembro de 2020. Disponível em: <https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-2.0.pdf>. Acessado em 12/03/2022.
 
 Significados.com.br. **Cores e seus significados**. Disponível em: <https://www.significados.com.br/cores-2/>. Acessado em 24/04/2022.
