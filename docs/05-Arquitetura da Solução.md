@@ -49,14 +49,13 @@ Fonte: Elaborado pelos autores
 
 A arquitetura da solução concretizada conta com os seguintes módulos:
 
-- Navegador - Interface básica do sistema (adaptar)
-   * Páginas Web - Conjunto de arquivos JavaScript, Bootstrap e imagens que efetivam as funcionalidades do sistema.
+- Navegador - Interface básica do sistema
+   * Native App - Conjunto de arquivos JavaScript, React Native, Expo e imagens que efetivam as funcionalidades do sistema.
 - Hospedagem - local na Internet onde as páginas serão mantidas e conectadas pelo navegador. 
-   * Plataforma Azure
+   * Plataforma Azure, Deploy no Expo, Google Play Store e Apple Play Store (será definido pelo grupo).
 - Local Storage - armazenamento mantido no Navegador, onde são empreendidos bancos de dados baseados no JSON (JavaScript Object Notation).  
-   * Dados do Hóspede
+   * Dados do Usuário
    * Dados do Cadastro do Imóvel
-   * Dados da Reserva do Imóvel
 
 
 ## 5.5 Modelo Físico
@@ -70,7 +69,7 @@ Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, 
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
-- Linguagens e _frameworks_ utilizadas para desenvolver o projeto: JavaScript
+- Linguagens e _frameworks_ utilizadas para desenvolver o projeto: JavaScript, Expo
 - IDEs de desenvolvimento: Visual Studio Code e Expo
 - Plataforma para hospedagem do site: Expo
 - Plataforma para hospedagem dos arquivos: _GitHub e Google Drive_
