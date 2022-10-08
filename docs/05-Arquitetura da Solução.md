@@ -96,8 +96,40 @@ No contexto de desenvolvimento de software, qualidade pode ser entendida como um
 A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
 Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
 
-> **Links Úteis**:
->
-> - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+MÉTRICAS DE QUALIDADE DE SOFTWARE
+
+| Característica de qualidade | Subcaracteristicas de qualidade escolhidas |     Justificativa     | 
+|-----------------------------|--------------------------------------------|-----------------------|
+| Funcionalidade | Acurácia; Segurança de Acesso | Verificar se as funcionalidades estão de acordo com os requisitos levantados e a capacidade do software de evitar o acesso não autorizado a dados | 
+| Confiabilidade | Maturidade; Recuperabilidade | Verificar a capacidade do software em manter seu nível de desempenho | 
+| Usabilidade | Inteligibilidade; Apreensibilidade | Pensar em usabilidade é fundamental para medir o esforço do usuário em utilizar o software | 
+| Eficiência | Comportamento em relação ao tempo | Avaliar o relacionamento entre o nível de desempenho do software e a quantidade de recursos utilizada , sob condições estabelecidas  |
+| Manutenibilidade | Analisibilidade; Testabilidade | Validar o software e avaliar o risco de efeitos inesperados ocasionados por modificações |
+| Portabilidade | Adaptabilidade; Capacidade de instalação | Testar a facilidade de instalação e a capacidade do software em ser transferido de um ambiente para outro | 
+
+
+
+| Subcaracterística  |                      Métricas  de Qualidade de Software               |  Peso  |
+|--------------------|-----------------------------------------------------------------------|--------|
+| Acurácia | O software gera resultados corretos e precisos para cada funcionalidade proposta? | Alto
+| Acurácia | O software é capaz de executar completamente todas as funções propostas? | Alto |
+| Segurança de Acesso | Os dados coletados no cadastro estão armazenados de forma segura?  | Alto |
+| Segurança de Acesso | O software possui etapas de autorização e autenticação no momento do acesso?  | Alto |
+| Maturidade | O software apresenta falhas? | Alto |
+| Maturidade | Qual a frequência entre as falhas? | Alto |
+| Recuperabilidade | O software consegue recuperar os dados após as falhas? | Alto |
+| Recuperabilidade | Qual o tempo de recuperação da sessão em casos de falhas? | Alto |
+| Inteligibilidade | O software consegue transmitir os objetivos propostos? | Alto |
+| Inteligibilidade | O usuário consegue reconhecer a lógica de funcionamento do software? | Alto |
+| Apreensibilidade | O software apresenta telas que são de uso intuitivo? | Alto |
+| Apreensibilidade | O software apresenta funcionalidades que são compreendidas facilmente? | Alto |
+| Comportamento em relação ao tempo | O software apresenta tempo de resposta esperado em troca de telas? | Alto |
+| Comportamento em relação ao tempo | O software apresenta velocidade na execução e no processamento de suas funções? | Alto |
+| Analisibilidade | O Software está bem documentado? | Alto |
+| Analisibilidade | Para realizar manutenções é necessário muito esforço ao analisar o código? | Alto |
+| Testabilidade | O software pode ser testado após modificações?| Alto |
+| Testabilidade | O software possui registro de testes antes de atualizações? | Alto |
+| Adaptabilidade | O software é capaz de executar todas as suas funções em dispositivos Android e IOS?  | Alto |
+| Capacidade de instalação | O software pode ser instalado de maneira rápida e intuitiva? | Alto |
+
+Fonte: Elaborado pelos autores
