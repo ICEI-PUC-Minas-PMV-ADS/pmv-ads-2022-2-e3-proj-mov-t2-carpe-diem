@@ -5,14 +5,20 @@ A arquitetura de solução apresenta como o software é estruturado em termos do
 
 ## 5.1 Diagrama de Classes
 
-(perguntar professor)
+O diagrama de classes ilustra esquematicamente como será a estrutura do software e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+
+Figura 25 - Diagrama de Classes
+
+![Diagrama de Classes - Mobile](https://user-images.githubusercontent.com/89549220/194717860-20514f20-3dca-4baf-8842-45a32d72c7e5.png)
+
+Fonte: Elaborado pelos autores
 
 
 ## 5.2 Modelo ER
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa. Segue abaixo a representação do Modelo ER:
 
-Figura x - Modelo ER
+Figura 26 - Modelo ER
 
 ![Modelo ER](img/MER.png)
 
@@ -23,7 +29,7 @@ Fonte: Elaborado pelos autores.
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária. Segue abaixo a representação do Esquema Relacional:
 
-Figura y - Esquema Relacional
+Figura 27 - Esquema Relacional
 
 ![Esquema Relacional_Mobile](https://user-images.githubusercontent.com/89549220/193962871-3369ea16-d256-4983-9f37-49826326c30d.png)
 
@@ -34,7 +40,7 @@ Fonte: Elaborado pelos autores
 
 Compreendemos nessa seção os componentes que fazem parte da arquitetura da solução, consoante figura adiante.
 
-Figura z - Arquitetura da Solução
+Figura 28 - Arquitetura da Solução
 
 (inserir imagem)
 
@@ -96,40 +102,42 @@ No contexto de desenvolvimento de software, qualidade pode ser entendida como um
 A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
 Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
 
-MÉTRICAS DE QUALIDADE DE SOFTWARE
 
-| Característica de qualidade | Subcaracteristicas de qualidade escolhidas |     Justificativa     | 
+### 5.8.1 Métricas de Qualidade de _Software_
+
+Quadro 9 - Métricas de Qualidade
+
+| CARACTERÍSTICA DE QUALIDADE | SUBCARACTERÍSTICAS DE QUALIDADE ESCOLHIDAS |     JUSTIFICATIVA     | 
 |-----------------------------|--------------------------------------------|-----------------------|
-| Funcionalidade | Acurácia; Segurança de Acesso | Verificar se as funcionalidades estão de acordo com os requisitos levantados e a capacidade do software de evitar o acesso não autorizado a dados | 
-| Confiabilidade | Maturidade; Recuperabilidade | Verificar a capacidade do software em manter seu nível de desempenho | 
-| Usabilidade | Inteligibilidade; Apreensibilidade | Pensar em usabilidade é fundamental para medir o esforço do usuário em utilizar o software | 
-| Eficiência | Comportamento em relação ao tempo | Avaliar o relacionamento entre o nível de desempenho do software e a quantidade de recursos utilizada , sob condições estabelecidas  |
-| Manutenibilidade | Analisibilidade; Testabilidade | Validar o software e avaliar o risco de efeitos inesperados ocasionados por modificações |
-| Portabilidade | Adaptabilidade; Capacidade de instalação | Testar a facilidade de instalação e a capacidade do software em ser transferido de um ambiente para outro | 
+| Funcionalidade              | Acurácia; Segurança de Acesso              | Verificar se as funcionalidades estão de acordo com os requisitos levantados e a capacidade do _software_ de evitar o acesso não autorizado a dados | 
+| Confiabilidade              | Maturidade; Recuperabilidade               | Verificar a capacidade do software em manter seu nível de desempenho | 
+| Usabilidade                 | Inteligibilidade; Apreensibilidade         | Pensar em usabilidade é fundamental para medir o esforço do usuário em utilizar o _software_ | 
+| Eficiência                  | Comportamento em relação ao tempo          | Avaliar o relacionamento entre o nível de desempenho do _software_ e a quantidade de recursos utilizada , sob condições estabelecidas  |
+| Manutenibilidade            | Analisibilidade; Testabilidade             | Validar o _software_ e avaliar o risco de efeitos inesperados ocasionados por modificações |
+| Portabilidade               | Adaptabilidade; Capacidade de instalação   | Testar a facilidade de instalação e a capacidade do _software_ em ser transferido de um ambiente para outro | 
 
 
-
-| Subcaracterística  |                      Métricas  de Qualidade de Software               |  Peso  |
-|--------------------|-----------------------------------------------------------------------|--------|
-| Acurácia | O software gera resultados corretos e precisos para cada funcionalidade proposta? | Alto
-| Acurácia | O software é capaz de executar completamente todas as funções propostas? | Alto |
-| Segurança de Acesso | Os dados coletados no cadastro estão armazenados de forma segura?  | Alto |
-| Segurança de Acesso | O software possui etapas de autorização e autenticação no momento do acesso?  | Alto |
-| Maturidade | O software apresenta falhas? | Alto |
-| Maturidade | Qual a frequência entre as falhas? | Alto |
-| Recuperabilidade | O software consegue recuperar os dados após as falhas? | Alto |
-| Recuperabilidade | Qual o tempo de recuperação da sessão em casos de falhas? | Alto |
-| Inteligibilidade | O software consegue transmitir os objetivos propostos? | Alto |
-| Inteligibilidade | O usuário consegue reconhecer a lógica de funcionamento do software? | Alto |
-| Apreensibilidade | O software apresenta telas que são de uso intuitivo? | Alto |
-| Apreensibilidade | O software apresenta funcionalidades que são compreendidas facilmente? | Alto |
-| Comportamento em relação ao tempo | O software apresenta tempo de resposta esperado em troca de telas? | Alto |
-| Comportamento em relação ao tempo | O software apresenta velocidade na execução e no processamento de suas funções? | Alto |
-| Analisibilidade | O Software está bem documentado? | Alto |
-| Analisibilidade | Para realizar manutenções é necessário muito esforço ao analisar o código? | Alto |
-| Testabilidade | O software pode ser testado após modificações?| Alto |
-| Testabilidade | O software possui registro de testes antes de atualizações? | Alto |
-| Adaptabilidade | O software é capaz de executar todas as suas funções em dispositivos Android e IOS?  | Alto |
-| Capacidade de instalação | O software pode ser instalado de maneira rápida e intuitiva? | Alto |
+| SUBCARACTERÍSTICA                 | MÉTRICAS DE QUALIDADE DE _SOFTWARE_                                                   | PESO |
+|-----------------------------------|---------------------------------------------------------------------------------------|------|
+| Acurácia                          | O _software_ gera resultados corretos e precisos para cada funcionalidade proposta?   | Alto |
+| Acurácia                          | O _software_ é capaz de executar completamente todas as funções propostas?            | Alto |
+| Segurança de Acesso               | Os dados coletados no cadastro estão armazenados de forma segura?                     | Alto |
+| Segurança de Acesso               | O _software_ possui etapas de autorização e autenticação no momento do acesso?        | Alto |
+| Maturidade                        | O _software_ apresenta falhas?                                                        | Alto |
+| Maturidade                        | Qual a frequência entre as falhas?                                                    | Alto |
+| Recuperabilidade                  | O _software_ consegue recuperar os dados após as falhas?                              | Alto |
+| Recuperabilidade                  | Qual o tempo de recuperação da sessão em casos de falhas?                             | Alto |
+| Inteligibilidade                  | O _software_ consegue transmitir os objetivos propostos?                              | Alto |
+| Inteligibilidade                  | O usuário consegue reconhecer a lógica de funcionamento do _software_?                | Alto |
+| Apreensibilidade                  | O _software_ apresenta telas que são de uso intuitivo?                                | Alto |
+| Apreensibilidade                  | O _software_ apresenta funcionalidades que são compreendidas facilmente?              | Alto |
+| Comportamento em relação ao tempo | O _software_ apresenta tempo de resposta esperado em troca de telas?                  | Alto |
+| Comportamento em relação ao tempo | O _software_ apresenta velocidade na execução e no processamento de suas funções?     | Alto |
+| Analisibilidade                   | O _software_ está bem documentado?                                                    | Alto |
+| Analisibilidade                   | Para realizar manutenções é necessário muito esforço ao analisar o código?            | Alto |
+| Testabilidade                     | O _software_ pode ser testado após modificações?                                      | Alto |
+| Testabilidade                     | O _software_ possui registro de testes antes de atualizações?                         | Alto |
+| Adaptabilidade                    | O _software_ é capaz de executar todas as suas funções em dispositivos Android e IOS? | Alto |
+| Capacidade de instalação          | O _software_ pode ser instalado de maneira rápida e intuitiva?                        | Alto |
 
 Fonte: Elaborado pelos autores
