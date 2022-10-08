@@ -17,7 +17,7 @@ Quadro 8 - Ambientes de Trabalho
 |Repositório de Código Fonte | _GitHub_ | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem |
 |Documento do Projeto | _GitHub Docs_ | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem/tree/main/docs |
 |Documento e Imagens do Projeto | _Google Drive_ | https://drive.google.com/drive/folders/1G8_-1YddGMTzaDmhfjCvY4k_b3dFiXZA |
-|Projeto de Interface e _Wireframes_ | _Figma_ | https://www.figma.com/proto/MLy9JYx8OgyEiwEaGnb4JB/CarpeDiem-Mobile-(Wireframe)?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2 |
+|Projeto de Interface e _Wireframes_ | _Figma_ | Projeto <br> https://www.figma.com/file/MLy9JYx8OgyEiwEaGnb4JB/CarpeDiem-Mobile-(Wireframe)?node-id=8%3A101 <br> Wireframe Interativo <br> https://www.figma.com/proto/MLy9JYx8OgyEiwEaGnb4JB/CarpeDiem-Mobile-(Wireframe)?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2 |
 |Gerenciamento do Projeto | _Git Projects_ | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/95 |
 
 Fonte: Elaborado pelos autores
