@@ -63,6 +63,10 @@ export default function App() {
           />
         </View>
       </View>
+
+      <View style={styles.linhaSeparadora}>
+        <LinhaSeparadora color="black" />
+      </View>
     </KeyboardAvoidingView>
   );
 }
@@ -108,4 +112,16 @@ const styles = StyleSheet.create({
   },
   bemvindoSubText: {socialMediaIcons
   },
+  linhaSeparadora: {
+    paddingVertical: 15,
+    paddingHorizontal: 10,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "right",
+    bottom: "1%",
+  },
 });
+
+const LinhaSeparadora = ({ color }) => (
+  <hr style={{ width: "400px", height: "0px", left: "202px", top: "320px" }} />
+);
