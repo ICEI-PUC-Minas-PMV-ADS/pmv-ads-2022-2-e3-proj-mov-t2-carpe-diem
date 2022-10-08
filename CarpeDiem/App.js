@@ -1,9 +1,9 @@
 import React from "react";
 import * as AkarIcons from "akar-icons";
-import * as CarbonIcons from '@carbon/icons-react';
-import * as TablerIcons from 'tabler-icons-react';
-import * as AntDesignIcons from '@ant-design/icons';
-import * as IconoirIcons from 'iconoir-react';
+import * as CarbonIcons from "@carbon/icons-react";
+import * as TablerIcons from "tabler-icons-react";
+import * as AntDesignIcons from "@ant-design/icons";
+import * as IconoirIcons from "iconoir-react";
 import {
   View,
   KeyboardAvoidingView,
@@ -107,36 +107,51 @@ export default function App() {
       </View>
 
       <View style={styles.footerIcons}>
-        <TablerIcons.Home
-          color="#2C9196"
-          strokeWidth={2}
-          size={20}
-          style={{ display: "inline" }}
-        />
-        <CarbonIcons.UserServiceDesk
-          color="#2C9196"
-          strokeWidth={2}
-          size={20}
-          style={{ display: "inline" }}
-        />
-        <CarbonIcons.Information
-          color="#2C9196"
-          strokeWidth={2}
-          size={20}
-          style={{ display: "inline" }}
-        />
-        <IconoirIcons.AddUser
-          color="#2C9196"
-          strokeWidth={2}
-          size={20}
-          style={{ display: "inline" }}
-        />
-        <IconoirIcons.ProfileCircled
-          color="#2C9196"
-          strokeWidth={2}
-          size={20}
-          style={{ display: "inline" }}
-        />
+        <View>
+          <TablerIcons.Home
+            color="#2C9196"
+            strokeWidth={2}
+            size={20}
+            style={{ display: "inline" }}
+          />
+          <Text style={styles.footerText}>Busque por um imóvel</Text>
+        </View>
+        <View>
+          <CarbonIcons.UserServiceDesk
+            color="#2C9196"
+            strokeWidth={2}
+            size={20}
+            style={{ display: "inline" }}
+          />
+          <Text style={styles.footerText}>Fale conosco</Text>
+        </View>
+        <View>
+          <CarbonIcons.Information
+            color="#2C9196"
+            strokeWidth={2}
+            size={20}
+            style={{ display: "inline" }}
+          />
+          <Text style={styles.footerText}>Políticas e Condições de Uso</Text>
+        </View>
+        <View>
+          <IconoirIcons.AddUser
+            color="#2C9196"
+            strokeWidth={2}
+            size={20}
+            style={{ display: "inline" }}
+          />
+          <Text style={styles.footerText}>Cadastre-se</Text>
+        </View>
+        <View>
+          <IconoirIcons.ProfileCircled
+            color="#2C9196"
+            strokeWidth={2}
+            size={20}
+            style={{ display: "inline" }}
+          />
+          <Text style={styles.footerText}>Perfil</Text>
+        </View>
       </View>
     </KeyboardAvoidingView>
   );
@@ -223,6 +238,14 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     bottom: "1%",
+  },
+  footerText: {
+    fontSize: 7,
+    paddingVertical: 10,
+    paddingHorizontal: 10,
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
   },
   containerBemvindo: {
     flex: 1,
