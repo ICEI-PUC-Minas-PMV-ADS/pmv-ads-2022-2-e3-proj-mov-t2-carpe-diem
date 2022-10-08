@@ -15,7 +15,7 @@ Visando determinar e padronizar a disposição dos vários elementos e seções 
 
 Figura 28 - _Layout_
 
-![image](https://user-images.githubusercontent.com/89549220/193968670-b2b7356f-00ed-4941-bc56-4deadc085343.png)
+![layout aplicação](https://user-images.githubusercontent.com/89549220/194723314-4e22e200-8d03-4d10-9dbe-d78c45d3bbe4.png)
 
 Fonte: Cellbiol (2022)
 
