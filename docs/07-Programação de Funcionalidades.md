@@ -1,8 +1,8 @@
 # 7. Programação de Funcionalidades
 
-Apresentamos a implementação da aplicação descrita por meio dos requisitos funcionais abordados no Item 2 "Especificação do Projeto", tópico xxxxx, relacionando os requisitos atendidos aos artefatos da funcionalidade criados.
+Apresentamos a implementação da aplicação descrita por meio dos requisitos funcionais abordados no item 2.5, tópico 2.5.1, relacionando os requisitos atendidos aos artefatos da funcionalidade criados.
 
-Quadro x - Programação das Funcionalidades
+Quadro 10 - Programação das Funcionalidades
 
 | ID    | Descrição do Requisito | Artefatos da Funcionalidade |
 |-------|------------------------|-----------------------------|
