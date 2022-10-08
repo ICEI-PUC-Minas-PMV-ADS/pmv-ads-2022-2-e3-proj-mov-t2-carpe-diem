@@ -90,6 +90,12 @@ export default function App() {
         <TouchableOpacity style={styles.btnEntrar}>
           <Text style={styles.entrarText}>ENTRAR</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity style={styles.btnCadastro}>
+          <Text style={styles.cadastroText}>
+            Ainda não tem conta? Cadastre-se
+          </Text>
+        </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>
   );
@@ -135,6 +141,12 @@ const styles = StyleSheet.create({
   },
   entrarText: {
     fontWeight: "700",
+    fontSize: 16,
+  },
+  btnCadastro: {
+    marginBottom: 10,
+  },
+  cadastroText: {
     fontSize: 16,
   },
   btnEsqueceuSenha: {
