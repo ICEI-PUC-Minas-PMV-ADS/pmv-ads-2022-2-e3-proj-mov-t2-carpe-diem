@@ -116,12 +116,13 @@ Figura 2 - (Nome)
 Fonte: Elaborado pelos autores
 
 
-## 2.4 Indicadores de Desempenho (Etapa 2)
+## 2.4 Indicadores de Desempenho
+
+Congênere Rabello (2022), através dos indicadores de desempenho é possível avaliar a efetividade das ações e a performance do negócio, sendo um importante guia para a tomada de decisões, além de medir o sucesso e performance da empresa ao longo do tempo. Os indicadores podem oferecer resultados quantitativos e qualitativos, ajudando a ter o máximo de informações possíveis e necessárias para análise dos dados.
 
 Quadro 3 - Indicadores
 
 ![Indicadores de Desempenho 1](img/02-indic-desemp-1.png)
-
 
 ![Indicadores de Desempenho 2](img/02-indic-desemp-2.png)
 
