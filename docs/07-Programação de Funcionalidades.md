@@ -1,4 +1,4 @@
-# 7. Programação de Funcionalidades
+# 7. PROGRAMAÇÃO DE FUNCIONALIDADES
 
 Apresentamos a implementação da aplicação descrita por meio dos requisitos funcionais abordados no item 2.5, tópico 2.5.1, relacionando os requisitos atendidos aos artefatos da funcionalidade criados.
 
