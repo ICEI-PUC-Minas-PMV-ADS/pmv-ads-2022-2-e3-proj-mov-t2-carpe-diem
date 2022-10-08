@@ -187,7 +187,11 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     fontSize: 36,
   },
-  bemvindoSubText: { socialMediaIcons },
+  bemvindoSubText: {
+    fontWeight: "400",
+    fontSize: 12,
+    textAlign: "center",
+  },
   linhaSeparadora: {
     paddingVertical: 15,
     paddingHorizontal: 10,
