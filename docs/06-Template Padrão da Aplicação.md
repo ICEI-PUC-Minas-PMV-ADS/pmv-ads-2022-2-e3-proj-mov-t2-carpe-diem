@@ -103,23 +103,14 @@ Style Regular / **Style Bold**
 
 ### 6.5.1 Iconografia Geral
 
-- Referência
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
-
-- Exemplo
-<span class="material-symbols-outlined">search</span>
-
+![iconografia2](https://user-images.githubusercontent.com/89549220/194723359-7547e6cc-604d-4818-ab1e-4305f47d60ed.png)
 
 ![iconografia3](https://user-images.githubusercontent.com/89549220/194722762-e7bb7ed9-4a73-4914-a120-e4c4b4649e36.png)
 
 
 ### 6.5.2 Iconografia Social
 
-- Referência
-<link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
-
-- Exemplo
-<i class="gsicon-chrome"></i>
+![iconografia4](https://user-images.githubusercontent.com/89549220/194723368-30efe9b3-9f62-4dc9-ba26-622e38cf947c.png)
 
 ![iconografia5](https://user-images.githubusercontent.com/89549220/194722892-7cf3f873-b715-4e93-a8a1-c8b1108828bd.png)
 
