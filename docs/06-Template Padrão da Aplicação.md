@@ -1,25 +1,26 @@
-# 6. _Template_ Padrão da Aplicação
+# 6. _TEMPLATE_ PADRÃO DA APLICAÇÃO
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade, tipografia e iconografia.
+_Layout_ padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade, tipografia e iconografia.
 
 Para melhor visualização, acesse: https://fabipalhano.github.io/carpe-diem-guide-style/
 
-## 6.1 _Layout_ da Aplicação
+
+## 6.1 _LAYOUT_ DA APLICAÇÃO
 
 Visando determinar e padronizar a disposição dos vários elementos e seções da aplicação, o _layout_ será apresentado conforme demonstrado a seguir.
 
-- HEADER (Cabeçalho): logo + slogan, menu de navegação para as redes sociais.
-- CONTENTS (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
-- FOOTER (Rodapé): menu fixo de navegação (_login_ do usuário, informações gerais, busca do imóvel, fale conosco, cadastre-se), copyright, nome da aplicação.
+- _HEADER_ (Cabeçalho): logo + slogan, menu de navegação para as redes sociais.
+- _CONTENTS_ (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
+- _FOOTER_ (Rodapé): menu fixo de navegação (_login_ do usuário, informações gerais, busca do imóvel, fale conosco, cadastre-se), _copyright_, nome da aplicação.
 
-Figura 28 - Layout
+Figura 28 - _Layout_
 
 ![image](https://user-images.githubusercontent.com/89549220/193968670-b2b7356f-00ed-4941-bc56-4deadc085343.png)
 
 Fonte: Cellbiol (2022)
 
 
-## 6.2 Cores da Aplicação
+## 6.2 CORES DA APLICAÇÃO
 
 ### 6.2.1 Cores da Logo
 
@@ -48,7 +49,7 @@ Figura 31 - Cores Neutras
 Fonte: Elaborado pelos autores
 
 
-## 6.3 Significados das Cores
+## 6.3 SIGNIFICADOS DAS CORES
 
 **AZUL**<br>
 Bastante utilizada em conteúdos corporativos por transmitir credibilidade, segundo Assis (2019), também pode ser considerada uma opção conservadora. Por ser uma cor classificada como fria, pode trazer sensações de frescor. Para Significados.com.br (2022), a cor azul está relacionada com a nobreza e costuma ser usada para transmitir harmonia, tranquilidade e serenidade.
@@ -77,78 +78,89 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 
 ## 6.4 TIPOGRAFIA
 
-Fonte Quicksand - Link https://fonts.google.com/specimen/Quicksand#standard-styles
+Fonte Quicksand - https://fonts.google.com/specimen/Quicksand#standard-styles
+
 Style Regular / **Style Bold**
 
 
-### 6.4.1 FONT SIZE
-font-size: 16px
-font-size: 24px
-font-size: 48px
-font-size: 64px
+### 6.4.1 _Font Size_
 
-6.4.2 FONT SIZE RESPONSIVE
-font-size: xx-small
-font-size: x-small
-font-size: small
-font-size: medium
-font-size: large
-font-size: x-large
-font-size: xx-large
+![font size1-1](https://user-images.githubusercontent.com/89549220/194722635-4aa250d0-fef1-4b12-8e01-c038e0e52b9c.png)
 
-6.5 ICONOGRAFIA
+
+### 6.4.2 _Font Size Responsive_
+
+![font size2-1](https://user-images.githubusercontent.com/89549220/194722709-1e6017de-bef1-494b-b4f2-9d3ce8c94ad2.png)
+
+
+## 6.5 ICONOGRAFIA
+
 - Padronizados através do pacote de ícones de interface, baseados em vetores no formato SVG;
 - Style Regular;
 - Cor Principal: #2C9196
 - Fonte: https://fonts.google.com/icons
 
-6.5.1 ICONOGRAFIA GERAL
 
-6.5.2 ICONOGRAFIA SOCIAL
+### 6.5.1 Iconografia Geral
 
-6.6 Template da Aplicação
-O template das telas do site criado até o momento contém os seguintes layouts:
-Tela Home-Page (item 6.6.1)
-Tela Resultado da Busca (item 6.6.2)
-Tela Detalhes do Imóvel (item 6.6.3)
-Tela Login (item 6.6.4)
-Tela Cadastro (item 6.6.5)
-Tela Perfil do Hóspede (item 6.6.6)
-Tela Perfil do Anfitrião (item 6.6.7)
-Tela Cadastrar Imóvel (item 6.6.8)
-Tela Editar Reserva (item 6.6.9)
-Tela Fale Conosco (item 6.6.10)
-Tela Esqueceu Senha (item 6.6.11)
-Tela Erro Busca (item 6.6.12)
-Alusivo às funcionalidades do sistema, apresentamos o print das telas desenvolvidas pelo grupo, assim como os requisitos atendidos e os artefatos da funcionalidade. A estrutura de dados das telas pode ser encontrada na página do projeto no GitHub, pelo link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem.
+- Referência
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+- Exemplo
+<span class="material-symbols-outlined">search</span>
+
+
+![iconografia3](https://user-images.githubusercontent.com/89549220/194722762-e7bb7ed9-4a73-4914-a120-e4c4b4649e36.png)
+
+
+### 6.5.2 Iconografia Social
+
+- Referência
+<link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+
+- Exemplo
+<i class="gsicon-chrome"></i>
+
+![iconografia5](https://user-images.githubusercontent.com/89549220/194722892-7cf3f873-b715-4e93-a8a1-c8b1108828bd.png)
+
+
+## 6.6 _TEMPLATE_ DA APLICAÇÃO
+
+O _template_ das telas da aplicação criada até o momento contém os seguintes _layouts_:
+
+- Tela Home (em desenvolvimento)
+- Tela Home-Page (em desenvolvimento)
+- Tela Resultado da Busca (em desenvolvimento)
+- Tela Detalhes do Imóvel (em desenvolvimento)
+- Tela Login (item 6.6.1)
+- Tela Cadastro (em desenvolvimento)
+- Tela Perfil do Usuário (em desenvolvimento)
+- Tela Fale Conosco (em desenvolvimento)
+- Tela Esqueceu Senha (em desenvolvimento)
+- Tela Erro Busca (em desenvolvimento)
+- Tela Contato (em desenvolvimento)
+- Tela Informações (em desenvolvimento)
+- Tela Obrigado (em desenvolvimento)
+
+Alusivo às funcionalidades do sistema, apresentamos o _print_ das telas desenvolvidas pelo grupo, assim como os requisitos atendidos e os artefatos da funcionalidade. A estrutura de dados das telas pode ser encontrada na página do projeto no _GitHub_, pelo link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem.
+
 No tocante às instruções de acesso, os passos são descritos a seguir:
-Abra o browser e informe o link disponibilizado logo acima.
-Execute o download do arquivo do projeto ou faça sua clonagem no GitHub.
-Descompacte o arquivo.
-Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
-Conseguirá visualizar a URL através dos arquivos de formato HTML pelo Live Server localizado no próprio VSC.
-No que tange à responsividade, optamos por seguir o padrão do Bootstrap e/ou Media Queries. De acordo com Wikipédia (10/2021), “Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.” Se referindo ao Media Queries, se trata de um recurso do CSS 3 “que permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela (por exemplo, tamanho da tela do celular e do desktop). Ele se tornou um padrão recomendado pelo W3C em junho de 2012, e é uma tecnologia fundamental para o design responsivo da Web (RWD).” (WIKIPEDIA, 11/2021)
-6.6.1 Tela Home-Page
-Figura 34
-6.6.2 Tela Resultado da Busca
-Figura 35
-6.6.3 Tela Detalhes do Imóvel
-Figura 36
-6.6.4 Tela Login
-Figura 37
-6.6.5 Tela Cadastro
-Figura 38
-6.6.6 Tela Perfil do Hóspede
-Figura 39
-6.6.7 Tela Perfil do Anfitrião
-Figura 40
-6.6.8 Tela Cadastrar Imóvel
-Figura 41
-6.6.9 Tela Editar Reserva
-Figura 42
-6.6.10 Tela Fale Conosco
-Figura 43
-6.6.11 Tela Esqueceu Senha
-Figura 44
-6.6.12 Tela Erro Busca
-Figura 45
+
+- Abra o _browser_ e informe o _link_ disponibilizado logo acima.
+- Execute o _download_ do arquivo do projeto ou faça sua clonagem no _GitHub_. 
+- Descompacte o arquivo.
+- Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
+- Conseguirá visualizar a URL através dos arquivos de formato HTML pelo Live Server localizado no próprio VSC.
+
+No que tange à responsividade, optamos por seguir o padrão do _Bootstrap_ e/ou _Media Queries_. De acordo com Wikipédia (10/2021), “_Bootstrap_ é um _framework web_ com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.” Se referindo ao Media Queries, se trata de um recurso do CSS 3 “que permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela (por exemplo, tamanho da tela do celular e do desktop). Ele se tornou um padrão recomendado pelo W3C em junho de 2012, e é uma tecnologia fundamental para o design responsivo da Web (RWD).” (WIKIPEDIA, 11/2021)
+
+
+### 6.6.1 Tela Login
+
+Figura 32
+
+(inserir)
+
+Fonte: Elaborado pelos autores
+
+
