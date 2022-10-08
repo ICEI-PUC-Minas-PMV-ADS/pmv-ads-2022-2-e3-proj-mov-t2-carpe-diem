@@ -141,9 +141,9 @@ No tocante às instruções de acesso, os passos são descritos a seguir:
 - Execute o _download_ do arquivo do projeto ou faça sua clonagem no _GitHub_. 
 - Descompacte o arquivo.
 - Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
-- Conseguirá visualizar a URL através dos arquivos de formato HTML pelo Live Server localizado no próprio VSC.
+- Conseguirá visualizar a URL do _local host_ através dos arquivos de formato HTML pelo Live Server localizado no próprio VSC.
 
-No que tange à responsividade, optamos por seguir o padrão do _Bootstrap_ e/ou _Media Queries_. De acordo com Wikipédia (10/2021), “_Bootstrap_ é um _framework web_ com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.” Se referindo ao Media Queries, se trata de um recurso do CSS 3 “que permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela (por exemplo, tamanho da tela do celular e do desktop). Ele se tornou um padrão recomendado pelo W3C em junho de 2012, e é uma tecnologia fundamental para o design responsivo da Web (RWD).” (WIKIPEDIA, 11/2021)
+No que tange à responsividade, optamos por seguir o padrão do _Media Queries_. De acordo com Wikipédia (11/2021), _Media Queries_ se trata de um recurso do CSS 3 “que permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela (por exemplo, tamanho da tela do celular e do desktop). Ele se tornou um padrão recomendado pelo W3C em junho de 2012, e é uma tecnologia fundamental para o design responsivo da Web (RWD).”
 
 
 ### 6.6.1 Tela Login
