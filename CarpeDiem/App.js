@@ -101,6 +101,43 @@ export default function App() {
           </Text>
         </TouchableOpacity>
       </View>
+
+      <View style={styles.linhaSeparadora}>
+        <LinhaSeparadora color="black" />
+      </View>
+
+      <View style={styles.footerIcons}>
+        <TablerIcons.Home
+          color="#2C9196"
+          strokeWidth={2}
+          size={20}
+          style={{ display: "inline" }}
+        />
+        <CarbonIcons.UserServiceDesk
+          color="#2C9196"
+          strokeWidth={2}
+          size={20}
+          style={{ display: "inline" }}
+        />
+        <CarbonIcons.Information
+          color="#2C9196"
+          strokeWidth={2}
+          size={20}
+          style={{ display: "inline" }}
+        />
+        <IconoirIcons.AddUser
+          color="#2C9196"
+          strokeWidth={2}
+          size={20}
+          style={{ display: "inline" }}
+        />
+        <IconoirIcons.ProfileCircled
+          color="#2C9196"
+          strokeWidth={2}
+          size={20}
+          style={{ display: "inline" }}
+        />
+      </View>
     </KeyboardAvoidingView>
   );
 }
@@ -176,6 +213,12 @@ const styles = StyleSheet.create({
     flex: 2,
     paddingVertical: 200,
     paddingHorizontal: 10,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    bottom: "1%",
+  },
+  footerIcons: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
