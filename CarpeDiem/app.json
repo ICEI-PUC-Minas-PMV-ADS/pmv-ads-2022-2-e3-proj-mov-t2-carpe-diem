@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "CarpeDiem",
+    "slug": "CarpeDiem",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
