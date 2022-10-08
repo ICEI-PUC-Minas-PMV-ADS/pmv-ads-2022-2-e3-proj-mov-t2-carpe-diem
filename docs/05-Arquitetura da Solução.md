@@ -42,7 +42,7 @@ Compreendemos nessa seção os componentes que fazem parte da arquitetura da sol
 
 Figura 28 - Arquitetura da Solução
 
-(inserir imagem)
+![arquitetura solução](https://user-images.githubusercontent.com/89549220/194727124-65a538cd-e6a0-4618-b939-22cea3cb260c.png)
 
 Fonte: Elaborado pelos autores
 
@@ -52,7 +52,7 @@ A arquitetura da solução concretizada conta com os seguintes módulos:
 - Navegador - Interface básica do sistema
    * Native App - Conjunto de arquivos JavaScript, React Native, Expo e imagens que efetivam as funcionalidades do sistema.
 - Hospedagem - local na Internet onde as páginas serão mantidas e conectadas pelo navegador. 
-   * Plataforma Azure, Deploy no Expo, Google Play Store e Apple Play Store (será definido pelo grupo).
+   * Plataforma Replit, Azure, Heroku, Deploy no Expo, Google Play Store e Apple Play Store (será definido pelo grupo).
 - Local Storage - armazenamento mantido no Navegador, onde são empreendidos bancos de dados baseados no JSON (JavaScript Object Notation).  
    * Dados do Usuário
    * Dados do Cadastro do Imóvel
@@ -82,14 +82,9 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 ## 5.7 Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Como ambiente de hospedagem da aplicação do projeto Carpe Diem Mobile, optaremos por utilizar uma das seguintes plataformas: _Replit, Azure, Heroku, Deploy no Expo, Google Play Store e Apple Play Store_. A hospedagem será mantida em ambiente e _link_ definidos e disponibilizado futuramente.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A publicação da aplicação será realizada através da submissão do projeto (_push_) via _Git_ para o repositório remoto que estará disponível no _GitHub_.
 
 
 ## 5.8 Qualidade de Software
