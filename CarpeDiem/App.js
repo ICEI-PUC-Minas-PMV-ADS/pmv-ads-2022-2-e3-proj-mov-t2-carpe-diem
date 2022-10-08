@@ -1,5 +1,6 @@
 import React from "react";
 import * as AkarIcons from "akar-icons";
+import * as CarbonIcons from '@carbon/icons-react';
 import {
   View,
   KeyboardAvoidingView,
