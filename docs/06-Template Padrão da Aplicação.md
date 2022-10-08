@@ -12,7 +12,7 @@ Visando determinar e padronizar a disposição dos vários elementos e seções 
 - CONTENTS (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
 - FOOTER (Rodapé): menu fixo de navegação (_login_ do usuário, informações gerais, busca do imóvel, fale conosco, cadastre-se), copyright, nome da aplicação.
 
-Figura z - Layout
+Figura 28 - Layout
 
 ![image](https://user-images.githubusercontent.com/89549220/193968670-b2b7356f-00ed-4941-bc56-4deadc085343.png)
 
@@ -23,7 +23,7 @@ Fonte: Cellbiol (2022)
 
 ### 6.2.1 Cores da Logo
 
-Figura xx - Cores da Logo
+Figura 29 - Cores da Logo
 
 ![cores da logo](https://user-images.githubusercontent.com/89549220/193969286-8f984b77-5845-479d-bc5b-2b77d7912fa3.png)
 
@@ -32,7 +32,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.2 Cores Principais
 
-Figura xx - Cores Principais
+Figura 30 - Cores Principais
 
 ![cores principais](https://user-images.githubusercontent.com/89549220/193969373-42fe0d02-3274-4b91-b96e-e54c51087e50.png)
 
@@ -41,7 +41,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.3 Cores Neutras
 
-Figura xx - Cores Neutras
+Figura 31 - Cores Neutras
 
 ![cores neutras](https://user-images.githubusercontent.com/89549220/193969421-2f2f284c-84da-4a47-a709-d0ef843c7431.png)
 
@@ -77,10 +77,11 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 
 ## 6.4 TIPOGRAFIA
 
-Fonte Quicksand - Link
+Fonte Quicksand - Link https://fonts.google.com/specimen/Quicksand#standard-styles
 Style Regular / **Style Bold**
 
-6.4.1 FONT SIZE
+
+### 6.4.1 FONT SIZE
 font-size: 16px
 font-size: 24px
 font-size: 48px
