@@ -53,18 +53,23 @@ export default function App() {
         </Text>
 
         <View style={styles.socialMediaLoginIcons}>
-          <AkarIcons.GoogleFill
-            color="#2C9196"
-            strokeWidth={2}
-            size={35}
-            style={{ display: "inline" }}
-          />
-          <AkarIcons.FacebookFill
-            color="#2C9196"
-            strokeWidth={2}
-            size={35}
-            style={{ display: "inline" }}
-          />
+          <View style={{ right: "45%" }}>
+            <AkarIcons.GoogleFill
+              color="#2C9196"
+              strokeWidth={2}
+              size={35}
+              style={{ display: "inline" }}
+            />
+          </View>
+
+          <View style={{ left: "45%" }}>
+            <AkarIcons.FacebookFill
+              color="#2C9196"
+              strokeWidth={2}
+              size={35}
+              style={{ display: "inline" }}
+            />
+          </View>
         </View>
       </View>
 
@@ -265,8 +270,8 @@ const styles = StyleSheet.create({
     left: "42%",
   },
   socialMediaLoginIcons: {
-    flex: 2,
-    paddingVertical: 200,
+    flex: 1,
+    paddingVertical: 100,
     paddingHorizontal: 10,
     flexDirection: "row",
     justifyContent: "space-between",
