@@ -1,9 +1,5 @@
 import React from "react";
 import * as AkarIcons from "akar-icons";
-import * as CarbonIcons from "@carbon/icons-react";
-import * as TablerIcons from "tabler-icons-react";
-import * as AntDesignIcons from "@ant-design/icons";
-import * as IconoirIcons from "iconoir-react";
 import Icon from "react-native-vector-icons/FontAwesome";
 import {
   View,
