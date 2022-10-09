@@ -8,7 +8,7 @@ O teste de usabilidade permite avaliar a qualidade da _interface_ com o usuário
 Avaliar a experiência do usuário com o sistema, identificando problemas e inconsistências com possibilidade de melhorias.
 
 
-### 10.2 Perfil do voluntário participante do teste 
+### 10.2 Perfil do Voluntário Participante do Teste 
 
 Para a realização do Teste de Usabilidade desse sistema, serão selecionadas 05 (cinco) pessoas voluntárias, com perfis semelhantes às _Personas_ apresentadas na "Especificação do Projeto".
 
@@ -46,7 +46,7 @@ Para cada tarefa executada pelo voluntário será possível medir:
 
 ### 10.4 Roteiro
 
-Quadro 12 - Roteiro das Tarefas
+Quadro 13 - Roteiro das Tarefas
 
 | **Tarefa 1** | **Critério de Êxito** | **O que será avaliado** |
 |--------------|--------------------|-------------------------|
@@ -68,6 +68,7 @@ Quadro 12 - Roteiro das Tarefas
 | Utilizar o _Fale Conosco_ | Encontrar e enviar mensagem ao _Fale Conosco_, considerando a mensagem “Mensagem enviada com sucesso.” | Concretização da tarefa. Quantidade e tipo de erros cometidos. |
 
 Fonte: Elaborado pelos Autores
+
 
 Após a conclusão de todas as funcionalidades e a execução dos testes, será aplicado o método de avaliação System Usability Scale (SUS), para uma melhor identificação da experiência do usuário.
 
