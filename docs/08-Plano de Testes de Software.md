@@ -71,3 +71,5 @@ Quadro 11 - Plano de Testes
 |**Objetivo do teste**|- Permitir o acesso às redes sociais do aplicativo. |
 |**Passos**| 1)	Realizar o _download_ do app na plataforma. <br/> 2) Clicar nos ícones de: _Instagram, Twitter e Facebook_. |
 |**Critérios de Êxito**|- Apresentar as páginas das redes sociais do aplicativo, de acordo com cada ícone.|
+
+Fonte: Elaborado pelos Autores
