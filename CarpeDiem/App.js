@@ -107,55 +107,91 @@ export default function App() {
       </View>
 
       <View style={styles.footerIcons}>
-        <View>
+        <View style={styles.footerIconsIndividual}>
           <TablerIcons.Home
             color="#2C9196"
             strokeWidth={2}
             size={20}
             style={{ display: "inline" }}
           />
-          <Text style={styles.footerText}>Busque por um imóvel</Text>
+          <Text
+            style={{
+              fontSize: 7,
+            }}
+          >
+            Busque por um imóvel
+          </Text>
         </View>
-        <View>
+
+        <View style={styles.footerIconsIndividual}>
           <CarbonIcons.UserServiceDesk
             color="#2C9196"
             strokeWidth={2}
             size={20}
             style={{ display: "inline" }}
           />
-          <Text style={styles.footerText}>Fale conosco</Text>
+          <Text
+            style={{
+              fontSize: 7,
+            }}
+          >
+            Fale conosco
+          </Text>
         </View>
-        <View>
+
+        <View style={styles.footerIconsIndividual}>
           <CarbonIcons.Information
             color="#2C9196"
             strokeWidth={2}
             size={20}
             style={{ display: "inline" }}
           />
-          <Text style={styles.footerText}>Políticas e Condições de Uso</Text>
+          <Text
+            style={{
+              fontSize: 7,
+            }}
+          >
+            Políticas e Condições de Uso
+          </Text>
         </View>
-        <View>
+
+        <View style={styles.footerIconsIndividual}>
           <IconoirIcons.AddUser
             color="#2C9196"
             strokeWidth={2}
             size={20}
             style={{ display: "inline" }}
           />
-          <Text style={styles.footerText}>Cadastre-se</Text>
+          <Text
+            style={{
+              fontSize: 7,
+            }}
+          >
+            Cadastre-se
+          </Text>
         </View>
-        <View>
+
+        <View style={styles.footerIconsIndividual}>
           <IconoirIcons.ProfileCircled
             color="#2C9196"
             strokeWidth={2}
             size={20}
             style={{ display: "inline" }}
           />
-          <Text style={styles.footerText}>Perfil</Text>
+          <Text
+            style={{
+              fontSize: 7,
+            }}
+          >
+            Perfil
+          </Text>
         </View>
       </View>
 
       <View>
-        <Text style={styles.direitosReservadosText}>@2022 Carpe Diem - Todos os Direitos Reservados</Text>
+        <Text style={styles.direitosReservadosText}>
+          @2022 Carpe Diem - Todos os Direitos Reservados
+        </Text>
       </View>
     </KeyboardAvoidingView>
   );
@@ -242,6 +278,13 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     bottom: "1%",
+  },
+  footerIconsIndividual: {
+    paddingVertical: 15,
+    paddingHorizontal: 10,
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignItems: "center",
   },
   footerText: {
     fontSize: 7,
