@@ -4,6 +4,7 @@ import * as CarbonIcons from "@carbon/icons-react";
 import * as TablerIcons from "tabler-icons-react";
 import * as AntDesignIcons from "@ant-design/icons";
 import * as IconoirIcons from "iconoir-react";
+import Icon from "react-native-vector-icons/FontAwesome";
 import {
   View,
   KeyboardAvoidingView,
@@ -111,14 +112,10 @@ export default function App() {
         <LinhaSeparadora color="black" />
       </View>
 
+
       <View style={styles.footerIcons}>
         <View style={styles.footerIconsIndividual}>
-          <TablerIcons.Home
-            color="#2C9196"
-            strokeWidth={2}
-            size={20}
-            style={{ display: "inline" }}
-          />
+          <Icon name="users" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
@@ -129,12 +126,7 @@ export default function App() {
         </View>
 
         <View style={styles.footerIconsIndividual}>
-          <CarbonIcons.UserServiceDesk
-            color="#2C9196"
-            strokeWidth={2}
-            size={20}
-            style={{ display: "inline" }}
-          />
+          <Icon name="users" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
@@ -145,12 +137,7 @@ export default function App() {
         </View>
 
         <View style={styles.footerIconsIndividual}>
-          <CarbonIcons.Information
-            color="#2C9196"
-            strokeWidth={2}
-            size={20}
-            style={{ display: "inline" }}
-          />
+          <Icon name="users" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
@@ -161,12 +148,7 @@ export default function App() {
         </View>
 
         <View style={styles.footerIconsIndividual}>
-          <IconoirIcons.AddUser
-            color="#2C9196"
-            strokeWidth={2}
-            size={20}
-            style={{ display: "inline" }}
-          />
+          <Icon name="users" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
@@ -177,12 +159,7 @@ export default function App() {
         </View>
 
         <View style={styles.footerIconsIndividual}>
-          <IconoirIcons.ProfileCircled
-            color="#2C9196"
-            strokeWidth={2}
-            size={20}
-            style={{ display: "inline" }}
-          />
+          <Icon name="users" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
