@@ -20,3 +20,23 @@ Quadro 12 - Registro dos Testes
 
 
 Fonte: Elaborado pelos Autores
+
+
+## 9.2 Relatório do Teste de Software
+
+Quadro 13 - Resultado
+
+|Caso de Teste |Ação                                          |Relatório                   |
+|--------------|----------------------------------------------|----------------------------|
+|CT-01    |Realizar cadastro                    |Sistema em desenvolvimento |
+|CT-02    |Realizar login                       |Sistema em desenvolvimento |
+|CT-03    |Realizar gerenciamento do cadastro (Editar)   |Sistema em desenvolvimento |
+|CT-04    |Realizar gerenciamento do cadastro (Excluir)  |Sistema em desenvolvimento |
+|CT-05    |Realizar busca por imóvel                     |Sistema em desenvolvimento |
+|CT-06    |Preencher formulário fale conosco    |Sistema em desenvolvimento |
+|CT-07    |Redefinir senha                      |Sistema em desenvolvimento  |
+|CT-08    |Acesso as Políticas e Condições de Uso  |Sistema em desenvolvimento |
+|CT-09    |Acesso as Redes Sociais              |Sistema em desenvolvimento |
+
+
+Fonte: Elaborado pelos Autores
