@@ -73,20 +73,18 @@ Fonte: Elaborado pelos autores
 ### 11.1.1 Resultados Gráficos Relacionados ao Tempo Gasto
 
 No que tange ao tempo gasto, os resultados foram convertidos para segundos, aspirando uma melhor visualização.
-
-Sem dados, sistema em desenvolvimento.
-<br>
+![Gráfico](img/Em_breve.png)<br>Sem dados, sistema em desenvolvimento.
+<br><br>
 
 ### 11.1.2 Resultados Gráficos Relacionados ao Nível de Dificuldade
 
 No que tange ao nível de dificuldade, os resultados foram direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
 
-Sem dados, sistema em desenvolvimento.
-<br>
-
+![Gráfico](img/Em_breve.png)<br>Sem dados, sistema em desenvolvimento.
+<br><br>
 ### 11.1.3 Resultados Gráficos Relacionados ao Nível de Satisfação
 
 Em se tratando do nível de satisfação, os resultados foram direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
 
-Sem dados, sistema em desenvolvimento.
-<br>
+![Gráfico](img/Em_breve.png)<br>Sem dados, sistema em desenvolvimento.
+<br><br>
