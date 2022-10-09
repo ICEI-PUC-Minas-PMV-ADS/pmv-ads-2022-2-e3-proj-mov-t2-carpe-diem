@@ -68,3 +68,7 @@ Quadro 12 - Roteiro das Tarefas
 | Utilizar o _Fale Conosco_ | Encontrar e enviar mensagem ao _Fale Conosco_, considerando a mensagem “Mensagem enviada com sucesso.” | Concretização da tarefa. Quantidade e tipo de erros cometidos. |
 
 Fonte: Elaborado pelos Autores
+
+Após a conclusão de todas as funcionalidades e a execução dos testes, será aplicado o método de avaliação System Usability Scale (SUS), para uma melhor identificação da experiência do usuário.
+
+A Escala de Usabilidade do Sistema (System Usability Scale) foi originalmente criada por John Brooke, em 1986. É uma escala Likert, composta por um questionário de 10 questões, e fornece uma ferramenta confiável para medir a usabilidade da aplicação, além de permitir avaliar uma variedade de produtos e serviços, incluindo hardware, software, dispositivos móveis, sites e aplicativos. (Usability.gov, 2022; Wikipédia, 2022; Teixeira, 2015)
