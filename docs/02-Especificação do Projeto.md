@@ -88,11 +88,13 @@ Fonte: Elaborado pelos autores
 
 ### 2.3.1 Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Com a presença da internet no dia a dia de todos, seja no auxílio aos estudos, no entretenimento em geral, bem como no oferecimento de serviços de estadia em hotéis, pousadas e/ou casas, nem todos os serviços disponíveis estão capacitados ou preocupados em aproximar/interagir com o público interessado em locação de imóveis no litoral brasileiro, de forma digital.  
+
 
 ### 2.3.2 Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Buscando dirimir a lacuna identificada entre o dono do imóvel e o usuário que deseja locar o mesmo, o grupo procura melhorar a interatividade entre a cartela de imóveis oferecidos pela aplicação e o usuário, promovendo o acesso a uma plataforma de serviço online de locação de imóveis mobiliados, de forma 100% digital, segura e automatizada.
+
 
 ### 2.3.3 Processo 1
 
