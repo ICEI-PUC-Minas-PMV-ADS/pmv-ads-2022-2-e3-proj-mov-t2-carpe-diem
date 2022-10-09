@@ -3,17 +3,17 @@
 O teste de usabilidade permite avaliar a qualidade da _interface_ com o usuário da aplicação interativa. O Plano de Testes de Usabilidade é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta. 
 
 
-### 10.1 Objetivo
+## 10.1 Objetivo
 
 Avaliar a experiência do usuário com o sistema, identificando problemas e inconsistências com possibilidade de melhorias.
 
 
-### 10.2 Perfil do Voluntário Participante do Teste 
+## 10.2 Perfil do Voluntário Participante do Teste 
 
 Para a realização do Teste de Usabilidade desse sistema, serão selecionadas 05 (cinco) pessoas voluntárias, com perfis semelhantes às _Personas_ apresentadas na "Especificação do Projeto".
 
 
-### 10.3 Método Utilizado
+## 10.3 Método Utilizado
 
 O Teste será realizado  _In Person_, na presença de um observador integrante da equipe desse projeto e serão executados os métodos de Observação, Medição, Avaliação e Consolidação dos Dados.
 
@@ -44,7 +44,7 @@ Para cada tarefa executada pelo voluntário será possível medir:
 | 5          | Muito Satisfeito   |
 
 
-### 10.4 Roteiro
+## 10.4 Roteiro
 
 Quadro 13 - Roteiro das Tarefas
 
