@@ -96,9 +96,11 @@ Apresente aqui uma descrição da sua proposta abordando seus limites e suas lig
 
 ### 2.3.3 Processo 1 – NOME DO PROCESSO (Etapa 2)
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+Conforme descrito na nos diagramas de fluxos realizados no contexto deste projeto, o fluxo do processo principal foi mapeado e elaborado conforme as notações de negócio do padrão BPMN. Abaixo o diagrama abaixo é condizente com o processo **COMPLETO** que o projeto Carpe Diem teria, caso realizado na prática.
 
-Figura 1 - (Nome)
+O processo começa com a solicitação do usuário por imóveis, parte para visualização dos mesmos, segue para a escolha entre as opções e termina com o usuário entrando em contato com o dono do imóvel para realização da locação. Os detalhes do processo estão descritos nesta notação.
+
+Figura 1 - Processo 1 BMPN
 
 ![Processo 1](img/02-bpmn-proc-1.png)
 
@@ -107,14 +109,19 @@ Fonte: Elaborado pelos autores
 
 ### 2.3.4 Processo 2 – NOME DO PROCESSO (Etapa 2)
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+Já neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que o **App Mobile** do Carpe Diem realiza em seus processos lógicos e funcionais.
 
-Figura 2 - (Nome)
+Abaixo foram descritos os processos de: 
+
+- Solicitação de listagem de imóveis partindo do usuário;
+- Processo de cadastro de imóvel via usuário administrador;
+- Solicitação do contato com o dono do imóvel partindo do usuário.
+
+Figura 2 - Processo 2 BMPN
 
 ![Processo 2](img/02-bpmn-proc-2.png)
 
 Fonte: Elaborado pelos autores
-
 
 ## 2.4 Indicadores de Desempenho
 
