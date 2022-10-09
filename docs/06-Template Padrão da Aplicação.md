@@ -150,7 +150,7 @@ No que tange à responsividade, optamos por seguir o padrão do _Media Queries_
 
 Figura 32
 
-(inserir)
+![Tela de Login](img/screens/tela-login.png)
 
 Fonte: Elaborado pelos autores
 
