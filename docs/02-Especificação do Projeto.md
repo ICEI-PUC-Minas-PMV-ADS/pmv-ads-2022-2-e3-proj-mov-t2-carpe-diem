@@ -88,15 +88,17 @@ Fonte: Elaborado pelos autores
 
 ### 2.3.1 Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Com a presença da internet no dia a dia de todos, seja no auxílio aos estudos, no entretenimento em geral, bem como no oferecimento de serviços de estadia em hotéis, pousadas e/ou casas, nem todos os serviços disponíveis estão capacitados ou preocupados em aproximar/interagir com o público interessado em locação de imóveis no litoral brasileiro, de forma digital.  
 
-### 2.3.2 Descrição Geral da Proposta (Etapa 2)
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+### 2.3.2 Descrição Geral da Proposta
 
-### 2.3.3 Processo 1 – NOME DO PROCESSO (Etapa 2)
+Buscando dirimir a lacuna identificada entre o dono do imóvel e o usuário que deseja locar o mesmo, o grupo procura melhorar a interatividade entre a cartela de imóveis oferecidos pela aplicação e o usuário, promovendo o acesso a uma plataforma de serviço online de locação de imóveis mobiliados, de forma 100% digital, segura e automatizada.
 
-Conforme descrito na nos diagramas de fluxos realizados no contexto deste projeto, o fluxo do processo principal foi mapeado e elaborado conforme as notações de negócio do padrão BPMN. Abaixo o diagrama abaixo é condizente com o processo **COMPLETO** que o projeto Carpe Diem teria, caso realizado na prática.
+
+### 2.3.3 Processo 1
+
+Conforme descrito nos diagramas de fluxos realizados no contexto deste projeto, o fluxo do processo principal foi mapeado e elaborado conforme as notações de negócio do padrão BPMN. O diagrama abaixo é condizente com o processo **COMPLETO** que o projeto Carpe Diem teria, caso realizado na prática.
 
 O processo começa com a solicitação do usuário por imóveis, parte para visualização dos mesmos, segue para a escolha entre as opções e termina com o usuário entrando em contato com o dono do imóvel para realização da locação. Os detalhes do processo estão descritos nesta notação.
 
@@ -107,7 +109,7 @@ Figura 1 - Processo 1 BMPN
 Fonte: Elaborado pelos autores
 
 
-### 2.3.4 Processo 2 – NOME DO PROCESSO (Etapa 2)
+### 2.3.4 Processo 2
 
 Já neste diagrama de notaçãp BPMN, foi elaborado pelo grupo uma visão mais minuciosa dos processos que o **App Mobile** do Carpe Diem realiza em seus processos lógicos e funcionais.
 
@@ -122,6 +124,7 @@ Figura 2 - Processo 2 BMPN
 ![Processo 2](img/02-bpmn-proc-2.png)
 
 Fonte: Elaborado pelos autores
+
 
 ## 2.4 Indicadores de Desempenho
 
