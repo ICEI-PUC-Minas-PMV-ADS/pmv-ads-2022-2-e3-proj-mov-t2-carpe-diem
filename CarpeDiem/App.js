@@ -53,13 +53,13 @@ export default function App() {
         </Text>
 
         <View style={styles.socialMediaLoginIcons}>
-          <AkarIcons.InstagramFill
+          <AkarIcons.GoogleFill
             color="#2C9196"
             strokeWidth={2}
             size={35}
             style={{ display: "inline" }}
           />
-          <AkarIcons.TwitterFill
+          <AkarIcons.FacebookFill
             color="#2C9196"
             strokeWidth={2}
             size={35}
