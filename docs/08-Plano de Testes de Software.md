@@ -62,7 +62,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos abaixo.
 |**Passos**| 1)	Realizar o download do app na plataforma. <br/> 2) Clicar em “Políticas e Condições de Uso” do menu. |
 |**Critérios de Êxito**|- Apresentar as informações de políticas e condições de uso para o uso do aplicativo.
  
-|Caso de Teste | CT-09 - Acesso as Políticas e Condições de Uso |
+|Caso de Teste | CT-09 - Acesso as Redes Sociais |
 |:--|:--|
 |**Requisitos Associados**|RF-009 – A aplicação deve permitir acesso às suas redes sociais.  
 |**Objetivo do teste**|- Permitir o acesso às redes sociais do aplicativo. |
