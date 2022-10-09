@@ -2,7 +2,7 @@
 
 O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa. Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas.
 
-Quadro 13 - Perfil dos Voluntários
+Quadro 15 - Perfil dos Voluntários
 
 |IDENTIFICAÇÃO | IDADE    | GRAU DE INSTRUÇÃO    | PROFISSÃO                     | AÇÃO/TESTE APLICADO    |
 |--------------|----------|----------------------|-------------------------------|------------------------|
@@ -23,7 +23,7 @@ Fonte: Elaborado pelos autores
 
 No teste de usabilidade, conforme pode ser observado no Quadro 14, foi avaliado: a) Concretização da tarefa. b) Quantidade e tipo de erros cometidos. c) Tempo necessário para se concluir.
 
-Quadro 14 - Testes de Usabilidade
+Quadro 16 - Testes de Usabilidade
 
 |IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
@@ -57,7 +57,7 @@ Fonte: Elaborado pelos autores
 
 ## 11.1 Relatório de Teste de Usabilidade
 
-Quadro 15 - Resultado
+Quadro 17 - Resultado
 
 |TAREFA |TESTE REALIZADO                         |AVALIAÇÃO DO TESTE                                         |
 |-------|----------------------------------------|-----------------------------------------------------------|
@@ -76,12 +76,15 @@ No que tange ao tempo gasto, os resultados foram convertidos para segundos, aspi
 ![Gráfico](img/Em_breve.png)<br>Sem dados, sistema em desenvolvimento.
 <br><br>
 
+
 ### 11.1.2 Resultados Gráficos Relacionados ao Nível de Dificuldade
 
 No que tange ao nível de dificuldade, os resultados foram direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
 
 ![Gráfico](img/Em_breve.png)<br>Sem dados, sistema em desenvolvimento.
 <br><br>
+
+
 ### 11.1.3 Resultados Gráficos Relacionados ao Nível de Satisfação
 
 Em se tratando do nível de satisfação, os resultados foram direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
