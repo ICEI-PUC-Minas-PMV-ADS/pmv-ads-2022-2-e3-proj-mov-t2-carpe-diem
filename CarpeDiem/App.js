@@ -108,10 +108,9 @@ export default function App() {
         <LinhaSeparadora color="black" />
       </View>
 
-
       <View style={styles.footerIcons}>
         <View style={styles.footerIconsIndividual}>
-          <Icon name="users" size={20} color="#2C9196" />
+          <Icon name="home" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
@@ -122,7 +121,7 @@ export default function App() {
         </View>
 
         <View style={styles.footerIconsIndividual}>
-          <Icon name="users" size={20} color="#2C9196" />
+          <Icon name="phone" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
@@ -133,7 +132,7 @@ export default function App() {
         </View>
 
         <View style={styles.footerIconsIndividual}>
-          <Icon name="users" size={20} color="#2C9196" />
+          <Icon name="info-circle" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
@@ -144,7 +143,7 @@ export default function App() {
         </View>
 
         <View style={styles.footerIconsIndividual}>
-          <Icon name="users" size={20} color="#2C9196" />
+          <Icon name="user-plus" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
@@ -155,7 +154,7 @@ export default function App() {
         </View>
 
         <View style={styles.footerIconsIndividual}>
-          <Icon name="users" size={20} color="#2C9196" />
+          <Icon name="user-circle" size={20} color="#2C9196" />
           <Text
             style={{
               fontSize: 7,
