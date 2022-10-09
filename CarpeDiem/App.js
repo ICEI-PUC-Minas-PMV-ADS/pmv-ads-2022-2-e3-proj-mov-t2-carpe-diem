@@ -153,6 +153,10 @@ export default function App() {
           <Text style={styles.footerText}>Perfil</Text>
         </View>
       </View>
+
+      <View>
+        <Text style={styles.direitosReservadosText}>@2022 Carpe Diem - Todos os Direitos Reservados</Text>
+      </View>
     </KeyboardAvoidingView>
   );
 }
@@ -240,6 +244,14 @@ const styles = StyleSheet.create({
     bottom: "1%",
   },
   footerText: {
+    fontSize: 7,
+    paddingVertical: 10,
+    paddingHorizontal: 10,
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+  },
+  direitosReservadosText: {
     fontSize: 7,
     paddingVertical: 10,
     paddingHorizontal: 10,
