@@ -37,7 +37,7 @@ export default function App() {
 
       <View style={styles.containerLogo}>
         <Image
-          source={require("./src/assets/logo.png")}
+          source={require("./src/assets/img/logo.png")}
           style={{ width: 100, height: 100 }}
         />
       </View>
