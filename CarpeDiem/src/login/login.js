@@ -71,9 +71,7 @@ export default function Login() {
         </View>
       </View>
 
-      <View style={styles.linhaSeparadora}>
-        <LinhaSeparadora color="black" />
-      </View>
+      <LinhaSeparadora/>
 
       <View style={styles.containerTextInput}>
         <TextInput
@@ -292,13 +290,5 @@ const styles = StyleSheet.create({
     fontWeight: "400",
     fontSize: 12,
     textAlign: "center",
-  },
-  linhaSeparadora: {
-    paddingVertical: 15,
-    paddingHorizontal: 10,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "right",
-    bottom: "1%",
   },
 });
