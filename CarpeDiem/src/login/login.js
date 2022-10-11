@@ -10,6 +10,7 @@ import {
   Text,
   StyleSheet,
 } from "react-native";
+import { LinhaSeparadora } from "../shared/componentes-visuais/linha-separadora";
 
 export default function Login() {
   return (
@@ -104,9 +105,7 @@ export default function Login() {
         </TouchableOpacity>
       </View>
 
-      <View style={styles.linhaSeparadora}>
-        <LinhaSeparadora color="black" />
-      </View>
+      <LinhaSeparadora/>
 
       <View style={styles.footerIcons}>
         <View style={styles.footerIconsIndividual}>
@@ -303,7 +302,3 @@ const styles = StyleSheet.create({
     bottom: "1%",
   },
 });
-
-const LinhaSeparadora = ({ color }) => (
-  <hr style={{ width: "400px", height: "0px", left: "202px", top: "320px" }} />
-);
