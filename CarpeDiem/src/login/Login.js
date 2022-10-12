@@ -7,7 +7,7 @@ import {
   Text,
   StyleSheet,
 } from "react-native";
-import { LinhaSeparadora } from "../shared/components/componentes-visuais/linha-separadora";
+import { LinhaSeparadora } from "../shared/components/visuais/linha-separadora";
 import { FooterIcons } from "../shared/components/footer/footer-icons";
 import { FooterText } from "../shared/components/footer/footer-text";
 import { HeaderIcons } from "../shared/components/header/header-icons";
