@@ -2,7 +2,6 @@ import React from "react";
 import {
   View,
   KeyboardAvoidingView,
-  Image,
   TextInput,
   TouchableOpacity,
   Text,
@@ -12,6 +11,7 @@ import { LinhaSeparadora } from "../shared/components/componentes-visuais/linha-
 import { FooterIcons } from "../shared/components/footer/footer-icons";
 import { FooterText } from "../shared/components/footer/footer-text";
 import { HeaderIcons } from "../shared/components/header/header-icons";
+import { HeaderLogo } from "../shared/components/header/header-logo";
 import * as AkarIcons from "akar-icons";
 
 export default function Login() {
@@ -19,12 +19,7 @@ export default function Login() {
     <KeyboardAvoidingView style={styles.background}>
       <HeaderIcons/>
 
-      <View style={styles.containerLogo}>
-        <Image
-          source={require("../assets/img/logo-slogan.png")}
-          style={{ width: 350, height: 100 }}
-        />
-      </View>
+      <HeaderLogo/>
 
       <View style={styles.containerBemvindo}>
         <Text style={styles.bemvindoText}>BEM VINDO</Text>
@@ -101,10 +96,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#F1ECE9",
-  },
-  containerLogo: {
-    flex: 1,
-    alignItems: "center",
   },
   containerTextInput: {
     flex: 1,

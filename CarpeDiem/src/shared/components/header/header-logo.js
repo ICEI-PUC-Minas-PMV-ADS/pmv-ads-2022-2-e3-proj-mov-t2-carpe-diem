@@ -1,25 +1,22 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Image, StyleSheet } from "react-native";
 
-function FooterText() {
+function HeaderLogo() {
   return (
-    <View>
-      <Text style={styles.direitosReservadosText}>
-        @2022 Carpe Diem - Todos os Direitos Reservados
-      </Text>
+    <View style={styles.containerLogo}>
+      <Image
+        source={require("../../../assets/img/logo-slogan.png")}
+        style={{ width: 350, height: 100 }}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  direitosReservadosText: {
-    fontSize: 7,
-    paddingVertical: 10,
-    paddingHorizontal: 10,
+  containerLogo: {
+    flex: 1,
     alignItems: "center",
-    justifyContent: "center",
-    textAlign: "center",
   },
 });
 
-export { FooterText };
+export { HeaderLogo };
