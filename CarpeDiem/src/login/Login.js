@@ -1,6 +1,5 @@
 import React from "react";
 import * as AkarIcons from "akar-icons";
-import Icon from "react-native-vector-icons/FontAwesome";
 import {
   View,
   KeyboardAvoidingView,
