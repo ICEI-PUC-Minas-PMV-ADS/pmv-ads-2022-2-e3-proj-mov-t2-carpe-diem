@@ -12,44 +12,39 @@ import { FooterIcons } from "../shared/components/footer/footer-icons";
 import { FooterText } from "../shared/components/footer/footer-text";
 import { HeaderIcons } from "../shared/components/header/header-icons";
 import { HeaderLogo } from "../shared/components/header/header-logo";
+import { LoginTexto } from "./components/login-texto";
 import * as AkarIcons from "akar-icons";
 
 export default function Login() {
   return (
     <KeyboardAvoidingView style={styles.background}>
-      <HeaderIcons/>
+      <HeaderIcons />
 
-      <HeaderLogo/>
+      <HeaderLogo />
 
-      <View style={styles.containerBemvindo}>
-        <Text style={styles.bemvindoText}>BEM VINDO</Text>
-        <Text style={styles.bemvindoSubText}>
-          Você não está logado. Entre usando sua conta de rede social ou
-          cadastre seus dados.
-        </Text>
+      <LoginTexto />
 
-        <View style={styles.socialMediaLoginIcons}>
-          <View style={{ right: "45%" }}>
-            <AkarIcons.GoogleFill
-              color="#2C9196"
-              strokeWidth={2}
-              size={35}
-              style={{ display: "inline" }}
-            />
-          </View>
+      <View style={styles.socialMediaLoginIcons}>
+        <View style={{ right: "45%" }}>
+          <AkarIcons.GoogleFill
+            color="#2C9196"
+            strokeWidth={2}
+            size={35}
+            style={{ display: "inline" }}
+          />
+        </View>
 
-          <View style={{ left: "45%" }}>
-            <AkarIcons.FacebookFill
-              color="#2C9196"
-              strokeWidth={2}
-              size={35}
-              style={{ display: "inline" }}
-            />
-          </View>
+        <View style={{ left: "45%" }}>
+          <AkarIcons.FacebookFill
+            color="#2C9196"
+            strokeWidth={2}
+            size={35}
+            style={{ display: "inline" }}
+          />
         </View>
       </View>
 
-      <LinhaSeparadora/>
+      <LinhaSeparadora />
 
       <View style={styles.containerTextInput}>
         <TextInput
@@ -81,11 +76,11 @@ export default function Login() {
         </TouchableOpacity>
       </View>
 
-      <LinhaSeparadora/>
+      <LinhaSeparadora />
 
-      <FooterIcons/>
+      <FooterIcons />
 
-      <FooterText/>
+      <FooterText />
     </KeyboardAvoidingView>
   );
 }
@@ -152,20 +147,5 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     bottom: "1%",
-  },
-  containerBemvindo: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    width: "90%",
-  },
-  bemvindoText: {
-    fontWeight: "700",
-    fontSize: 36,
-  },
-  bemvindoSubText: {
-    fontWeight: "400",
-    fontSize: 12,
-    textAlign: "center",
   },
 });
