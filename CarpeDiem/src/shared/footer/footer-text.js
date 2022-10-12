@@ -12,7 +12,7 @@ function FooterText() {
 }
 
 const styles = StyleSheet.create({
-  footerText: {
+  direitosReservadosText: {
     fontSize: 7,
     paddingVertical: 10,
     paddingHorizontal: 10,

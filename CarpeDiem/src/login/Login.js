@@ -189,14 +189,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     bottom: "1%",
   },
-  direitosReservadosText: {
-    fontSize: 7,
-    paddingVertical: 10,
-    paddingHorizontal: 10,
-    alignItems: "center",
-    justifyContent: "center",
-    textAlign: "center",
-  },
   containerBemvindo: {
     flex: 1,
     alignItems: "center",
