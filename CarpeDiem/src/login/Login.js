@@ -38,7 +38,7 @@ export default function Login() {
 
       <View style={styles.containerLogo}>
         <Image
-          // source={require("./src/assets/img/logo-slogan.png")}
+          source={require("../assets/img/logo-slogan.png")}
           style={{ width: 350, height: 100 }}
         />
       </View>
