@@ -1,10 +1,6 @@
 import React from "react";
 import {
-  View,
   KeyboardAvoidingView,
-  TextInput,
-  TouchableOpacity,
-  Text,
   StyleSheet,
 } from "react-native";
 import { LinhaSeparadora } from "../shared/components/visuais/linha-separadora";
@@ -17,7 +13,7 @@ import { LoginInputs } from "./components/login-inputs";
 
 export default function Login() {
   return (
-    <KeyboardAvoidingView style={styles.background}>
+    <KeyboardAvoidingView style={styles.loginBackground}>
       <HeaderIcons />
 
       <HeaderLogo />
@@ -38,7 +34,7 @@ export default function Login() {
 }
 
 const styles = StyleSheet.create({
-  background: {
+  loginBackground: {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
