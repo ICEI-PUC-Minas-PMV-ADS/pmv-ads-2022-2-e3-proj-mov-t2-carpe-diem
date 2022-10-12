@@ -13,7 +13,7 @@ import { FooterText } from "../shared/components/footer/footer-text";
 import { HeaderIcons } from "../shared/components/header/header-icons";
 import { HeaderLogo } from "../shared/components/header/header-logo";
 import { LoginTexto } from "./components/login-texto";
-import * as AkarIcons from "akar-icons";
+import { LoginIcons } from "../shared/components/login/login-icons";
 
 export default function Login() {
   return (
@@ -24,25 +24,7 @@ export default function Login() {
 
       <LoginTexto />
 
-      <View style={styles.socialMediaLoginIcons}>
-        <View style={{ right: "45%" }}>
-          <AkarIcons.GoogleFill
-            color="#2C9196"
-            strokeWidth={2}
-            size={35}
-            style={{ display: "inline" }}
-          />
-        </View>
-
-        <View style={{ left: "45%" }}>
-          <AkarIcons.FacebookFill
-            color="#2C9196"
-            strokeWidth={2}
-            size={35}
-            style={{ display: "inline" }}
-          />
-        </View>
-      </View>
+      <LoginIcons />
 
       <LinhaSeparadora />
 
@@ -138,14 +120,5 @@ const styles = StyleSheet.create({
   },
   esqueceuSenhaText: {
     fontSize: 10,
-  },
-  socialMediaLoginIcons: {
-    flex: 1,
-    paddingVertical: 100,
-    paddingHorizontal: 10,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    bottom: "1%",
   },
 });
