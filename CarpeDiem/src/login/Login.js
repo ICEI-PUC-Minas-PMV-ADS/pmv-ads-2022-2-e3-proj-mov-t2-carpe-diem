@@ -189,14 +189,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     bottom: "1%",
   },
-  footerText: {
-    fontSize: 7,
-    paddingVertical: 10,
-    paddingHorizontal: 10,
-    alignItems: "center",
-    justifyContent: "center",
-    textAlign: "center",
-  },
   direitosReservadosText: {
     fontSize: 7,
     paddingVertical: 10,
