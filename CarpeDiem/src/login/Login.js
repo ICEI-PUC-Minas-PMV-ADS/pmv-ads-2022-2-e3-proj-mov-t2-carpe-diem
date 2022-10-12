@@ -13,7 +13,7 @@ import { FooterText } from "../shared/components/footer/footer-text";
 import { HeaderIcons } from "../shared/components/header/header-icons";
 import { HeaderLogo } from "../shared/components/header/header-logo";
 import { LoginTexto } from "./components/login-texto";
-import { LoginIcons } from "../shared/components/login/login-icons";
+import { LoginInputs } from "./components/login-inputs";
 
 export default function Login() {
   return (
@@ -26,35 +26,7 @@ export default function Login() {
 
       <LinhaSeparadora />
 
-      <View style={styles.containerTextInput}>
-        <TextInput
-          style={styles.textInput}
-          placeholder="Email"
-          autocorrect={false}
-          onChangeText={() => {}}
-        ></TextInput>
-
-        <TextInput
-          style={styles.textInput}
-          placeholder="Senha"
-          autocorrect={false}
-          onChangeText={() => {}}
-        ></TextInput>
-
-        <TouchableOpacity style={styles.btnEsqueceuSenha}>
-          <Text style={styles.esqueceuSenhaText}>Esqueceu a senha?</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.btnEntrar}>
-          <Text style={styles.entrarText}>ENTRAR</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.btnCadastro}>
-          <Text style={styles.cadastroText}>
-            Ainda não tem conta? Cadastre-se
-          </Text>
-        </TouchableOpacity>
-      </View>
+      <LoginInputs/>
 
       <LinhaSeparadora />
 
@@ -72,49 +44,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     backgroundColor: "#F1ECE9",
   },
-  containerTextInput: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    width: "90%",
-  },
-  textInput: {
-    backgroundColor: "#FBCB2B",
-    width: "90%",
-    marginBottom: 15,
-    color: "#222",
-    fontSize: 17,
-    borderRadius: 20,
-    padding: 7,
-    fontFamily: "Quicksand",
-  },
-  btnEntrar: {
-    backgroundColor: "#6FDDE3",
-    width: "90%",
-    alignItems: "center",
-    justifyContent: "center",
-    marginBottom: 15,
-    fontSize: 17,
-    borderRadius: 20,
-    padding: 7,
-    height: 45,
-  },
   entrarText: {
     fontWeight: "700",
     fontSize: 16,
-  },
-  btnCadastro: {
-    marginBottom: 10,
-  },
-  cadastroText: {
-    fontSize: 16,
-  },
-  btnEsqueceuSenha: {
-    alignItems: "center",
-    justifyContent: "center",
-    width: "170px",
-    height: "50px",
-    padding: 7,
   },
   esqueceuSenhaText: {
     fontSize: 10,
