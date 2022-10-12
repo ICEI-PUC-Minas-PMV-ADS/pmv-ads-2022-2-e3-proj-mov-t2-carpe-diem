@@ -29,6 +29,9 @@ const styles = StyleSheet.create({
     height: "50px",
     padding: 7,
   },
+  esqueceuSenhaText: {
+    fontSize: 10,
+  },
   btnEntrar: {
     backgroundColor: "#6FDDE3",
     width: "90%",
@@ -39,6 +42,10 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 7,
     height: 45,
+  },
+  entrarText: {
+    fontWeight: "700",
+    fontSize: 16,
   },
   btnCadastro: {
     marginBottom: 10,

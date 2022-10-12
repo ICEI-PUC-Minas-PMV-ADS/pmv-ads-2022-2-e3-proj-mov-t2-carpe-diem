@@ -44,11 +44,4 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     backgroundColor: "#F1ECE9",
   },
-  entrarText: {
-    fontWeight: "700",
-    fontSize: 16,
-  },
-  esqueceuSenhaText: {
-    fontSize: 10,
-  },
 });
