@@ -6,7 +6,7 @@ import {
 
 const LinhaSeparadora = ({ color }) => (
   <View style={styles.linhaSeparadora}>
-    <hr style={{ width: "400px", height: "0px", left: "202px", top: "320px", color: black }} />
+    <hr style={{ width: "400px", height: "0px", left: "202px", top: "320px"}} />
   </View>
 );
 
