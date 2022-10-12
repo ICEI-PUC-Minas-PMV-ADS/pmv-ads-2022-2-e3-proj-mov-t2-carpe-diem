@@ -24,8 +24,6 @@ export default function Login() {
 
       <LoginTexto />
 
-      <LoginIcons />
-
       <LinhaSeparadora />
 
       <View style={styles.containerTextInput}>

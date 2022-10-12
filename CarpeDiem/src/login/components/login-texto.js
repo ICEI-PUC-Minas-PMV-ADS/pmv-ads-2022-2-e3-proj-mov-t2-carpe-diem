@@ -1,15 +1,18 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
+import { LoginIcons } from "../../shared/components/login/login-icons"
 
 function LoginTexto() {
   return (
     <View style={styles.containerLogin}>
-        <Text style={styles.loginText}>BEM VINDO</Text>
-        <Text style={styles.loginSubText}>
-          Você não está logado. Entre usando sua conta de rede social ou
-          cadastre seus dados.
-        </Text>
-      </View>
+      <Text style={styles.loginText}>BEM VINDO</Text>
+      <Text style={styles.loginSubText}>
+        Você não está logado. Entre usando sua conta de rede social ou cadastre
+        seus dados.
+      </Text>
+
+      <LoginIcons />
+    </View>
   );
 }
 
