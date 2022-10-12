@@ -8,10 +8,10 @@ import {
   Text,
   StyleSheet,
 } from "react-native";
-import { LinhaSeparadora } from "../shared/componentes-visuais/linha-separadora";
-import { FooterIcons } from "../shared/footer/footer-icons";
-import { FooterText } from "../shared/footer/footer-text";
-import { HeaderIcons } from "../shared/header/header-icons";
+import { LinhaSeparadora } from "../shared/components/componentes-visuais/linha-separadora";
+import { FooterIcons } from "../shared/components/footer/footer-icons";
+import { FooterText } from "../shared/components/footer/footer-text";
+import { HeaderIcons } from "../shared/components/header/header-icons";
 import * as AkarIcons from "akar-icons";
 
 export default function Login() {
