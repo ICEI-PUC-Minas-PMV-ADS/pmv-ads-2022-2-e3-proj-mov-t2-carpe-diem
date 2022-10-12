@@ -11,6 +11,7 @@ import {
 } from "react-native";
 import { LinhaSeparadora } from "../shared/componentes-visuais/linha-separadora";
 import { FooterIcons } from "../shared/footer/footer-icons";
+import { FooterText } from "../shared/footer/footer-text";
 
 export default function Login() {
   return (
@@ -107,11 +108,7 @@ export default function Login() {
 
       <FooterIcons/>
 
-      <View>
-        <Text style={styles.direitosReservadosText}>
-          @2022 Carpe Diem - Todos os Direitos Reservados
-        </Text>
-      </View>
+      <FooterText/>
     </KeyboardAvoidingView>
   );
 }
