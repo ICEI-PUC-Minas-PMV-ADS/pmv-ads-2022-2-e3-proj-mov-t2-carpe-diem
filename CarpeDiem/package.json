@@ -11,9 +11,9 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@carbon/icons-react": "^11.9.0",
+    "@expo/webpack-config": "^0.17.0",
     "@react-navigation/native": "^6.0.13",
     "@react-navigation/native-stack": "^6.9.1",
-    "@expo/webpack-config": "^0.17.0",
     "akar-icons": "^1.9.20",
     "expo": "~46.0.13",
     "expo-splash-screen": "~0.16.2",
