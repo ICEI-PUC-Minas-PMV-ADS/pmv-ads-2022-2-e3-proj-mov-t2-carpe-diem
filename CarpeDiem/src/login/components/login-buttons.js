@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import Cadastro from "../../cadastro/Cadastro"
 
 function LoginButtons() {
   return (
@@ -12,7 +13,10 @@ function LoginButtons() {
         <Text style={styles.entrarText}>ENTRAR</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.btnCadastro}>
+      <TouchableOpacity
+        style={styles.btnCadastro}
+        onPress={() => Cadastro()}
+      >
         <Text style={styles.cadastroText}>
           Ainda não tem conta? Cadastre-se
         </Text>
