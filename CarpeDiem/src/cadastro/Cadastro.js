@@ -7,7 +7,7 @@ import { CadastroTexto } from "./components/cadastro-texto";
 
 export default function Cadastro() {
   return (
-    <KeyboardAvoidingView style={styles.loginBackground}>
+    <KeyboardAvoidingView style={styles.cadastroBackground}>
       <CadastroTexto />
     </KeyboardAvoidingView>
   );
