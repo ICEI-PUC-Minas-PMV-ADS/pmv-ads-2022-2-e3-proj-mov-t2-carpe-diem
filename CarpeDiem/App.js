@@ -1,10 +1,12 @@
 import { NavigationContainer } from "@react-navigation/native";
 import Login from "./src/login/Login";
 
-export default function App() {
+const App = () => {
   return (
     <NavigationContainer>
       <Login />
     </NavigationContainer>
   );
-}
+};
+
+export default App;
