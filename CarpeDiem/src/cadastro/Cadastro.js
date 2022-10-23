@@ -1,11 +1,8 @@
 import React from "react";
-import {
-  KeyboardAvoidingView,
-  StyleSheet,
-} from "react-native";
+import { KeyboardAvoidingView, StyleSheet } from "react-native";
 import { CadastroTexto } from "./components/cadastro-texto";
 
-export default function Cadastro() {
+function Cadastro() {
   return (
     <KeyboardAvoidingView style={styles.cadastroBackground}>
       <CadastroTexto />
@@ -21,3 +18,5 @@ const styles = StyleSheet.create({
     backgroundColor: "#F1ECE9",
   },
 });
+
+export { Cadastro };
