@@ -6,7 +6,7 @@ function HeaderLogo() {
     <View style={styles.containerLogo}>
       <Image
         source={require("../../../assets/img/logo-slogan.png")}
-        style={{ width: 350, height: 100 }}
+        style={{ width: 280, height: 80 }}
       />
     </View>
   );

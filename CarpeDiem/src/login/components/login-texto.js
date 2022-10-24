@@ -25,11 +25,14 @@ const styles = StyleSheet.create({
   loginText: {
     fontWeight: "700",
     fontSize: 36,
+    fontFamily: 'QuicksandRegular',
+    fontWeight:'bold',
   },
   loginSubText: {
     fontWeight: "400",
     fontSize: 12,
     textAlign: "center",
+    fontFamily: 'QuicksandRegular',    
   },
 });
 

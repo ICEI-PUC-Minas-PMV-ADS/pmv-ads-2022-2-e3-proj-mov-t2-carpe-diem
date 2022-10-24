@@ -1,10 +1,10 @@
 import { NavigationContainer } from "@react-navigation/native";
-import Login from "./src/login/Login";
+import PerfilUsuario from "./src/perfil-usuario/PerfilUsuario";
 
 const App = () => {
   return (
     <NavigationContainer>
-      <Login />
+      <PerfilUsuario />
     </NavigationContainer>
   );
 };

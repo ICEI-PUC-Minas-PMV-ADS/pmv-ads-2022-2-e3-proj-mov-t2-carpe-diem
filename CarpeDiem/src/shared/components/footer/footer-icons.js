@@ -9,7 +9,7 @@ function FooterIcons() {
         <Icon name="home" size={20} color="#2C9196" />
         <Text
           style={{
-            fontSize: 7,
+            fontSize: 8,
           }}
         >
           Busque por um imóvel
@@ -20,7 +20,7 @@ function FooterIcons() {
         <Icon name="phone" size={20} color="#2C9196" />
         <Text
           style={{
-            fontSize: 7,
+            fontSize: 8,
           }}
         >
           Fale conosco
@@ -31,7 +31,7 @@ function FooterIcons() {
         <Icon name="info-circle" size={20} color="#2C9196" />
         <Text
           style={{
-            fontSize: 7,
+            fontSize: 8,
           }}
         >
           Políticas e Condições de Uso
@@ -42,7 +42,7 @@ function FooterIcons() {
         <Icon name="user-plus" size={20} color="#2C9196" />
         <Text
           style={{
-            fontSize: 7,
+            fontSize: 8,
           }}
         >
           Cadastre-se
@@ -53,7 +53,7 @@ function FooterIcons() {
         <Icon name="user-circle" size={20} color="#2C9196" />
         <Text
           style={{
-            fontSize: 7,
+            fontSize: 8,
           }}
         >
           Perfil
