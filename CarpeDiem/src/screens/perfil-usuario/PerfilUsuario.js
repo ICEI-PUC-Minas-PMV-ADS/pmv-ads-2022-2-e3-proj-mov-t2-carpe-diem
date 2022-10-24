@@ -2,15 +2,15 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, SafeAreaView } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 
-import { HeaderIcons } from "../shared/components/header/header-icons";
-import { HeaderLogo } from "../shared/components/header/header-logo";
-import { LinhaSeparadora } from "../shared/components/visuais/linha-separadora";
-import { FooterIcons } from "../shared/components/footer/footer-icons";
-import { FooterText } from "../shared/components/footer/footer-text";
+import { HeaderIcons } from "../../shared/components/header/header-icons";
+import { HeaderLogo } from "../../shared/components/header/header-logo";
+import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
+import { FooterIcons } from "../../shared/components/footer/footer-icons";
+import { FooterText } from "../../shared/components/footer/footer-text";
 
-import BtnBlue from '../shared/components/visuais/BtnBlue';
-import Input from '../shared/components/visuais/Input';
-import H1 from '../shared/components/visuais/H1';
+import BtnBlue from '../../shared/components/visuais/BtnBlue';
+import Input from '../../shared/components/visuais/Input';
+import H1 from '../../shared/components/visuais/H1';
 
 export default function App() {
   return (
