@@ -1,12 +1,10 @@
-import { NavigationContainer } from "@react-navigation/native";
-import PerfilUsuario from "./src/perfil-usuario/PerfilUsuario";
+import React from "react";
+import Navigator from "./src/routes/Stack";
 
-const App = () => {
+function App() {
   return (
-    <NavigationContainer>
-      <PerfilUsuario />
-    </NavigationContainer>
+    <Navigator />
   );
-};
+}
 
 export default App;

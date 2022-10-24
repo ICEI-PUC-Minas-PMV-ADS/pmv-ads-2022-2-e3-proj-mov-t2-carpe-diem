@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import { LoginIcons } from "../../shared/components/login/login-icons";
+import { LoginIcons } from "../../../shared/components/login/login-icons";
 
 function LoginTexto() {
   return (
@@ -25,14 +25,11 @@ const styles = StyleSheet.create({
   loginText: {
     fontWeight: "700",
     fontSize: 36,
-    fontFamily: 'QuicksandRegular',
-    fontWeight:'bold',
   },
   loginSubText: {
     fontWeight: "400",
     fontSize: 12,
     textAlign: "center",
-    fontFamily: 'QuicksandRegular',    
   },
 });
 

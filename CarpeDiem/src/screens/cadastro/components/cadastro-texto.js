@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import { LoginIcons } from "../../shared/components/login/login-icons";
+import { LoginIcons } from "../../../shared/components/login/login-icons";
 
 function CadastroTexto() {
   return (

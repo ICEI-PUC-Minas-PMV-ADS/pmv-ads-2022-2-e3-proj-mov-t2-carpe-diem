@@ -19,4 +19,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { Cadastro };
+export default Cadastro;

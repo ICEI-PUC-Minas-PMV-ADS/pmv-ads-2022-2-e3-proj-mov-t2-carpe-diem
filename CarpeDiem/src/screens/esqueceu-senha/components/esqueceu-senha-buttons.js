@@ -2,22 +2,18 @@ import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import Cadastro from "../../cadastro/Cadastro"
 
-function LoginButtons() {
+function EsqueceuSenhaButtons() {
   return (
     <View>
-      <TouchableOpacity style={styles.btnEsqueceuSenha}>
-        <Text style={styles.esqueceuSenhaText}>Esqueceu a senha?</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={styles.btnEntrar}>
-        <Text style={styles.entrarText}>ENTRAR</Text>
+      <TouchableOpacity style={styles.btnRecuperarSenha}>
+        <Text style={styles.RecuperarSenhaText}>RECUPERAR SENHA</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.btnCadastro}
         onPress={() => Cadastro()}
       >
-        <Text style={styles.cadastroText}>
+        <Text style={styles.CadastroText}>
           Ainda não tem conta? Cadastre-se
         </Text>
       </TouchableOpacity>
@@ -26,17 +22,7 @@ function LoginButtons() {
 }
 
 const styles = StyleSheet.create({
-  btnEsqueceuSenha: {
-    alignItems: "center",
-    justifyContent: "center",
-    width: "170px",
-    height: "50px",
-    padding: 7,
-  },
-  esqueceuSenhaText: {
-    fontSize: 10,
-  },
-  btnEntrar: {
+  btnRecuperarSenha: {
     backgroundColor: "#6FDDE3",
     width: "90%",
     alignItems: "center",
@@ -47,16 +33,16 @@ const styles = StyleSheet.create({
     padding: 7,
     height: 45,
   },
-  entrarText: {
+  RecuperarSenhaText: {
     fontWeight: "700",
     fontSize: 16,
   },
   btnCadastro: {
     marginBottom: 10,
   },
-  cadastroText: {
+  CadastroText: {
     fontSize: 16,
   },
 });
 
-export { LoginButtons };
+export { EsqueceuSenhaButtons };
