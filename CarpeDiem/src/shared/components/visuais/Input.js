@@ -5,7 +5,7 @@ import { useFonts } from 'expo-font';
 export default function Input({ title, password }) {
   const [text, setText] = useState('dentro');
   /*const [fontsLoaded] = useFonts({
-    'QuicksandRegular': require('./src/assets/font/Quicksand-Regular.ttf'),
+    'QuicksandRegular': require('./src/assets/fonts/Quicksand-Regular.ttf'),
   });
   */
 
