@@ -3,11 +3,11 @@ import { StyleSheet, Text, SafeAreaView, Image } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 
-import { HeaderIcons } from "../shared/components/header/header-icons";
-import { HeaderLogo } from "../shared/components/header/header-logo";
-import { LinhaSeparadora } from "../shared/components/visuais/linha-separadora";
-import { FooterIcons } from "../shared/components/footer/footer-icons";
-import { FooterText } from "../shared/components/footer/footer-text";
+import { HeaderIcons } from "../../shared/components/header/header-icons";
+import { HeaderLogo } from "../../shared/components/header/header-logo";
+import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
+import { FooterIcons } from "../../shared/components/footer/footer-icons";
+import { FooterText } from "../../shared/components/footer/footer-text";
 
 export default function App() {
   return (

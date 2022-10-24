@@ -3,9 +3,9 @@ import { Text, View, Linking } from 'react-native';
 import { useFonts } from 'expo-font';
 
 export default function BtnBlue({ title, href = "#" }) {
-  const [text, onChangeText] = React.useState("salvar");
+  const [text, onChangeText] = React.useState("entrar em contato");
   /*const [fontsLoaded] = useFonts({
-    QuicksandBold: require('../src/assets/fonts/Quicksand-Bold.ttf'),
+    QuicksandBold: require('../assets/fonts/Quicksand-Bold.ttf'),
   });
   */
 
