@@ -3,7 +3,7 @@ import { useFonts } from 'expo-font';
 
 export default function H1({ title }) {
   /*const [fontsLoaded] = useFonts({
-    QuicksandBold: require('../assets/font/Quicksand-Bold.ttf'),
+    QuicksandBold: require('../assets/fonts/Quicksand-Bold.ttf'),
   });
   */
 

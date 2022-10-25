@@ -11,7 +11,6 @@ import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LoginTexto } from "./components/login-texto";
 import { LoginInputs } from "./components/login-inputs";
 
-// export default function Login() {
 export default function Login({ navigation }) {
   return (
     <KeyboardAvoidingView style={styles.loginBackground}>
