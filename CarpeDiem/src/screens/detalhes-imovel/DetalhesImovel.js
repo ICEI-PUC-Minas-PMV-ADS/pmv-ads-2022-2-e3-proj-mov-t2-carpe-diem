@@ -3,13 +3,13 @@ import { StyleSheet, Text, SafeAreaView, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-import { HeaderIcons } from "../shared/header/HeaderIcons";
-import { HeaderLogo } from "../shared/header/HeaderLogo";
-import { LinhaSeparadora } from "../shared/visuais/LinhaSeparadora";
-import { FooterIcons } from "../shared/footer/FooterIcons";
-import { FooterText } from "../shared/footer/FooterText";
+import { HeaderIcons } from "../../shared/components/header/header-icons";
+import { HeaderLogo } from "../../shared/components/header/header-logo";
+import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
+import { FooterIcons } from "../../shared/components/footer/footer-icons";
+import { FooterText } from "../../shared/components/footer/footer-text";
 
-import BtnBlueContato from '../components/BtnBlueContato';
+import BtnBlueContato from '../../shared/components/visuais/BtnBlueContato';
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
       
       <Text style={styles.text1}>Pousada Princess </Text>
       <Text style={styles.text2}>Porto Seguro - BA </Text>
-      <Image source={require('../assets/img/pousada-princess.jpg')} style={{ width: 300, height: 210 }} />
+      <Image source={require('../../assets/img/pousada-princess.jpg')} style={{ width: 300, height: 210 }} />
       
       <Text style={styles.text2}>Especificações </Text>      
       

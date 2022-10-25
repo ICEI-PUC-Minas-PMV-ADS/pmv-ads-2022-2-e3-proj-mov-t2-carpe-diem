@@ -18,7 +18,7 @@ export default function App() {
       
       <Text style={styles.text1}>Pousada Princess </Text>
       <Text style={styles.text2}>Porto Seguro - BA </Text>
-      <Image source={require('../assets/img/pousada-princess.jpg')} style={{ width: 300, height: 210 }} />
+      <Image source={require('../../assets/img/pousada-princess.jpg')} style={{ width: 300, height: 210 }} />
       
       <Text style={styles.text1}>Gostou do Imóvel? </Text>
       <Text style={styles.text2}>Verifique a Disponibilidade e Faça sua Reserva!</Text>
