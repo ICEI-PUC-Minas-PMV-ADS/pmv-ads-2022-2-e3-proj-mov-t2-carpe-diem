@@ -34,7 +34,7 @@ const AppNavigator = createStackNavigator(
     },
   },
   {
-    initialRouteName: "EsqueceuSenha",
+    initialRouteName: "Login",
     headerMode: "none",
     navigationOptions: {
       headerVisible: false,

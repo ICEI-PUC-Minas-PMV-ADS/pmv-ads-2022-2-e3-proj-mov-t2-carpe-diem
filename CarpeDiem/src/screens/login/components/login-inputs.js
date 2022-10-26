@@ -2,7 +2,7 @@ import React from "react";
 import { View, TextInput, StyleSheet } from "react-native";
 import { LoginButtons } from "./login-buttons";
 
-function LoginInputs() {
+function LoginInputs({ navigation }) {
   return (
     <View style={styles.containerTextInput}>
       <TextInput
@@ -19,7 +19,7 @@ function LoginInputs() {
         onChangeText={() => {}}
       ></TextInput>
 
-      <LoginButtons />
+      <LoginButtons navigation={navigation} />
     </View>
   );
 }

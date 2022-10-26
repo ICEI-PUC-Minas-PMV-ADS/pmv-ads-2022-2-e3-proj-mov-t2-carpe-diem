@@ -1,9 +1,9 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet, Button } from "react-native";
-import Cadastro from "../../cadastro/Cadastro";
 
-function LoginButtons() {
+function LoginButtons({ navigation }) {
   const redirecionaTela = () => {
+
     navigation.push("Cadastro");
   };
 
