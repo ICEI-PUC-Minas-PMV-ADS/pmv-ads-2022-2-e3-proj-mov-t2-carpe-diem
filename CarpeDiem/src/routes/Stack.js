@@ -9,6 +9,7 @@ import HomePage from "../screens/home-page/HomePage";
 import DetalhesImovel from "../screens/detalhes-imovel/DetalhesImovel";
 import PerfilUsuario from "../screens/perfil-usuario/PerfilUsuario";
 import EntrarContato from "../screens/entrar-contato/EntrarContato";
+import FaleConosco from "../screens/fale-conosco/FaleConosco";
 
 const AppNavigator = createStackNavigator(
   {
@@ -35,6 +36,9 @@ const AppNavigator = createStackNavigator(
     },
     EntrarContato: {
       screen: EntrarContato,
+    },
+    FaleConosco: {
+      screen: FaleConosco,
     },
   },
   {
