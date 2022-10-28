@@ -3,11 +3,11 @@ import {
   KeyboardAvoidingView,
   StyleSheet,
 } from "react-native";
-import { LinhaSeparadora } from "../shared/components/visuais/linha-separadora";
-import { FooterIcons } from "../shared/components/footer/footer-icons";
-import { FooterText } from "../shared/components/footer/footer-text";
-import { HeaderIcons } from "../shared/components/header/header-icons";
-import { HeaderLogo } from "../shared/components/header/header-logo";
+import { HeaderIcons } from "../../shared/components/header/header-icons";
+import { HeaderLogo } from "../../shared/components/header/header-logo";
+import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
+import { FooterIcons } from "../../shared/components/footer/footer-icons";
+import { FooterText } from "../../shared/components/footer/footer-text";
 import { EsqueceuSenhaTexto } from "./components/esqueceu-senha-texto";
 
 export default function EsqueceuSenha() {

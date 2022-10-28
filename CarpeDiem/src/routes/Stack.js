@@ -34,7 +34,7 @@ const AppNavigator = createStackNavigator(
     },
   },
   {
-    initialRouteName: "Login",
+    initialRouteName: "DetalhesImovel",
     headerMode: "none",
     navigationOptions: {
       headerVisible: false,
