@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, SafeAreaView, ScrollView } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 
 import { HeaderIcons } from "../../shared/components/header/header-icons";
@@ -15,26 +15,28 @@ import H1 from '../../shared/components/visuais/H1';
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <HeaderIcons />
-      <HeaderLogo />
-      <MaterialIcons name= "account-circle" size={80} color="#2C9196" />
-      <StatusBar style="auto" />
-      <H1 title="Perfil" />
-      <Text style={styles.text}>Nome Usuário </Text>
-      <Text style={styles.text}>email@email.com.br</Text>
-      <LinhaSeparadora />
-      <Input title="Nome Completo" />
-      <Input title="CPF" />
-      <Input title="Email" />
-      <Input title="Senha" />
-      <Input title="Confirme sua Senha" />
-      <BtnBlue />
-      <BtnBlue />
-      <BtnBlue />
-      <Text style={styles.text2}>Ainda não tem conta? Cadastre-se</Text>
-      <LinhaSeparadora />
-      <FooterIcons />
-      <FooterText />
+      <ScrollView style={styles.scrollView}>
+       <HeaderIcons />
+       <HeaderLogo />
+       <MaterialIcons name= "account-circle" size={80} color="#2C9196" />
+       <StatusBar style="auto" />
+       <H1 title="Perfil" />
+       <Text style={styles.text}>Nome Usuário </Text>
+       <Text style={styles.text}>email@email.com.br</Text>
+       <LinhaSeparadora />
+       <Input title="Nome Completo" />
+       <Input title="CPF" />
+       <Input title="Email" />
+       <Input title="Senha" />
+       <Input title="Confirme sua Senha" />
+       <BtnBlue />
+       <BtnBlue />
+       <BtnBlue />
+       <Text style={styles.text2}>Ainda não tem conta? Cadastre-se</Text>
+       <LinhaSeparadora />
+       <FooterIcons />
+       <FooterText />
+      </ScrollView>
     </SafeAreaView>
   );
 }
@@ -58,5 +60,9 @@ const styles = StyleSheet.create({
     width: '100%',
     padding: 20,
     backgroundColor: '#F1ECE9',
+  },
+  scrollView: {
+    backgroundColor: '#F1ECE9',
+    
   },
 });

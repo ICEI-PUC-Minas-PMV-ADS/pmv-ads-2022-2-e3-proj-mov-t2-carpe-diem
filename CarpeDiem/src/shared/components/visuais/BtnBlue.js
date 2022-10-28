@@ -3,11 +3,7 @@ import { Text, View, Linking } from 'react-native';
 import { useFonts } from 'expo-font';
 
 export default function BtnBlue({ title, href = "#" }) {
-  const [text, onChangeText] = React.useState("salvar");
-  /*const [fontsLoaded] = useFonts({
-    QuicksandBold: require('../../assets/fonts/Quicksand-Bold.ttf'),
-  });
-  */
+  const [text, onChangeText] = React.useState("salvar");  
 
   return (
     <View style={style.view}>
@@ -29,7 +25,6 @@ const style = {
     padding: 2,
   },
   text: {
-    fontFamily: 'QuicksandBold',
     fontWeight:'bold',
     fontSize: 20,
     width:"100%",

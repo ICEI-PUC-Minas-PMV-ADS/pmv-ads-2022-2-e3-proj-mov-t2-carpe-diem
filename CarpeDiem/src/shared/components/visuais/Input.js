@@ -3,12 +3,6 @@ import { useState } from 'react';
 import { useFonts } from 'expo-font';
 
 export default function Input({ title, password }) {
-  /*const [text, setText] = useState('dentro');
-  const [fontsLoaded] = useFonts({
-    'QuicksandRegular': require('../../assets/fonts/Quicksand-Regular.ttf'),
-  });
-  */
-
   return (
     <View style={style.view}>
       <Text style={style.text}>{title}</Text>
@@ -31,7 +25,6 @@ const style = {
     marginBottom:10
   },
   text: {
-    fontFamily: 'QuicksandRegular',
     fontSize: 16,
   },
   input: {

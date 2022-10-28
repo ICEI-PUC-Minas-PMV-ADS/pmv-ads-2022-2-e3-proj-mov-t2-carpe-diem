@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  KeyboardAvoidingView,
-  StyleSheet,
-} from "react-native";
+import { KeyboardAvoidingView, StyleSheet } from "react-native";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
@@ -11,7 +8,6 @@ import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LoginTexto } from "./components/login-texto";
 import { LoginInputs } from "./components/login-inputs";
 
-// export default function Login() {
 export default function Login({ navigation }) {
   return (
     <KeyboardAvoidingView style={styles.loginBackground}>
@@ -23,7 +19,7 @@ export default function Login({ navigation }) {
 
       <LinhaSeparadora />
 
-      <LoginInputs/>
+      <LoginInputs navigation={navigation} />
 
       <LinhaSeparadora />
 

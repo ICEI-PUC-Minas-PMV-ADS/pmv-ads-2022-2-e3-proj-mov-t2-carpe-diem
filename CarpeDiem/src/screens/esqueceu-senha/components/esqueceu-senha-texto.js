@@ -4,7 +4,8 @@ import { View, Text, StyleSheet } from "react-native";
 function EsqueceuSenhaTexto() {
   return (
     <View style={styles.containerEsqueceuSenha}>
-      <Text style={styles.EsqueceuSenhaText}>ESQUECEU SUA SENHA?</Text>
+      <Text style={styles.EsqueceuSenhaText}>ESQUECEU SUA</Text>
+      <Text style={styles.EsqueceuSenhaText}> SENHA?</Text>
     </View>
   );
 }

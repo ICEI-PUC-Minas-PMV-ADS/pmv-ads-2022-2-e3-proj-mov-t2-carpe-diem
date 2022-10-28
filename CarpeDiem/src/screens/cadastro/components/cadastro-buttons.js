@@ -1,25 +1,25 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet, Button } from "react-native";
 
-function LoginButtons({ navigation }) {
+function CadastroButtons({ navigation }) {
   const redirecionaTela = () => {
 
-    navigation.push("Cadastro");
+    navigation.push("Login");
   };
 
   return (
     <View>
       <TouchableOpacity style={styles.btnEsqueceuSenha}>
-        <Text style={styles.esqueceuSenhaText}>Esqueceu a senha?</Text>
+        <Text style={styles.esqueceuSenhaText}>Lembre-me neste dispositivo</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.btnEntrar}>
-        <Text style={styles.entrarText}>ENTRAR</Text>
+        <Text style={styles.entrarText}>CADASTRAR</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.btnCadastro} onPress={redirecionaTela}>
         <Text style={styles.cadastroText}>
-          Ainda não tem conta? Cadastre-se
+          Já possui cadastro? Faça Login
         </Text>
       </TouchableOpacity>
     </View>
@@ -60,4 +60,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { LoginButtons };
+export { CadastroButtons };

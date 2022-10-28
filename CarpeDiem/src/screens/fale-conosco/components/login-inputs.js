@@ -1,28 +1,31 @@
 import React from "react";
-import { Text, View, TextInput, StyleSheet } from "react-native";
+import { View, TextInput, StyleSheet } from "react-native";
 import { LoginButtons } from "./login-buttons";
 
 function LoginInputs({ navigation }) {
   return (
     <View style={styles.containerTextInput}>
-      <Text>Email</Text>
       <TextInput
         style={styles.textInput}
-        placeholder="Informe o Email"
+        placeholder="Nome Completo"
         autocorrect={false}
-        onChangeText={() => {}}
-      />
-      <Text>Senha</Text>
+        onChangeText={() => { }}
+      ></TextInput>
+
       <TextInput
         style={styles.textInput}
-        placeholder="Informe a Senha"
+        placeholder="Email"
         autocorrect={false}
-        onChangeText={() => {}}
-      />
+        onChangeText={() => { }}
+      ></TextInput>
+      <TextInput
+        style={styles.textInputMensagem}
+        placeholder="Mensagem"
+        autocorrect={false}
+        onChangeText={() => { }}
+      ></TextInput>
       <LoginButtons navigation={navigation} />
     </View>
-    
-    
   );
 }
 
@@ -41,6 +44,19 @@ const styles = StyleSheet.create({
     fontSize: 17,
     borderRadius: 20,
     padding: 7,
+    fontFamily: "Quicksand",
+  },
+  textInputMensagem: {
+    backgroundColor: "#FBCB2B",
+    width: "90%",
+    lineHeight: 100,
+    maxLength: 255, 
+    marginBottom: 15,
+    color: "#222",
+    fontSize: 17,
+    borderRadius: 20,
+    padding: 7,
+    fontFamily: "Quicksand",
   },
 });
 

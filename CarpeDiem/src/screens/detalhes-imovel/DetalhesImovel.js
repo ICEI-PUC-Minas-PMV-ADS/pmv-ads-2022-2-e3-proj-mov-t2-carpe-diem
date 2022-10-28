@@ -68,13 +68,11 @@ const styles = StyleSheet.create({
     fontSize: 24,
     textAlign: 'left',
     padding: 5,
-    fontFamily: 'QuicksandRegular',
     fontWeight:'bold',
   },
   text2: {
     fontSize: 16,
     textAlign: 'center',
-    fontFamily: 'QuicksandRegular',
     fontWeight:'bold',
     padding: 15,
   },  
