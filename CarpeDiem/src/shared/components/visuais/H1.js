@@ -2,11 +2,6 @@ import { Text, View, TextInput } from 'react-native';
 import { useFonts } from 'expo-font';
 
 export default function H1({ title }) {
-  /*const [fontsLoaded] = useFonts({
-    QuicksandBold: require('../assets/fonts/Quicksand-Bold.ttf'),
-  });
-  */
-
   return (
     <View style={style.view}>
       <Text style={style.text}>{title}</Text>
@@ -21,7 +16,6 @@ const style = {
     textAlign:'center'
   },
   text: {
-    fontFamily: 'QuicksandBold',
     fontSize: 36,
     textAlign:'center'
   },

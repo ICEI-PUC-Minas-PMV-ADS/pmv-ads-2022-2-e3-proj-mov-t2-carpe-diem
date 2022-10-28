@@ -41,7 +41,6 @@ const styles = StyleSheet.create({
     fontSize: 17,
     borderRadius: 20,
     padding: 7,
-    fontFamily: "Quicksand",
   },
 });
 
