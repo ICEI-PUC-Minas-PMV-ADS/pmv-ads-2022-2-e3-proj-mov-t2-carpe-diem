@@ -7,18 +7,23 @@ function LoginInputs({ navigation }) {
     <View style={styles.containerTextInput}>
       <TextInput
         style={styles.textInput}
-        placeholder="Email"
+        placeholder="Nome Completo"
         autocorrect={false}
-        onChangeText={() => {}}
+        onChangeText={() => { }}
       ></TextInput>
 
       <TextInput
         style={styles.textInput}
-        placeholder="Senha"
+        placeholder="Email"
         autocorrect={false}
-        onChangeText={() => {}}
+        onChangeText={() => { }}
       ></TextInput>
-
+      <TextInput
+        style={styles.textInputMensagem}
+        placeholder="Mensagem"
+        autocorrect={false}
+        onChangeText={() => { }}
+      ></TextInput>
       <LoginButtons navigation={navigation} />
     </View>
   );
@@ -34,6 +39,18 @@ const styles = StyleSheet.create({
   textInput: {
     backgroundColor: "#FBCB2B",
     width: "90%",
+    marginBottom: 15,
+    color: "#222",
+    fontSize: 17,
+    borderRadius: 20,
+    padding: 7,
+    fontFamily: "Quicksand",
+  },
+  textInputMensagem: {
+    backgroundColor: "#FBCB2B",
+    width: "90%",
+    lineHeight: 100,
+    maxLength: 255, 
     marginBottom: 15,
     color: "#222",
     fontSize: 17,

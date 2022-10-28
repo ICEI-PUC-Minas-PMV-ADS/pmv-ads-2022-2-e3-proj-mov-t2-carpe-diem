@@ -4,42 +4,25 @@ import { View, Text, TouchableOpacity, StyleSheet, Button } from "react-native";
 function LoginButtons({ navigation }) {
   const redirecionaTela = () => {
 
-    navigation.push("Cadastro");
+    navigation.push();
   };
 
   return (
+
     <View>
-      <TouchableOpacity style={styles.btnEsqueceuSenha}>
-        <Text style={styles.esqueceuSenhaText}>Esqueceu a senha?</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={styles.btnEntrar}>
-        <Text style={styles.entrarText}>ENTRAR</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={styles.btnCadastro} onPress={redirecionaTela}>
-        <Text style={styles.cadastroText}>
-          Ainda não tem conta? Cadastre-se
-        </Text>
+      <TouchableOpacity style={styles.btnEnviar}>
+        <Text style={styles.enviarText}>ENVIAR</Text>
       </TouchableOpacity>
     </View>
+
   );
 }
 
 const styles = StyleSheet.create({
-  btnEsqueceuSenha: {
-    alignItems: "center",
-    justifyContent: "center",
-    width: "170px",
-    height: "50px",
-    padding: 7,
-  },
-  esqueceuSenhaText: {
-    fontSize: 10,
-  },
-  btnEntrar: {
+
+  btnEnviar: {
     backgroundColor: "#6FDDE3",
-    width: "90%",
+    width: 330,
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 15,
@@ -48,16 +31,11 @@ const styles = StyleSheet.create({
     padding: 7,
     height: 45,
   },
-  entrarText: {
+  enviarText: {
     fontWeight: "700",
     fontSize: 16,
   },
-  btnCadastro: {
-    marginBottom: 10,
-  },
-  cadastroText: {
-    fontSize: 16,
-  },
+
 });
 
 export { LoginButtons };

@@ -1,14 +1,11 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import { LoginIcons } from "../../../shared/components/login/login-icons";
 
 function FaleConoscoTexto() {
   return (
     <View style={styles.containerFaleConosco}>
       <Text style={styles.faleconoscoText}>Como podemos te ajudar?</Text>
-      
 
-      <LoginIcons />
     </View>
   );
 }
