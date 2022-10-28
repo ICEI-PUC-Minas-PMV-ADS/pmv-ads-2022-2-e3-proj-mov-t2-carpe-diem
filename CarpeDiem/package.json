@@ -32,6 +32,7 @@
     "tabler-icons-react": "^1.55.0",
     "expo-file-system": "~14.1.0",
     "expo-asset": "~8.6.1"
+    "expo-sqlite": "~10.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

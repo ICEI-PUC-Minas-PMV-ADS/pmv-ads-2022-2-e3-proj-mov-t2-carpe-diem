@@ -1,26 +1,28 @@
 import React from "react";
-import { View, TextInput, StyleSheet } from "react-native";
+import { Text, View, TextInput, StyleSheet } from "react-native";
 import { LoginButtons } from "./login-buttons";
 
 function LoginInputs({ navigation }) {
   return (
     <View style={styles.containerTextInput}>
+      <Text>Email</Text>
       <TextInput
         style={styles.textInput}
-        placeholder="Email"
+        placeholder="Informe o Email"
         autocorrect={false}
         onChangeText={() => {}}
-      ></TextInput>
-
+      />
+      <Text>Senha</Text>
       <TextInput
         style={styles.textInput}
-        placeholder="Senha"
+        placeholder="Informe a Senha"
         autocorrect={false}
         onChangeText={() => {}}
-      ></TextInput>
-
+      />
       <LoginButtons navigation={navigation} />
     </View>
+    
+    
   );
 }
 
