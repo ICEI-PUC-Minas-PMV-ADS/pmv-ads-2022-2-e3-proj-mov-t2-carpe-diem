@@ -4,7 +4,7 @@ import { View, Text, TouchableOpacity, StyleSheet, Button } from "react-native";
 function CadastroButtons({ navigation }) {
   const redirecionaTela = () => {
 
-    navigation.push("Cadastro");
+    navigation.push("Login");
   };
 
   return (
@@ -19,7 +19,7 @@ function CadastroButtons({ navigation }) {
 
       <TouchableOpacity style={styles.btnCadastro} onPress={redirecionaTela}>
         <Text style={styles.cadastroText}>
-          Ainda não tem conta? Cadastre-se
+          Já possui cadastro? Faça Login
         </Text>
       </TouchableOpacity>
     </View>

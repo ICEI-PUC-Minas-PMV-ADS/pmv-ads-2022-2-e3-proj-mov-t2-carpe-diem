@@ -1,5 +1,5 @@
 import React from "react";
-import { KeyboardAvoidingView, StyleSheet } from "react-native";
+import { StyleSheet, SafeAreaView, ScrollView, StatusBar } from "react-native";
 import { CadastroTexto } from "./components/cadastro-texto";
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
@@ -11,32 +11,37 @@ import { CadastroInputs } from "../cadastro/components/cadastro-inputs"
 
 export default function Cadastro({ navigation }) {
   return (
-    <KeyboardAvoidingView style={styles.cadastroBackground}>
-      <HeaderIcons />
+    <SafeAreaView style={styles.container}>
+     <ScrollView style={styles.scrollView}>
+       <HeaderIcons />
       
-      <HeaderLogo />
+       <HeaderLogo />
 
-      <CadastroTexto />
+       <CadastroTexto />
  
-      <CadastroInputs navigation={navigation} />
+       <CadastroInputs navigation={navigation} />
 
-      <LinhaSeparadora />
+       <LinhaSeparadora />
 
-      <FooterIcons />
+       <FooterIcons />
 
-      <FooterText />
+       <FooterText />
 
-    </KeyboardAvoidingView>
+     </ScrollView> 
+     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  cadastroBackground: {
-    display: "flex",
-    rowGap: 9,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "#F1ECE9",
+  container: {
+    flex: 1,
+    paddingTop: StatusBar.currentHeight,
+    backgroundColor: '#F1ECE9',
   },
+  scrollView: {
+    backgroundColor: '#F1ECE9',
+    
+  },
+  
 });
 
