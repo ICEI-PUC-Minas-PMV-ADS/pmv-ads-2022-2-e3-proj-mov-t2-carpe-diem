@@ -26,33 +26,54 @@ export default function App() {
       
       <Text style={styles.text2}>Especificações </Text>      
       
-      <Ionicons name= "map-outline" size={24} color="#2C9196" /> Praia Apaga Fogo
+      <Ionicons name= "map-outline" size={24} color="#2C9196" /> 
+      <Text style={styles.text2}>Praia Apaga Fogo </Text>
             
-      <Ionicons name="bed-outline" size={24} color="#2C9196" /> 01 Quarto   
+      <Ionicons name="bed-outline" size={24} color="#2C9196" />   
+      <Text style={styles.text2}>01 Quarto </Text>
       
-      <MaterialCommunityIcons name= "account-group" size={24} color="#2C9196" /> 03 Hóspedes
+      <MaterialCommunityIcons name= "account-group" size={24} color="#2C9196" /> 
+      <Text style={styles.text2}>03 Hóspedes </Text>
       
-      <MaterialCommunityIcons name= "bathtub-outline" size={24} color="#2C9196" /> 01 Banheiro
+      <MaterialCommunityIcons name= "bathtub-outline" size={24} color="#2C9196" /> 
+      <Text style={styles.text2}>01 Banheiro </Text>
       
       <Text style={styles.text2}>Tipo de Espaço </Text>
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Apartamento
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Apartamento </Text>
 
       <Text style={styles.text2}>O que o espaço term a oferecer </Text>
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Piscina
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Wi-Fi
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Vista para o Mar
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Pátio
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Estacionamento
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Possui Rampas
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Piscina </Text>
+
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Wi-Fi </Text>
+
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Vista para o Mar </Text>
+
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Pátio </Text>
+
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Estacionamento </Text>
+
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Possui Rampas </Text>
 
       <Text style={styles.text2}>Informações Adicionais </Text>
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Horário Check-In
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Horário Check-Out
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> Distância para a Praia
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Horário Check-In </Text>
+
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Horário Check-Out </Text>
+
+      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" /> 
+      <Text style={styles.text2}>Distância para a Praia </Text>
 
       <Text style={styles.text2}>Diárias a partir de R$ 240,00 / noite </Text>
 
-      <Text style={styles.text2}>Entre em Contato para Verificar a Disponibilidade e Realizar sua Reserva! </Text>
+      <Text style={styles.text2}>Entre em Contato para {'\n'} Verificar a Disponibilidade e {'\n'} Realizar sua Reserva! </Text>
       
       <BtnBlueContato />
 
