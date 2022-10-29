@@ -7,12 +7,12 @@ export default function Input({ title, password }) {
     <View style={style.view}>
       <Text style={style.text}>{title}</Text>
 
-      <TextInput
+      {/* <TextInput
         secureTextEntry={password ? true : false}
         onChangeText={setText}
         style={style.input}
         value={text}>
-      </TextInput>
+      </TextInput> */}
 
     </View>
   );

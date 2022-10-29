@@ -42,7 +42,7 @@ const AppNavigator = createStackNavigator(
     },
   },
   {
-    initialRouteName: "PerfilUsuario",
+    initialRouteName: "Login",
     headerMode: "none",
     navigationOptions: {
       headerVisible: false,
