@@ -1,8 +1,8 @@
 import React from "react";
 import { View, TextInput, StyleSheet } from "react-native";
-import { LoginButtons } from "./login-buttons";
+import { FaleConoscoButtons } from "./faleconosco-buttons";
 
-function LoginInputs({ navigation }) {
+function FaleConoscoInputs({ navigation }) {
   return (
     <View style={styles.containerTextInput}>
       <TextInput
@@ -24,7 +24,7 @@ function LoginInputs({ navigation }) {
         autocorrect={false}
         onChangeText={() => { }}
       ></TextInput>
-      <LoginButtons navigation={navigation} />
+      <FaleConoscoButtons navigation={navigation} />
     </View>
   );
 }
@@ -60,4 +60,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { LoginInputs };
+export { FaleConoscoInputs };

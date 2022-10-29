@@ -1,11 +1,12 @@
 import React from "react";
 import { KeyboardAvoidingView, StyleSheet } from "react-native";
+
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
-import { LoginInputs } from "./components/login-inputs";
+import { FaleConoscoInputs } from "./components/faleconosco-inputs";
 import { FaleConoscoTexto } from "./components/faleconosco-texto";
 
 export default function FaleConosco({ navigation }) {
@@ -19,7 +20,7 @@ export default function FaleConosco({ navigation }) {
 
       <FaleConoscoTexto />
 
-      <LoginInputs navigation={navigation} />
+      <FaleConoscoInputs navigation={navigation} />
 
       <LinhaSeparadora />
 

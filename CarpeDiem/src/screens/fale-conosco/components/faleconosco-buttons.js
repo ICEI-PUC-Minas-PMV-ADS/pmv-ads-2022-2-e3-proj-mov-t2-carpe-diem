@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet, Button } from "react-native";
 
-function LoginButtons({ navigation }) {
+function FaleConoscoButtons({ navigation }) {
   const redirecionaTela = () => {
 
     navigation.push();
@@ -38,4 +38,4 @@ const styles = StyleSheet.create({
 
 });
 
-export { LoginButtons };
+export { FaleConoscoButtons };

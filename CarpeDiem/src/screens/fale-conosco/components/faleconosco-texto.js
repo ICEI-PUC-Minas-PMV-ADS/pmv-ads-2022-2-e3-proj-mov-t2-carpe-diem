@@ -12,7 +12,7 @@ function FaleConoscoTexto() {
 
 const styles = StyleSheet.create({
   containerFaleConosco: {
-    flex: 1,
+    //flex: 1,
     alignItems: "center",
     justifyContent: "center",
     width: "90%",

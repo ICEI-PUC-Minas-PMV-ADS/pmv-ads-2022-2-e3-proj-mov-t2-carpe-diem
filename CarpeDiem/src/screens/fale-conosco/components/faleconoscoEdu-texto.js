@@ -1,11 +1,14 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
+
 import { LoginIcons } from "../../../shared/components/login/login-icons";
 
-function LoginTexto() {
+function FaleConoscoEduTexto() {
   return (
     <View style={styles.containerLogin}>
+      
       <Text style={styles.loginText}>BEM VINDO</Text>
+
       <Text style={styles.loginSubText}>
         Você não está logado. Entre usando os dados cadastrados.
       </Text>
@@ -33,4 +36,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { LoginTexto };
+export { FaleConoscoEduTexto };
