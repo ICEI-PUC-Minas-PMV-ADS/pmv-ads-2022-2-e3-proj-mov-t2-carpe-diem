@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  KeyboardAvoidingView,
-  StyleSheet,
-} from "react-native";
+import { KeyboardAvoidingView, StyleSheet } from "react-native";
 
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";

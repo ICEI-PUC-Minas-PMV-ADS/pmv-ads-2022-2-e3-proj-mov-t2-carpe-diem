@@ -9,7 +9,6 @@ import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 
 import BtnBlue from '../../shared/components/visuais/BtnBlue';
-import Input from '../../shared/components/visuais/Input';
 import H1 from '../../shared/components/visuais/H1';
 
 export default function App() {
@@ -24,11 +23,8 @@ export default function App() {
        <Text style={styles.text}>Nome Usuário </Text>
        <Text style={styles.text}>email@email.com.br</Text>
        <LinhaSeparadora />
-       <Input title="Nome Completo" />
-       <Input title="CPF" />
-       <Input title="Email" />
-       <Input title="Senha" />
-       <Input title="Confirme sua Senha" />
+       
+       
        <BtnBlue />
        <BtnBlue />
        <BtnBlue />
