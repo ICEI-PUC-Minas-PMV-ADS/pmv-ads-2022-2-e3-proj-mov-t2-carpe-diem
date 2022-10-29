@@ -1,13 +1,12 @@
 import React from "react";
-import {
-  View,
-  StyleSheet,
-} from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 const LinhaSeparadora = ({ color }) => (
-  <View style={styles.linhaSeparadora}>
-    <hr style={{ width: "400px", height: "0px", left: "202px", top: "320px"}} />
-  </View>
+  // <View style={styles.linhaSeparadora}>
+  //   <hr style={{ width: "400px", height: "0px", left: "202px", top: "320px"}} />
+  // </View>
+
+  <Text>LINHA SEPARADORA </Text>
 );
 
 const styles = StyleSheet.create({
@@ -21,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export {LinhaSeparadora};
+export { LinhaSeparadora };
