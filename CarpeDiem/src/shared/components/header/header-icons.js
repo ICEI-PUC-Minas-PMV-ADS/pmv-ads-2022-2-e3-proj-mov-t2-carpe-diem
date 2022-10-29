@@ -1,6 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import * as AkarIcons from "akar-icons";
+import { Ionicons } from '@expo/vector-icons';
 
 function HeaderIcons() {
   // return (
@@ -28,14 +29,12 @@ function HeaderIcons() {
 }
 
 const styles = StyleSheet.create({
-  socialMediaIcons: {
-    paddingVertical: 15,
-    paddingHorizontal: 10,
+  socialMediaIcons: {    
+    paddingTop: 15,        
     flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "right",
+    justifyContent: "flex-end", 
     bottom: "1%",
-    left: "42%",
+    //left: "42%",
   },
 });
 

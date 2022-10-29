@@ -11,11 +11,11 @@ const LinhaSeparadora = ({ color }) => (
 
 const styles = StyleSheet.create({
   linhaSeparadora: {
-    paddingVertical: 15,
-    paddingHorizontal: 10,
+    //paddingVertical: 15,
+    //paddingHorizontal: 10,
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "right",
+    alignItems: "center",
     bottom: "1%",
   },
 });
