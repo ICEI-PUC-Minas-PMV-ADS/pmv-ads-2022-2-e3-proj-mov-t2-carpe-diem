@@ -30,8 +30,8 @@ const styles = StyleSheet.create({
   btnEsqueceuSenha: {
     alignItems: "center",
     justifyContent: "center",
-    width: "170px",
-    height: "50px",
+    width: "170%",
+    height: "50%",
     padding: 7,
   },
   esqueceuSenhaText: {
