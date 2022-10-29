@@ -39,8 +39,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F1ECE9',
   },
   scrollView: {
-    backgroundColor: '#F1ECE9',
-    
+    backgroundColor: '#F1ECE9',    
   },
   
 });

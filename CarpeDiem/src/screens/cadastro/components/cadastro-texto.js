@@ -7,10 +7,12 @@ import { LinhaSeparadora } from "../../../shared/components/visuais/linha-separa
 function CadastroTexto() {
   return (
     <View style={styles.containerCadastro}>
+
       <Text style={styles.cadastroText}>CADASTRO</Text>
+
       <Text style={styles.cadastroSubText}>
-        Você não está logado. Entre usando sua conta de rede social ou cadastre
-        seus dados.
+        Você não está logado.  {'\n'}
+        Entre usando sua conta de rede social {'\n'} ou cadastre seus dados.
       </Text>
 
       <LoginIcons />
@@ -27,16 +29,24 @@ const styles = StyleSheet.create({
   containerCadastro: {
     alignItems: "center",
     justifyContent: "center",
-    width: "90%",
+    width: "100%",
   },
   cadastroText: {
     fontWeight: "700",
     fontSize: 36,
+    padding: 20,
+    textAlign: "center",
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   cadastroSubText: {
     fontWeight: "400",
-    fontSize: 12,
+    fontSize: 16,
     textAlign: "center",
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 10,
+    paddingBottom: 25,
   },
 });
 
