@@ -10,7 +10,7 @@ const Database = {
     // Cria a table Usuario
     dataBase.transaction((transaction) => {
       transaction.executeSql(
-        `create table if not exists usuario (id integer primary key, nome text not null, cpf text not null, email text not null, senha text not null)`
+        `create table if not exists usuario (id integer primary key autoincrement, nome text not null, cpf text not null, email text not null, senha text not null)`
       );
     });
 
