@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     width: "90%",
+
   },
   textInput: {
     backgroundColor: "#FBCB2B",
@@ -45,18 +46,21 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 7,
     fontFamily: "Quicksand",
+    marginBottom: '10%',
   },
   textInputMensagem: {
     backgroundColor: "#FBCB2B",
     width: "90%",
     lineHeight: 100,
-    maxLength: 255, 
+    maxLength: 255,
     marginBottom: 15,
     color: "#222",
     fontSize: 17,
     borderRadius: 20,
     padding: 7,
     fontFamily: "Quicksand",
+    marginBottom: '15%',
+
   },
 });
 
