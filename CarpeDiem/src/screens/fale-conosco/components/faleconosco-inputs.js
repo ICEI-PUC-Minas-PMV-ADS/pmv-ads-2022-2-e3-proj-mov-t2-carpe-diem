@@ -9,20 +9,20 @@ function FaleConoscoInputs({ navigation }) {
         style={styles.textInput}
         placeholder="Nome Completo"
         autocorrect={false}
-        onChangeText={() => { }}
+        onChangeText={() => {}}
       ></TextInput>
 
       <TextInput
         style={styles.textInput}
         placeholder="Email"
         autocorrect={false}
-        onChangeText={() => { }}
+        onChangeText={() => {}}
       ></TextInput>
       <TextInput
         style={styles.textInputMensagem}
         placeholder="Mensagem"
         autocorrect={false}
-        onChangeText={() => { }}
+        onChangeText={() => {}}
       ></TextInput>
       <FaleConoscoButtons navigation={navigation} />
     </View>

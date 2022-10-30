@@ -11,9 +11,7 @@ import { FaleConoscoTexto } from "./components/faleconosco-texto";
 
 export default function FaleConosco({ navigation }) {
   return (
-
     <KeyboardAvoidingView style={styles.faleconoscoBackground}>
-
       <HeaderIcons />
 
       <HeaderLogo />
@@ -27,10 +25,7 @@ export default function FaleConosco({ navigation }) {
       <FooterIcons />
 
       <FooterText />
-
     </KeyboardAvoidingView>
-
-
   );
 }
 
@@ -42,4 +37,3 @@ const styles = StyleSheet.create({
     backgroundColor: "#F1ECE9",
   },
 });
-
