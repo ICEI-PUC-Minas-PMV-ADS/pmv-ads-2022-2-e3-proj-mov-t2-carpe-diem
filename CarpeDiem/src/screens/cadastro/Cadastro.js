@@ -5,30 +5,28 @@ import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
-import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora"
-import { CadastroInputs } from "../cadastro/components/cadastro-inputs"
-
+import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
+import { CadastroInputs } from "../cadastro/components/cadastro-inputs";
 
 export default function Cadastro({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
-     <ScrollView style={styles.scrollView}>
-       <HeaderIcons />
-      
-       <HeaderLogo />
+      <ScrollView style={styles.scrollView}>
+        <HeaderIcons />
 
-       <CadastroTexto />
- 
-       <CadastroInputs navigation={navigation} />
+        <HeaderLogo />
 
-       <LinhaSeparadora />
+        <CadastroTexto />
 
-       <FooterIcons />
+        <CadastroInputs navigation={navigation} />
 
-       <FooterText />
+        <LinhaSeparadora />
 
-     </ScrollView> 
-     </SafeAreaView>
+        <FooterIcons />
+
+        <FooterText />
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
@@ -36,11 +34,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: StatusBar.currentHeight,
-    backgroundColor: '#F1ECE9',
+    backgroundColor: "#F1ECE9",
   },
   scrollView: {
-    backgroundColor: '#F1ECE9',    
+    backgroundColor: "#F1ECE9",
   },
-  
 });
-

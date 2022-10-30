@@ -1,6 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, SafeAreaView, ScrollView } from 'react-native';
-import { MaterialIcons } from '@expo/vector-icons';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, SafeAreaView, ScrollView } from "react-native";
+import { MaterialIcons } from "@expo/vector-icons";
 
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
@@ -8,30 +8,29 @@ import { LinhaSeparadora } from "../../shared/components/visuais/linha-separador
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 
-import BtnBlue from '../../shared/components/visuais/BtnBlue';
-import H1 from '../../shared/components/visuais/H1';
+import BtnBlue from "../../shared/components/visuais/BtnBlue";
+import H1 from "../../shared/components/visuais/H1";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
-       <HeaderIcons />
-       <HeaderLogo />
-       <MaterialIcons name= "account-circle" size={80} color="#2C9196" />
-       <StatusBar style="auto" />
-       <H1 title="Perfil" />
-       <Text style={styles.text}>Nome Usuário </Text>
-       <Text style={styles.text}>email@email.com.br</Text>
-       <LinhaSeparadora />
-       
-       
-       <BtnBlue />
-       <BtnBlue />
-       <BtnBlue />
-       <Text style={styles.text2}>Ainda não tem conta? Cadastre-se</Text>
-       <LinhaSeparadora />
-       <FooterIcons />
-       <FooterText />
+        <HeaderIcons />
+        <HeaderLogo />
+        <MaterialIcons name="account-circle" size={80} color="#2C9196" />
+        <StatusBar style="auto" />
+        <H1 title="Perfil" />
+        <Text style={styles.text}>Nome Usuário </Text>
+        <Text style={styles.text}>email@email.com.br</Text>
+        <LinhaSeparadora />
+
+        <BtnBlue />
+        <BtnBlue />
+        <BtnBlue />
+        <Text style={styles.text2}>Ainda não tem conta? Cadastre-se</Text>
+        <LinhaSeparadora />
+        <FooterIcons />
+        <FooterText />
       </ScrollView>
     </SafeAreaView>
   );
@@ -40,25 +39,24 @@ export default function App() {
 const styles = StyleSheet.create({
   text: {
     fontSize: 16,
-    textAlign: 'center',
+    textAlign: "center",
     padding: 5,
   },
   text2: {
     fontSize: 16,
-    textAlign: 'center',
+    textAlign: "center",
   },
   container: {
-    display: 'flex',
+    display: "flex",
     rowGap: 9,
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '100%',
+    alignItems: "center",
+    justifyContent: "center",
+    width: "100%",
     padding: 20,
-    backgroundColor: '#F1ECE9',
+    backgroundColor: "#F1ECE9",
   },
   scrollView: {
-    backgroundColor: '#F1ECE9',
-    
+    backgroundColor: "#F1ECE9",
   },
 });
