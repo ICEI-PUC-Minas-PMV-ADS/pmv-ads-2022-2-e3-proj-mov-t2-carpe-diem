@@ -33,7 +33,7 @@ function HeaderIcons() {
 
 const styles = StyleSheet.create({
   socialMediaIcons: {    
-    paddingTop: 45,        
+    paddingTop: 30,        
     flexDirection: "row",
     justifyContent: "flex-end", 
     bottom: "1%",
