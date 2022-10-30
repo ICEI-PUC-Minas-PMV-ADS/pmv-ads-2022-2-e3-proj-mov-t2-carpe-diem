@@ -3,7 +3,7 @@ import { StyleSheet, SafeAreaView, Image } from "react-native";
 
 import { FooterText } from "../../shared/components/footer/footer-text";
 
-export default function App() {
+export default function Home() {
   return (
     <SafeAreaView style={styles.container}>
       <Image
