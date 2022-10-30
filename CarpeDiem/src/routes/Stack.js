@@ -25,9 +25,9 @@ const AppNavigator = createStackNavigator(
     Home: {
       screen: Home,
     },
-    // HomePage: {
-    //   screen: HomePage,
-    // },
+    HomePage: {
+      screen: HomePage,
+    },
     DetalhesImovel: {
       screen: DetalhesImovel,
     },
