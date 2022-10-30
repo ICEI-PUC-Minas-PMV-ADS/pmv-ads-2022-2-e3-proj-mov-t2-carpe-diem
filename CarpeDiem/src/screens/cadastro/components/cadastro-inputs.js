@@ -50,16 +50,16 @@ function CadastroInputs({ navigation }) {
 const styles = StyleSheet.create({
   containerTextInput: {    
     fontSize: 16,
-    textAlign:'center',
+    textAlign:"center",
     //alignItems: "center",
     justifyContent: "center",
     width: "100%",   
-    padding: 30,     
+    padding: 20, 
   },
   text: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
     fontSize: 16,
-    textAlign:'start',
+    textAlign:"justify",
     padding: 8,
   },
   textInput: {
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     borderRadius: 20,
     padding: 7,     
-    display: "block",
+    //display: "block",
     margin: "auto",
   },
 });

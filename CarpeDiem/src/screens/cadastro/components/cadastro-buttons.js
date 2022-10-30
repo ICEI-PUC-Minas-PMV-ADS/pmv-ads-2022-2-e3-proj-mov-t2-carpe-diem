@@ -8,13 +8,13 @@ function CadastroButtons({ navigation }) {
   };
 
   return (
-    <View>
+    <View style={styles.container}>
       <TouchableOpacity style={styles.btnEsqueceuSenha}>
         <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
         <Text style={styles.lembreDispositivoText}>Lembre-me neste dispositivo</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.btnEsqueceuSenha}>        
+      <TouchableOpacity>        
         <Text style={styles.esqueceuSenhaText}>Esqueceu a Senha?</Text>
       </TouchableOpacity>
 
@@ -32,11 +32,14 @@ function CadastroButtons({ navigation }) {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    display: "flex",
+  },
   btnEsqueceuSenha: {
     alignItems: "center",
     justifyContent: "center",
-    width: "170%",
-    height: "50%",
+    //width: "170%",
+    //height: "50%",
     justifyContent: "center",    
     padding: 7,
     paddingBottom: 20,
@@ -45,34 +48,32 @@ const styles = StyleSheet.create({
   },
   lembreDispositivoText: {
     fontSize: 12,    
-    width: '100%',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    textAlign: 'start'
+    width: "100%",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    textAlign: "justify",
   },
   esqueceuSenhaText: {
-    fontSize: 12,        
-    alignItems: 'right',
-    width: '100%',
-    textAlign: 'end',
+    fontSize: 12,  
+    width: "100%",    
+    marginLeft: 250,
   },  
   btnEntrar: {
-    backgroundColor: '#6FDDE3',
+    backgroundColor: "#6FDDE3",
     borderRadius: 20,
-    //alignItems: 'center',
-    //display: 'flex',
-    width: "100%",
+    //textAlign: "center",
+    //alignItems: 'center',    
+    width: "80%",
     padding: 2,
     marginBottom: 15,
-    fontSize: 16,  
-    //display: "block",
-    margin: "auto",     
+    fontSize: 16,      
+    marginLeft: 30,     
   },
   entrarText: {    
-    fontWeight:'bold',
+    fontWeight:"bold",
     fontSize: 16,
     width:"100%",
-    textAlign:'center',
+    textAlign:"center",
     padding: 10,
     paddingTop: 7,
     paddingBottom: 7,
@@ -82,8 +83,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   cadastroText: {
-    fontSize: 16,
-    paddingBottom: 20,
+    fontSize: 16,    
+    textAlign:"center",
   },
 });
 
