@@ -1,29 +1,31 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import * as AkarIcons from "akar-icons";
+import { Ionicons } from '@expo/vector-icons';
 
-function LoginIcons() {
-  // return (
-  //   <View style={styles.socialMediaLoginIcons}>
-  //     <View style={{ right: "45%" }}>
-  //       <AkarIcons.GoogleFill
-  //         color="#2C9196"
-  //         strokeWidth={2}
-  //         size={35}
-  //         style={{ display: "inline" }}
-  //       />
-  //     </View>
+function LoginIcons() {/*
+  return (
+    <View style={styles.socialMediaLoginIcons}>
+      <View style={{ right: "45%" }}>
+        <Ionicons
+          name="logo-google"
+          color="#2C9196"
+          strokeWidth={2}
+          size={35}
+          //style={{ display: "inline" }}
+        />
+      </View>
 
-  //     <View style={{ left: "45%" }}>
-  //       <AkarIcons.FacebookFill
-  //         color="#2C9196"
-  //         strokeWidth={2}
-  //         size={35}
-  //         style={{ display: "inline" }}
-  //       />
-  //     </View>
-  //   </View>
-  // );
+      <View style={{ left: "45%" }}>
+        <Ionicons
+          name="logo-facebook"
+          color="#2C9196"
+          strokeWidth={2}
+          size={35}
+          //style={{ display: "inline" }}
+        />
+      </View>
+    </View>
+  );  */
 }
 
 const styles = StyleSheet.create({

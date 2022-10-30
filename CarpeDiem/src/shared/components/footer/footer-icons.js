@@ -21,7 +21,7 @@ function FooterIcons() {
 
       <View style={styles.footerIconsIndividual}>
         <Icon name="info-circle" size={20} color="#2C9196" />
-        <Text style={{fontSize: 10, justify: "center"}}>
+        <Text style={{fontSize: 10, textAlign: "center"}}>
           Políticas e {'\n'} Condições de Uso
         </Text>
       </View>

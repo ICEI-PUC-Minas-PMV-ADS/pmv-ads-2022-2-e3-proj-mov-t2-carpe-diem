@@ -17,7 +17,7 @@ function CadastroTexto() {
 
       <LoginIcons />
 
-      <LinhaSeparadora />
+      
 
       <Text style={styles.cadastroSubText}>Campos de Preenchimento Obrigatório</Text>
       
@@ -36,15 +36,15 @@ const styles = StyleSheet.create({
     fontSize: 36,
     padding: 20,
     textAlign: "center",
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
   },
   cadastroSubText: {
     fontWeight: "400",
     fontSize: 16,
     textAlign: "center",
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
     padding: 10,
     paddingBottom: 25,
   },

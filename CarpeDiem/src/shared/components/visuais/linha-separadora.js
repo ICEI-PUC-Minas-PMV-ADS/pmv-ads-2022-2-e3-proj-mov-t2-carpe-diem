@@ -6,7 +6,7 @@ const LinhaSeparadora = ({ color }) => (
   //   <hr style={{ width: "400px", height: "0px", left: "202px", top: "320px"}} />
   // </View>
 
-  <Text>LINHA SEPARADORA </Text>
+  <Text style={styles.linhaSeparadora}>LINHA SEPARADORA </Text>
 );
 
 const styles = StyleSheet.create({
@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     bottom: "1%",
+    padding: 10,
   },
 });
 

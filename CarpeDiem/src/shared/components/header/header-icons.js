@@ -4,28 +4,31 @@ import * as AkarIcons from "akar-icons";
 import { Ionicons } from '@expo/vector-icons';
 
 function HeaderIcons() {
-  // return (
-  //   <View style={styles.socialMediaIcons}>
-  //     <AkarIcons.InstagramFill
-  //       color="#2C9196"
-  //       strokeWidth={2}
-  //       size={20}
-  //       style={{ display: "block" }}
-  //     />
-  //     <AkarIcons.TwitterFill
-  //       color="#2C9196"
-  //       strokeWidth={2}
-  //       size={20}
-  //       style={{ display: "block" }}
-  //     />
-  //     <AkarIcons.FacebookFill
-  //       color="#2C9196"
-  //       strokeWidth={2}
-  //       size={20}
-  //       style={{ display: "block" }}
-  //     />
-  //   </View>
-  // );
+  return (
+    <View style={styles.socialMediaIcons}>
+      <Ionicons
+        name="logo-instagram"
+        color="#2C9196"
+        strokeWidth={2}
+        size={24}
+        style={{ paddingRight: 4, paddingLeft: 4,}}
+      />
+      <Ionicons
+        name="logo-twitter"
+        color="#2C9196"
+        strokeWidth={2}
+        size={24}
+        style={{ paddingRight: 4, paddingLeft: 4,}}
+      />
+      <Ionicons
+        name="logo-facebook"
+        color="#2C9196"
+        strokeWidth={2}
+        size={24}
+        style={{ paddingRight: 10, paddingLeft: 4,}}
+      />
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
