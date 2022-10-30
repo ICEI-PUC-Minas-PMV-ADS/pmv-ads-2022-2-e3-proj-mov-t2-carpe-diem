@@ -5,42 +5,51 @@ import { LoginButtons } from "./login-buttons";
 function LoginInputs({ navigation }) {
   return (
     <View style={styles.containerTextInput}>
-      <Text>Email</Text>
+      <Text style={styles.text}>Email</Text>
       <TextInput
         style={styles.textInput}
-        placeholder="Informe o Email"
+        //placeholder="Informe o Email"
         autocorrect={false}
         onChangeText={() => {}}
       />
-      <Text>Senha</Text>
+
+      <Text style={styles.text}>Senha</Text>
       <TextInput
         style={styles.textInput}
-        placeholder="Informe a Senha"
+        //placeholder="Informe a Senha"
         autocorrect={false}
         onChangeText={() => {}}
       />
       <LoginButtons navigation={navigation} />
-    </View>
-    
-    
+    </View>    
   );
 }
 
 const styles = StyleSheet.create({
   containerTextInput: {
-    flex: 1,
-    alignItems: "center",
+    //flex: 1,
+    //alignItems: "center",
     justifyContent: "center",
-    width: "90%",
+    width: "100%",
+    fontSize: 16,
+    textAlign: "center",
+    padding: 20,
+  },
+  text: {
+    fontWeight: "bold",
+    fontSize: 16,
+    textAlign:"justify",
+    padding: 8,
   },
   textInput: {
     backgroundColor: "#FBCB2B",
-    width: "90%",
+    width: "100%",
     marginBottom: 15,
     color: "#222",
-    fontSize: 17,
+    fontSize: 16,
     borderRadius: 20,
     padding: 7,
+    margin: "auto",
   },
 });
 
