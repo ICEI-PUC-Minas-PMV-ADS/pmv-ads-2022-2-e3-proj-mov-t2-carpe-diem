@@ -41,9 +41,7 @@ function CadastroInputs({ navigation }) {
         onChangeText={() => {}}
       />
       <CadastroButtons navigation={navigation} />
-    </View>
-    
-    
+    </View>  
   );
 }
 
