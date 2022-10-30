@@ -14,23 +14,18 @@ const styles = StyleSheet.create({
     //flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    width: "70%",
-    height: 250,
+    width: "90%",
   },
   faleconoscoText: {
     fontWeight: "700",
     fontSize: 36,
     textAlign: "center",
   },
-<<<<<<< HEAD
-
-=======
-  /*  cadastroSubText: {
+ /*  cadastroSubText: {
     fontWeight: "400",
     fontSize: 12,
     textAlign: "center",
   }, */
->>>>>>> 6e70244e7aec735b74d7a22232bb41e9abaf21e4
 });
 
 export { FaleConoscoTexto };
