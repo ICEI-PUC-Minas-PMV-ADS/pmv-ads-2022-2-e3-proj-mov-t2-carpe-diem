@@ -12,7 +12,6 @@ import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
 import { CadastroInputs } from "../cadastro/components/cadastro-inputs";
-
 import { getUsuario } from "../../database/services/SQLExecutor";
 
 export default function Cadastro({ navigation }) {

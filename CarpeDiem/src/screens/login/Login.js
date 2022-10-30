@@ -16,11 +16,10 @@ export default function Login({ navigation }) {
       <HeaderIcons />
 
       <HeaderLogo />
+
       <StatusBar style="auto" />
 
       <LoginTexto />
-
-      
 
       <LoginInputs navigation={navigation} />
 
