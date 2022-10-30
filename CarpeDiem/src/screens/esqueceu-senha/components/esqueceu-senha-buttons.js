@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import Cadastro from "../../cadastro/Cadastro"
+import Cadastro from "../../cadastro/Cadastro";
 
 function EsqueceuSenhaButtons() {
   return (
@@ -9,10 +9,7 @@ function EsqueceuSenhaButtons() {
         <Text style={styles.RecuperarSenhaText}>RECUPERAR SENHA</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity
-        style={styles.btnCadastro}
-        onPress={() => Cadastro()}
-      >
+      <TouchableOpacity style={styles.btnCadastro} onPress={() => Cadastro()}>
         <Text style={styles.CadastroText}>
           Ainda não tem conta? Cadastre-se
         </Text>

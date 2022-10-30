@@ -9,20 +9,20 @@ function FaleConoscoInputs({ navigation }) {
         style={styles.textInput}
         placeholder="Nome Completo"
         autocorrect={false}
-        onChangeText={() => { }}
+        onChangeText={() => {}}
       ></TextInput>
 
       <TextInput
         style={styles.textInput}
         placeholder="Email"
         autocorrect={false}
-        onChangeText={() => { }}
+        onChangeText={() => {}}
       ></TextInput>
       <TextInput
         style={styles.textInputMensagem}
         placeholder="Mensagem"
         autocorrect={false}
-        onChangeText={() => { }}
+        onChangeText={() => {}}
       ></TextInput>
       <FaleConoscoButtons navigation={navigation} />
     </View>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FBCB2B",
     width: "90%",
     lineHeight: 100,
-    maxLength: 255, 
+    maxLength: 255,
     marginBottom: 15,
     color: "#222",
     fontSize: 17,

@@ -7,19 +7,18 @@ import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
 
-export default function HomePage({navigation}) {
+export default function HomePage({ navigation }) {
   return (
     <KeyboardAvoidingView style={styles.homeBackground}>
-      <HeaderIcons/>
-      
-      <HeaderLogo/>
+      <HeaderIcons />
+
+      <HeaderLogo />
 
       <LinhaSeparadora />
 
-      <FooterIcons/>
+      <FooterIcons />
 
-      <FooterText/>
-
+      <FooterText />
     </KeyboardAvoidingView>
   );
 }

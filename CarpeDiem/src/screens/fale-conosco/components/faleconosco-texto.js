@@ -5,7 +5,6 @@ function FaleConoscoTexto() {
   return (
     <View style={styles.containerFaleConosco}>
       <Text style={styles.faleconoscoText}>Como podemos te ajudar?</Text>
-
     </View>
   );
 }
@@ -22,7 +21,7 @@ const styles = StyleSheet.create({
     fontSize: 36,
     textAlign: "center",
   },
- /*  cadastroSubText: {
+  /*  cadastroSubText: {
     fontWeight: "400",
     fontSize: 12,
     textAlign: "center",

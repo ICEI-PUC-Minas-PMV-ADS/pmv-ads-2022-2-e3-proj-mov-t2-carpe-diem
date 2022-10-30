@@ -21,7 +21,7 @@ function LoginInputs({ navigation }) {
         onChangeText={() => {}}
       />
       <LoginButtons navigation={navigation} />
-    </View>    
+    </View>
   );
 }
 
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   text: {
     fontWeight: "bold",
     fontSize: 16,
-    textAlign:"justify",
+    textAlign: "justify",
     padding: 8,
   },
   textInput: {

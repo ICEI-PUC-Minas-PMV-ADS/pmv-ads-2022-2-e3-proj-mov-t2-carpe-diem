@@ -6,7 +6,6 @@ import { LoginIcons } from "../../../shared/components/login/login-icons";
 function FaleConoscoEduTexto() {
   return (
     <View style={styles.containerLogin}>
-      
       <Text style={styles.loginText}>BEM VINDO</Text>
 
       <Text style={styles.loginSubText}>
