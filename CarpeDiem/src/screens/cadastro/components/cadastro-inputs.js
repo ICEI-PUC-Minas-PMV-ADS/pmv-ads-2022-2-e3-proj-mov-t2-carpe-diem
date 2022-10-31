@@ -19,15 +19,15 @@ function CadastroInputs({ navigation }) {
         autocorrect={false}
         onChangeText={() => {}}
       />
-      <Text style={styles.text}>Email</Text>
-      <TextInput
+       <Text style={styles.text}>Email</Text>
+       <TextInput
         style={styles.textInput}
         //placeholder="Informe o Email"
         autocorrect={false}
         onChangeText={() => {}}
       />
-      <Text style={styles.text}>Senha</Text>
-      <TextInput
+       <Text style={styles.text}>Senha</Text>
+       <TextInput
         style={styles.textInput}
         //placeholder="Informe a Senha"
         autocorrect={false}
@@ -41,33 +41,33 @@ function CadastroInputs({ navigation }) {
         onChangeText={() => {}}
       />
       <CadastroButtons navigation={navigation} />
-    </View>
+    </View>  
   );
 }
 
 const styles = StyleSheet.create({
-  containerTextInput: {
+  containerTextInput: {    
     fontSize: 16,
-    textAlign: "center",
+    textAlign:"center",
     //alignItems: "center",
     justifyContent: "center",
-    width: "100%",
-    padding: 20,
+    width: "100%",   
+    padding: 20, 
   },
   text: {
     fontWeight: "bold",
     fontSize: 16,
-    textAlign: "justify",
+    textAlign:"justify",
     padding: 8,
   },
   textInput: {
     backgroundColor: "#FBCB2B",
     width: "100%",
     marginBottom: 15,
-    color: "#222",
+    color: "#222",    
     fontSize: 16,
     borderRadius: 20,
-    padding: 7,
+    padding: 7,     
     //display: "block",
     margin: "auto",
   },

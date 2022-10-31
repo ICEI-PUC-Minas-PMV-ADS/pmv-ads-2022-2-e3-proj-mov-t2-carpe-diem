@@ -5,14 +5,16 @@ import { LoginIcons } from "../../../shared/components/login/login-icons";
 function LoginTexto() {
   return (
     <View style={styles.containerLogin}>
+      
       <Text style={styles.loginText}>BEM VINDO</Text>
-
+      
       <Text style={styles.loginSubText}>
-        Você não está logado. {"\n"}
+        Você não está logado. {'\n'}
         Entre usando os dados cadastrados.
       </Text>
 
       <LoginIcons />
+      
     </View>
   );
 }

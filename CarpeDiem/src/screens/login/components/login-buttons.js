@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
     padding: 7,
   },
   esqueceuSenhaText: {
-    fontSize: 12,
-    width: "100%",
+    fontSize: 12,  
+    width: "100%",    
     marginLeft: 250,
     padding: 8,
   },
@@ -55,21 +55,21 @@ const styles = StyleSheet.create({
     marginLeft: 30,
   },
   entrarText: {
-    fontWeight: "bold",
+    fontWeight:"bold",
     fontSize: 16,
-    width: "100%",
-    textAlign: "center",
+    width:"100%",
+    textAlign:"center",
     padding: 10,
     paddingTop: 7,
     paddingBottom: 7,
-    textTransform: "uppercase",
+    textTransform:"uppercase"
   },
   btnCadastro: {
     marginBottom: 10,
   },
   cadastroText: {
     fontSize: 16,
-    textAlign: "center",
+    textAlign:"center",
   },
 });
 

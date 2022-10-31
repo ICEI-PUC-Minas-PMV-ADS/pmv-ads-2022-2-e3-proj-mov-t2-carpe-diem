@@ -11,7 +11,7 @@ import { FooterText } from "../../shared/components/footer/footer-text";
 
 import BtnBlueContato from "../../shared/components/visuais/BtnBlueContato";
 
-export default function DetalhesImovel() {
+export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <HeaderIcons />

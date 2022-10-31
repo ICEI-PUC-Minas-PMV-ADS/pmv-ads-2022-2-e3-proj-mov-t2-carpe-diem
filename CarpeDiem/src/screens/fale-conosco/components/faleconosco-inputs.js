@@ -44,19 +44,17 @@ const styles = StyleSheet.create({
     fontSize: 17,
     borderRadius: 20,
     padding: 7,
-    fontFamily: "Quicksand",
   },
   textInputMensagem: {
     backgroundColor: "#FBCB2B",
     width: "90%",
     lineHeight: 100,
-    maxLength: 255,
+    maxLength: 255, 
     marginBottom: 15,
     color: "#222",
     fontSize: 17,
     borderRadius: 20,
-    padding: 7,
-    fontFamily: "Quicksand",
+    padding: 7, 
   },
 });
 

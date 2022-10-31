@@ -9,7 +9,7 @@ import { LinhaSeparadora } from "../../shared/components/visuais/linha-separador
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 
-export default function EntrarContato() {
+export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <HeaderIcons />

@@ -3,21 +3,24 @@ import { View, Text, StyleSheet } from "react-native";
 import { LoginIcons } from "../../../shared/components/login/login-icons";
 import { LinhaSeparadora } from "../../../shared/components/visuais/linha-separadora";
 
+
 function CadastroTexto() {
   return (
     <View style={styles.containerCadastro}>
+
       <Text style={styles.cadastroText}>CADASTRO</Text>
 
       <Text style={styles.cadastroSubText}>
-        Você não está logado. {"\n"}
-        Entre usando sua conta de rede social {"\n"} ou cadastre seus dados.
+        Você não está logado.  {'\n'}
+        Entre usando sua conta de rede social {'\n'} ou cadastre seus dados.
       </Text>
 
       <LoginIcons />
 
-      <Text style={styles.cadastroSubText}>
-        Campos de Preenchimento Obrigatório
-      </Text>
+      
+
+      <Text style={styles.cadastroSubText}>Campos de Preenchimento Obrigatório</Text>
+      
     </View>
   );
 }

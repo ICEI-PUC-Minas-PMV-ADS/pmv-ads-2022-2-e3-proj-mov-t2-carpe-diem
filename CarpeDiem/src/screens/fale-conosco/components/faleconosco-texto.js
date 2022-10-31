@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     fontSize: 36,
     textAlign: "center",
   },
-  /*  cadastroSubText: {
+ /*  cadastroSubText: {
     fontWeight: "400",
     fontSize: 12,
     textAlign: "center",

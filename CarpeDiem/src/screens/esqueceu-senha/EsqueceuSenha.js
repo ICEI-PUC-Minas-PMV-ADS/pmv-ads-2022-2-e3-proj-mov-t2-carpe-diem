@@ -1,5 +1,8 @@
 import React from "react";
-import { KeyboardAvoidingView, StyleSheet } from "react-native";
+import {
+  KeyboardAvoidingView,
+  StyleSheet,
+} from "react-native";
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
@@ -17,7 +20,7 @@ export default function EsqueceuSenha() {
 
       <EsqueceuSenhaTexto />
 
-      <EsqueceuSenhaInputs />
+      <EsqueceuSenhaInputs/>
 
       <LinhaSeparadora />
 
