@@ -27,6 +27,7 @@ const style = {
     display: "flex",
     width: "100%",
     padding: 2,
+    marginBottom: 15,
   },
   text: {
     fontWeight: "bold",
