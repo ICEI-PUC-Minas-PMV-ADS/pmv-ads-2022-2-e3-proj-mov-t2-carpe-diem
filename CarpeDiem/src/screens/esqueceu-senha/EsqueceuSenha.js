@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  KeyboardAvoidingView,
-  StyleSheet,
-} from "react-native";
+import { SafeAreaView, StyleSheet } from "react-native";
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
@@ -13,7 +10,7 @@ import { EsqueceuSenhaInputs } from "./components/esqueceu-senha-inputs";
 
 export default function EsqueceuSenha() {
   return (
-    <KeyboardAvoidingView style={styles.EsqueceuSenha}>
+    <SafeAreaView style={styles.EsqueceuSenha}>
       <HeaderIcons />
 
       <HeaderLogo />
@@ -27,15 +24,13 @@ export default function EsqueceuSenha() {
       <FooterIcons />
 
       <FooterText />
-    </KeyboardAvoidingView>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   EsqueceuSenha: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
     backgroundColor: "#F1ECE9",
   },
 });

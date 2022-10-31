@@ -4,8 +4,10 @@ import { View, Text, StyleSheet } from "react-native";
 function EsqueceuSenhaTexto() {
   return (
     <View style={styles.containerEsqueceuSenha}>
-      <Text style={styles.EsqueceuSenhaText}>ESQUECEU SUA</Text>
-      <Text style={styles.EsqueceuSenhaText}> SENHA?</Text>
+      <Text style={styles.EsqueceuSenhaText}>
+        ESQUECEU SUA {'\n'} SENHA?
+        
+	  </Text>
     </View>
   );
 }
@@ -20,6 +22,10 @@ const styles = StyleSheet.create({
   EsqueceuSenhaText: {
     fontWeight: "700",
     fontSize: 36,
+    padding: 20,
+    textAlign: "center",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
 
