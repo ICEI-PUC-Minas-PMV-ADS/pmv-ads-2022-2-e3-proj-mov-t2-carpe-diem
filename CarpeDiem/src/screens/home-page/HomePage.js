@@ -18,19 +18,16 @@ export default function HomePage({ navigation }) {
 
         <HeaderLogo />
 
-        <TextInput
-          style={styles.TextInput}
-          placeholder="Escolha seu Destino"
-          autoCapitalize="none"
-          autoCorrect={false}
-          onChangeText={(value) => setText(value)}
-        />
-        <AntDesign
-          name="search1"
-          size={19}
-          color="#222"
-          onPress={() => { }}
-        />
+        <View style={styles.containerTextInput}>
+          <TextInput
+            style={styles.TextInput}
+            placeholder="Escolha seu Destino"
+            autoCapitalize="none"
+            autoCorrect={false}
+            onChangeText={(value) => setText(value)}
+          />
+          <Ionicons name="search" size={16} color="#2C9196" onPress={() => { }} style={{padding: 10, height: 55 }} />
+        </View>
 
         <Text style={styles.text1}>Regiões onde Trabalhamos </Text>
 
@@ -57,20 +54,23 @@ export default function HomePage({ navigation }) {
         />
         <Text style={styles.text2}>Flat Porto Seguro - BA </Text>
 
+        <View style={styles.flexbox1}>
+          <Ionicons name="map-outline" size={24} color="#2C9196" />
+          <Text style={styles.text2}>Praia Porto Seguro</Text>
 
-        <Ionicons name="map-outline" size={24} color="#2C9196" />
-        <Text style={styles.text2}>Praia </Text>
+          <Ionicons name="bed-outline" size={24} color="#2C9196" />
+          <Text style={styles.text2}>01 Quarto </Text>
+        </View>
 
-        <Ionicons name="bed-outline" size={24} color="#2C9196" />
-        <Text style={styles.text2}>01 Quarto </Text>
+        <View style={styles.flexbox1}>
+          <MaterialCommunityIcons name="account-group" size={24} color="#2C9196" />
+          <Text style={styles.text2}>05 Hóspedes </Text>
 
-        <MaterialCommunityIcons name="account-group" size={24} color="#2C9196" />
-        <Text style={styles.text2}>05 Hóspedes </Text>
+          <MaterialCommunityIcons name="bathtub-outline" size={24} color="#2C9196" />
+          <Text style={styles.text2}>01 Banheiro </Text>
+        </View>
 
-        <MaterialCommunityIcons name="bathtub-outline" size={24} color="#2C9196" />
-        <Text style={styles.text2}>01 Banheiro </Text>
-
-        <Text style={styles.text2}>A partir de R$ 180,00 / noite </Text>
+        <Text style={styles.text5}>A partir de R$ 180,00 / noite </Text>
 
         <LinhaSeparadora />
 
@@ -89,16 +89,28 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#F1ECE9",
+    backgroundColor: "#F1ECE9",    
+  },
+  containerTextInput: {    
+    fontSize: 16,
+    textAlign:"center",
+    alignItems: "center",
+    //justifyContent: "center",
+    width: "95%",   
+    padding: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between', 
+    //margin: 7
   },
   TextInput: {
     backgroundColor: "#FBCB2B",
     width: "90%",
     marginBottom: 15,
     color: "#222",
-    fontSize: 17,
+    fontSize: 16,
     borderRadius: 20,
     padding: 7,
+    textAlign:"center",
   },
   text1: {
     fontSize: 24,
@@ -110,10 +122,25 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     padding: 15,
-    textAlign: 'center',
+    //textAlign: 'center',
+  },
+  text5: {
+    fontSize: 16,
+    textAlign: "center",
+    fontWeight: "bold",
+    padding: 25,
   },
   view: {
+    flexDirection: "column",
+    flexWrap: "wrap",
+    alignItems: "center",
+    alignContent: "stretch",
+  },
+  flexbox1: {
+    alignItems: "center",    
     flexDirection: "row",
-    flexWrap: "wrap"
+    //justifyContent: "space-evenly",   
+    alignContent: "stretch", 
+    flexWrap: "wrap",
   },
 });
