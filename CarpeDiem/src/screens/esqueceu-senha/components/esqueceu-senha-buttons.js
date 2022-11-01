@@ -3,17 +3,24 @@ import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import Cadastro from "../../cadastro/Cadastro"
 
 function EsqueceuSenhaButtons() {
+  const redirecionaTela = () => {
+    navigation.push("Cadastro");
+  };
+  
   return (
-    <View>
-      <TouchableOpacity style={styles.btnRecuperarSenha}>
+    <View style={styles.container}>
+      {/* <TouchableOpacity style={styles.btnRecuperarSenha}>
         <Text style={styles.RecuperarSenhaText}>RECUPERAR SENHA</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.btnCadastro}
         onPress={() => Cadastro()}
-      >
-        <Text style={styles.CadastroText}>
+      >        
+      </TouchableOpacity> */}
+
+      <TouchableOpacity style={styles.btnEsqueceuSenha} onPress={redirecionaTela}>
+        <Text style={styles.cadastroText}>
           Ainda não tem conta? Cadastre-se
         </Text>
       </TouchableOpacity>
@@ -22,26 +29,30 @@ function EsqueceuSenhaButtons() {
 }
 
 const styles = StyleSheet.create({
-  btnRecuperarSenha: {
-    backgroundColor: "#6FDDE3",
-    width: "90%",
-    alignItems: "center",
-    justifyContent: "center",
-    marginBottom: 15,
-    fontSize: 17,
-    borderRadius: 20,
-    padding: 7,
-    height: 45,
+  container: {
+    display: "flex",
   },
-  RecuperarSenhaText: {
-    fontWeight: "700",
-    fontSize: 16,
-  },
-  btnCadastro: {
+  //btnRecuperarSenha: {
+  //  backgroundColor: "#6FDDE3",
+  //  width: "90%",
+  //  alignItems: "center",
+  //  justifyContent: "center",
+  //  marginBottom: 15,
+  //  fontSize: 17,
+  //  borderRadius: 20,
+  //  padding: 7,
+  //  height: 45,
+  //},
+  //RecuperarSenhaText: {
+  //  fontWeight: "700",
+  //  fontSize: 16,
+  //},
+  btnEsqueceuSenha: {
     marginBottom: 10,
   },
-  CadastroText: {
+  cadastroText: {
     fontSize: 16,
+    textAlign:"center",
   },
 });
 
