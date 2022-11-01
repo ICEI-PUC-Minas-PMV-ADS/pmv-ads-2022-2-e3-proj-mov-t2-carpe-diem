@@ -26,23 +26,25 @@ export default function HomePage({ navigation }) {
             autoCorrect={false}
             onChangeText={(value) => setText(value)}
           />
-          <Ionicons name="search" size={16} color="#2C9196" onPress={() => { }} style={{padding: 10, height: 55 }} />
+          <Ionicons name="search" size={16} color="#2C9196" onPress={() => { }} 
+            style={{padding: 12, height: 40, borderRadius: 20, backgroundColor: "#F36E2B", color: "#FFFFFF",}} />
         </View>
 
         <Text style={styles.text1}>Regiões onde Trabalhamos </Text>
 
         <View style={styles.view}>
-          <Image source={require('../../assets/img/sudeste.png')} style={{ width: 130, height: 130 }} />
+          <Image source={require('../../assets/img/sudeste.png')} style={{ width: "100%", height: 130 }} />
           <Text style={styles.text2}>Sudeste </Text>
 
-          <Image source={require('../../assets/img/nordeste.png')} style={{ width: 130, height: 130 }} />
+          <Image source={require('../../assets/img/nordeste.png')} style={{ width: "100%", height: 130 }} />
           <Text style={styles.text2}>Nordeste </Text>
+        </View>
 
-
-          <Image source={require("../../assets/img/sul.png")} style={{ width: 130, height: 130 }} />
+        <View style={styles.view}>
+          <Image source={require("../../assets/img/sul.png")} style={{ width: "100%", height: 130 }} />
           <Text style={styles.text2}>Sul </Text>
 
-          <Image source={require("../../assets/img/norte.png")} style={{ width: 130, height: 130 }} />
+          <Image source={require("../../assets/img/norte.png")} style={{ width: "100%", height: 130 }} />
           <Text style={styles.text2}>Norte </Text>
         </View>
 
@@ -50,7 +52,7 @@ export default function HomePage({ navigation }) {
 
         <Image
           source={require("../../assets/img/flat-porto-seguro.png")}
-          style={{ width: 300, height: 210 }}
+          style={{ width: "100%", height: 210 }}
         />
         <Text style={styles.text2}>Flat Porto Seguro - BA </Text>
 
@@ -93,14 +95,15 @@ const styles = StyleSheet.create({
   },
   containerTextInput: {    
     fontSize: 16,
-    textAlign:"center",
-    alignItems: "center",
+    //textAlign:"center",
+    //alignItems: "center",
     //justifyContent: "center",
     width: "95%",   
-    padding: 10,
+    padding: 8,
     flexDirection: 'row',
-    justifyContent: 'space-between', 
-    //margin: 7
+    //justifyContent: 'space-between', 
+    //margin: 7,
+    flexDirection: "row",
   },
   TextInput: {
     backgroundColor: "#FBCB2B",
@@ -121,7 +124,7 @@ const styles = StyleSheet.create({
   text2: {
     fontSize: 16,
     fontWeight: "bold",
-    padding: 15,
+    padding: 10,
     //textAlign: 'center',
   },
   text5: {
@@ -132,9 +135,10 @@ const styles = StyleSheet.create({
   },
   view: {
     flexDirection: "column",
-    flexWrap: "wrap",
+    flexWrap: "nowrap",
     alignItems: "center",
-    alignContent: "stretch",
+    //alignContent: "stretch",
+    //justifyContent: "flex-start"
   },
   flexbox1: {
     alignItems: "center",    
@@ -142,5 +146,6 @@ const styles = StyleSheet.create({
     //justifyContent: "space-evenly",   
     alignContent: "stretch", 
     flexWrap: "wrap",
+    //padding: 8,
   },
 });
