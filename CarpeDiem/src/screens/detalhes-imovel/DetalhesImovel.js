@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, SafeAreaView, Image } from "react-native";
+import { StyleSheet, Text, SafeAreaView, Image, ScrollView, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
@@ -9,87 +9,113 @@ import { LinhaSeparadora } from "../../shared/components/visuais/linha-separador
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 
-import BtnBlueContato from "../../shared/components/visuais/BtnBlueContato";
+import BtnBlue from "../../shared/components/visuais/BtnBlue";
 
 export default function App() {
+  const btnContatoLabel = "ENTRAR EM CONTATO";
+
   return (
     <SafeAreaView style={styles.container}>
+      <ScrollView style={styles.scrollView}>
       <HeaderIcons />
       <HeaderLogo />
       <StatusBar style="auto" />
 
       <Text style={styles.text1}>Detalhes do Imóvel </Text>
 
-      <Text style={styles.text1}>Pousada Princess </Text>
-      <Text style={styles.text2}>Porto Seguro - BA </Text>
+      <Text style={styles.text3}>Pousada Princess </Text>
+      <Text style={styles.text5}>Porto Seguro - BA </Text>
       <Image
         source={require("../../assets/img/pousada-princess.jpg")}
         style={{ width: 300, height: 210 }}
       />
 
+{/* Especificações do imóvel */}
       <Text style={styles.text2}>Especificações </Text>
 
-      <Ionicons name="map-outline" size={24} color="#2C9196" />
-      <Text style={styles.text2}>Praia Apaga Fogo </Text>
+      <View style={styles.flexbox1}>
+        <Ionicons name="map-outline" size={24} color="#2C9196" />
+        <Text style={styles.text4}>Praia Apaga Fogo </Text> 
+      
+        <Ionicons name="bed-outline" size={24} color="#2C9196" />
+        <Text style={styles.text4}>01 Quarto </Text>
+      </View>
 
-      <Ionicons name="bed-outline" size={24} color="#2C9196" />
-      <Text style={styles.text2}>01 Quarto </Text>
+      <View style={styles.flexbox1}>
+        <MaterialCommunityIcons name="account-group" size={24} color="#2C9196" />
+        <Text style={styles.text4}>03 Hóspedes </Text>
 
-      <MaterialCommunityIcons name="account-group" size={24} color="#2C9196" />
-      <Text style={styles.text2}>03 Hóspedes </Text>
+        <MaterialCommunityIcons name="bathtub-outline" size={24} color="#2C9196" />
+        <Text style={styles.text4}>01 Banheiro </Text>
+      </View>
 
-      <MaterialCommunityIcons
-        name="bathtub-outline"
-        size={24}
-        color="#2C9196"
-      />
-      <Text style={styles.text2}>01 Banheiro </Text>
-
+{/* Tipo de espaço */}
       <Text style={styles.text2}>Tipo de Espaço </Text>
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Apartamento </Text>
 
-      <Text style={styles.text2}>O que o espaço term a oferecer </Text>
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Piscina </Text>
+      <View style={styles.flexbox2}>
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Apartamento </Text>
+      </View>
 
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Wi-Fi </Text>
+{/* O que o espaço term a oferecer */}
+      <Text style={styles.text2}>O que o espaço tem a oferecer </Text>
 
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Vista para o Mar </Text>
+      <View style={styles.flexbox1}>
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Piscina </Text>
 
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Pátio </Text>
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Wi-Fi </Text>
+      </View>
 
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Estacionamento </Text>
+      <View style={styles.flexbox1}>
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Vista para o Mar </Text>
 
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Possui Rampas </Text>
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Pátio </Text>
+      </View>
 
+      <View style={styles.flexbox1}>
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Estacionamento </Text>
+
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Possui Rampas </Text>
+      </View>
+      
+
+{/* O que o espaço term a oferecer */}
       <Text style={styles.text2}>Informações Adicionais </Text>
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Horário Check-In </Text>
 
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Horário Check-Out </Text>
+      <View style={styles.flexbox2}>
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Horário Check-In </Text>
+      </View>
 
-      <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
-      <Text style={styles.text2}>Distância para a Praia </Text>
+      <View style={styles.flexbox2}>
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Horário Check-Out </Text>
+      </View>
 
-      <Text style={styles.text2}>Diárias a partir de R$ 240,00 / noite </Text>
+      <View style={styles.flexbox2}>
+        <Ionicons name="checkmark-circle-outline" size={24} color="#FBCB2B" />
+        <Text style={styles.text4}>Distância para a Praia </Text>
+      </View>
 
-      <Text style={styles.text2}>
+      <Text style={styles.text5}>Diárias a partir de R$ 240,00 / noite </Text>
+
+      <Text style={styles.text5}>
         Entre em Contato para {"\n"} Verificar a Disponibilidade e {"\n"}{" "}
         Realizar sua Reserva!{" "}
       </Text>
 
-      <BtnBlueContato />
+      <BtnBlue label={btnContatoLabel} />
 
       <LinhaSeparadora />
       <FooterIcons />
       <FooterText />
+      </ScrollView>
     </SafeAreaView>
   );
 }
@@ -99,13 +125,33 @@ const styles = StyleSheet.create({
     fontSize: 24,
     textAlign: "left",
     padding: 5,
+    paddingTop: 20,
     fontWeight: "bold",
   },
   text2: {
     fontSize: 16,
-    textAlign: "center",
+    //textAlign: "center",
     fontWeight: "bold",
     padding: 15,
+  },
+  text3: {
+    fontSize: 20,
+    textAlign: "center",
+    //padding: 2,
+    paddingTop: 24,
+    fontWeight: "bold",
+  },
+  text4: {
+    fontSize: 16,
+    textAlign: "center",
+    //fontWeight: "bold",
+    padding: 15,
+  },
+  text5: {
+    fontSize: 16,
+    textAlign: "center",
+    fontWeight: "bold",
+    padding: 25,
   },
   container: {
     display: "flex",
@@ -115,6 +161,21 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     width: "100%",
     padding: 20,
+    backgroundColor: "#F1ECE9",
+  },
+  flexbox1: {
+    alignItems: "center",    
+    flexDirection: "row",
+    //justifyContent: "space-evenly",   
+    alignContent: "stretch", 
+    flexWrap: "wrap",
+  },
+  flexbox2: {
+    alignItems: "center",        
+    flexDirection: "row",
+    justifyContent: "flex-start",
+  },
+  scrollView: {
     backgroundColor: "#F1ECE9",
   },
 });
