@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, SafeAreaView, Image } from "react-native";
+import { StyleSheet, Text, SafeAreaView, Image, View, ScrollView } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -12,34 +12,49 @@ import { FooterText } from "../../shared/components/footer/footer-text";
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <HeaderIcons />
-      <HeaderLogo />
-      <StatusBar style="auto" />
+      <ScrollView style={styles.scrollView}>
 
-      <Text style={styles.text1}>Pousada Princess </Text>
-      <Text style={styles.text2}>Porto Seguro - BA </Text>
-      <Image
-        source={require("../../assets/img/pousada-princess.jpg")}
-        style={{ width: 300, height: 210 }}
-      />
+        <HeaderIcons />
 
-      <Text style={styles.text1}>Gostou do Imóvel? </Text>
-      <Text style={styles.text2}>
-        Verifique a Disponibilidade e Faça sua Reserva!
-      </Text>
+        <HeaderLogo />
 
-      <MaterialIcons name="alternate-email" size={32} color="#2C9196" />
-      <Text style={styles.text2}>carpediem@hotmail.com</Text>
+        <StatusBar style="auto" />
 
-      <Ionicons name="logo-whatsapp" size={32} color="#2C9196" />
-      <Text style={styles.text2}>(31) 98925-9223</Text>
+        <Text style={styles.text1}>Pousada Princess </Text>
+        <Text style={styles.text5}>Porto Seguro - BA </Text>
+        
+        <Image
+          source={require("../../assets/img/pousada-princess.jpg")}
+          style={{ width: "100%", height: 210 }}
+        />
 
-      <MaterialIcons name="phone-in-talk" size={32} color="#2C9196" />
-      <Text style={styles.text2}>(31) 3256-9851</Text>
+        <Text style={styles.text3}>Gostou do Imóvel? </Text>
+        <Text style={styles.text2}>
+          Verifique a Disponibilidade {"\n"}e Faça sua Reserva!
+        </Text>
 
-      <LinhaSeparadora />
-      <FooterIcons />
-      <FooterText />
+        <View style={styles.flexbox2}>
+          <MaterialIcons name="alternate-email" size={32} color="#2C9196" />
+          <Text style={styles.text4}>carpediem@hotmail.com</Text>
+        </View>
+
+        <View style={styles.flexbox2}>
+          <Ionicons name="logo-whatsapp" size={32} color="#2C9196" />
+          <Text style={styles.text4}>(31) 98925-9223</Text>
+        </View>
+
+        <View style={styles.flexbox2}>
+          <MaterialIcons name="phone-in-talk" size={32} color="#2C9196" />
+          <Text style={styles.text4}>(31) 3256-9851</Text>
+        </View>
+
+        <LinhaSeparadora />
+
+        <FooterIcons />
+
+        <FooterText />
+
+      </ScrollView>
     </SafeAreaView>
   );
 }
@@ -48,13 +63,36 @@ const styles = StyleSheet.create({
   text1: {
     fontSize: 24,
     textAlign: "left",
-    padding: 5,
+    //padding: 5,
+    paddingTop: 40,
     fontWeight: "bold",
   },
   text2: {
     fontSize: 16,
     textAlign: "center",
     fontWeight: "bold",
+    paddingTop: 36,
+    padding: 24,
+  },
+  text3: {
+    fontSize: 24,
+    textAlign: "center",
+    //padding: 2,
+    paddingTop: 36,
+    fontWeight: "bold",
+  },
+  text4: {
+    fontSize: 16,
+    textAlign: "center",
+    //fontWeight: "bold",
+    padding: 15,
+  },
+  text5: {
+    fontSize: 16,
+    textAlign: "left",
+    fontWeight: "bold",
+    paddingBottom: 15,
+    paddingTop: 5,
   },
   container: {
     display: "flex",
@@ -64,6 +102,14 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     width: "100%",
     padding: 20,
+    backgroundColor: "#F1ECE9",
+  },
+  flexbox2: {
+    alignItems: "center",        
+    flexDirection: "row",
+    justifyContent: "flex-start",
+  },
+  scrollView: {
     backgroundColor: "#F1ECE9",
   },
 });

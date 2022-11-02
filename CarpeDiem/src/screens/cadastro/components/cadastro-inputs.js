@@ -5,35 +5,35 @@ import { CadastroButtons } from "./cadastro-buttons";
 function CadastroInputs({ navigation }) {
   return (
     <View style={styles.containerTextInput}>
-      <Text style={styles.text}>Nome Completo</Text>
+      <Text style={styles.text}>Nome Completo*</Text>
       <TextInput
         style={styles.textInput}
         //placeholder="Informe o Nome Completo"
         autocorrect={false}
         onChangeText={() => {}}
       />
-      <Text style={styles.text}>CPF</Text>
+      <Text style={styles.text}>CPF*</Text>
       <TextInput
         style={styles.textInput}
         //placeholder="Informe o CPF"
         autocorrect={false}
         onChangeText={() => {}}
       />
-       <Text style={styles.text}>Email</Text>
+       <Text style={styles.text}>Email*</Text>
        <TextInput
         style={styles.textInput}
         //placeholder="Informe o Email"
         autocorrect={false}
         onChangeText={() => {}}
       />
-       <Text style={styles.text}>Senha</Text>
+       <Text style={styles.text}>Senha*</Text>
        <TextInput
         style={styles.textInput}
         //placeholder="Informe a Senha"
         autocorrect={false}
         onChangeText={() => {}}
       />
-      <Text style={styles.text}>Confirme sua Senha</Text>
+      <Text style={styles.text}>Confirme sua Senha*</Text>
       <TextInput
         style={styles.textInput}
         //placeholder="Confirme sua Senha"

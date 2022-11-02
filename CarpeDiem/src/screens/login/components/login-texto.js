@@ -6,7 +6,7 @@ function LoginTexto() {
   return (
     <View style={styles.containerLogin}>
       
-      <Text style={styles.loginText}>BEM VINDO</Text>
+      <Text style={styles.loginText}>Bem Vindo</Text>
       
       <Text style={styles.loginSubText}>
         Você não está logado. {'\n'}
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     alignItems: "center",
     justifyContent: "center",
+    paddingTop: 40,
   },
   loginSubText: {
     fontWeight: "400",

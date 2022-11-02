@@ -1,5 +1,6 @@
 import React from "react";
-import { KeyboardAvoidingView, StyleSheet } from "react-native";
+import { SafeAreaView, StyleSheet, ScrollView } from "react-native";
+import { StatusBar } from "expo-status-bar";
 
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
@@ -11,29 +12,36 @@ import { FaleConoscoTexto } from "./components/faleconosco-texto";
 
 export default function FaleConosco({ navigation }) {
   return (
-    <KeyboardAvoidingView style={styles.faleconoscoBackground}>
-      <HeaderIcons />
+    <SafeAreaView style={styles.faleconoscoBackground}>
+      <ScrollView style={styles.scrollView}>
+        <HeaderIcons />
 
-      <HeaderLogo />
+        <HeaderLogo />
 
-      <FaleConoscoTexto />
+        <StatusBar style="auto" />
 
-      <FaleConoscoInputs navigation={navigation} />
+        <FaleConoscoTexto />
 
-      <LinhaSeparadora />
+        <FaleConoscoInputs navigation={navigation} />
 
-      <FooterIcons />
+        <LinhaSeparadora />
 
-      <FooterText />
-    </KeyboardAvoidingView>
+        <FooterIcons />
+
+        <FooterText />
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   faleconoscoBackground: {
     flex: 1,
-    alignItems: "center",
+    //alignItems: "center",
     justifyContent: "center",
+    backgroundColor: "#F1ECE9",
+  },
+  scrollView: {
     backgroundColor: "#F1ECE9",
   },
 });

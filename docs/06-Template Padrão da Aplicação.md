@@ -119,19 +119,19 @@ Style Regular / **Style Bold**
 
 O _template_ das telas da aplicação criada até o momento contém os seguintes _layouts_:
 
-- Tela Home (em desenvolvimento)
-- Tela Home-Page (em desenvolvimento)
+- Tela Home (item 6.6.1)
+- Tela Home-Page (item 6.6.2)
 - Tela Resultado da Busca (em desenvolvimento)
 - Tela Detalhes do Imóvel (em desenvolvimento)
-- Tela Login (item 6.6.1)
-- Tela Cadastro (em desenvolvimento)
-- Tela Perfil do Usuário (em desenvolvimento)
-- Tela Fale Conosco (em desenvolvimento)
-- Tela Esqueceu Senha (em desenvolvimento)
+- Tela Login (item 6.6.3)
+- Tela Cadastro (item 6.6.4)
+- Tela Fale Conosco (item 6.6.5)
+- Tela Esqueceu Senha (item 6.6.6)
 - Tela Erro Busca (em desenvolvimento)
-- Tela Contato (em desenvolvimento)
+- Tela Contato (item 6.6.7)
 - Tela Informações (em desenvolvimento)
 - Tela Obrigado (em desenvolvimento)
+- Tela Perfil do Usuário (item 6.6.8)
 
 Alusivo às funcionalidades do sistema, apresentamos o _print_ das telas desenvolvidas pelo grupo, assim como os requisitos atendidos e os artefatos da funcionalidade. A estrutura de dados das telas pode ser encontrada na página do projeto no _GitHub_, pelo link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem.
 
@@ -146,12 +146,67 @@ No tocante às instruções de acesso, os passos são descritos a seguir:
 No que tange à responsividade, optamos por seguir o padrão do _Media Queries_. De acordo com Wikipédia (11/2021), _Media Queries_ se trata de um recurso do CSS 3 “que permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela (por exemplo, tamanho da tela do celular e do desktop). Ele se tornou um padrão recomendado pelo W3C em junho de 2012, e é uma tecnologia fundamental para o design responsivo da Web (RWD).”
 
 
-### 6.6.1 Tela Login
+### 6.6.1 Tela Home
 
 Figura 32
 
-![Tela de Login](img/screens/tela-login.png)
+![TelaHome](https://user-images.githubusercontent.com/91228798/198916006-49f25ed0-03f7-4440-8562-2bbb448ccfb4.jpeg)
+
+Fonte: Elaborado pelos autores
+
+### 6.6.2 Tela Home Page
+
+Figura 33
+
+![TelaHomePage](https://user-images.githubusercontent.com/91228798/198916166-86bb9d7e-5aee-4bc8-9d20-b4b8dd8d84f7.jpeg)
+
+Fonte: Elaborado pelos autores
+
+### 6.6.3 Tela Login
+
+Figura 34
+
+![TelaLogin](https://user-images.githubusercontent.com/91228798/198916483-2feda6db-9167-4a44-b8a6-bee32b39d88a.jpeg)
+
+Fonte: Elaborado pelos autores
+
+### 6.6.4 Tela Cadastro
+
+Figura 35
+
+![TelaCadastro](https://user-images.githubusercontent.com/91228798/198916585-0dfcdfe5-3c2f-4f37-abce-c85f37fbdc1b.jpeg)
 
 Fonte: Elaborado pelos autores
 
 
+### 6.6.5 Tela Fale Conosco
+
+Figura 36
+
+![TelaFaleConosco](https://user-images.githubusercontent.com/91228798/198916922-95cdfdec-470e-42d3-a12c-1ddc0fa0be82.jpeg)
+
+Fonte: Elaborado pelos autores
+
+### 6.6.6 Tela Esqueceu Senha
+
+Figura 37
+
+![TelaEsqueceuSenha](https://user-images.githubusercontent.com/91228798/198916814-502a0547-cde6-437d-8a07-4a64498808c5.jpeg)
+
+Fonte: Elaborado pelos autores
+
+### 6.6.7 Tela Contato
+
+Figura 38
+
+![TelaContato](https://user-images.githubusercontent.com/91228798/198917267-4b17543a-6cb8-4a4b-ade4-4494a96e54b4.jpeg)
+
+Fonte: Elaborado pelos autores
+
+### 6.6.8 Tela Perfil do Usuário
+
+Figura 39
+
+![TelaPerfilUsuario](https://user-images.githubusercontent.com/91228798/198917712-20f028f8-71a7-4a75-8800-c809db551426.png)
+
+Fonte: Elaborado pelos autores

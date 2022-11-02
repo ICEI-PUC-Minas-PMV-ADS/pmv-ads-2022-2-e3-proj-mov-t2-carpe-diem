@@ -7,6 +7,7 @@ import {
   TextInput,
 } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
+import { Ionicons } from '@expo/vector-icons';
 
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
@@ -37,7 +38,7 @@ export default function Perfil() {
 
         <HeaderLogo />
 
-        <MaterialIcons name="account-circle" size={0} color="#2C9196" />
+        <Ionicons name="person-circle" size={80} color="#2C9196" style={{textAlign:"center"}}/>
 
         <H1 title="Perfil" />
 
@@ -48,32 +49,40 @@ export default function Perfil() {
         <LinhaSeparadora />
 
         {/* Informações do Usuário */}
+        <Text style={styles.text2}>Nome Usuário </Text>
         <TextInput
           style={styles.textInput}
-          placeholder="Teste"
+          //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          defaultValue={usuario[0].nome}
+          // defaultValue={usuario[0].nome}
+          defaultValue="fabiana"
         />
 
+        <Text style={styles.text2}>CPF </Text>
         <TextInput
           style={styles.textInput}
-          placeholder="Teste"
+          //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          defaultValue={usuario[0].cpf}
+          // defaultValue={usuario[0].cpf}
+          defaultValue="1236598"
         />
 
+        <Text style={styles.text2}>Email </Text>
         <TextInput
           style={styles.textInput}
-          placeholder="Teste"
+          //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          defaultValue={usuario[0].email}
+          // defaultValue={usuario[0].email}
+          defaultValue="fabiana@email"
         />
 
+        <Text style={styles.text2}>Senha </Text>
         <TextInput
           style={styles.textInput}
-          placeholder="Teste"
+          //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          defaultValue={usuario[0].senha}
+          // defaultValue={usuario[0].senha}
+          defaultValue="abc123"
         />
 
         {/* Botões tela Perfil*/}
@@ -100,12 +109,14 @@ const styles = StyleSheet.create({
     padding: 5,
   },
   text2: {
+    fontWeight: "bold",
     fontSize: 16,
-    textAlign: "center",
+    textAlign: "justify",
+    padding: 8,
   },
   container: {
-    display: "flex",
-    rowGap: 9,
+    //display: "flex",
+    //rowGap: 9,
     flex: 1,
     alignItems: "center",
     justifyContent: "center",

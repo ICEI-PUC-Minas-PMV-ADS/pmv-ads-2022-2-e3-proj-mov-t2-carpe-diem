@@ -25,6 +25,7 @@ export default function Cadastro({ navigation }) {
     //   email: "pedro@email.com",
     //   senha: "senha",
     // }).then((dados) => {
+    //   console.log(dados)
     // });
 
     getUsuario().then((dados) => {

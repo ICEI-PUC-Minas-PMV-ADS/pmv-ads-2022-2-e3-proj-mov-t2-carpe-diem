@@ -10,6 +10,8 @@ import DetalhesImovel from "../screens/detalhes-imovel/DetalhesImovel";
 import PerfilUsuario from "../screens/perfil/Perfil";
 import EntrarContato from "../screens/entrar-contato/EntrarContato";
 import FaleConosco from "../screens/fale-conosco/FaleConosco";
+import Informacoes from "../screens/informacoes/Informacoes";
+import ResultadoBusca from "../screens/resultado-busca/ResultadoBusca";
 
 const AppNavigator = createStackNavigator(
   {
@@ -40,9 +42,15 @@ const AppNavigator = createStackNavigator(
     FaleConosco: {
       screen: FaleConosco,
     },
+    ResultadoBusca: {
+      screen: ResultadoBusca,
+    },
+    Informacoes: {
+      screen: Informacoes,
+    },
   },
   {
-    initialRouteName: "PerfilUsuario",
+    initialRouteName: "ResultadoBusca",
     headerMode: "none",
     navigationOptions: {
       headerVisible: false,
