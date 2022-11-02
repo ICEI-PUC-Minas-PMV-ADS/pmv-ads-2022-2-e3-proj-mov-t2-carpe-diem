@@ -24,7 +24,7 @@ export default function HomePage({ navigation }) {
 
         <HeaderLogo />
 
-        <View style={styles.containerTextInput}>
+        <View style={styles.containerSearchbar}>
           <TextInput
             style={styles.TextInput}
             placeholder="Escolha seu Destino"
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     backgroundColor: "#F1ECE9",
   },
-  containerTextInput: {
+  containerSearchbar: {
     fontSize: 16,
     width: "95%",
     padding: 8,
