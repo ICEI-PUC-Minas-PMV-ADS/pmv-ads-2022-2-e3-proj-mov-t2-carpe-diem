@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  KeyboardAvoidingView,
-  StyleSheet,
-} from "react-native";
+import { SafeAreaView, StyleSheet, ScrollView } from "react-native";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
@@ -12,19 +9,21 @@ import { InformacoesTexto } from "./components/informacoes-texto";
 
 export default function Informacoes() {
   return (
-    <KeyboardAvoidingView style={styles.Informacoes}>
-      <HeaderIcons />
+    <SafeAreaView style={styles.Informacoes}>
+      <ScrollView style={styles.scrollView}>
+        <HeaderIcons />
 
-      <HeaderLogo />
+        <HeaderLogo />
 
-      <InformacoesTexto />
+        <InformacoesTexto />
 
-      <LinhaSeparadora />
+        <LinhaSeparadora />
 
-      <FooterIcons />
+        <FooterIcons />
 
-      <FooterText />
-    </KeyboardAvoidingView>
+        <FooterText />
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
@@ -33,6 +32,9 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: "#F1ECE9",
+  },
+  scrollView: {
     backgroundColor: "#F1ECE9",
   },
 });
