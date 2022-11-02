@@ -50,7 +50,7 @@ const AppNavigator = createStackNavigator(
     },
   },
   {
-    initialRouteName: "Login",
+    initialRouteName: "ResultadoBusca",
     headerMode: "none",
     navigationOptions: {
       headerVisible: false,

@@ -78,7 +78,7 @@ export default function ResultadoBusca() {
           <Text style={styles.textIcones}>03 Hóspedes </Text>
         </View>
 
-        <View style={styles.flexbox}>
+        <View style={styles.flexbox1}>
           <Ionicons name="bed-outline" size={24} color="#2C9196" />
           <Text style={styles.textIcones}>01 Quarto </Text>
 
@@ -88,9 +88,9 @@ export default function ResultadoBusca() {
             color="#2C9196"
           />
           <Text style={styles.textIcones}>01 Banheiro </Text>
+          
+          <Text style={styles.textIcones}>A partir de R$ 160,00 / noite</Text>
         </View>
-
-        <Text style={styles.textIcones}>A partir de R$ 160,00 / noite</Text>
 
         {/* Especificações do imóvel */}
         <Text style={styles.textSubTitulo}>Pousada Princess - BA </Text>
@@ -117,6 +117,8 @@ export default function ResultadoBusca() {
             color="#2C9196"
           />
           <Text style={styles.textIcones}>01 Banheiro </Text>
+
+          <Text style={styles.textIcones}>A partir de R$ 160,00 / noite</Text>
         </View>
 
         <BtnBlue label={btnDetalhesLabel} />
