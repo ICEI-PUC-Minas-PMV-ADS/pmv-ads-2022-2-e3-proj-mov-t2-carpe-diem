@@ -1,4 +1,12 @@
-import { SafeAreaView, TextInput, Text, Image, ScrollView, StyleSheet, View } from "react-native";
+import {
+  SafeAreaView,
+  TextInput,
+  Text,
+  Image,
+  ScrollView,
+  StyleSheet,
+  View,
+} from "react-native";
 
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
@@ -6,11 +14,9 @@ import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { AntDesign } from '@expo/vector-icons';
 import { Ionicons } from "@expo/vector-icons";
 
 export default function HomePage({ navigation }) {
-
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
@@ -18,7 +24,7 @@ export default function HomePage({ navigation }) {
 
         <HeaderLogo />
 
-        <View style={styles.containerTextInput}>
+        <View style={styles.containerSearchbar}>
           <TextInput
             style={styles.TextInput}
             placeholder="Escolha seu Destino"
@@ -26,25 +32,48 @@ export default function HomePage({ navigation }) {
             autoCorrect={false}
             onChangeText={(value) => setText(value)}
           />
-          <Ionicons name="search" size={16} color="#2C9196" onPress={() => { }} 
-            style={{padding: 12, height: 40, borderRadius: 20, backgroundColor: "#F36E2B", color: "#FFFFFF",}} />
+          <Ionicons
+            name="search"
+            size={16}
+            color="#2C9196"
+            onPress={() => {}}
+            style={{
+              padding: 12,
+              height: 40,
+              borderRadius: 20,
+              backgroundColor: "#F36E2B",
+              color: "#FFFFFF",
+            }}
+          />
         </View>
 
         <Text style={styles.text1}>Regiões onde Trabalhamos </Text>
 
         <View style={styles.view}>
-          <Image source={require('../../assets/img/sudeste.png')} style={{ width: "100%", height: 130 }} />
+          <Image
+            source={require("../../assets/img/sudeste.png")}
+            style={{ width: "100%", height: 130 }}
+          />
           <Text style={styles.text2}>Sudeste </Text>
 
-          <Image source={require('../../assets/img/nordeste.png')} style={{ width: "100%", height: 130 }} />
+          <Image
+            source={require("../../assets/img/nordeste.png")}
+            style={{ width: "100%", height: 130 }}
+          />
           <Text style={styles.text2}>Nordeste </Text>
         </View>
 
         <View style={styles.view}>
-          <Image source={require("../../assets/img/sul.png")} style={{ width: "100%", height: 130 }} />
+          <Image
+            source={require("../../assets/img/sul.png")}
+            style={{ width: "100%", height: 130 }}
+          />
           <Text style={styles.text2}>Sul </Text>
 
-          <Image source={require("../../assets/img/norte.png")} style={{ width: "100%", height: 130 }} />
+          <Image
+            source={require("../../assets/img/norte.png")}
+            style={{ width: "100%", height: 130 }}
+          />
           <Text style={styles.text2}>Norte </Text>
         </View>
 
@@ -65,10 +94,18 @@ export default function HomePage({ navigation }) {
         </View>
 
         <View style={styles.flexbox1}>
-          <MaterialCommunityIcons name="account-group" size={24} color="#2C9196" />
+          <MaterialCommunityIcons
+            name="account-group"
+            size={24}
+            color="#2C9196"
+          />
           <Text style={styles.text2}>05 Hóspedes </Text>
 
-          <MaterialCommunityIcons name="bathtub-outline" size={24} color="#2C9196" />
+          <MaterialCommunityIcons
+            name="bathtub-outline"
+            size={24}
+            color="#2C9196"
+          />
           <Text style={styles.text2}>01 Banheiro </Text>
         </View>
 
@@ -91,18 +128,13 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#F1ECE9",    
+    backgroundColor: "#F1ECE9",
   },
-  containerTextInput: {    
+  containerSearchbar: {
     fontSize: 16,
-    //textAlign:"center",
-    //alignItems: "center",
-    //justifyContent: "center",
-    width: "95%",   
+    width: "95%",
     padding: 8,
-    flexDirection: 'row',
-    //justifyContent: 'space-between', 
-    //margin: 7,
+    flexDirection: "row",
     flexDirection: "row",
   },
   TextInput: {
@@ -113,19 +145,18 @@ const styles = StyleSheet.create({
     fontSize: 16,
     borderRadius: 20,
     padding: 7,
-    textAlign:"center",
+    textAlign: "center",
   },
   text1: {
     fontSize: 24,
     textAlign: "left",
     padding: 15,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   text2: {
     fontSize: 16,
     fontWeight: "bold",
     padding: 10,
-    //textAlign: 'center',
   },
   text5: {
     fontSize: 16,
@@ -137,15 +168,11 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     flexWrap: "nowrap",
     alignItems: "center",
-    //alignContent: "stretch",
-    //justifyContent: "flex-start"
   },
   flexbox1: {
-    alignItems: "center",    
+    alignItems: "center",
     flexDirection: "row",
-    //justifyContent: "space-evenly",   
-    alignContent: "stretch", 
+    alignContent: "stretch",
     flexWrap: "wrap",
-    //padding: 8,
   },
 });
