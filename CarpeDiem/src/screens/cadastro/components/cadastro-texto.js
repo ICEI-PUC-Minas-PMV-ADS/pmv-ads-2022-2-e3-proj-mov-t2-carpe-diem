@@ -8,7 +8,7 @@ function CadastroTexto() {
   return (
     <View style={styles.containerCadastro}>
 
-      <Text style={styles.cadastroText}>CADASTRO</Text>
+      <Text style={styles.cadastroText}>Cadastro</Text>
 
       <Text style={styles.cadastroSubText}>
         Você não está logado.  {'\n'}
@@ -19,7 +19,7 @@ function CadastroTexto() {
 
       
 
-      <Text style={styles.cadastroSubText}>Campos de Preenchimento Obrigatório</Text>
+      <Text style={styles.cadastroSubText}>Campos de Preenchimento Obrigatório*</Text>
       
     </View>
   );
