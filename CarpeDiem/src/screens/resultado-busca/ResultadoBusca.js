@@ -20,6 +20,7 @@ import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
+import { Praia1 } from "./components/praia-1";
 import BtnBlue from "../../shared/components/visuais/BtnBlue";
 
 export default function ResultadoBusca() {
@@ -64,33 +65,7 @@ export default function ResultadoBusca() {
         />
 
         {/* Residencial Malibu - BA */}
-        <Text style={styles.textSubTitulo}>Residencial Malibu - BA</Text>
-
-        <View style={styles.flexbox1}>
-          <Ionicons name="map-outline" size={24} color="#2C9196" />
-          <Text style={styles.textIcones}>Praia Apaga Fogo </Text>
-
-          <MaterialCommunityIcons
-            name="account-group"
-            size={24}
-            color="#2C9196"
-          />
-          <Text style={styles.textIcones}>03 Hóspedes </Text>
-        </View>
-
-        <View style={styles.flexbox1}>
-          <Ionicons name="bed-outline" size={24} color="#2C9196" />
-          <Text style={styles.textIcones}>01 Quarto </Text>
-
-          <MaterialCommunityIcons
-            name="bathtub-outline"
-            size={24}
-            color="#2C9196"
-          />
-          <Text style={styles.textIcones}>01 Banheiro </Text>
-          
-          <Text style={styles.textIcones}>A partir de R$ 160,00 / noite</Text>
-        </View>
+        <Praia1/>
 
         {/* Especificações do imóvel */}
         <Text style={styles.textSubTitulo}>Pousada Princess - BA </Text>
