@@ -42,7 +42,8 @@ export default function Cadastro({ navigation }) {
 
         <CadastroTexto />
 
-        <CadastroInputs navigation={navigation} userData={usuario}/>
+        {/* <CadastroInputs navigation={navigation} userData={usuario}/> */}
+        <CadastroInputs navigation={navigation}/>
 
         <LinhaSeparadora />
 
