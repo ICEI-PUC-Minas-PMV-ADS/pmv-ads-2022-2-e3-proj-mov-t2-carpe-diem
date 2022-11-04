@@ -54,8 +54,8 @@ export default function Perfil() {
           style={styles.textInput}
           //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          defaultValue={usuario[0].nome}
-          //defaultValue="fabiana"
+          // defaultValue={usuario[0].nome}
+          defaultValue="fabiana"
         />
 
         <Text style={styles.text2}>CPF </Text>
@@ -63,8 +63,8 @@ export default function Perfil() {
           style={styles.textInput}
           //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          defaultValue={usuario[0].cpf}
-          //defaultValue="1236598"
+          // defaultValue={usuario[0].cpf}
+          defaultValue="1236598"
         />
 
         <Text style={styles.text2}>Email </Text>
@@ -72,8 +72,8 @@ export default function Perfil() {
           style={styles.textInput}
           //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          defaultValue={usuario[0].email}
-          //defaultValue="fabiana@email"
+          // defaultValue={usuario[0].email}
+          defaultValue="fabiana@email"
         />
 
         <Text style={styles.text2}>Senha </Text>
@@ -81,8 +81,8 @@ export default function Perfil() {
           style={styles.textInput}
           //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          defaultValue={usuario[0].senha}
-          //defaultValue="abc123"
+          // defaultValue={usuario[0].senha}
+          defaultValue="abc123"
         />
 
         {/* Botões tela Perfil*/}
