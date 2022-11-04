@@ -12,6 +12,8 @@ import EntrarContato from "../screens/entrar-contato/EntrarContato";
 import FaleConosco from "../screens/fale-conosco/FaleConosco";
 import Informacoes from "../screens/informacoes/Informacoes";
 import ResultadoBusca from "../screens/resultado-busca/ResultadoBusca";
+import BuscaVazia from "../screens/busca-vazia/BuscaVazia";
+import Obrigado from "../screens/obrigado/Obrigado";
 
 const AppNavigator = createStackNavigator(
   {
@@ -48,9 +50,15 @@ const AppNavigator = createStackNavigator(
     Informacoes: {
       screen: Informacoes,
     },
+    BuscaVazia: {
+      screen: BuscaVazia,
+    },
+    Obrigado: {
+      screen: Obrigado,
+    },
   },
   {
-    initialRouteName: "ResultadoBusca",
+    initialRouteName: "Obrigado",
     headerMode: "none",
     navigationOptions: {
       headerVisible: false,

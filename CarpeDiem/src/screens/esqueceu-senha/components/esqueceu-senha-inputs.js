@@ -11,7 +11,7 @@ function EsqueceuSenhaInputs() {
         style={styles.textInput}
         //placeholder="Nome Completo"
         autocorrect={false}
-        onChangeText={() => {}}
+        onChangeText={() => { }}
       ></TextInput>
 
       <Text style={styles.text}>Email</Text>

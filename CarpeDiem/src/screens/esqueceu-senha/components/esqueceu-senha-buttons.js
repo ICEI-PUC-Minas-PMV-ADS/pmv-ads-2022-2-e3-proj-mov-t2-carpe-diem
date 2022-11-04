@@ -13,8 +13,7 @@ function EsqueceuSenhaButtons() {
         <Text style={styles.RecuperarSenhaText}>RECUPERAR SENHA</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity
-        style={styles.btnCadastro}
+      <TouchableOpacity style={styles.btnCadastro}
         onPress={() => Cadastro()}
       >        
       </TouchableOpacity> */}
