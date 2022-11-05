@@ -4,31 +4,44 @@ const DB_EXEC = Database.getConnection();
 
 //Seleciona todos usuarios
 export const getUsuario = async () => {
-  let results = await DB_EXEC(`select * from usuario`);
+  let results = await DB_EXEC(
+    "SELECT * " + 
+    "FROM Usuario"
+  );
   
-  // console.log(results.rows._array);
   return results.rows._array;
 };
 
 //Insere usuario
-export const insertUsuario = async (param) => {
-  let results = await DB_EXEC(`insert into usuario (id, nome, cpf, email, senha) values(?,?,?,?,?)`,
-    [param.id, param.nome, param.cpf, param.email, param.senha]
+export const insertUsuario = async (params) => {
+  let results = await DB_EXEC(
+    "INSERT INTO Usuario " + 
+    "(nome, cpf, email, senha) " + 
+    "VALUES(?,?,?,?)",
+    [params.nome, params.cpf, params.email, params.senha]
   );
 
-  // console.log(results.rowsAffected);
   return results.rowsAffected;
 };
 
-export const updateUsuario = async (param) => {
-  let results = await DB_EXEC(`update usuario set email=?, senha=?
-  where id=?`, [param.email, param.senha, ]);
-  //console.log(results);
+//Atualiza email do usuario
+export const updateUsuarioEmail = async (params) => {
+  let results = await DB_EXEC(
+    "UPDATE Usuario " + 
+    "SET email=? " + 
+    "WHERE id=?", 
+    [params.email, params.id, ]);
+
   return results.rowsAffected;
 }
 
+//Remove registro do usuario
 export const deleteUsuario = async (id) => {
-  let results = await DB_EXEC(`delete from usuario where id=?`, [id]);
-  //console.log(results);
+  let results = await DB_EXEC(
+    "DELETE * " + 
+    "FROM Usuario " + 
+    "WHERE id=?", 
+    [id]);
+
   return results.rowsAffected;
 }
