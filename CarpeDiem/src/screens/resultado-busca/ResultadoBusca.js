@@ -33,14 +33,12 @@ export default function ResultadoBusca() {
       <ScrollView>
         <HeaderIcons />
         <HeaderLogo />
-        <StatusBar style="auto" />
-
-        <Text style={styles.textTitulo}>Acomodações Disponíveis </Text>
+        <StatusBar style="auto" />        
 
         <View style={styles.containerSearchbar}>
           <TextInput
             style={styles.TextInput}
-            placeholder="Escolha seu Destino"
+            placeholder="(nome da cidade procurada)"
             autoCapitalize="none"
             autoCorrect={false}
             onChangeText={(value) => setText(value)}
@@ -60,13 +58,22 @@ export default function ResultadoBusca() {
           />
         </View>
 
+        <Text style={styles.textTitulo}>Acomodações Disponíveis </Text>
+
         <Image
-          source={require("../../assets/img/pousada-princess.jpg")}
-          style={{ width: 300, height: 210 }}
+          source={require("../../assets/img/apt-residencial-malibu.jpg")}
+          style={{ width: "100%", height: 210 }}
         />
 
         {/* Residencial Malibu - BA */}
         <Praia1 />
+
+        <BtnBlue label={btnDetalhesLabel} />
+
+        <Image
+          source={require("../../assets/img/pousada-princess.jpg")}
+          style={{ width: "100%", height: 210 }}
+        />
 
         {/* Especificações do imóvel */}
         <Praia2 />
@@ -104,12 +111,23 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     flexDirection: "row",
   },
+  TextInput: {
+    backgroundColor: "#FBCB2B",
+    width: "90%",
+    marginBottom: 15,
+    color: "#222",
+    fontSize: 16,
+    borderRadius: 20,
+    padding: 7,
+    textAlign: "center",
+  },
   textTitulo: {
     fontSize: 24,
     textAlign: "left",
     padding: 5,
-    paddingTop: 20,
+    //paddingTop: 5,
     fontWeight: "bold",
+    paddingBottom: 20,
   },
   textSubTitulo: {
     fontSize: 16,
