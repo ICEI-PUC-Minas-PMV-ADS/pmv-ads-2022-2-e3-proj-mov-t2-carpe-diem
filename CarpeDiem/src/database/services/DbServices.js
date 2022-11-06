@@ -10,7 +10,22 @@ const Database = {
     // Cria a table Usuario
     dataBase.transaction((transaction) => {
       transaction.executeSql(
-        `create table if not exists usuario (id integer primary key autoincrement, nome text not null, cpf text not null, email text not null, senha text not null)`
+        "CREATE TABLE IF NOT EXISTS Usuario " +
+        "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+        "nome VARCHAR(70) NOT NULL, " +
+        "cpf VARCHAR(11) NOT NULL, " +
+        "email VARCHAR(30) NOT NULL, " +
+        "senha VARCHAR(20) NOT NULL)",
+        [],
+        (sqlTransaction, sqlResultSet) => {
+          console.log(
+            "\nBase carregada/criada com sucesso!" +
+            "\nQuantidade de linhas afetadas: " + sqlResultSet.rowsAffected
+          );
+        },
+        (error) => {
+          console.log("Erro ao criar tabela" + error.message);
+        }
       );
     });
 
