@@ -8,7 +8,7 @@ function LoginInputs({ navigation }) {
       <Text style={styles.text}>Email</Text>
       <TextInput
         style={styles.textInput}
-        //placeholder="Informe o Email"
+        placeholder="Informe o Email"k
         autocorrect={false}
         onChangeText={() => {}}
       />
@@ -16,7 +16,7 @@ function LoginInputs({ navigation }) {
       <Text style={styles.text}>Senha</Text>
       <TextInput
         style={styles.textInput}
-        //placeholder="Informe a Senha"
+        placeholder="Informe a Senha"
         autocorrect={false}
         onChangeText={() => {}}
       />
@@ -27,8 +27,6 @@ function LoginInputs({ navigation }) {
 
 const styles = StyleSheet.create({
   containerTextInput: {
-    //flex: 1,
-    //alignItems: "center",
     justifyContent: "center",
     width: "100%",
     fontSize: 16,
