@@ -12,26 +12,8 @@ import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
 import { CadastroInputs } from "../cadastro/components/cadastro-inputs";
-import { getUsuario } from "../../database/services/SQLExecutor";
 
 export default function Cadastro({ navigation }) {
-  const [usuario, setUsuario] = useState([]);
-
-  useEffect(() => {
-    // insertUsuario({
-    //   id: 123,
-    //   nome: "Pedro",
-    //   cpf: "12345678900",
-    //   email: "pedro@email.com",
-    //   senha: "senha",
-    // }).then((dados) => {
-    //   console.log(dados)
-    // });
-
-    getUsuario().then((dados) => {
-      setUsuario(dados);
-    });
-  }, []);
 
   return (
     <SafeAreaView style={styles.container}>
