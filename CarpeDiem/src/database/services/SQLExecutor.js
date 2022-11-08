@@ -1,5 +1,10 @@
 import Database from "./DbServices";
 
+const usuarioLogin = {
+  email: '',
+  senha: '',
+}
+
 const DB_EXEC = Database.getConnection();
 
 //Seleciona todos usuarios
@@ -9,7 +14,25 @@ export const getUsuario = async () => {
     "FROM Usuario"
   );
   
+  // console.log(results.rows._array);
+
   return results.rows._array;
+};
+
+//Procura registro de usuario ao realizar login
+export const getUsuarioLogin = async (email, senha) => {
+  let results = await DB_EXEC(
+    "SELECT * " + 
+    "FROM Usuario " +
+    "WHERE email=? " +
+    "AND senha=? ",
+    [email, senha]
+  );
+  
+  usuarioLogin.email = results.rows._array[0].email;
+  usuarioLogin.senha = results.rows._array[0].senha;
+
+  return true;
 };
 
 //Insere usuario
