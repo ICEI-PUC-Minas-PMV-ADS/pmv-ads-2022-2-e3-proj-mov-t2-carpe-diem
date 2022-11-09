@@ -1,27 +1,70 @@
-import React from "react";
-import { Text, View, TextInput, StyleSheet } from "react-native";
-import { LoginButtons } from "./login-buttons";
+import React, { useEffect, useState } from "react";
+import {
+  StyleSheet,
+  View,
+  Text,
+  TextInput,
+  TouchableOpacity,
+} from "react-native";
+import * as SQLExecutor from "../../../database/services/SQLExecutor";
 
 function LoginInputs({ navigation }) {
+  const [email, setEmail] = useState("");
+  const [senha, setSenha] = useState("");
+
+  const redirecionaTela = () => {
+    navigation.push("PerfilUsuario");
+  };
+
+  const validaInput = () => {
+    if (email.length <= 0) {
+      alert("Insira o seu email!");
+      return false;
+    }
+    if (senha.length <= 0) {
+      alert("Insira a sua senha!");
+      return false;
+    }
+
+    validaLogin();
+  };
+
+  const validaLogin = () => {
+    SQLExecutor.getUsuarioLogin(email, senha).then((usuarioEncontrado) => {
+      if (usuarioEncontrado === true) {
+        redirecionaTela();
+      };
+    });
+  };
+
   return (
     <View style={styles.containerTextInput}>
       <Text style={styles.text}>Email</Text>
       <TextInput
+        value={email}
+        onChangeText={setEmail}
         style={styles.textInput}
-        placeholder="Informe o Email"k
-        autocorrect={false}
-        onChangeText={() => {}}
+        placeholder="Informe o Email"
+        autocorrect={true}
       />
 
       <Text style={styles.text}>Senha</Text>
       <TextInput
+        value={senha}
+        onChangeText={setSenha}
         style={styles.textInput}
         placeholder="Informe a Senha"
         autocorrect={false}
-        onChangeText={() => {}}
       />
-      <LoginButtons navigation={navigation} />
-    </View>    
+
+      <TouchableOpacity>
+        <Text style={styles.esqueceuSenhaText}>Esqueceu a Senha?</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.btnEntrar} onPress={validaLogin}>
+        <Text style={styles.entrarText}>ENTRAR</Text>
+      </TouchableOpacity>
+    </View>
   );
 }
 
@@ -36,7 +79,7 @@ const styles = StyleSheet.create({
   text: {
     fontWeight: "bold",
     fontSize: 16,
-    textAlign:"justify",
+    textAlign: "justify",
     padding: 8,
   },
   textInput: {
@@ -48,6 +91,32 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 7,
     margin: "auto",
+  },
+  esqueceuSenhaText: {
+    fontSize: 12,
+    width: "100%",
+    marginLeft: 250,
+    padding: 8,
+  },
+  btnEntrar: {
+    backgroundColor: "#6FDDE3",
+    width: "80%",
+    justifyContent: "center",
+    marginBottom: 15,
+    fontSize: 16,
+    borderRadius: 20,
+    padding: 2,
+    marginLeft: 30,
+  },
+  entrarText: {
+    fontWeight: "bold",
+    fontSize: 16,
+    width: "100%",
+    textAlign: "center",
+    padding: 10,
+    paddingTop: 7,
+    paddingBottom: 7,
+    textTransform: "uppercase",
   },
 });
 

@@ -8,14 +8,6 @@ function LoginButtons({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity>
-        <Text style={styles.esqueceuSenhaText}>Esqueceu a Senha?</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={styles.btnEntrar}>
-        <Text style={styles.entrarText}>ENTRAR</Text>
-      </TouchableOpacity>
-
       <TouchableOpacity style={styles.btnCadastro} onPress={redirecionaTela}>
         <Text style={styles.cadastroText}>
           Ainda não tem conta? Cadastre-se
@@ -45,13 +37,11 @@ const styles = StyleSheet.create({
   btnEntrar: {
     backgroundColor: "#6FDDE3",
     width: "80%",
-    //alignItems: "center",
     justifyContent: "center",
     marginBottom: 15,
     fontSize: 16,
     borderRadius: 20,
     padding: 2,
-    //height: 45,
     marginLeft: 30,
   },
   entrarText: {
