@@ -6,6 +6,7 @@ import {
   TextInput,
   TouchableOpacity,
 } from "react-native";
+import { LoginButtons } from "./login-buttons";
 import * as SQLExecutor from "../../../database/services/SQLExecutor";
 
 function LoginInputs({ navigation }) {
@@ -31,7 +32,7 @@ function LoginInputs({ navigation }) {
 
   const validaLogin = () => {
     SQLExecutor.getUsuarioLogin(email, senha).then((usuarioEncontrado) => {
-      if (usuarioEncontrado === true) {
+      if (usuarioEncontrado) {
         redirecionaTela();
       };
     });
@@ -61,9 +62,10 @@ function LoginInputs({ navigation }) {
         <Text style={styles.esqueceuSenhaText}>Esqueceu a Senha?</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.btnEntrar} onPress={validaLogin}>
+      <TouchableOpacity style={styles.btnEntrar} onPress={validaInput}>
         <Text style={styles.entrarText}>ENTRAR</Text>
       </TouchableOpacity>
+      <LoginButtons navigation={navigation} />
     </View>
   );
 }
