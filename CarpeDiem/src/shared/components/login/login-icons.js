@@ -1,8 +1,9 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import { Ionicons } from '@expo/vector-icons';
+import { Ionicons } from "@expo/vector-icons";
 
-function LoginIcons() {/*
+function LoginIcons() {
+  /*
   return (
     <View style={styles.socialMediaLoginIcons}>
       <View style={{ right: "45%" }}>

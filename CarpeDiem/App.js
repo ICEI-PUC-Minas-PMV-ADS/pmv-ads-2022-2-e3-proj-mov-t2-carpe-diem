@@ -18,7 +18,6 @@ import Obrigado from "./src/screens/obrigado/Obrigado";
 
 const Stack = createStackNavigator();
 
-
 function App() {
   return (
     <NavigationContainer>
@@ -27,8 +26,7 @@ function App() {
         headerMode="none"
         screenOptions={{
           gestureEnabled: true,
-        }
-      }
+        }}
       >
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="EsqueceuSenha" component={EsqueceuSenha} />

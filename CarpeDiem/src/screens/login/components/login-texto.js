@@ -5,23 +5,20 @@ import { LoginIcons } from "../../../shared/components/login/login-icons";
 function LoginTexto() {
   return (
     <View style={styles.containerLogin}>
-      
       <Text style={styles.loginText}>Bem Vindo</Text>
-      
+
       <Text style={styles.loginSubText}>
-        Você não está logado. {'\n'}
+        Você não está logado. {"\n"}
         Entre usando os dados cadastrados.
       </Text>
 
       <LoginIcons />
-      
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   containerLogin: {
-    //flex: 1,
     alignItems: "center",
     justifyContent: "center",
     width: "100%",

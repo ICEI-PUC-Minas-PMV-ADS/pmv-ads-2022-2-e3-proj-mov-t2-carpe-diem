@@ -20,12 +20,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#6FDDE3",
     borderRadius: 20,
     width: "80%",
-    //alignItems: "center",
     justifyContent: "center",
     marginBottom: 15,
-    fontSize: 16,    
+    fontSize: 16,
     padding: 2,
-    //height: 45,
     marginLeft: 30,
   },
   enviarText: {
@@ -35,7 +33,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     padding: 10,
     paddingTop: 7,
-    paddingBottom: 7,    
+    paddingBottom: 7,
   },
 });
 

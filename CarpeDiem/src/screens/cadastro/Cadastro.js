@@ -1,10 +1,5 @@
-import React, { useEffect, useState } from "react";
-import {
-  StyleSheet,
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-} from "react-native";
+import React from "react";
+import { StyleSheet, SafeAreaView, ScrollView, StatusBar } from "react-native";
 import { CadastroTexto } from "./components/cadastro-texto";
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
@@ -14,7 +9,6 @@ import { LinhaSeparadora } from "../../shared/components/visuais/linha-separador
 import { CadastroInputs } from "../cadastro/components/cadastro-inputs";
 
 export default function Cadastro({ navigation }) {
-
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
@@ -24,8 +18,7 @@ export default function Cadastro({ navigation }) {
 
         <CadastroTexto />
 
-        {/* <CadastroInputs navigation={navigation} userData={usuario}/> */}
-        <CadastroInputs navigation={navigation}/>
+        <CadastroInputs navigation={navigation} />
 
         <LinhaSeparadora />
 

@@ -9,7 +9,7 @@ function FaleConoscoInputs({ navigation }) {
       <Text style={styles.text}>Nome Completo</Text>
       <TextInput
         style={styles.textInput}
-        //placeholder="Nome Completo"
+        placeholder="Nome Completo"
         autocorrect={false}
         onChangeText={() => {}}
       ></TextInput>
@@ -17,7 +17,7 @@ function FaleConoscoInputs({ navigation }) {
       <Text style={styles.text}>Email</Text>
       <TextInput
         style={styles.textInput}
-        //placeholder="Email"
+        placeholder="Email"
         autocorrect={false}
         onChangeText={() => {}}
       ></TextInput>
@@ -25,7 +25,7 @@ function FaleConoscoInputs({ navigation }) {
       <Text style={styles.text}>Mensagem</Text>
       <TextInput
         style={styles.textInputMensagem}
-        //placeholder="Mensagem"
+        placeholder="Mensagem"
         autocorrect={false}
         onChangeText={() => {}}
       ></TextInput>
@@ -37,8 +37,6 @@ function FaleConoscoInputs({ navigation }) {
 
 const styles = StyleSheet.create({
   containerTextInput: {
-    //flex: 1,
-    //alignItems: "center",
     justifyContent: "center",
     width: "100%",
     fontSize: 16,
@@ -64,7 +62,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#FBCB2B",
     width: "100%",
     height: 200,
-    //lineHeight: 200,
     maxLength: 255, 
     marginBottom: 15,
     color: "#222",

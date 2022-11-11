@@ -39,7 +39,7 @@ function LoginInputs({ navigation }) {
     SQLExecutor.getUsuarioLogin(email, senha).then((usuarioEncontrado) => {
       if (usuarioEncontrado) {
         redirecionaTela(usuarioEncontrado);
-      };
+      }
     });
   };
 

@@ -17,7 +17,6 @@ export default function EsqueceuSenha({ navigation }) {
 
   return (
     <SafeAreaView style={styles.EsqueceuSenha}>
-      
       <HeaderIcons />
 
       <HeaderLogo />
@@ -44,8 +43,6 @@ export default function EsqueceuSenha({ navigation }) {
 const styles = StyleSheet.create({
   EsqueceuSenha: {
     flex: 1,
-    //alignItems: "center",
-    //justifyContent: "center",
     backgroundColor: "#F1ECE9",
   },
 });

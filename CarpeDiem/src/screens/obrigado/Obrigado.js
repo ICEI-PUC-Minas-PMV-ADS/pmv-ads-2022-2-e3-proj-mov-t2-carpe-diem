@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, Text, SafeAreaView, ScrollView, View } from "react-native";
-import { Ionicons } from '@expo/vector-icons';
+import { Ionicons } from "@expo/vector-icons";
 
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
@@ -8,7 +8,7 @@ import { LinhaSeparadora } from "../../shared/components/visuais/linha-separador
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 
-export default function BuscaVazia() {  
+export default function BuscaVazia() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
@@ -19,16 +19,18 @@ export default function BuscaVazia() {
         <View>
           <Ionicons
             name="md-checkmark-sharp"
-            size={96}            
+            size={96}
             onPress={() => {}}
             style={styles.button}
           />
         </View>
-        
+
         <Text style={styles.text1}>Mensagem enviada {"\n"}com sucesso!</Text>
 
-        <Text style={styles.text2}>Entraremos em contato {"\n"}o mais breve possível </Text>
-        
+        <Text style={styles.text2}>
+          Entraremos em contato {"\n"}o mais breve possível{" "}
+        </Text>
+
         <LinhaSeparadora />
 
         <FooterIcons />
@@ -55,8 +57,6 @@ const styles = StyleSheet.create({
     marginBottom: 95,
   },
   container: {
-    //display: "flex",
-    //rowGap: 9,
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
@@ -66,22 +66,19 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     backgroundColor: "#F1ECE9",
-  },  
+  },
   button: {
     height: 150,
     width: 150,
     maxWidth: 300,
     maxHeight: 300,
     borderRadius: 100,
-    backgroundColor: "#2C9196",              
+    backgroundColor: "#2C9196",
     display: "flex",
     color: "#FFFFFF",
-    //flexDirection: "column",
     textAlign: "center",
-    marginLeft: 70, 
+    marginLeft: 70,
     marginVertical: 70,
-    //alignItems: "center",
-    //textAlignVertical: "middle",
     padding: 23,
   },
 });

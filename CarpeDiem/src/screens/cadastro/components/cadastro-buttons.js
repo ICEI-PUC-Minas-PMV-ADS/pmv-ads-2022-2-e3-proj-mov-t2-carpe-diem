@@ -4,7 +4,6 @@ import { Ionicons } from "@expo/vector-icons";
 import * as SQLExecutor from "../../../database/services/SQLExecutor";
 
 function CadastroButtons({ navigation, inputCadastro }) {
-
   const cadastrarUsuario = () => {
     if (!inputCadastro.nome) {
       alert("Insira o seu nome!");

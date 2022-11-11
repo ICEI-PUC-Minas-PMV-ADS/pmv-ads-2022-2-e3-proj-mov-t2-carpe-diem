@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   linhaSeparadora: {
     borderBottomColor: "black",
     borderBottomWidth: StyleSheet.hairlineWidth,
-    paddingVertical: 5,    
+    paddingVertical: 5,
   },
 });
 

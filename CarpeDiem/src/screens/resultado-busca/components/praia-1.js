@@ -30,7 +30,7 @@ function Praia1() {
           size={24}
           color="#2C9196"
         />
-        <Text style={styles.textIcones}>02 Banheiros </Text>        
+        <Text style={styles.textIcones}>02 Banheiros </Text>
       </View>
 
       <Text style={styles.textPreco}>A partir de R$ 240,00 / noite</Text>

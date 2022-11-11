@@ -37,7 +37,6 @@ export default function FaleConosco({ navigation }) {
 const styles = StyleSheet.create({
   faleconoscoBackground: {
     flex: 1,
-    //alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#F1ECE9",
   },

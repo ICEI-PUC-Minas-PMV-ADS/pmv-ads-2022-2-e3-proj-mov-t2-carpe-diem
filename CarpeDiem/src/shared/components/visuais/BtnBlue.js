@@ -1,6 +1,5 @@
 import React from "react";
 import { Text, View, Linking } from "react-native";
-import { useFonts } from "expo-font";
 
 export default function BtnBlue({ label, href = "#" }) {
   const [text, onChangeText] = React.useState(label);
@@ -23,12 +22,10 @@ const style = {
   view: {
     backgroundColor: "#6FDDE3",
     borderRadius: 20,
-    //alignItems: "center",
-    //display: "flex",
     width: "80%",
     padding: 2,
     marginBottom: 15,
-    fontSize: 16,      
+    fontSize: 16,
     marginLeft: 30,
   },
   text: {
@@ -39,6 +36,6 @@ const style = {
     padding: 10,
     paddingTop: 7,
     paddingBottom: 7,
-    textTransform: "uppercase",    
+    textTransform: "uppercase",
   },
 };

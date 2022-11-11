@@ -14,7 +14,6 @@ function HeaderLogo() {
 
 const styles = StyleSheet.create({
   containerLogo: {
-    //flex: 1,
     alignItems: "center",
   },
 });

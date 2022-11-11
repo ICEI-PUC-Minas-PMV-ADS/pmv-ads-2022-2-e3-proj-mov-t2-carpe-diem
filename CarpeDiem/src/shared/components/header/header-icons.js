@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import * as AkarIcons from "akar-icons";
-import { Ionicons } from '@expo/vector-icons';
+import { Ionicons } from "@expo/vector-icons";
 
 function HeaderIcons() {
   return (
@@ -11,31 +11,31 @@ function HeaderIcons() {
         color="#2C9196"
         strokeWidth={2}
         size={24}
-        style={{ paddingRight: 4, paddingLeft: 4,}}
+        style={{ paddingRight: 4, paddingLeft: 4 }}
       />
       <Ionicons
         name="logo-twitter"
         color="#2C9196"
         strokeWidth={2}
         size={24}
-        style={{ paddingRight: 4, paddingLeft: 4,}}
+        style={{ paddingRight: 4, paddingLeft: 4 }}
       />
       <Ionicons
         name="logo-facebook"
         color="#2C9196"
         strokeWidth={2}
         size={24}
-        style={{ paddingRight: 10, paddingLeft: 4,}}
+        style={{ paddingRight: 10, paddingLeft: 4 }}
       />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  socialMediaIcons: {    
-    paddingTop: 30,        
+  socialMediaIcons: {
+    paddingTop: 30,
     flexDirection: "row",
-    justifyContent: "flex-end", 
+    justifyContent: "flex-end",
     bottom: "1%",
     //left: "42%",
   },

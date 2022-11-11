@@ -1,5 +1,12 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, SafeAreaView, Image, View, ScrollView } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  SafeAreaView,
+  Image,
+  View,
+  ScrollView,
+} from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -13,7 +20,6 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
-
         <HeaderIcons />
 
         <HeaderLogo />
@@ -22,7 +28,7 @@ export default function App() {
 
         <Text style={styles.text1}>Pousada Princess </Text>
         <Text style={styles.text5}>Porto Seguro - BA </Text>
-        
+
         <Image
           source={require("../../assets/img/pousada-princess.jpg")}
           style={{ width: "100%", height: 210 }}
@@ -53,7 +59,6 @@ export default function App() {
         <FooterIcons />
 
         <FooterText />
-
       </ScrollView>
     </SafeAreaView>
   );
@@ -105,7 +110,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#F1ECE9",
   },
   flexbox2: {
-    alignItems: "center",        
+    alignItems: "center",
     flexDirection: "row",
     justifyContent: "flex-start",
   },

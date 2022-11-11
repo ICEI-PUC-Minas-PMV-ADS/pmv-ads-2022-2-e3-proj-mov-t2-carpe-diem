@@ -12,7 +12,6 @@ import { LoginInputs } from "./components/login-inputs";
 export default function Login({ navigation }) {
   return (
     <SafeAreaView style={styles.loginBackground}>
-
       <HeaderIcons />
 
       <HeaderLogo />
@@ -28,7 +27,6 @@ export default function Login({ navigation }) {
       <FooterIcons />
 
       <FooterText />
-
     </SafeAreaView>
   );
 }
@@ -36,8 +34,6 @@ export default function Login({ navigation }) {
 const styles = StyleSheet.create({
   loginBackground: {
     flex: 1,
-    //alignItems: "center",
-    //justifyContent: "center",
     backgroundColor: "#F1ECE9",
   },
 });

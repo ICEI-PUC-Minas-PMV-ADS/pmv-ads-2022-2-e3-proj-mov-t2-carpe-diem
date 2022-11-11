@@ -21,7 +21,7 @@ function CadastroInputs({ navigation }) {
     });
   };
 
-  const  insertUsuario= (inputCadastro) => {
+  const insertUsuario = (inputCadastro) => {
     setUsuario(inputCadastro);
   };
 

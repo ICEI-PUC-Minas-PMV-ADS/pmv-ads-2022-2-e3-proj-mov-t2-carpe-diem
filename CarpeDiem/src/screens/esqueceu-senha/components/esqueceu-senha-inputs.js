@@ -5,31 +5,27 @@ import { EsqueceuSenhaButtons } from "./esqueceu-senha-buttons";
 function EsqueceuSenhaInputs() {
   return (
     <View style={styles.containerTextInput}>
-      
       <Text style={styles.text}>Nome Completo</Text>
       <TextInput
         style={styles.textInput}
-        //placeholder="Nome Completo"
+        placeholder="Nome Completo"
         autocorrect={false}
-        onChangeText={() => { }}
+        onChangeText={() => {}}
       ></TextInput>
 
       <Text style={styles.text}>Email</Text>
       <TextInput
         style={styles.textInput}
-        //placeholder="Email"
+        placeholder="Email"
         autocorrect={false}
         onChangeText={() => {}}
-      ></TextInput>      
-      
+      ></TextInput>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   containerTextInput: {
-    //flex: 1,
-    //alignItems: "center",
     justifyContent: "center",
     width: "100%",
     fontSize: 16,
@@ -39,7 +35,7 @@ const styles = StyleSheet.create({
   text: {
     fontWeight: "bold",
     fontSize: 16,
-    textAlign:"justify",
+    textAlign: "justify",
     padding: 8,
   },
   textInput: {

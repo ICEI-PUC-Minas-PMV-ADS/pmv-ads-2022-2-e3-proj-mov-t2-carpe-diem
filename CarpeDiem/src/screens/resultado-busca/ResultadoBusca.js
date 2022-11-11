@@ -13,7 +13,6 @@ import {
 import { StatusBar } from "expo-status-bar";
 
 import { Ionicons } from "@expo/vector-icons";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
@@ -29,11 +28,10 @@ export default function ResultadoBusca() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* <ScrollView style={styles.scrollView}> */}
       <ScrollView>
         <HeaderIcons />
         <HeaderLogo />
-        <StatusBar style="auto" />        
+        <StatusBar style="auto" />
 
         <View style={styles.containerSearchbar}>
           <TextInput
@@ -125,7 +123,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     textAlign: "left",
     padding: 5,
-    //paddingTop: 5,
     fontWeight: "bold",
     paddingBottom: 20,
   },

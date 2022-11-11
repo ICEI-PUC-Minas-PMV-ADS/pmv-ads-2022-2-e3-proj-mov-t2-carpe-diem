@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import Cadastro from "../../cadastro/Cadastro"
+import Cadastro from "../../cadastro/Cadastro";
 
 function EsqueceuSenhaButtons() {
   const redirecionaTela = () => {
     navigation.push("Cadastro");
   };
-  
+
   return (
     <View style={styles.container}>
       {/* <TouchableOpacity style={styles.btnRecuperarSenha}>
@@ -18,7 +18,10 @@ function EsqueceuSenhaButtons() {
       >        
       </TouchableOpacity> */}
 
-      <TouchableOpacity style={styles.btnEsqueceuSenha} onPress={redirecionaTela}>
+      <TouchableOpacity
+        style={styles.btnEsqueceuSenha}
+        onPress={redirecionaTela}
+      >
         <Text style={styles.cadastroText}>
           Ainda não tem conta? Cadastre-se
         </Text>
@@ -51,7 +54,7 @@ const styles = StyleSheet.create({
   },
   cadastroText: {
     fontSize: 16,
-    textAlign:"center",
+    textAlign: "center",
   },
 });
 

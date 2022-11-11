@@ -17,7 +17,7 @@ import BtnBlue from "../../shared/components/visuais/BtnBlue";
 import H1 from "../../shared/components/visuais/H1";
 import { useRoute } from "@react-navigation/native";
 
-export default function Perfil({ navigation }) {
+export default function Perfil() {
   const btnSalvarLabel = "SALVAR";
   const btnCancelarLabel = "EXCLUIR";
   const btnExcluirLabel = "SAIR";
@@ -40,13 +40,9 @@ export default function Perfil({ navigation }) {
 
         <H1 title="Perfil" />
 
-        <Text style={styles.text}>
-          {route.params.nome}
-        </Text>
+        <Text style={styles.text}>{route.params.nome}</Text>
 
-        <Text style={styles.text}>
-          {route.params.email}
-        </Text>
+        <Text style={styles.text}>{route.params.email}</Text>
 
         <LinhaSeparadora />
 
@@ -109,8 +105,6 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   container: {
-    //display: "flex",
-    //rowGap: 9,
     flex: 1,
     alignItems: "center",
     justifyContent: "center",

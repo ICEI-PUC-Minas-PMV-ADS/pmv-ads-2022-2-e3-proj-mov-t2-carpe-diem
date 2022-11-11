@@ -4,14 +4,13 @@ import { View, Text, StyleSheet } from "react-native";
 function EsqueceuSenhaTexto() {
   return (
     <View style={styles.containerEsqueceuSenha}>
-      <Text style={styles.EsqueceuSenhaText}>Esqueceu sua {'\n'}Senha?</Text>      
+      <Text style={styles.EsqueceuSenhaText}>Esqueceu sua {"\n"}Senha?</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   containerEsqueceuSenha: {
-    //flex: 1,
     alignItems: "center",
     justifyContent: "center",
     width: "100%",
