@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   StyleSheet,
-  Text,
   SafeAreaView,
   ScrollView,
+  Text,
   TextInput,
 } from "react-native";
-import { MaterialIcons } from "@expo/vector-icons";
-import { Ionicons } from '@expo/vector-icons';
+import { Ionicons } from "@expo/vector-icons";
 
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
@@ -16,20 +15,14 @@ import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 import BtnBlue from "../../shared/components/visuais/BtnBlue";
 import H1 from "../../shared/components/visuais/H1";
-import { getUsuario } from "../../database/services/SQLExecutor";
+import { useRoute } from "@react-navigation/native";
 
-export default function Perfil() {
+export default function Perfil({ navigation }) {
   const btnSalvarLabel = "SALVAR";
   const btnCancelarLabel = "EXCLUIR";
   const btnExcluirLabel = "SAIR";
 
-  const [usuario, setUsuario] = useState([]);
-
-  useEffect(() => {
-    getUsuario().then((dados) => {
-      setUsuario(dados);
-    });
-  }, []);
+  const route = useRoute();
 
   return (
     <SafeAreaView style={styles.container}>
@@ -38,13 +31,22 @@ export default function Perfil() {
 
         <HeaderLogo />
 
-        <Ionicons name="person-circle" size={80} color="#2C9196" style={{textAlign:"center"}}/>
+        <Ionicons
+          name="person-circle"
+          size={80}
+          color="#2C9196"
+          style={{ textAlign: "center" }}
+        />
 
         <H1 title="Perfil" />
 
-        <Text style={styles.text}>Nome Usuário </Text>
+        <Text style={styles.text}>
+          {route.params.nome}
+        </Text>
 
-        <Text style={styles.text}>email@email.com.br</Text>
+        <Text style={styles.text}>
+          {route.params.email}
+        </Text>
 
         <LinhaSeparadora />
 
@@ -52,37 +54,29 @@ export default function Perfil() {
         <Text style={styles.text2}>Nome Usuário </Text>
         <TextInput
           style={styles.textInput}
-          //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          // defaultValue={usuario[0].nome}
-          defaultValue="fabiana"
+          defaultValue={route.params.nome}
         />
 
         <Text style={styles.text2}>CPF </Text>
         <TextInput
           style={styles.textInput}
-          //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          // defaultValue={usuario[0].cpf}
-          defaultValue="1236598"
+          defaultValue={route.params.cpf}
         />
 
         <Text style={styles.text2}>Email </Text>
         <TextInput
           style={styles.textInput}
-          //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          // defaultValue={usuario[0].email}
-          defaultValue="fabiana@email"
+          defaultValue={route.params.email}
         />
 
         <Text style={styles.text2}>Senha </Text>
         <TextInput
           style={styles.textInput}
-          //placeholder="Teste"
           onChangeText={(newText) => setText(newText)}
-          // defaultValue={usuario[0].senha}
-          defaultValue="abc123"
+          defaultValue={route.params.senha}
         />
 
         {/* Botões tela Perfil*/}

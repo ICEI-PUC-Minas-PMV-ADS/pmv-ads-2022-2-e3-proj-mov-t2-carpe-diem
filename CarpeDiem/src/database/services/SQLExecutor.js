@@ -1,8 +1,21 @@
 import Database from "./DbServices";
 
 const usuarioLogin = {
+  id: '',
+  nome: '',
+  cpf: '',
   email: '',
   senha: '',
+}
+
+const montaDadosUsuario = (dadosUsuario) => {
+  usuarioLogin.id = dadosUsuario.id;
+  usuarioLogin.nome = dadosUsuario.nome;
+  usuarioLogin.cpf = dadosUsuario.cpf;
+  usuarioLogin.email = dadosUsuario.email;
+  usuarioLogin.senha = dadosUsuario.senha;
+
+  return usuarioLogin;
 }
 
 const DB_EXEC = Database.getConnection();
@@ -13,8 +26,6 @@ export const getUsuario = async () => {
     "SELECT * " + 
     "FROM Usuario"
   );
-  
-  // console.log(results.rows._array);
 
   return results.rows._array;
 };
@@ -28,11 +39,8 @@ export const getUsuarioLogin = async (email, senha) => {
     "AND senha=? ",
     [email, senha]
   );
-  
-  usuarioLogin.email = results.rows._array[0].email;
-  usuarioLogin.senha = results.rows._array[0].senha;
 
-  return true;
+  return montaDadosUsuario(results.rows._array[0]);
 };
 
 //Insere usuario

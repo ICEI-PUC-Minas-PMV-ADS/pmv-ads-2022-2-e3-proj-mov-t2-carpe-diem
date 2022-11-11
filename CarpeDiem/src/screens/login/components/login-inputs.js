@@ -13,8 +13,13 @@ function LoginInputs({ navigation }) {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
 
-  const redirecionaTela = () => {
-    navigation.push("PerfilUsuario");
+  const redirecionaTela = (usuarioEncontrado) => {
+    navigation.navigate("PerfilUsuario", {
+      nome: usuarioEncontrado.nome,
+      cpf: usuarioEncontrado.cpf,
+      email: usuarioEncontrado.email,
+      senha: usuarioEncontrado.senha,
+    });
   };
 
   const validaInput = () => {
@@ -33,7 +38,7 @@ function LoginInputs({ navigation }) {
   const validaLogin = () => {
     SQLExecutor.getUsuarioLogin(email, senha).then((usuarioEncontrado) => {
       if (usuarioEncontrado) {
-        redirecionaTela();
+        redirecionaTela(usuarioEncontrado);
       };
     });
   };
