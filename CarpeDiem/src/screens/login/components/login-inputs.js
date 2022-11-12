@@ -65,6 +65,7 @@ function LoginInputs({ navigation }) {
         style={styles.textInput}
         placeholder="Informe a Senha"
         autocorrect={false}
+        secureTextEntry={true}
       />
 
       <TouchableOpacity onPress={() => {redirecionaTela("EsqueceuSenha")}}>
