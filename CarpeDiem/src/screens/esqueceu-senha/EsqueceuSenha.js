@@ -33,7 +33,7 @@ export default function EsqueceuSenha({ navigation }) {
 
       <LinhaSeparadora />
 
-      <FooterIcons />
+      <FooterIcons navigation={navigation} />
 
       <FooterText />
     </SafeAreaView>

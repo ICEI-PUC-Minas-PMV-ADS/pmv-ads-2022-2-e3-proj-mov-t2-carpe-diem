@@ -23,7 +23,7 @@ import { Praia1 } from "./components/praia-1";
 import { Praia2 } from "./components/praia-2";
 import BtnBlue from "../../shared/components/visuais/BtnBlue";
 
-export default function ResultadoBusca() {
+export default function ResultadoBusca({ navigation }) {
   const btnDetalhesLabel = "DETALHES";
 
   return (
@@ -80,7 +80,7 @@ export default function ResultadoBusca() {
 
         <LinhaSeparadora />
 
-        <FooterIcons />
+        <FooterIcons navigation={navigation} />
 
         <FooterText />
       </ScrollView>

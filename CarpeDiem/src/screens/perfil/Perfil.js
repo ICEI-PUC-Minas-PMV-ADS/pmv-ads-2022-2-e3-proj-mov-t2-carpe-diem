@@ -84,7 +84,7 @@ export default function Perfil({ navigation }) {
 
         <LinhaSeparadora />
 
-        <FooterIcons />
+        <FooterIcons navigation={navigation} />
 
         <FooterText />
       </ScrollView>

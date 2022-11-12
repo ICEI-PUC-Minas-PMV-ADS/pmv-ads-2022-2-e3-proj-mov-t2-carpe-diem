@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { StyleSheet, Text, SafeAreaView, ScrollView, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -8,7 +8,7 @@ import { LinhaSeparadora } from "../../shared/components/visuais/linha-separador
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 
-export default function BuscaVazia() {
+export default function BuscaVazia({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
@@ -36,7 +36,7 @@ export default function BuscaVazia() {
 
         <LinhaSeparadora />
 
-        <FooterIcons />
+        <FooterIcons navigation={navigation} />
 
         <FooterText />
       </ScrollView>
@@ -60,8 +60,6 @@ const styles = StyleSheet.create({
     marginBottom: 95,
   },
   container: {
-    //display: "flex",
-    //rowGap: 9,
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
@@ -81,12 +79,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#2C9196",
     display: "flex",
     color: "#FFFFFF",
-    //flexDirection: "column",
     textAlign: "center",
     marginLeft: 70,
     marginVertical: 70,
-    //alignItems: "center",
-    //textAlignVertical: "middle",
     padding: 23,
   },
 });

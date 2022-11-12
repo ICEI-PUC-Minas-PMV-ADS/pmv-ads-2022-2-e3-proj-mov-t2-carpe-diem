@@ -26,7 +26,7 @@ export default function FaleConosco({ navigation }) {
 
         <LinhaSeparadora />
 
-        <FooterIcons />
+        <FooterIcons navigation={navigation} />
 
         <FooterText />
       </ScrollView>

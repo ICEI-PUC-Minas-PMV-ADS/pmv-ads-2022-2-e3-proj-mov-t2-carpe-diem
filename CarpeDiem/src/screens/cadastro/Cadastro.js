@@ -22,7 +22,7 @@ export default function Cadastro({ navigation }) {
 
         <LinhaSeparadora />
 
-        <FooterIcons />
+        <FooterIcons navigation={navigation} />
 
         <FooterText />
       </ScrollView>

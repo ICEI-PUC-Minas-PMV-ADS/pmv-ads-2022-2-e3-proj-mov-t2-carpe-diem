@@ -113,7 +113,7 @@ export default function HomePage({ navigation }) {
 
         <LinhaSeparadora />
 
-        <FooterIcons />
+        <FooterIcons navigation={navigation} />
 
         <FooterText />
       </ScrollView>

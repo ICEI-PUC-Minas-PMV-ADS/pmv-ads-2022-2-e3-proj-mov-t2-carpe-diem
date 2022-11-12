@@ -7,7 +7,7 @@ import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { InformacoesTexto } from "./components/informacoes-texto";
 
-export default function Informacoes() {
+export default function Informacoes({ navigation }) {
   return (
     <SafeAreaView style={styles.Informacoes}>
       <ScrollView style={styles.scrollView}>
@@ -19,7 +19,7 @@ export default function Informacoes() {
 
         <LinhaSeparadora />
 
-        <FooterIcons />
+        <FooterIcons navigation={navigation} />
 
         <FooterText />
       </ScrollView>

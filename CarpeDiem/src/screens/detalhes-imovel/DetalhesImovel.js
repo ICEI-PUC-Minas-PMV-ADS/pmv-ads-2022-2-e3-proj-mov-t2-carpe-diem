@@ -18,7 +18,7 @@ import { FooterText } from "../../shared/components/footer/footer-text";
 
 import BtnBlue from "../../shared/components/visuais/BtnBlue";
 
-export default function App() {
+export default function App({ navigation }) {
   const btnContatoLabel = "ENTRAR EM CONTATO";
 
   return (
@@ -127,7 +127,7 @@ export default function App() {
         <BtnBlue label={btnContatoLabel} />
 
         <LinhaSeparadora />
-        <FooterIcons />
+        <FooterIcons navigation={navigation} />
         <FooterText />
       </ScrollView>
     </SafeAreaView>
