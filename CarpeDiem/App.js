@@ -23,7 +23,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator
         initialRouteName={Login}
-        headerMode="none"
+        headerShown="false"
         screenOptions={{
           gestureEnabled: true,
         }}
