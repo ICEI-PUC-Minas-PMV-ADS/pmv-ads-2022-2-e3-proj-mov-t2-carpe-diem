@@ -1,24 +1,21 @@
 import React from "react";
-import { Text, View, Linking } from "react-native";
+import { Text, View, TouchableOpacity } from "react-native";
 
-export default function BtnBlue({ label, href = "#" }) {
-  const [text, onChangeText] = React.useState(label);
+export default function BtnBlue({ navigation, label }) {
+  const redirecionaTela = () => {
+    navigation.push("Login");
+  };
 
   return (
-    <View style={style.view}>
-      <Text
-        onPress={() => {
-          Linking.openURL(href);
-        }}
-        style={style.text}
-      >
-        {text}
-      </Text>
+    <View style={styles.view}>
+      <TouchableOpacity onPress={redirecionaTela}>
+        <Text style={styles.text}>{label}</Text>
+      </TouchableOpacity>
     </View>
   );
 }
 
-const style = {
+const styles = {
   view: {
     backgroundColor: "#6FDDE3",
     borderRadius: 20,

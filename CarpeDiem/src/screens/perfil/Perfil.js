@@ -17,7 +17,7 @@ import BtnBlue from "../../shared/components/visuais/BtnBlue";
 import H1 from "../../shared/components/visuais/H1";
 import { useRoute } from "@react-navigation/native";
 
-export default function Perfil() {
+export default function Perfil({ navigation }) {
   const btnSalvarLabel = "SALVAR";
   const btnCancelarLabel = "EXCLUIR";
   const btnExcluirLabel = "SAIR";
@@ -80,7 +80,7 @@ export default function Perfil() {
 
         <BtnBlue label={btnCancelarLabel} />
 
-        <BtnBlue label={btnExcluirLabel} />
+        <BtnBlue label={btnExcluirLabel} navigation={navigation} />
 
         <LinhaSeparadora />
 
