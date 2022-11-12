@@ -13,13 +13,17 @@ function LoginInputs({ navigation }) {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
 
-  const redirecionaTela = (usuarioEncontrado) => {
+  const redirecionaTelaLogin = (usuarioEncontrado) => {
     navigation.navigate("PerfilUsuario", {
       nome: usuarioEncontrado.nome,
       cpf: usuarioEncontrado.cpf,
       email: usuarioEncontrado.email,
       senha: usuarioEncontrado.senha,
     });
+  };
+
+  const redirecionaTela = (tela) => {
+    navigation.navigate(tela);
   };
 
   const validaInput = () => {
@@ -38,7 +42,7 @@ function LoginInputs({ navigation }) {
   const validaLogin = () => {
     SQLExecutor.getUsuarioLogin(email, senha).then((usuarioEncontrado) => {
       if (usuarioEncontrado) {
-        redirecionaTela(usuarioEncontrado);
+        redirecionaTelaLogin(usuarioEncontrado);
       }
     });
   };
@@ -63,7 +67,7 @@ function LoginInputs({ navigation }) {
         autocorrect={false}
       />
 
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => {redirecionaTela("EsqueceuSenha")}}>
         <Text style={styles.esqueceuSenhaText}>Esqueceu a Senha?</Text>
       </TouchableOpacity>
 
