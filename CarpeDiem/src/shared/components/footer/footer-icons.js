@@ -44,7 +44,7 @@ function FooterIcons({ navigation }) {
       </TouchableHighlight>
 
       {/* Perfil */}
-      <TouchableHighlight onPress={() => redirecionaTela("EsqueceuSenha")}>
+      <TouchableHighlight onPress={() => redirecionaTela("PerfilUsuario")}>
         <View style={styles.footerIconsView}>
           <Icon name="user-circle" size={20} color="#2C9196" />
           <Text style={{ fontSize: 10 }}>Perfil</Text>
