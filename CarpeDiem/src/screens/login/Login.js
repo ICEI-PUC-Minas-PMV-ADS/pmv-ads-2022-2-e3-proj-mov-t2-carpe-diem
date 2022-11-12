@@ -24,7 +24,7 @@ export default function Login({ navigation }) {
 
       <LinhaSeparadora />
 
-      <FooterIcons />
+      <FooterIcons navigation={navigation} />
 
       <FooterText />
     </SafeAreaView>
