@@ -1,10 +1,17 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableHighlight } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
+import "../../../../global";
 
 function FooterIcons({ navigation }) {
   const redirecionaTela = (tela) => {
-    navigation.push(tela);
+    if (tela === "PerfilUsuario" && !global.usuarioLogado) {
+      alert("Faça login para acessar a sua página de usuário");
+    }
+    else if (tela === "PerfilUsuario" && global.usuarioLogado) {
+      navigation.push(tela);
+    }
+    else navigation.push(tela);
   };
 
   return (

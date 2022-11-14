@@ -8,18 +8,22 @@ import {
 } from "react-native";
 import { LoginButtons } from "./login-buttons";
 import * as SQLExecutor from "../../../database/services/SQLExecutor";
+import "../../../../global";
 
 function LoginInputs({ navigation }) {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
 
+  const setGlobais = (usuarioEncontrado) => {
+    global.nome = usuarioEncontrado.nome;
+    global.cpf = usuarioEncontrado.cpf;
+    global.email = usuarioEncontrado.email;
+    global.senha = usuarioEncontrado.senha;
+    global.usuarioLogado = true;
+  };
+
   const redirecionaTelaLogin = (usuarioEncontrado) => {
-    navigation.navigate("PerfilUsuario", {
-      nome: usuarioEncontrado.nome,
-      cpf: usuarioEncontrado.cpf,
-      email: usuarioEncontrado.email,
-      senha: usuarioEncontrado.senha,
-    });
+    navigation.navigate("PerfilUsuario");
   };
 
   const redirecionaTela = (tela) => {
@@ -42,6 +46,7 @@ function LoginInputs({ navigation }) {
   const validaLogin = () => {
     SQLExecutor.getUsuarioLogin(email, senha).then((usuarioEncontrado) => {
       if (usuarioEncontrado) {
+        setGlobais(usuarioEncontrado);
         redirecionaTelaLogin(usuarioEncontrado);
       }
     });
@@ -68,7 +73,11 @@ function LoginInputs({ navigation }) {
         secureTextEntry={true}
       />
 
-      <TouchableOpacity onPress={() => {redirecionaTela("EsqueceuSenha")}}>
+      <TouchableOpacity
+        onPress={() => {
+          redirecionaTela("EsqueceuSenha");
+        }}
+      >
         <Text style={styles.esqueceuSenhaText}>Esqueceu a Senha?</Text>
       </TouchableOpacity>
 

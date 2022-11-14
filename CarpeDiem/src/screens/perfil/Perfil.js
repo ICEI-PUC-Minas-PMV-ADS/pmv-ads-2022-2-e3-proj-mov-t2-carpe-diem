@@ -16,6 +16,7 @@ import { FooterText } from "../../shared/components/footer/footer-text";
 import BtnBlue from "../../shared/components/visuais/BtnBlue";
 import H1 from "../../shared/components/visuais/H1";
 import { useRoute } from "@react-navigation/native";
+import "../../../global";
 
 export default function Perfil({ navigation }) {
   const btnSalvarLabel = "SALVAR";
@@ -40,9 +41,9 @@ export default function Perfil({ navigation }) {
 
         <H1 title="Perfil" />
 
-        <Text style={styles.text}>{route.params.nome}</Text>
+        <Text style={styles.text}>{global.nome}</Text>
 
-        <Text style={styles.text}>{route.params.email}</Text>
+        <Text style={styles.text}>{global.email}</Text>
 
         <LinhaSeparadora />
 
@@ -51,28 +52,28 @@ export default function Perfil({ navigation }) {
         <TextInput
           style={styles.textInput}
           onChangeText={(newText) => setText(newText)}
-          defaultValue={route.params.nome}
+          defaultValue={global.nome}
         />
 
         <Text style={styles.text2}>CPF </Text>
         <TextInput
           style={styles.textInput}
           onChangeText={(newText) => setText(newText)}
-          defaultValue={route.params.cpf}
+          defaultValue={global.cpf}
         />
 
         <Text style={styles.text2}>Email </Text>
         <TextInput
           style={styles.textInput}
           onChangeText={(newText) => setText(newText)}
-          defaultValue={route.params.email}
+          defaultValue={global.email}
         />
 
         <Text style={styles.text2}>Senha </Text>
         <TextInput
           style={styles.textInput}
           onChangeText={(newText) => setText(newText)}
-          defaultValue={route.params.senha}
+          defaultValue={global.senha}
         />
 
         {/* Botões tela Perfil*/}
