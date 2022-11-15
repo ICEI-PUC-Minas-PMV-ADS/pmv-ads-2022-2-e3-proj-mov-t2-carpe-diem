@@ -3,6 +3,21 @@ import { StyleSheet, View, Text, TouchableOpacity, Button } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import * as SQLExecutor from "../../../database/services/SQLExecutor";
 
+/* 
+CLASSE INUTILIZADA
+*/
+
+/* 
+CLASSE INUTILIZADA
+*/
+
+/* 
+CLASSE INUTILIZADA
+*/
+
+/* 
+CLASSE INUTILIZADA
+*/
 function CadastroButtons({ navigation, inputCadastro }) {
   const cadastrarUsuario = () => {
     if (!inputCadastro.nome) {
