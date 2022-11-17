@@ -7,6 +7,8 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
+import FlashMessage from "react-native-flash-message";
+import { showMessage, hideMessage } from "react-native-flash-message";
 import * as SQLExecutor from "../../../database/services/SQLExecutor";
 
 function CadastroInputs({ navigation }) {
@@ -33,19 +35,26 @@ function CadastroInputs({ navigation }) {
       alert("Insira a sua senha!");
       return false;
     }
-
     let usuario = {
       nome: nome,
       cpf: cpf,
       email: email,
       senha: senha,
     };
-
     SQLExecutor.insertUsuario(usuario);
+
+    sucessoCadastro();
   };
 
   const redirecionaTela = () => {
     navigation.push("Login");
+  };
+
+  const sucessoCadastro = () => {
+    showMessage({
+      message: "Usuário cadastrado com sucesso!",
+      type: "success"
+    });
   };
 
   return (
@@ -121,6 +130,7 @@ function CadastroInputs({ navigation }) {
           </Text>
         </TouchableOpacity>
       </View>
+      <FlashMessage position="bottom" />
     </View>
   );
 }
