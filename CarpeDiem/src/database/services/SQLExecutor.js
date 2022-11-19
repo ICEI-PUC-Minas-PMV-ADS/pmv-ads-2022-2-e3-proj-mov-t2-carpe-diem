@@ -66,6 +66,17 @@ export const updateUsuarioEmail = async (params) => {
   return results.rowsAffected;
 }
 
+//Atualiza nome do usuario
+export const updateUsuarioNome = async (params) => {
+  let results = await DB_EXEC(
+    "UPDATE Usuario " + 
+    "SET nome=? " + 
+    "WHERE email=?", 
+    [params.nome, params.email, ]);
+
+  return results.rowsAffected;
+}
+
 //Remove registro do usuario
 export const deleteUsuario = async (id) => {
   let results = await DB_EXEC(
