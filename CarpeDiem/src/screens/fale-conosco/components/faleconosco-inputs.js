@@ -18,7 +18,8 @@ function FaleConoscoInputs({ navigation }) {
       <TextInput
         style={styles.textInput}
         placeholder="Email"
-        autocorrect={false}
+        autocorrect={true}
+        keyboardType="email-address"
         onChangeText={() => {}}
       ></TextInput>
       
