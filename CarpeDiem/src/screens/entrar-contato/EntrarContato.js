@@ -68,7 +68,6 @@ const styles = StyleSheet.create({
   text1: {
     fontSize: 24,
     textAlign: "left",
-    //padding: 5,
     paddingTop: 40,
     fontWeight: "bold",
   },
@@ -82,14 +81,12 @@ const styles = StyleSheet.create({
   text3: {
     fontSize: 24,
     textAlign: "center",
-    //padding: 2,
     paddingTop: 36,
     fontWeight: "bold",
   },
   text4: {
     fontSize: 16,
     textAlign: "center",
-    //fontWeight: "bold",
     padding: 15,
   },
   text5: {

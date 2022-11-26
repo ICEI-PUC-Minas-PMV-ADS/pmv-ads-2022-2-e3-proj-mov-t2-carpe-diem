@@ -1,6 +1,5 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import * as AkarIcons from "akar-icons";
 import { Ionicons } from "@expo/vector-icons";
 
 function HeaderIcons() {
@@ -37,7 +36,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "flex-end",
     bottom: "1%",
-    //left: "42%",
   },
 });
 

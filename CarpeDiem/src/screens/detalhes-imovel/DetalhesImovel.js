@@ -144,21 +144,18 @@ const styles = StyleSheet.create({
   },
   text2: {
     fontSize: 16,
-    //textAlign: "center",
     fontWeight: "bold",
     padding: 15,
   },
   text3: {
     fontSize: 20,
     textAlign: "center",
-    //padding: 2,
     paddingTop: 24,
     fontWeight: "bold",
   },
   text4: {
     fontSize: 16,
     textAlign: "center",
-    //fontWeight: "bold",
     padding: 15,
   },
   text5: {
@@ -180,7 +177,6 @@ const styles = StyleSheet.create({
   flexbox1: {
     alignItems: "center",
     flexDirection: "row",
-    //justifyContent: "space-evenly",
     alignContent: "stretch",
     flexWrap: "wrap",
   },
