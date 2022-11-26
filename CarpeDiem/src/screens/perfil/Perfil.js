@@ -30,8 +30,6 @@ export default function Perfil({ navigation }) {
   const btnCancelarLabel = "CANCELAR";
   const btnSairLabel = "SAIR";
 
-  let editarPerfil = false;
-
   const [show, setShow] = useState("");
 
   useEffect(() => {
@@ -40,7 +38,6 @@ export default function Perfil({ navigation }) {
 
   const modoEdicao = (modoEdicao) => {
     setShow(modoEdicao);
-    editarPerfil = modoEdicao;
     Botoes();
   };
 
@@ -49,18 +46,45 @@ export default function Perfil({ navigation }) {
       <View>
         {show ? (
           <View>
+            <Text style={styles.text2}>Nome Usuário </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setNome}
+              defaultValue={global.nome}
+              editable={true}
+            />
+            <Text style={styles.text2}>CPF </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setCpf}
+              defaultValue={global.cpf}
+              editable={true}
+            />
+            <Text style={styles.text2}>Email </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setEmail}
+              defaultValue={global.email}
+              editable={true}
+            />
+            <Text style={styles.text2}>Senha </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setSenha}
+              defaultValue={global.senha}
+              editable={true}
+            />
+            
             <BtnBlue
               navigation={navigation}
               label={btnSalvarLabel}
               modoEdicao={modoEdicao}
             />
-
             <BtnBlue
               navigation={navigation}
               label={btnCancelarLabel}
               modoEdicao={modoEdicao}
             />
-
             <BtnBlue
               navigation={navigation}
               label={btnSairLabel}
@@ -69,12 +93,40 @@ export default function Perfil({ navigation }) {
           </View>
         ) : (
           <View>
+            <Text style={styles.text2}>Nome Usuário </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setNome}
+              defaultValue={global.nome}
+              editable={false}
+            />
+            <Text style={styles.text2}>CPF </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setCpf}
+              defaultValue={global.cpf}
+              editable={false}
+            />
+            <Text style={styles.text2}>Email </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setEmail}
+              defaultValue={global.email}
+              editable={false}
+            />
+            <Text style={styles.text2}>Senha </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setSenha}
+              defaultValue={global.senha}
+              editable={false}
+            />
+
             <BtnBlue
               navigation={navigation}
               label={btnEditarLabel}
               modoEdicao={modoEdicao}
             />
-
             <BtnBlue
               navigation={navigation}
               label={btnSairLabel}
@@ -107,41 +159,6 @@ export default function Perfil({ navigation }) {
         <Text style={styles.text}>{global.email}</Text>
 
         <LinhaSeparadora />
-
-        {/* Informações do Usuário */}
-        <Text style={styles.text2}>Nome Usuário </Text>
-        <TextInput
-          style={styles.textInput}
-          onChangeText={setNome}
-          defaultValue={global.nome}
-          editable={editarPerfil}
-        />
-
-        <Text style={styles.text2}>CPF </Text>
-        <TextInput
-          style={styles.textInput}
-          onChangeText={setCpf}
-          defaultValue={global.cpf}
-          editable={editarPerfil}
-        />
-
-        <Text style={styles.text2}>Email </Text>
-        <TextInput
-          style={styles.textInput}
-          onChangeText={setEmail}
-          defaultValue={global.email}
-          editable={editarPerfil}
-        />
-
-        <Text style={styles.text2}>Senha </Text>
-        <TextInput
-          style={styles.textInput}
-          onChangeText={setSenha}
-          defaultValue={global.senha}
-          editable={editarPerfil}
-        />
-
-        {/* Botões tela Perfil*/}
 
         <Botoes />
 
