@@ -20,8 +20,8 @@ import "../../../global";
 
 export default function Perfil({ navigation }) {
   const btnSalvarLabel = "SALVAR";
-  const btnCancelarLabel = "EXCLUIR";
-  const btnExcluirLabel = "SAIR";
+  const btnExcluirLabel = "EXCLUIR";
+  const btnSairLabel = "SAIR";
 
   const route = useRoute();
 
