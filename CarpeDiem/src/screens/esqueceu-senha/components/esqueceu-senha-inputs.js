@@ -1,6 +1,5 @@
 import React from "react";
 import { View, TextInput, StyleSheet, Text } from "react-native";
-import { EsqueceuSenhaButtons } from "./esqueceu-senha-buttons";
 
 function EsqueceuSenhaInputs() {
   return (
