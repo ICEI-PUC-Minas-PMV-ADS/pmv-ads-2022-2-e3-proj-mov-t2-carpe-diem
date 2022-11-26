@@ -1,22 +1,47 @@
 import React from "react";
 import { Text, View, TouchableOpacity } from "react-native";
+import * as SQLExecutor from "../../../database/services/SQLExecutor";
 
-export default function BtnBlue({ navigation, label }) {
+export default function BtnBlue({ navigation, label, modoEdicao }) {
+  // const atualizaNome = (nome) => {
+  //   SQLExecutor.updateUsuarioNome(nome);
+  // };
+
   const redirecionaTela = () => {
     navigation.push("Login");
   };
 
+  const acaoBotao = () => {
+    if (label === "SALVAR") {
+      atualizaNome(nome);
+    } else if (label === "SAIR") {
+      redirecionaTela();
+    } else if (label === "EDITAR") {
+      modoEdicao(true);
+    } else if (label === "CANCELAR") {
+      modoEdicao(false);
+    }
+  };
+
+  const LayoutPerfil = () => {
+    return (
+      <View style={styles.viewButton}>
+        <TouchableOpacity onPress={acaoBotao}>
+          <Text style={styles.textButton}>{label}</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  };
+
   return (
-    <View style={styles.view}>
-      <TouchableOpacity onPress={redirecionaTela}>
-        <Text style={styles.text}>{label}</Text>
-      </TouchableOpacity>
+    <View>
+      <LayoutPerfil />
     </View>
   );
 }
 
 const styles = {
-  view: {
+  viewButton: {
     backgroundColor: "#6FDDE3",
     borderRadius: 20,
     width: "80%",
@@ -25,7 +50,7 @@ const styles = {
     fontSize: 16,
     marginLeft: 30,
   },
-  text: {
+  textButton: {
     fontWeight: "bold",
     fontSize: 16,
     width: "100%",

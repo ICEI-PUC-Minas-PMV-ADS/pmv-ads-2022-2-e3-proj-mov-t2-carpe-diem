@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   StyleSheet,
   SafeAreaView,
   ScrollView,
   Text,
   TextInput,
+  View,
+  TouchableOpacity,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -15,15 +17,74 @@ import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 import BtnBlue from "../../shared/components/visuais/BtnBlue";
 import H1 from "../../shared/components/visuais/H1";
-import { useRoute } from "@react-navigation/native";
 import "../../../global";
 
 export default function Perfil({ navigation }) {
+  const [nome, setNome] = useState("");
+  const [cpf, setCpf] = useState("");
+  const [email, setEmail] = useState("");
+  const [senha, setSenha] = useState("");
+
+  const btnEditarLabel = "EDITAR";
   const btnSalvarLabel = "SALVAR";
-  const btnExcluirLabel = "EXCLUIR";
+  const btnCancelarLabel = "CANCELAR";
   const btnSairLabel = "SAIR";
 
-  const route = useRoute();
+  let editarPerfil = false;
+
+  const [show, setShow] = useState("");
+
+  useEffect(() => {
+    setShow(modoEdicao);
+  }, []);
+
+  const modoEdicao = (modoEdicao) => {
+    setShow(modoEdicao);
+    editarPerfil = modoEdicao;
+    Botoes();
+  };
+
+  const Botoes = () => {
+    return (
+      <View>
+        {show ? (
+          <View>
+            <BtnBlue
+              navigation={navigation}
+              label={btnSalvarLabel}
+              modoEdicao={modoEdicao}
+            />
+
+            <BtnBlue
+              navigation={navigation}
+              label={btnCancelarLabel}
+              modoEdicao={modoEdicao}
+            />
+
+            <BtnBlue
+              navigation={navigation}
+              label={btnSairLabel}
+              modoEdicao={modoEdicao}
+            />
+          </View>
+        ) : (
+          <View>
+            <BtnBlue
+              navigation={navigation}
+              label={btnEditarLabel}
+              modoEdicao={modoEdicao}
+            />
+
+            <BtnBlue
+              navigation={navigation}
+              label={btnSairLabel}
+              modoEdicao={modoEdicao}
+            />
+          </View>
+        )}
+      </View>
+    );
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -51,37 +112,38 @@ export default function Perfil({ navigation }) {
         <Text style={styles.text2}>Nome Usuário </Text>
         <TextInput
           style={styles.textInput}
-          onChangeText={(newText) => setText(newText)}
+          onChangeText={setNome}
           defaultValue={global.nome}
+          editable={editarPerfil}
         />
 
         <Text style={styles.text2}>CPF </Text>
         <TextInput
           style={styles.textInput}
-          onChangeText={(newText) => setText(newText)}
+          onChangeText={setCpf}
           defaultValue={global.cpf}
+          editable={editarPerfil}
         />
 
         <Text style={styles.text2}>Email </Text>
         <TextInput
           style={styles.textInput}
-          onChangeText={(newText) => setText(newText)}
+          onChangeText={setEmail}
           defaultValue={global.email}
+          editable={editarPerfil}
         />
 
         <Text style={styles.text2}>Senha </Text>
         <TextInput
           style={styles.textInput}
-          onChangeText={(newText) => setText(newText)}
+          onChangeText={setSenha}
           defaultValue={global.senha}
+          editable={editarPerfil}
         />
 
         {/* Botões tela Perfil*/}
-        <BtnBlue label={btnSalvarLabel} />
 
-        <BtnBlue label={btnCancelarLabel} />
-
-        <BtnBlue label={btnExcluirLabel} navigation={navigation} />
+        <Botoes />
 
         <LinhaSeparadora />
 
