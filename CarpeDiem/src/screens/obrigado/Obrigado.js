@@ -8,7 +8,7 @@ import { LinhaSeparadora } from "../../shared/components/visuais/linha-separador
 import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 
-export default function BuscaVazia({ navigation }) {
+export default function Obrigado({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
