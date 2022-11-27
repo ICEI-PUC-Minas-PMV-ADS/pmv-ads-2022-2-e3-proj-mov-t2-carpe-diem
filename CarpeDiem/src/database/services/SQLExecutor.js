@@ -74,8 +74,7 @@ export const updateUsuario = async (params) => {
 //Remove registro do usuario
 export const deleteUsuario = async (id) => {
   let results = await DB_EXEC(
-    "DELETE * " + 
-    "FROM Usuario " + 
+    "DELETE FROM Usuario " + 
     "WHERE id=?", 
     [id]);
 
