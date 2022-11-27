@@ -24,7 +24,7 @@ function LoginInputs({ navigation }) {
   };
 
   const redirecionaTelaLogin = (usuarioEncontrado) => {
-    navigation.navigate("PerfilUsuario");
+    navigation.navigate("HomePage");
   };
 
   const redirecionaTela = (tela) => {
