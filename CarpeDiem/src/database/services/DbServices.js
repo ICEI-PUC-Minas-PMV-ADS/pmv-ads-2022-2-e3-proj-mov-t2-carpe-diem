@@ -22,7 +22,7 @@ const Database = {
         "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
         "nome VARCHAR(70) NOT NULL, " +
         "email VARCHAR(11) NOT NULL, " +
-        "mensagem VARCHAR(255) NOT NULL,)",   
+        "mensagem VARCHAR(255) NOT NULL)",   
         [],
 
         (sqlTransaction, sqlResultSet) => {
