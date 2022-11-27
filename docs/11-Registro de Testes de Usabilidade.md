@@ -4,13 +4,13 @@ O Registro de Testes de Usabilidade é um relatório que contém as evidências 
 
 Quadro 15 - Perfil dos Voluntários
 
-|IDENTIFICAÇÃO | IDADE    | GRAU DE INSTRUÇÃO    | PROFISSÃO                     | AÇÃO/TESTE APLICADO      |
-|--------------|----------|----------------------|-------------------------------|--------------------------|
-|Voluntário 01 |          |                      |                               |Sistema em desenvolvimento|
-|Voluntário 02 |          |                      |                               |Sistema em desenvolvimento|
-|Voluntário 03 |          |                      |                               |Sistema em desenvolvimento|
-|Voluntário 04 |          |                      |                               |Sistema em desenvolvimento|
-|Voluntário 05 |          |                      |                               |Sistema em desenvolvimento|
+|IDENTIFICAÇÃO | IDADE | GRAU DE INSTRUÇÃO     | PROFISSÃO                     |
+|--------------|-------|-----------------------|-------------------------------|
+|Voluntário 01 | 38    | Superior Completo     | Bombeiro Militar              |
+|Voluntário 02 | 40    | Pós Graduação         | Servidora Pública Estadual    |
+|Voluntário 03 | 33    | Ensino Médio Completo | Manobrador de Locomotiva      |
+|Voluntário 04 | 23    | Superior Incompleto   | Programador                   |
+|Voluntário 05 | 32    | Superior Incompleto   | Técnico em Informática Júnior |
 
 Fonte: Elaborado pelos autores
 <br>
@@ -68,7 +68,7 @@ Fonte: Elaborado pelos autores
 
 No que tange ao tempo gasto, os resultados serão convertidos para segundos, aspirando uma melhor visualização.
 
-Figura 33 - Sem dados, sistema em desenvolvimento
+Figura 56 - Sem dados, sistema em desenvolvimento
 
 ![Gráfico](img/Em_breve.png)
 
@@ -79,7 +79,7 @@ Fonte da imagem: https://icon-icons.com/pt
 
 No que tange ao nível de dificuldade, os resultados serão direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
 
-Figura 34 - Sem dados, sistema em desenvolvimento
+Figura 57 - Sem dados, sistema em desenvolvimento
 
 ![Gráfico](img/Em_breve.png)
 
@@ -90,7 +90,7 @@ Fonte da imagem: https://icon-icons.com/pt
 
 Em se tratando do nível de satisfação, os resultados serão direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
 
-Figura 35 - Sem dados, sistema em desenvolvimento
+Figura 58 - Sem dados, sistema em desenvolvimento
 
 ![Gráfico](img/Em_breve.png)
 
