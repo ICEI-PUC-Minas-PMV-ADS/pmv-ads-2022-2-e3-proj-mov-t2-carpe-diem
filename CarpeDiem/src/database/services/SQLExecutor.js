@@ -40,7 +40,9 @@ export const getUsuarioLogin = async (email, senha) => {
     [email, senha]
   );
 
-  return montaDadosUsuario(results.rows._array[0]);
+  if (results.rows._array[0] === undefined) {
+    return false;
+  } else return montaDadosUsuario(results.rows._array[0]);
 };
 
 //Insere usuario

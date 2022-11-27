@@ -48,6 +48,8 @@ function LoginInputs({ navigation }) {
       if (usuarioEncontrado) {
         setGlobais(usuarioEncontrado);
         redirecionaTelaLogin(usuarioEncontrado);
+      } else {
+        alert("Verifique a senha ou nome de usuário!");
       }
     });
   };
