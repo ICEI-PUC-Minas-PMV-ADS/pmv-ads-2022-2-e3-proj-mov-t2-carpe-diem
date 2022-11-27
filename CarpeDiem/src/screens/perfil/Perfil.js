@@ -30,6 +30,7 @@ export default function Perfil({ navigation }) {
   const [senha, setSenha] = useState("");
 
   const [layoutEdicao, setLayoutEdicao] = useState("");
+  const [edicaoInputs, setEdicaoInputs] = useState(false);
 
   useEffect(() => {
     setNome(global.nome);
@@ -42,6 +43,7 @@ export default function Perfil({ navigation }) {
 
   const modoEdicao = (modoEdicao) => {
     setLayoutEdicao(modoEdicao);
+    setEdicaoInputs(modoEdicao);
     Botoes();
   };
 
@@ -51,29 +53,6 @@ export default function Perfil({ navigation }) {
         {layoutEdicao ? (
           <View>
             <Text style={styles.text2}>Nome Usuário </Text>
-            <TextInput
-              style={styles.textInput}
-              value={nome}
-              onChangeText={setNome}
-              editable={true}
-            />
-
-            <Text style={styles.text2}>CPF </Text>
-            <TextInput
-              style={styles.textInput}
-              value={cpf}
-              onChangeText={setCpf}
-              editable={true}
-            />
-
-            <Text style={styles.text2}>Email </Text>
-            <TextInput
-              style={styles.textInput}
-              value={email}
-              onChangeText={setEmail}
-              editable={true}
-            />
-
             <BtnBlue
               navigation={navigation}
               label={btnSalvarLabel}
@@ -92,30 +71,6 @@ export default function Perfil({ navigation }) {
           </View>
         ) : (
           <View>
-            <Text style={styles.text2}>Nome Usuário </Text>
-            <TextInput
-              style={styles.textInput}
-              value={nome}
-              onChangeText={setNome}
-              editable={false}
-            />
-
-            <Text style={styles.text2}>CPF </Text>
-            <TextInput
-              style={styles.textInput}
-              value={cpf}
-              onChangeText={setCpf}
-              editable={false}
-            />
-
-            <Text style={styles.text2}>Email </Text>
-            <TextInput
-              style={styles.textInput}
-              value={email}
-              onChangeText={setEmail}
-              editable={false}
-            />
-
             <BtnBlue
               navigation={navigation}
               label={btnEditarLabel}
@@ -153,6 +108,30 @@ export default function Perfil({ navigation }) {
         <Text style={styles.text}>{global.email}</Text>
 
         <LinhaSeparadora />
+
+        <Text style={styles.text2}>Nome Usuário </Text>
+        <TextInput
+          style={styles.textInput}
+          value={nome}
+          onChangeText={setNome}
+          editable={edicaoInputs}
+        />
+
+        <Text style={styles.text2}>CPF </Text>
+        <TextInput
+          style={styles.textInput}
+          value={cpf}
+          onChangeText={setCpf}
+          editable={edicaoInputs}
+        />
+
+        <Text style={styles.text2}>Email </Text>
+        <TextInput
+          style={styles.textInput}
+          value={email}
+          onChangeText={setEmail}
+          editable={edicaoInputs}
+        />
 
         <Botoes />
 
