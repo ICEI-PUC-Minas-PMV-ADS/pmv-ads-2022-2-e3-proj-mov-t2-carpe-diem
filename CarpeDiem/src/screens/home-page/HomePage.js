@@ -30,7 +30,6 @@ export default function HomePage({ navigation }) {
             placeholder="Escolha seu Destino"
             autoCapitalize="none"
             autoCorrect={false}
-            onChangeText={(value) => setText(value)}
           />
           <Ionicons
             name="search"
