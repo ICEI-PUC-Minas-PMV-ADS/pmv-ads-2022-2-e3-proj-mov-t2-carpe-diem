@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { View, TextInput, StyleSheet, Text, TouchableOpacity, } from "react-native";
 import FlashMessage from "react-native-flash-message";
-import { Ionicons } from "@expo/vector-icons";
 import { showMessage, hideMessage } from "react-native-flash-message";
 import * as SQLExecutorFaleConosco from "../../../database/services/SQLExecutorFaleConosco";
 
