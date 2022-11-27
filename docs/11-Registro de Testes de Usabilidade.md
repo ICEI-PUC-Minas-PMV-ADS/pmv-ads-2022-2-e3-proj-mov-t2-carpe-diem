@@ -26,38 +26,38 @@ Quadro 16 - Testes de Usabilidade
 
 |IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 01 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 01 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 01 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 01 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 01 |Cadastro de novo usuário                | 50 segundos  | 4                   | 4                  |
+|Voluntário 01 |Logar no Sistema                        | 18 segundos  | 5                   | 5                  |
+|Voluntário 01 |Editar o Cadastro                       | 39 segundos  | 4                   | 4                  |
+|Voluntário 01 |Utilizar o Fale Conosco                 | 42 segundos  | 5                   | 5                  |
 
 |IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 02 |Cadastro de novo usuário                |69 segundos   | 5                   | 4                  |
-|Voluntário 02 |Logar no Sistema                        |27 segundos   | 5                   | 5                  |
-|Voluntário 02 |Editar o Cadastro                       |39 segundos   | 4                   | 4                  |
-|Voluntário 02 |Utilizar o Fale Conosco                 |37 segundos   | 5                   | 5                  |
+|Voluntário 02 |Cadastro de novo usuário                | 69 segundos  | 5                   | 4                  |
+|Voluntário 02 |Logar no Sistema                        | 27 segundos  | 5                   | 5                  |
+|Voluntário 02 |Editar o Cadastro                       | 39 segundos  | 4                   | 4                  |
+|Voluntário 02 |Utilizar o Fale Conosco                 | 37 segundos  | 5                   | 5                  |
 
 |IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 03 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 03 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 03 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 03 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 03 |Cadastro de novo usuário                | 42 segundos  | 3                   | 3                  |
+|Voluntário 03 |Logar no Sistema                        | 19 segundos  | 4                   | 4                  |
+|Voluntário 03 |Editar o Cadastro                       | 30 segudnos  | 4                   | 3                  |
+|Voluntário 03 |Utilizar o Fale Conosco                 | 30 segundos  | 4                   | 4                  |
 
 |IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 04 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 04 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 04 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 04 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 04 |Cadastro de novo usuário                | 36 segundos  | 5                   | 5                  |
+|Voluntário 04 |Logar no Sistema                        | 10 segundos  | 5                   | 5                  |
+|Voluntário 04 |Editar o Cadastro                       | 25 segundos  | 5                   | 5                  |
+|Voluntário 04 |Utilizar o Fale Conosco                 | 24 segundos  | 5                   | 5                  |
 
 |IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 05 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 05 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 05 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 05 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 05 |Cadastro de novo usuário                | 35 segundos  | 5                   | 4                  |
+|Voluntário 05 |Logar no Sistema                        | 15 segundos  | 5                   | 5                  |
+|Voluntário 05 |Editar o Cadastro                       | 05 segundos  | 3                   | 3                  |
+|Voluntário 05 |Utilizar o Fale Conosco                 | 10 segundos  | 5                   | 5                  |
 
 Fonte: Elaborado pelos autores
 <br>
