@@ -6,6 +6,7 @@ import {
   Text,
   TextInput,
   View,
+  Alert,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -23,9 +24,10 @@ import "../../../global";
 
 export default function Perfil({ navigation }) {
   const btnEditarLabel = "EDITAR";
+  const btnSairLabel = "SAIR";
   const btnSalvarLabel = "SALVAR";
   const btnCancelarLabel = "CANCELAR";
-  const btnSairLabel = "SAIR";
+  const btnExcluirLabel = "EXCLUIR";
 
   const [id, setId] = useState("");
   const [nome, setNome] = useState("");
@@ -52,7 +54,7 @@ export default function Perfil({ navigation }) {
     Botoes();
   };
 
-  const atualizarDados = (dados) => {
+  const atualizarUsuario = (dados) => {
     if (dados === true) {
       let usuario = {
         id: id,
@@ -68,6 +70,35 @@ export default function Perfil({ navigation }) {
     }
   };
 
+  const desejaExcluir = (dados) => {
+    Alert.alert(
+      "EXCLUIR USUÁRIO",
+      "Tem certeza de que deseja apagar o seu usuário ? A exclusão será permanente!",
+      [
+        {
+          text: "CANCELAR",
+          onPress: () => {},
+          style: "cancel",
+        },
+        {
+          text: "EXCLUIR",
+          onPress: () => {
+            excluirUsuario(dados);
+            sucessoDelete();
+            limparTela();
+            redirecionaTela();
+          },
+        },
+      ]
+    );
+  };
+
+  const excluirUsuario = (dados) => {
+    if (dados === true) {
+      SQLExecutor.deleteUsuario(id);
+    }
+  };
+
   const sucessoUpdate = () => {
     showMessage({
       message: "Usuário atualizado com sucesso!",
@@ -75,29 +106,50 @@ export default function Perfil({ navigation }) {
     });
   };
 
+  const sucessoDelete = () => {
+    showMessage({
+      message: "Usuário excluido com sucesso!",
+      type: "success",
+    });
+  };
+
+  const limparTela = () => {
+    setId('');
+    setNome('');
+    setCpf('');
+    setEmail('');
+    setSenha('');
+  };
+
+  const redirecionaTela = () => {
+    navigation.push("Login");
+  };
+
   const Botoes = () => {
     return (
       <View>
         {layoutEdicao ? (
           <View>
-            <Text style={styles.text2}>Nome Usuário </Text>
             <BtnBlue
               navigation={navigation}
               label={btnSalvarLabel}
               modoEdicao={modoEdicao}
-              atualizarDados={atualizarDados}
+              atualizarUsuario={atualizarUsuario}
+              desejaExcluir={desejaExcluir}
             />
             <BtnBlue
               navigation={navigation}
               label={btnCancelarLabel}
               modoEdicao={modoEdicao}
-              atualizarDados={atualizarDados}
+              atualizarUsuario={atualizarUsuario}
+              desejaExcluir={desejaExcluir}
             />
             <BtnBlue
               navigation={navigation}
-              label={btnSairLabel}
+              label={btnExcluirLabel}
               modoEdicao={modoEdicao}
-              atualizarDados={atualizarDados}
+              atualizarUsuario={atualizarUsuario}
+              desejaExcluir={desejaExcluir}
             />
           </View>
         ) : (
@@ -106,13 +158,15 @@ export default function Perfil({ navigation }) {
               navigation={navigation}
               label={btnEditarLabel}
               modoEdicao={modoEdicao}
-              atualizarDados={atualizarDados}
+              atualizarUsuario={atualizarUsuario}
+              desejaExcluir={desejaExcluir}
             />
             <BtnBlue
               navigation={navigation}
               label={btnSairLabel}
               modoEdicao={modoEdicao}
-              atualizarDados={atualizarDados}
+              atualizarUsuario={atualizarUsuario}
+              desejaExcluir={desejaExcluir}
             />
           </View>
         )}

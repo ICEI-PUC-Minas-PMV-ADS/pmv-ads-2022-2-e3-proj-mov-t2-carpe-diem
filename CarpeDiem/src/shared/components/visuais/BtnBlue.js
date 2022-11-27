@@ -1,7 +1,13 @@
 import React from "react";
 import { Text, View, TouchableOpacity } from "react-native";
 
-export default function BtnBlue({ navigation, label, modoEdicao, atualizarDados }) {
+export default function BtnBlue({
+  navigation,
+  label,
+  modoEdicao,
+  atualizarUsuario,
+  desejaExcluir
+}) {
   const redirecionaTela = () => {
     navigation.push("Login");
   };
@@ -9,13 +15,15 @@ export default function BtnBlue({ navigation, label, modoEdicao, atualizarDados 
   const acaoBotao = () => {
     if (label === "SALVAR") {
       // console.log(nome);
-      atualizarDados(true);
-    } else if (label === "SAIR") {
-      redirecionaTela();
-    } else if (label === "EDITAR") {
-      modoEdicao(true);
+      atualizarUsuario(true);
     } else if (label === "CANCELAR") {
       modoEdicao(false);
+    } else if (label === "EXCLUIR") {
+      desejaExcluir(true);
+    } else if (label === "EDITAR") {
+      modoEdicao(true);
+    } else if (label === "SAIR") {
+      redirecionaTela();
     }
   };
 
