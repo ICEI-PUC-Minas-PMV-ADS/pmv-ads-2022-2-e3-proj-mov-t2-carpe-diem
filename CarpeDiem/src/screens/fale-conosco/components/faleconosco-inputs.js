@@ -10,7 +10,7 @@ function FaleConoscoInputs({ navigation }) {
   const [email, setEmail] = useState("");
   const [mensagem, setMensagem] = useState("");
 
-  const /*cadastrarUsuario*/ criarFaleConosco = () => {
+  const criarFaleConosco = () => {
     if (!nome) {
       alert("Insira o seu nome!");
       return false;
@@ -85,7 +85,7 @@ function FaleConoscoInputs({ navigation }) {
         </TouchableOpacity>
       </View>
       <FlashMessage position="bottom" />
-      {/* <FaleConoscoButtons navigation={navigation} /> */}
+     
     </View>
   );
 }

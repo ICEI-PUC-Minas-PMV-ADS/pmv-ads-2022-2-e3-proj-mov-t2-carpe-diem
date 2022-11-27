@@ -11,7 +11,7 @@ const Database = {
     dataBase.transaction((transaction) => {
       transaction.executeSql(
         "CREATE TABLE IF NOT EXISTS Usuario " +
-        "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+        "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
         "nome VARCHAR(70) NOT NULL, " +
         "cpf VARCHAR(11) NOT NULL, " +
         "email VARCHAR(30) NOT NULL, " +
@@ -19,10 +19,10 @@ const Database = {
         [],
 
         "CREATE TABLE IF NOT EXISTS FaleConosco " +
-        "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+        "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
         "nome VARCHAR(70) NOT NULL, " +
         "email VARCHAR(11) NOT NULL, " +
-        "mensagem VARCHAR(255) NOT NULL, " ,   
+        "mensagem VARCHAR(255) NOT NULL,)",   
         [],
 
         (sqlTransaction, sqlResultSet) => {
