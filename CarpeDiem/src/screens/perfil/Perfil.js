@@ -19,61 +19,44 @@ import H1 from "../../shared/components/visuais/H1";
 import "../../../global";
 
 export default function Perfil({ navigation }) {
-  const [nome, setNome] = useState("");
-  const [cpf, setCpf] = useState("");
-  const [email, setEmail] = useState("");
-  const [senha, setSenha] = useState("");
-
   const btnEditarLabel = "EDITAR";
   const btnSalvarLabel = "SALVAR";
   const btnCancelarLabel = "CANCELAR";
   const btnSairLabel = "SAIR";
 
-  const [show, setShow] = useState("");
+  const [nome, setNome] = useState("");
+  const [cpf, setCpf] = useState("");
+  const [email, setEmail] = useState("");
+  const [senha, setSenha] = useState("");
+
+  const [layoutEdicao, setLayoutEdicao] = useState("");
+  const [edicaoInputs, setEdicaoInputs] = useState("");
 
   useEffect(() => {
-    setShow(modoEdicao);
+    setNome(global.nome);
+    setCpf(global.cpf);
+    setEmail(global.email);
+    setSenha(global.senha);
+
+    setLayoutEdicao(modoEdicao);
+    setEdicaoInputs({ editable: modoEdicao});
   }, []);
 
   const modoEdicao = (modoEdicao) => {
-    setShow(modoEdicao);
+    setLayoutEdicao(modoEdicao);
+    setEdicaoInputs({ editable: modoEdicao});
     Botoes();
+  };
+
+  const handleClick = (modoEdicao) => {
+    setEdicaoInputs({ editable: modoEdicao});
   };
 
   const Botoes = () => {
     return (
       <View>
-        {show ? (
+        {layoutEdicao ? (
           <View>
-            <Text style={styles.text2}>Nome Usuário </Text>
-            <TextInput
-              style={styles.textInput}
-              onChangeText={setNome}
-              defaultValue={global.nome}
-              editable={true}
-            />
-            <Text style={styles.text2}>CPF </Text>
-            <TextInput
-              style={styles.textInput}
-              onChangeText={setCpf}
-              defaultValue={global.cpf}
-              editable={true}
-            />
-            <Text style={styles.text2}>Email </Text>
-            <TextInput
-              style={styles.textInput}
-              onChangeText={setEmail}
-              defaultValue={global.email}
-              editable={true}
-            />
-            <Text style={styles.text2}>Senha </Text>
-            <TextInput
-              style={styles.textInput}
-              onChangeText={setSenha}
-              defaultValue={global.senha}
-              editable={true}
-            />
-            
             <BtnBlue
               navigation={navigation}
               label={btnSalvarLabel}
@@ -92,35 +75,6 @@ export default function Perfil({ navigation }) {
           </View>
         ) : (
           <View>
-            <Text style={styles.text2}>Nome Usuário </Text>
-            <TextInput
-              style={styles.textInput}
-              onChangeText={setNome}
-              defaultValue={global.nome}
-              editable={false}
-            />
-            <Text style={styles.text2}>CPF </Text>
-            <TextInput
-              style={styles.textInput}
-              onChangeText={setCpf}
-              defaultValue={global.cpf}
-              editable={false}
-            />
-            <Text style={styles.text2}>Email </Text>
-            <TextInput
-              style={styles.textInput}
-              onChangeText={setEmail}
-              defaultValue={global.email}
-              editable={false}
-            />
-            <Text style={styles.text2}>Senha </Text>
-            <TextInput
-              style={styles.textInput}
-              onChangeText={setSenha}
-              defaultValue={global.senha}
-              editable={false}
-            />
-
             <BtnBlue
               navigation={navigation}
               label={btnEditarLabel}
@@ -158,6 +112,30 @@ export default function Perfil({ navigation }) {
         <Text style={styles.text}>{global.email}</Text>
 
         <LinhaSeparadora />
+
+        <Text style={styles.text2}>Nome Usuário </Text>
+        <TextInput
+          style={styles.textInput}
+          value={nome}
+          onChangeText={setNome}
+          editable={edicaoInputs.editable}
+        />
+
+        <Text style={styles.text2}>CPF </Text>
+        <TextInput
+          style={styles.textInput}
+          value={cpf}
+          onChangeText={setCpf}
+          editable={edicaoInputs.editable}
+        />
+
+        <Text style={styles.text2}>Email </Text>
+        <TextInput
+          style={styles.textInput}
+          value={email}
+          onChangeText={setEmail}
+          editable={edicaoInputs.editable}
+        />
 
         <Botoes />
 
