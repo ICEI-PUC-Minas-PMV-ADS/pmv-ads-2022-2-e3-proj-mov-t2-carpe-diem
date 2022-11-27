@@ -29,18 +29,30 @@ Quadro 16 - Testes de Usabilidade
 |Voluntário 01 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 01 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 01 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+
+|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|----------------------------------------|--------------|---------------------|--------------------|
 |Voluntário 02 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 02 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 02 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 02 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+
+|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|----------------------------------------|--------------|---------------------|--------------------|
 |Voluntário 03 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 03 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 03 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 03 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+
+|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|----------------------------------------|--------------|---------------------|--------------------|
 |Voluntário 04 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 04 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 04 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 04 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+
+|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|----------------------------------------|--------------|---------------------|--------------------|
 |Voluntário 05 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 05 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 05 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
