@@ -53,7 +53,7 @@ function CadastroInputs({ navigation }) {
   const sucessoCadastro = () => {
     showMessage({
       message: "Usuário cadastrado com sucesso!",
-      type: "success"
+      type: "success",
     });
   };
 
@@ -118,7 +118,7 @@ function CadastroInputs({ navigation }) {
 
         <TouchableOpacity
           onPress={() => {
-            redirecionaTela("EsqueceuSenha");
+            navigation.push("EsqueceuSenha");
           }}
         >
           <Text style={styles.esqueceuSenhaText}>Esqueceu a Senha?</Text>
@@ -128,7 +128,12 @@ function CadastroInputs({ navigation }) {
           <Text style={styles.entrarText}>CADASTRAR</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.btnCadastro} onPress={redirecionaTela}>
+        <TouchableOpacity
+          style={styles.btnCadastro}
+          onPress={() => {
+            navigation.push("Login");
+          }}
+        >
           <Text style={styles.cadastroText}>
             Já possui Cadastro? Faça Login
           </Text>
