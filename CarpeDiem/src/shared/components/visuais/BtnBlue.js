@@ -1,19 +1,15 @@
 import React from "react";
 import { Text, View, TouchableOpacity } from "react-native";
-import * as SQLExecutor from "../../../database/services/SQLExecutor";
 
-export default function BtnBlue({ navigation, label, modoEdicao }) {
-  // const atualizaNome = (nome) => {
-  //   SQLExecutor.updateUsuarioNome(nome);
-  // };
-
+export default function BtnBlue({ navigation, label, modoEdicao, atualizarDados }) {
   const redirecionaTela = () => {
     navigation.push("Login");
   };
 
   const acaoBotao = () => {
     if (label === "SALVAR") {
-      atualizaNome(nome);
+      // console.log(nome);
+      atualizarDados(true);
     } else if (label === "SAIR") {
       redirecionaTela();
     } else if (label === "EDITAR") {
