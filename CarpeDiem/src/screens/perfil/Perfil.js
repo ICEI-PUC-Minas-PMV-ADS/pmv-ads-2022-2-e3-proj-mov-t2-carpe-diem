@@ -86,6 +86,7 @@ export default function Perfil({ navigation }) {
             excluirUsuario(dados);
             sucessoDelete();
             limparTela();
+            limparGlobais();
             redirecionaTela();
           },
         },
@@ -121,8 +122,18 @@ export default function Perfil({ navigation }) {
     setSenha('');
   };
 
+  const limparGlobais = () => {
+    global.id = '';
+    global.nome = '';
+    global.cpf = '';
+    global.email = '';
+    global.senha = '';
+    global.usuarioLogado = false;
+  };
+
   const redirecionaTela = () => {
     navigation.push("Login");
+    // navigation.navigate("Login", {  })
   };
 
   const Botoes = () => {
