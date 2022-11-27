@@ -3,12 +3,14 @@ import { View, Text, TouchableOpacity, StyleSheet, Button } from "react-native";
 
 function FaleConoscoButtons({ navigation }) {
   const redirecionaTela = () => {
-    navigation.push();
+    navigation.push("Obrigado");
   };
 
   return (
     <View>
-      <TouchableOpacity style={styles.btnEnviar}>
+      <TouchableOpacity style={styles.btnEnviar} onPress={() => {
+          redirecionaTela("Obrigado");
+        }}>
         <Text style={styles.enviarText}>ENVIAR</Text>
       </TouchableOpacity>
     </View>

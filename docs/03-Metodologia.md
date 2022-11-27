@@ -85,7 +85,7 @@ O quadro gerenciado pelo grupo no aplicativo _Git Projects_ está disponível 
 
 Figura 10 - Tela do _Git Projects_ para Gerenciamento do Projeto
 
-![image](https://user-images.githubusercontent.com/89549220/194728615-4745a50c-506d-4ca8-80d2-17ff175b248f.png)
+![image](https://user-images.githubusercontent.com/89549220/204111711-9a76b4ae-2e5e-48ef-b3ba-6b1db8d88ec2.png)
 
 Fonte: _Git Projects_ - Elaborado pelos autores
 

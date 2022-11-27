@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   StyleSheet,
   SafeAreaView,
   ScrollView,
   Text,
   TextInput,
+  View,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
@@ -15,15 +16,126 @@ import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 import BtnBlue from "../../shared/components/visuais/BtnBlue";
 import H1 from "../../shared/components/visuais/H1";
-import { useRoute } from "@react-navigation/native";
 import "../../../global";
 
 export default function Perfil({ navigation }) {
-  const btnSalvarLabel = "SALVAR";
-  const btnCancelarLabel = "EXCLUIR";
-  const btnExcluirLabel = "SAIR";
+  const [nome, setNome] = useState("");
+  const [cpf, setCpf] = useState("");
+  const [email, setEmail] = useState("");
+  const [senha, setSenha] = useState("");
 
-  const route = useRoute();
+  const btnEditarLabel = "EDITAR";
+  const btnSalvarLabel = "SALVAR";
+  const btnCancelarLabel = "CANCELAR";
+  const btnSairLabel = "SAIR";
+
+  const [show, setShow] = useState("");
+
+  useEffect(() => {
+    setShow(modoEdicao);
+  }, []);
+
+  const modoEdicao = (modoEdicao) => {
+    setShow(modoEdicao);
+    Botoes();
+  };
+
+  const Botoes = () => {
+    return (
+      <View>
+        {show ? (
+          <View>
+            <Text style={styles.text2}>Nome Usuário </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setNome}
+              defaultValue={global.nome}
+              editable={true}
+            />
+            <Text style={styles.text2}>CPF </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setCpf}
+              defaultValue={global.cpf}
+              editable={true}
+            />
+            <Text style={styles.text2}>Email </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setEmail}
+              defaultValue={global.email}
+              editable={true}
+            />
+            <Text style={styles.text2}>Senha </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setSenha}
+              defaultValue={global.senha}
+              editable={true}
+            />
+            
+            <BtnBlue
+              navigation={navigation}
+              label={btnSalvarLabel}
+              modoEdicao={modoEdicao}
+            />
+            <BtnBlue
+              navigation={navigation}
+              label={btnCancelarLabel}
+              modoEdicao={modoEdicao}
+            />
+            <BtnBlue
+              navigation={navigation}
+              label={btnSairLabel}
+              modoEdicao={modoEdicao}
+            />
+          </View>
+        ) : (
+          <View>
+            <Text style={styles.text2}>Nome Usuário </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setNome}
+              defaultValue={global.nome}
+              editable={false}
+            />
+            <Text style={styles.text2}>CPF </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setCpf}
+              defaultValue={global.cpf}
+              editable={false}
+            />
+            <Text style={styles.text2}>Email </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setEmail}
+              defaultValue={global.email}
+              editable={false}
+            />
+            <Text style={styles.text2}>Senha </Text>
+            <TextInput
+              style={styles.textInput}
+              onChangeText={setSenha}
+              defaultValue={global.senha}
+              editable={false}
+            />
+
+            <BtnBlue
+              navigation={navigation}
+              label={btnEditarLabel}
+              modoEdicao={modoEdicao}
+            />
+            <BtnBlue
+              navigation={navigation}
+              label={btnSairLabel}
+              modoEdicao={modoEdicao}
+            />
+          </View>
+        )}
+      </View>
+    );
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -47,41 +159,7 @@ export default function Perfil({ navigation }) {
 
         <LinhaSeparadora />
 
-        {/* Informações do Usuário */}
-        <Text style={styles.text2}>Nome Usuário </Text>
-        <TextInput
-          style={styles.textInput}
-          onChangeText={(newText) => setText(newText)}
-          defaultValue={global.nome}
-        />
-
-        <Text style={styles.text2}>CPF </Text>
-        <TextInput
-          style={styles.textInput}
-          onChangeText={(newText) => setText(newText)}
-          defaultValue={global.cpf}
-        />
-
-        <Text style={styles.text2}>Email </Text>
-        <TextInput
-          style={styles.textInput}
-          onChangeText={(newText) => setText(newText)}
-          defaultValue={global.email}
-        />
-
-        <Text style={styles.text2}>Senha </Text>
-        <TextInput
-          style={styles.textInput}
-          onChangeText={(newText) => setText(newText)}
-          defaultValue={global.senha}
-        />
-
-        {/* Botões tela Perfil*/}
-        <BtnBlue label={btnSalvarLabel} />
-
-        <BtnBlue label={btnCancelarLabel} />
-
-        <BtnBlue label={btnExcluirLabel} navigation={navigation} />
+        <Botoes />
 
         <LinhaSeparadora />
 

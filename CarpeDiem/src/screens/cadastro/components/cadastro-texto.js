@@ -1,7 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { LoginIcons } from "../../../shared/components/login/login-icons";
-import { LinhaSeparadora } from "../../../shared/components/visuais/linha-separadora";
 
 function CadastroTexto() {
   return (

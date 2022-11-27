@@ -284,7 +284,7 @@ Para organização e distribuição das tarefas do projeto, o grupo utilizará o
 
 Figura 6 - _Git Projects_
 
-![image](https://user-images.githubusercontent.com/89549220/189464942-bbd65bfe-27ea-4cd7-a240-71efaf3c8aa8.png)
+![image](https://user-images.githubusercontent.com/89549220/204111652-0aed31f6-b493-433b-a850-934fc0f4cacf.png)
 
 Fonte: Elaborado pelos autores
 
