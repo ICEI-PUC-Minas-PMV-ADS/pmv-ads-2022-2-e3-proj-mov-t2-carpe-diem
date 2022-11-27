@@ -57,24 +57,16 @@ export const insertUsuario = async (params) => {
   return results.rowsAffected;
 };
 
-//Atualiza email do usuario
-export const updateUsuarioEmail = async (params) => {
+//Atualiza dados do usuario
+export const updateUsuario = async (params) => {
   let results = await DB_EXEC(
     "UPDATE Usuario " + 
-    "SET email=? " + 
+    "SET nome=? , " + 
+    "cpf=? , " + 
+    "email=? , " + 
+    "senha=? " + 
     "WHERE id=?", 
-    [params.email, params.id, ]);
-
-  return results.rowsAffected;
-}
-
-//Atualiza nome do usuario
-export const updateUsuarioNome = async (params) => {
-  let results = await DB_EXEC(
-    "UPDATE Usuario " + 
-    "SET nome=? " + 
-    "WHERE email=?", 
-    [params.nome, params.email, ]);
+    [params.nome, params.cpf, params.email, params.senha, params.id]);
 
   return results.rowsAffected;
 }

@@ -16,6 +16,9 @@ import { FooterIcons } from "../../shared/components/footer/footer-icons";
 import { FooterText } from "../../shared/components/footer/footer-text";
 import BtnBlue from "../../shared/components/visuais/BtnBlue";
 import H1 from "../../shared/components/visuais/H1";
+import * as SQLExecutor from "../../database/services/SQLExecutor";
+import FlashMessage from "react-native-flash-message";
+import { showMessage, hideMessage } from "react-native-flash-message";
 import "../../../global";
 
 export default function Perfil({ navigation }) {
@@ -24,6 +27,7 @@ export default function Perfil({ navigation }) {
   const btnCancelarLabel = "CANCELAR";
   const btnSairLabel = "SAIR";
 
+  const [id, setId] = useState("");
   const [nome, setNome] = useState("");
   const [cpf, setCpf] = useState("");
   const [email, setEmail] = useState("");
@@ -33,6 +37,7 @@ export default function Perfil({ navigation }) {
   const [edicaoInputs, setEdicaoInputs] = useState(false);
 
   useEffect(() => {
+    setId(global.id);
     setNome(global.nome);
     setCpf(global.cpf);
     setEmail(global.email);
@@ -47,6 +52,29 @@ export default function Perfil({ navigation }) {
     Botoes();
   };
 
+  const atualizarDados = (dados) => {
+    if (dados === true) {
+      let usuario = {
+        id: id,
+        nome: nome,
+        cpf: cpf,
+        email: email,
+        senha: senha,
+      };
+
+      SQLExecutor.updateUsuario(usuario);
+
+      sucessoUpdate();
+    }
+  };
+
+  const sucessoUpdate = () => {
+    showMessage({
+      message: "Usuário atualizado com sucesso!",
+      type: "success",
+    });
+  };
+
   const Botoes = () => {
     return (
       <View>
@@ -57,16 +85,19 @@ export default function Perfil({ navigation }) {
               navigation={navigation}
               label={btnSalvarLabel}
               modoEdicao={modoEdicao}
+              atualizarDados={atualizarDados}
             />
             <BtnBlue
               navigation={navigation}
               label={btnCancelarLabel}
               modoEdicao={modoEdicao}
+              atualizarDados={atualizarDados}
             />
             <BtnBlue
               navigation={navigation}
               label={btnSairLabel}
               modoEdicao={modoEdicao}
+              atualizarDados={atualizarDados}
             />
           </View>
         ) : (
@@ -75,11 +106,13 @@ export default function Perfil({ navigation }) {
               navigation={navigation}
               label={btnEditarLabel}
               modoEdicao={modoEdicao}
+              atualizarDados={atualizarDados}
             />
             <BtnBlue
               navigation={navigation}
               label={btnSairLabel}
               modoEdicao={modoEdicao}
+              atualizarDados={atualizarDados}
             />
           </View>
         )}
@@ -133,6 +166,14 @@ export default function Perfil({ navigation }) {
           editable={edicaoInputs}
         />
 
+        <Text style={styles.text2}>Senha </Text>
+        <TextInput
+          style={styles.textInput}
+          value={senha}
+          onChangeText={setSenha}
+          editable={edicaoInputs}
+        />
+
         <Botoes />
 
         <LinhaSeparadora />
@@ -141,6 +182,7 @@ export default function Perfil({ navigation }) {
 
         <FooterText />
       </ScrollView>
+      <FlashMessage position="bottom" />
     </SafeAreaView>
   );
 }

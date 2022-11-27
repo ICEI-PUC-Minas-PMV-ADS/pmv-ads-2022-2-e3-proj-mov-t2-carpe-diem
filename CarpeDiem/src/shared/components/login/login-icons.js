@@ -3,30 +3,27 @@ import { View, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
 function LoginIcons() {
-  /*
-  return (
-    <View style={styles.socialMediaLoginIcons}>
-      <View style={{ right: "45%" }}>
-        <Ionicons
-          name="logo-google"
-          color="#2C9196"
-          strokeWidth={2}
-          size={35}
-          //style={{ display: "inline" }}
-        />
-      </View>
+  // return (
+  //   <View style={styles.socialMediaLoginIcons}>
+  //     <View style={{ right: "45%" }}>
+  //       <Ionicons
+  //         name="logo-google"
+  //         color="#2C9196"
+  //         strokeWidth={2}
+  //         size={35}
+  //       />
+  //     </View>
 
-      <View style={{ left: "45%" }}>
-        <Ionicons
-          name="logo-facebook"
-          color="#2C9196"
-          strokeWidth={2}
-          size={35}
-          //style={{ display: "inline" }}
-        />
-      </View>
-    </View>
-  );  */
+  //     <View style={{ left: "45%" }}>
+  //       <Ionicons
+  //         name="logo-facebook"
+  //         color="#2C9196"
+  //         strokeWidth={2}
+  //         size={35}
+  //       />
+  //     </View>
+  //   </View>
+  // ); 
 }
 
 const styles = StyleSheet.create({
