@@ -3,14 +3,14 @@ import { View, TextInput, StyleSheet, Text, TouchableOpacity, } from "react-nati
 import FlashMessage from "react-native-flash-message";
 import { Ionicons } from "@expo/vector-icons";
 import { showMessage, hideMessage } from "react-native-flash-message";
-import * as SQLExecutor from "../../../database/services/SQLExecutor";
+import * as SQLExecutorFaleConosco from "../../../database/services/SQLExecutorFaleConosco";
 
 function FaleConoscoInputs({ navigation }) {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
-  const [mensagem, setmensagem] = useState("");
-    
-  const /*cadastrarUsuario*/ criarFaleConosco= () => {
+  const [mensagem, setMensagem] = useState("");
+
+  const /*cadastrarUsuario*/ criarFaleConosco = () => {
     if (!nome) {
       alert("Insira o seu nome!");
       return false;
@@ -23,20 +23,20 @@ function FaleConoscoInputs({ navigation }) {
       alert("Insira o sua mensagem!");
       return false;
     }
-    
+
     let faleconosco = {
       nome: nome,
       mensagem: mensagem,
       email: email,
       senha: senha,
     };
-    SQLExecutor.insertFaleConosco(faleconosco);
+    SQLExecutorFaleConosco.insertFaleConosco(faleconosco);
 
     sucessoCriarFaleConosco();
   };
 
   const redirecionaTela = () => {
-    navigation.push("Login");
+    navigation.push("Obrigado");
   };
 
   const sucessoCriarFaleConosco = () => {
@@ -44,12 +44,13 @@ function FaleConoscoInputs({ navigation }) {
       message: "Mensagem enviada com sucesso!",
       type: "success"
     });
+    redirecionaTela();
   };
 
 
   return (
     <View style={styles.containerTextInput}>
-      
+
       <Text style={styles.text}>Nome Completo</Text>
       <TextInput
         value={nome}
@@ -57,31 +58,33 @@ function FaleConoscoInputs({ navigation }) {
         style={styles.textInput}
         placeholder="Nome Completo"
         autocorrect={false}
-       />
+      />
 
       <Text style={styles.text}>Email</Text>
       <TextInput
+        value={email}
+        onChangeText={setEmail}
         style={styles.textInput}
         placeholder="Email"
         autocorrect={true}
         keyboardType="email-address"
-        onChangeText={() => {}}
-      ></TextInput>
-      
+      />
+
       <Text style={styles.text}>Mensagem</Text>
       <TextInput
+        value={mensagem}
+        onChangeText={setMensagem}
         style={styles.textInputMensagem}
         placeholder="Mensagem"
         autocorrect={false}
-        onChangeText={() => {}}
-      ></TextInput>
-      
+      />
+
       <View style={styles.container}>
-      <TouchableOpacity style={styles.btnEnviar} onPress={criarFaleConosco}>
+        <TouchableOpacity style={styles.btnEnviar} onPress={criarFaleConosco}>
           <Text style={styles.enviarText}>ENVIAR</Text>
         </TouchableOpacity>
-        </View>
-        <FlashMessage position="bottom" />
+      </View>
+      <FlashMessage position="bottom" />
       {/* <FaleConoscoButtons navigation={navigation} /> */}
     </View>
   );
@@ -101,7 +104,7 @@ const styles = StyleSheet.create({
   text: {
     fontWeight: "bold",
     fontSize: 16,
-    textAlign:"justify",
+    textAlign: "justify",
     padding: 8,
   },
   textInput: {
@@ -137,12 +140,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#FBCB2B",
     width: "100%",
     height: 200,
-    maxLength: 255, 
+    maxLength: 255,
     marginBottom: 15,
     color: "#222",
     fontSize: 16,
     borderRadius: 20,
-    padding: 7, 
+    padding: 7,
   },
 });
 
