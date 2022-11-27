@@ -89,11 +89,9 @@ export default function Perfil({ navigation }) {
         {
           text: "EXCLUIR",
           onPress: () => {
-            // excluirUsuario(dados);
-            // sucessoDelete();
-            limparTela();
-            limparGlobais();
-            redirecionaTela();
+            excluirUsuario(dados);
+            sucessoDelete();
+            setTimeout(logoff, 500);
           },
         },
       ]
@@ -112,6 +110,12 @@ export default function Perfil({ navigation }) {
       type: "success",
     });
   };
+
+  function logoff() {
+    limparTela();
+    limparGlobais();
+    redirecionaTela();
+  }
 
   const atualizarUsuario = (dados) => {
     if (dados === true) {
@@ -155,7 +159,6 @@ export default function Perfil({ navigation }) {
 
   const redirecionaTela = () => {
     navigation.push("Login");
-    // navigation.navigate("Login", {  })
   };
 
   const Botoes = () => {
