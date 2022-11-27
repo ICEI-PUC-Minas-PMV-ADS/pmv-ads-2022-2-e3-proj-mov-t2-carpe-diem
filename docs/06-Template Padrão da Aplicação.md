@@ -142,7 +142,7 @@ No que tange à responsividade, optamos por seguir o padrão do _Media Queries_
 
 Figura 32
 
-![TelaHome](https://user-images.githubusercontent.com/91228798/198916006-49f25ed0-03f7-4440-8562-2bbb448ccfb4.jpeg)
+![home](https://user-images.githubusercontent.com/89549220/204143687-f196efce-d382-44bb-afaa-20942af1788b.jpg)
 
 Fonte: Elaborado pelos autores
 
@@ -160,12 +160,16 @@ Fonte: Elaborado pelos autores
 
 Figura 34
 
+![resultado-busca](https://user-images.githubusercontent.com/89549220/204143700-24c15b1e-8e1c-44c6-ad88-425cfdb3ec5c.jpg)
+
 Fonte: Elaborado pelos autores
 
 
 ### 6.6.4 Tela Detalhes do Imóvel
 
 Figura 35
+
+![detalhes-imovel](https://user-images.githubusercontent.com/89549220/204143709-26667432-dae5-4de6-bb40-99004b8d9160.jpg)
 
 Fonte: Elaborado pelos autores
 
@@ -210,6 +214,8 @@ Fonte: Elaborado pelos autores
 
 Figura 40
 
+![busca-vazia](https://user-images.githubusercontent.com/89549220/204143733-192a768b-70c8-4f2d-805e-b763a7ae45f8.jpg)
+
 Fonte: Elaborado pelos autores
 
 
@@ -217,7 +223,7 @@ Fonte: Elaborado pelos autores
 
 Figura 41
 
-![TelaContato](https://user-images.githubusercontent.com/91228798/198917267-4b17543a-6cb8-4a4b-ade4-4494a96e54b4.jpeg)
+![contato](https://user-images.githubusercontent.com/89549220/204143758-3acf1b99-0316-4391-86b1-2f55f439e87a.jpg)
 
 Fonte: Elaborado pelos autores
 
@@ -234,6 +240,8 @@ Fonte: Elaborado pelos autores
 ### 6.6.12 Tela Obrigado
 
 Figura 43
+
+![obrigado](https://user-images.githubusercontent.com/89549220/204143777-8c87fa80-6e2f-4b1d-9e41-4b1f06f04756.jpg)
 
 Fonte: Elaborado pelos autores
 
