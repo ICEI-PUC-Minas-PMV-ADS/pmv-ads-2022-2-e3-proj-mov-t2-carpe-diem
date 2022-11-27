@@ -2,17 +2,17 @@ import Database from "./DbServices";
 
 const DB_EXEC = Database.getConnection();
 
-//Seleciona todos usuarios
-// export const getFaleConosco = async () => {
-//   let results = await DB_EXEC(
-//     "SELECT * " + 
-//     "FROM FaleConosco"
-//   );
+//Seleciona dados FaleConosco
+export const getFaleConosco = async () => {
+  let results = await DB_EXEC(
+    "SELECT * " + 
+    "FROM FaleConosco"
+  );
 
-//   return results.rows._array;
-// };
+  return results.rows._array;
+};
 
-//Insere usuario
+//Insere Formulario FaleConosco
 export const insertFaleConosco = async (params) => {
   let results = await DB_EXEC(
     "INSERT INTO FaleConosco " + 

@@ -28,7 +28,6 @@ function FaleConoscoInputs({ navigation }) {
       nome: nome,
       mensagem: mensagem,
       email: email,
-      senha: senha,
     };
     SQLExecutorFaleConosco.insertFaleConosco(faleconosco);
 
@@ -44,9 +43,7 @@ function FaleConoscoInputs({ navigation }) {
       message: "Mensagem enviada com sucesso!",
       type: "success"
     });
-    redirecionaTela();
   };
-
 
   return (
     <View style={styles.containerTextInput}>
@@ -85,7 +82,7 @@ function FaleConoscoInputs({ navigation }) {
         </TouchableOpacity>
       </View>
       <FlashMessage position="bottom" />
-     
+
     </View>
   );
 }
