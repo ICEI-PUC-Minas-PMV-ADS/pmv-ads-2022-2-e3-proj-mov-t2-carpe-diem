@@ -121,27 +121,19 @@ O _template_ das telas da aplicação criada até o momento contém os seguint
 
 - Tela Home (item 6.6.1)
 - Tela Home-Page (item 6.6.2)
-- Tela Resultado da Busca (em desenvolvimento)
-- Tela Detalhes do Imóvel (em desenvolvimento)
-- Tela Login (item 6.6.3)
-- Tela Cadastro (item 6.6.4)
-- Tela Fale Conosco (item 6.6.5)
-- Tela Esqueceu Senha (item 6.6.6)
-- Tela Erro Busca (em desenvolvimento)
-- Tela Contato (item 6.6.7)
-- Tela Informações (em desenvolvimento)
-- Tela Obrigado (em desenvolvimento)
-- Tela Perfil do Usuário (item 6.6.8)
+- Tela Resultado da Busca (item 6.6.3)
+- Tela Detalhes do Imóvel (item 6.6.4)
+- Tela Login (item 6.6.5)
+- Tela Cadastro (item 6.6.6)
+- Tela Fale Conosco (item 6.6.7)
+- Tela Esqueceu Senha (item 6.6.8)
+- Tela Erro Busca (item 6.6.9)
+- Tela Contato (item 6.6.10)
+- Tela Informações (item 6.6.11)
+- Tela Obrigado (item 6.6.12)
+- Tela Perfil do Usuário (item 6.6.13)
 
 Alusivo às funcionalidades do sistema, apresentamos o _print_ das telas desenvolvidas pelo grupo, assim como os requisitos atendidos e os artefatos da funcionalidade. A estrutura de dados das telas pode ser encontrada na página do projeto no _GitHub_, pelo link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t2-carpe-diem.
-
-No tocante às instruções de acesso, os passos são descritos a seguir:
-
-- Abra o _browser_ e informe o _link_ disponibilizado logo acima.
-- Execute o _download_ do arquivo do projeto ou faça sua clonagem no _GitHub_. 
-- Descompacte o arquivo.
-- Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
-- Conseguirá visualizar a URL do _local host_ através dos arquivos de formato HTML pelo Live Server localizado no próprio VSC.
 
 No que tange à responsividade, optamos por seguir o padrão do _Media Queries_. De acordo com Wikipédia (11/2021), _Media Queries_ se trata de um recurso do CSS 3 “que permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela (por exemplo, tamanho da tela do celular e do desktop). Ele se tornou um padrão recomendado pelo W3C em junho de 2012, e é uma tecnologia fundamental para o design responsivo da Web (RWD).”
 
@@ -154,59 +146,102 @@ Figura 32
 
 Fonte: Elaborado pelos autores
 
+
 ### 6.6.2 Tela Home Page
 
 Figura 33
 
-![TelaHomePage](https://user-images.githubusercontent.com/91228798/198916166-86bb9d7e-5aee-4bc8-9d20-b4b8dd8d84f7.jpeg)
+![home-page](https://user-images.githubusercontent.com/89549220/204114230-be53efc6-2286-4883-a5e9-200e51acfb43.jpg)
 
 Fonte: Elaborado pelos autores
 
-### 6.6.3 Tela Login
+
+### 6.6.3 Tela Resultado da Busca
 
 Figura 34
 
-![TelaLogin](https://user-images.githubusercontent.com/91228798/198916483-2feda6db-9167-4a44-b8a6-bee32b39d88a.jpeg)
-
 Fonte: Elaborado pelos autores
 
-### 6.6.4 Tela Cadastro
+
+### 6.6.4 Tela Detalhes do Imóvel
 
 Figura 35
 
-![TelaCadastro](https://user-images.githubusercontent.com/91228798/198916585-0dfcdfe5-3c2f-4f37-abce-c85f37fbdc1b.jpeg)
-
 Fonte: Elaborado pelos autores
 
 
-### 6.6.5 Tela Fale Conosco
+### 6.6.5 Tela Login
 
 Figura 36
 
-![TelaFaleConosco](https://user-images.githubusercontent.com/91228798/198916922-95cdfdec-470e-42d3-a12c-1ddc0fa0be82.jpeg)
+![login](https://user-images.githubusercontent.com/89549220/204114244-cc751148-2c37-4745-85c9-2dbb8a550859.jpg)
 
 Fonte: Elaborado pelos autores
 
-### 6.6.6 Tela Esqueceu Senha
+
+### 6.6.6 Tela Cadastro
 
 Figura 37
 
-![TelaEsqueceuSenha](https://user-images.githubusercontent.com/91228798/198916814-502a0547-cde6-437d-8a07-4a64498808c5.jpeg)
+![cadastro](https://user-images.githubusercontent.com/89549220/204114251-4f5169a7-cd17-43a3-8365-83ce5048d685.jpg)
 
 Fonte: Elaborado pelos autores
 
-### 6.6.7 Tela Contato
+
+### 6.6.7 Tela Fale Conosco
 
 Figura 38
+
+![fale-conosco](https://user-images.githubusercontent.com/89549220/204114253-b3887ee8-182f-4516-9961-263407ac9f6d.jpg)
+
+Fonte: Elaborado pelos autores
+
+
+### 6.6.8 Tela Esqueceu Senha
+
+Figura 39
+
+![esqueceu-senha](https://user-images.githubusercontent.com/89549220/204114257-37136245-cece-49cd-a441-a596467e8d76.jpg)
+
+Fonte: Elaborado pelos autores
+
+
+### 6.6.9 Tela Erro Busca
+
+Figura 40
+
+Fonte: Elaborado pelos autores
+
+
+### 6.6.10 Tela Contato
+
+Figura 41
 
 ![TelaContato](https://user-images.githubusercontent.com/91228798/198917267-4b17543a-6cb8-4a4b-ade4-4494a96e54b4.jpeg)
 
 Fonte: Elaborado pelos autores
 
-### 6.6.8 Tela Perfil do Usuário
 
-Figura 39
+### 6.6.11 Tela Informações
 
-![TelaPerfilUsuario](https://user-images.githubusercontent.com/91228798/198917712-20f028f8-71a7-4a75-8800-c809db551426.png)
+Figura 42
+
+![informações2](https://user-images.githubusercontent.com/89549220/204114266-48fc188b-b372-42b1-8dc7-75689202cf65.jpg)
+
+Fonte: Elaborado pelos autores
+
+
+### 6.6.12 Tela Obrigado
+
+Figura 43
+
+Fonte: Elaborado pelos autores
+
+
+### 6.6.13 Tela Perfil do Usuário
+
+Figura 44
+
+![perfil-usuario](https://user-images.githubusercontent.com/89549220/204114274-e0152639-5f19-4058-85d6-720c3b6d15d1.jpg)
 
 Fonte: Elaborado pelos autores
