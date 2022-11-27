@@ -18,11 +18,23 @@ const Database = {
         "senha VARCHAR(20) NOT NULL)",
         [],
 
+        (sqlTransaction, sqlResultSet) => {
+          console.log(
+            "\nBase carregada/criada com sucesso!" +
+            "\nQuantidade de linhas afetadas: " + sqlResultSet.rowsAffected
+          );
+        },
+        (error) => {
+          console.log("Erro ao criar tabela" + error.message);
+        }
+      );
+
+      transaction.executeSql(
         "CREATE TABLE IF NOT EXISTS FaleConosco " +
         "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
         "nome VARCHAR(70) NOT NULL, " +
         "email VARCHAR(11) NOT NULL, " +
-        "mensagem VARCHAR(255) NOT NULL)",   
+        "mensagem VARCHAR(255) NOT NULL)",
         [],
 
         (sqlTransaction, sqlResultSet) => {
@@ -35,6 +47,7 @@ const Database = {
           console.log("Erro ao criar tabela" + error.message);
         }
       );
+
     });
 
 
