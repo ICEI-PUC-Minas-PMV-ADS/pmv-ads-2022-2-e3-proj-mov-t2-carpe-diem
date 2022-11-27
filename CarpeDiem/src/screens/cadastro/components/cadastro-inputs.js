@@ -116,7 +116,11 @@ function CadastroInputs({ navigation }) {
           </Text>
         </TouchableOpacity>
 
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => {
+            redirecionaTela("EsqueceuSenha");
+          }}
+        >
           <Text style={styles.esqueceuSenhaText}>Esqueceu a Senha?</Text>
         </TouchableOpacity>
 
@@ -182,6 +186,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     width: "100%",
     marginLeft: 250,
+    padding: 8,
   },
   btnEntrar: {
     backgroundColor: "#6FDDE3",
