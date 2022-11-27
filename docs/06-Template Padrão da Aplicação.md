@@ -249,11 +249,19 @@ Fonte: Elaborado pelos autores
 
 ### 6.6.14 Redes Sociais Carpe Diem
 
-Figura 45
+Figura 45 - Instagram
 
-Figura 46
+![instagram](https://user-images.githubusercontent.com/89549220/204115230-8e322f8f-8093-400d-9bd2-6a5ed4f934fc.jpg)
 
-Figura 47
+
+Figura 46 - Twitter
+
+![twitter](https://user-images.githubusercontent.com/89549220/204115234-10e0c06c-b1b3-468b-a26f-5aaa0529e35b.jpg)
+
+
+Figura 47 - Facebook
+
+![facebook](https://user-images.githubusercontent.com/89549220/204115237-3de017c4-feeb-4760-928d-7efd0589f42c.jpg)
 
 
 Fonte: Elaborado pelos Autores
