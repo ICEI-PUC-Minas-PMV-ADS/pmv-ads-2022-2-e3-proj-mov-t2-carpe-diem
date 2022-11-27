@@ -12,7 +12,7 @@ Quadro 12 - Registro dos Testes
 |CT-02         |Realizar login                       |Permitir que o usuário faça login na plataforma. |Objetivo alcançado. <br> Item 9.1.2 |
 |CT-03         |Realizar gerenciamento do cadastro (Editar)   |Permitir que o usuário altere suas informações cadastradas. |Objetivo alcançado. <br> Item 9.1.3 |
 |CT-04         |Realizar gerenciamento do cadastro (Excluir)  |Permitir que o usuário exclua sua conta.|Objetivo alcançado. <br> Item 9.1.4 |
-|CT-05         |Realizar busca por imóvel            |Permitir que o usuário realize a busca por imóveis de acordo com o filtro "cidade destino".<br>Apresentar nos resultados da busca os imóveis disponíveis na localidade selecionada, com opção de detalhes para cada imóvel. |Objetivo não alcançado. |
+|CT-05         |Realizar busca por imóvel            |Permitir que o usuário realize a busca por imóveis de acordo com o filtro "cidade destino".<br>Apresentar nos resultados da busca os imóveis disponíveis na localidade selecionada, com opção de detalhes para cada imóvel. |Objetivo alcançado parcialmente. |
 |CT-06         |Preencher formulário fale conosco    |Permitir o envio do formulário fale conosco      |Objetivo alcançado. <br> Item 9.1.5 |
 |CT-07         |Redefinir Senha                      |Permitir que o usuário redefina sua senha        |Objetivo alcançado parcialmente. <br> Item 9.1.6 |
 |CT-08         |Acesso as Políticas e Condições de Uso |Permitir o acesso as políticas e condições de uso.  |Objetivo alcançado. <br> Item 9.1.7 |
