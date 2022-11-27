@@ -7,16 +7,24 @@ const Database = {
     // const dataBase = SQLite.openDatabase("carpe_diem.db");
     const dataBase = SQLite.openDatabase("carpe_diem2.db");
 
-    // Cria a table Usuario
+    // Cria a table Usuario e Fale Conosco
     dataBase.transaction((transaction) => {
       transaction.executeSql(
         "CREATE TABLE IF NOT EXISTS Usuario " +
-        "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+        "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
         "nome VARCHAR(70) NOT NULL, " +
         "cpf VARCHAR(11) NOT NULL, " +
         "email VARCHAR(30) NOT NULL, " +
         "senha VARCHAR(20) NOT NULL)",
         [],
+
+        "CREATE TABLE IF NOT EXISTS FaleConosco " +
+        "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+        "nome VARCHAR(70) NOT NULL, " +
+        "email VARCHAR(11) NOT NULL, " +
+        "mensagem VARCHAR(255) NOT NULL, " ,   
+        [],
+
         (sqlTransaction, sqlResultSet) => {
           console.log(
             "\nBase carregada/criada com sucesso!" +
@@ -28,6 +36,7 @@ const Database = {
         }
       );
     });
+
 
     // EXECUTOR DE QUERY GENERICO
     // Recebe a query e params e passa para uma nova thread
