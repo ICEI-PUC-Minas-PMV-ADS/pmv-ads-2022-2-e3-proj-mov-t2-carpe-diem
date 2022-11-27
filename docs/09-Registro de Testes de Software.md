@@ -12,7 +12,7 @@ Quadro 12 - Registro dos Testes
 |CT-02         |Realizar login                       |Permitir que o usuário faça login na plataforma. |Objetivo alcançado. <br> Item 9.1.2 |
 |CT-03         |Realizar gerenciamento do cadastro (Editar)   |Permitir que o usuário altere suas informações cadastradas. |Objetivo alcançado. <br> Item 9.1.3 |
 |CT-04         |Realizar gerenciamento do cadastro (Excluir)  |Permitir que o usuário exclua sua conta.|Objetivo alcançado. <br> Item 9.1.4 |
-|CT-05         |Realizar busca por imóvel            |Permitir que o usuário realize a busca por imóveis de acordo com o filtro "cidade destino".<br>Apresentar nos resultados da busca os imóveis disponíveis na localidade selecionada, com opção de detalhes para cada imóvel. |Objetivo não alcançado. |
+|CT-05         |Realizar busca por imóvel            |Permitir que o usuário realize a busca por imóveis de acordo com o filtro "cidade destino".<br>Apresentar nos resultados da busca os imóveis disponíveis na localidade selecionada, com opção de detalhes para cada imóvel. |Objetivo alcançado parcialmente. |
 |CT-06         |Preencher formulário fale conosco    |Permitir o envio do formulário fale conosco      |Objetivo alcançado. <br> Item 9.1.5 |
 |CT-07         |Redefinir Senha                      |Permitir que o usuário redefina sua senha        |Objetivo alcançado parcialmente. <br> Item 9.1.6 |
 |CT-08         |Acesso as Políticas e Condições de Uso |Permitir o acesso as políticas e condições de uso.  |Objetivo alcançado. <br> Item 9.1.7 |
@@ -122,7 +122,7 @@ Quadro 13 - Resultado
 |CT-02         |Realizar login                                 |Resultado obtido com êxito. |
 |CT-03         |Realizar gerenciamento do cadastro (Editar)    |Resultado obtido com êxito. |
 |CT-04         |Realizar gerenciamento do cadastro (Excluir)   |Resultado obtido com êxito. |
-|CT-05         |Realizar busca por imóvel                      |Não foi possível implementar o filtro de busca em tempo hábil. (completar?) |
+|CT-05         |Realizar busca por imóvel                      |Não foi possível implementar o filtro de busca em tempo hábil. Foi realizado _Insert_ no banco de dados através da tabela relacionando os destinos, porém a implementação do mecanismo de busca não foi efetivado. |
 |CT-06         |Preencher formulário fale conosco              |Resultado obtido com êxito. |
 |CT-07         |Redefinir senha                                |Resultado alcançado parcialmente, pois a funcionalidade para o usuário receber o _link_ para redefinir sua senha não foi concluída. |
 |CT-08         |Acesso as Políticas e Condições de Uso         |Resultado obtido com êxito. |
