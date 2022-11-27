@@ -245,3 +245,15 @@ Figura 44
 ![perfil-usuario](https://user-images.githubusercontent.com/89549220/204114274-e0152639-5f19-4058-85d6-720c3b6d15d1.jpg)
 
 Fonte: Elaborado pelos autores
+
+
+### 6.6.14 Redes Sociais Carpe Diem
+
+Figura 45
+
+Figura 46
+
+Figura 47
+
+
+Fonte: Elaborado pelos Autores
