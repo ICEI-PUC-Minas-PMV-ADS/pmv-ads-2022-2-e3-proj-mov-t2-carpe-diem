@@ -67,9 +67,7 @@ export default function Perfil({ navigation }) {
         {
           text: "DESCONECTAR",
           onPress: () => {
-            limparTela();
-            limparGlobais();
-            redirecionaTela();
+            logoff();
           },
         },
       ]
