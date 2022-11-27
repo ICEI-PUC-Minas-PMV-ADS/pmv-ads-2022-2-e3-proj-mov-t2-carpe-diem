@@ -83,6 +83,10 @@ Fonte: Elaborado pelos Autores
 
 Figura 53 - Redefinir Senha
 
+![redefinir-senha](https://user-images.githubusercontent.com/89549220/204163980-cf74e17e-669a-4526-ba78-8e6ac8dc2136.jpeg)
+
+![alert-redefinir senha](https://user-images.githubusercontent.com/89549220/204163991-f15cf700-2060-4ab3-aa81-4a7b1b78a5f7.jpeg)
+
 Fonte: Elaborado pelos Autores
 <br>
 <br>
