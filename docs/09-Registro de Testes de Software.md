@@ -23,7 +23,7 @@ Fonte: Elaborado pelos Autores
 
 ### 9.1.1 Resulado Obtido Caso de Teste 01
 
-Figura x - Realizar Cadastro
+Figura 48 - Realizar Cadastro
 
 ![realizar-cadastro](https://user-images.githubusercontent.com/89549220/204155284-0d6fd84d-8d40-4c12-9ad8-836593b81479.jpg)
 
@@ -32,7 +32,7 @@ Fonte: Elaborado pelos Autores
 
 ### 9.1.2 Resulado Obtido Caso de Teste 02
 
-Figura x - Realizar Login
+Figura 49 - Realizar Login
 
 ![realizar-login](https://user-images.githubusercontent.com/89549220/204155417-8141e8d6-ab18-4d3e-99f2-01443b3aaaae.jpg)
 
@@ -41,7 +41,7 @@ Fonte: Elaborado pelos Autores
 
 ### 9.1.3 Resulado Obtido Caso de Teste 03
 
-Figura x - Editar Cadastro
+Figura 50 - Editar Cadastro
 
 ![editar-cadastro1](https://user-images.githubusercontent.com/89549220/204155444-9d9ffe3f-ebc4-4b11-86c1-26e96a860bab.jpg)
 
@@ -52,14 +52,14 @@ Fonte: Elaborado pelos Autores
 
 ### 9.1.4 Resulado Obtido Caso de Teste 04
 
-Figura x - Excluir Cadastro
+Figura 51 - Excluir Cadastro
 
 Fonte: Elaborado pelos Autores
 
 
 ### 9.1.5 Resulado Obtido Caso de Teste 06
 
-Figura x - Formulário Fale Conosco
+Figura 52 - Formulário Fale Conosco
 
 ![preencher-fale-conosco](https://user-images.githubusercontent.com/89549220/204155574-cde90300-e313-4083-ad58-62d59290bf3a.jpg)
 
@@ -70,14 +70,14 @@ Fonte: Elaborado pelos Autores
 
 ### 9.1.6 Resulado Obtido Caso de Teste 07
 
-Figura x - Redefinir Senha
+Figura 53 - Redefinir Senha
 
 Fonte: Elaborado pelos Autores
 
 
 ### 9.1.7 Resulado Obtido Caso de Teste 08
 
-Figura x - Políticas e Condições de Uso
+Figura 54 - Políticas e Condições de Uso
 
 ![informações](https://user-images.githubusercontent.com/89549220/204155639-c189a5dc-c1a7-4fb1-8ce0-c72c6ab566b1.jpg)
 
@@ -86,7 +86,7 @@ Fonte: Elaborado pelos Autores
 
 ### 9.1.8 Resulado Obtido Caso de Teste 09
 
-Figura x - Redes Sociais
+Figura 55 - Redes Sociais
 
 ![instagram](https://user-images.githubusercontent.com/89549220/204155669-3774448d-446e-409a-8d2b-7cb63e8ad17d.jpg)
 
