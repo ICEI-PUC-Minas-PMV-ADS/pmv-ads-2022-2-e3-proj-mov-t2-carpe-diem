@@ -60,7 +60,7 @@ Quadro 14 - Roteiro das Tarefas
 
 | **Tarefa 3** | **Critério de Êxito** | **O que será avaliado** |
 |--------------|-----------------------|-------------------------|
-|Realizar a busca de um imóvel. | Concluir a busca, considerando a mensagem possível “Resultado da busca.” | Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para exibir o resultado da busca. |
+|Editar o cadastro do usuário. | Concluir a edição, considerando a mensagem final “Usuário atualizado com sucesso!” | Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para exibir o resultado da busca. |
 
 
 | **Tarefa 4** | **Critério de Êxito** | **O que será avaliado**  |

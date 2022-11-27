@@ -4,13 +4,13 @@ O Registro de Testes de Usabilidade é um relatório que contém as evidências 
 
 Quadro 15 - Perfil dos Voluntários
 
-|IDENTIFICAÇÃO | IDADE    | GRAU DE INSTRUÇÃO    | PROFISSÃO                     | AÇÃO/TESTE APLICADO      |
-|--------------|----------|----------------------|-------------------------------|--------------------------|
-|Voluntário 01 |          |                      |                               |Sistema em desenvolvimento|
-|Voluntário 02 |          |                      |                               |Sistema em desenvolvimento|
-|Voluntário 03 |          |                      |                               |Sistema em desenvolvimento|
-|Voluntário 04 |          |                      |                               |Sistema em desenvolvimento|
-|Voluntário 05 |          |                      |                               |Sistema em desenvolvimento|
+|IDENTIFICAÇÃO | IDADE | GRAU DE INSTRUÇÃO     | PROFISSÃO                     |
+|--------------|-------|-----------------------|-------------------------------|
+|Voluntário 01 | 38    | Superior Completo     | Bombeiro Militar              |
+|Voluntário 02 | 40    | Pós Graduação         | Servidora Pública Estadual    |
+|Voluntário 03 | 33    | Ensino Médio Completo | Manobrador de Locomotiva      |
+|Voluntário 04 | 23    | Superior Incompleto   | Programador                   |
+|Voluntário 05 | 32    | Superior Incompleto   | Técnico em Informática Júnior |
 
 Fonte: Elaborado pelos autores
 <br>
@@ -27,23 +27,35 @@ Quadro 16 - Testes de Usabilidade
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
 |Voluntário 01 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 01 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 01 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 01 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 01 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+
+|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|----------------------------------------|--------------|---------------------|--------------------|
 |Voluntário 02 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 02 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 02 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 02 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 02 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+
+|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|----------------------------------------|--------------|---------------------|--------------------|
 |Voluntário 03 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 03 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 03 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 03 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 03 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+
+|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|----------------------------------------|--------------|---------------------|--------------------|
 |Voluntário 04 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 04 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 04 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 04 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 04 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+
+|IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
+|--------------|----------------------------------------|--------------|---------------------|--------------------|
 |Voluntário 05 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 05 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 05 |Realizar a busca de um imóvel           |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 05 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
 |Voluntário 05 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
 
 Fonte: Elaborado pelos autores
@@ -57,7 +69,7 @@ Quadro 17 - Resultado
 |-------|----------------------------------------|--------------------------------------|
 |1      |Cadastro de novo usuário                |Sem dados, sistema em desenvolvimento.|
 |2      |Logar no sistema                        |Sem dados, sistema em desenvolvimento.|
-|3      |Realizar a busca de um imóvel           |Sem dados, sistema em desenvolvimento.|
+|3      |Editar o Cadastro                       |Sem dados, sistema em desenvolvimento.|
 |4      |Utilizar o Fale Conosco                 |Sem dados, sistema em desenvolvimento.|
 
 Fonte: Elaborado pelos autores
@@ -68,7 +80,7 @@ Fonte: Elaborado pelos autores
 
 No que tange ao tempo gasto, os resultados serão convertidos para segundos, aspirando uma melhor visualização.
 
-Figura 33 - Sem dados, sistema em desenvolvimento
+Figura 56 - Sem dados, sistema em desenvolvimento
 
 ![Gráfico](img/Em_breve.png)
 
@@ -79,7 +91,7 @@ Fonte da imagem: https://icon-icons.com/pt
 
 No que tange ao nível de dificuldade, os resultados serão direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
 
-Figura 34 - Sem dados, sistema em desenvolvimento
+Figura 57 - Sem dados, sistema em desenvolvimento
 
 ![Gráfico](img/Em_breve.png)
 
@@ -90,7 +102,7 @@ Fonte da imagem: https://icon-icons.com/pt
 
 Em se tratando do nível de satisfação, os resultados serão direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
 
-Figura 35 - Sem dados, sistema em desenvolvimento
+Figura 58 - Sem dados, sistema em desenvolvimento
 
 ![Gráfico](img/Em_breve.png)
 

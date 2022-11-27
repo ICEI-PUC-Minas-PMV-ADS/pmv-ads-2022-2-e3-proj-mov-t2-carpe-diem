@@ -12,7 +12,7 @@ Quadro 12 - Registro dos Testes
 |CT-02         |Realizar login                       |Permitir que o usuário faça login na plataforma. |Objetivo alcançado. <br> Item 9.1.2 |
 |CT-03         |Realizar gerenciamento do cadastro (Editar)   |Permitir que o usuário altere suas informações cadastradas. |Objetivo alcançado. <br> Item 9.1.3 |
 |CT-04         |Realizar gerenciamento do cadastro (Excluir)  |Permitir que o usuário exclua sua conta.|Objetivo alcançado. <br> Item 9.1.4 |
-|CT-05         |Realizar busca por imóvel            |Permitir que o usuário realize a busca por imóveis de acordo com o filtro "cidade destino".<br>Apresentar nos resultados da busca os imóveis disponíveis na localidade selecionada, com opção de detalhes para cada imóvel. |Objetivo não alcançado. |
+|CT-05         |Realizar busca por imóvel            |Permitir que o usuário realize a busca por imóveis de acordo com o filtro "cidade destino".<br>Apresentar nos resultados da busca os imóveis disponíveis na localidade selecionada, com opção de detalhes para cada imóvel. |Objetivo alcançado parcialmente. |
 |CT-06         |Preencher formulário fale conosco    |Permitir o envio do formulário fale conosco      |Objetivo alcançado. <br> Item 9.1.5 |
 |CT-07         |Redefinir Senha                      |Permitir que o usuário redefina sua senha        |Objetivo alcançado parcialmente. <br> Item 9.1.6 |
 |CT-08         |Acesso as Políticas e Condições de Uso |Permitir o acesso as políticas e condições de uso.  |Objetivo alcançado. <br> Item 9.1.7 |
@@ -27,8 +27,11 @@ Figura 48 - Realizar Cadastro
 
 ![realizar-cadastro](https://user-images.githubusercontent.com/89549220/204155284-0d6fd84d-8d40-4c12-9ad8-836593b81479.jpg)
 
-Fonte: Elaborado pelos Autores
+![realizar-cadastro-sucesso](https://user-images.githubusercontent.com/89549220/204157337-e215aab1-d119-491e-bc2b-8db477e87b98.jpeg)
 
+Fonte: Elaborado pelos Autores
+<br>
+<br>
 
 ### 9.1.2 Resulado Obtido Caso de Teste 02
 
@@ -37,7 +40,8 @@ Figura 49 - Realizar Login
 ![realizar-login](https://user-images.githubusercontent.com/89549220/204155417-8141e8d6-ab18-4d3e-99f2-01443b3aaaae.jpg)
 
 Fonte: Elaborado pelos Autores
-
+<br>
+<br>
 
 ### 9.1.3 Resulado Obtido Caso de Teste 03
 
@@ -48,14 +52,20 @@ Figura 50 - Editar Cadastro
 ![editar-cadastro](https://user-images.githubusercontent.com/89549220/204155448-9b8eb4b1-08e9-49ea-9a81-3cca4cec5c7e.jpg)
 
 Fonte: Elaborado pelos Autores
-
+<br>
+<br>
 
 ### 9.1.4 Resulado Obtido Caso de Teste 04
 
 Figura 51 - Excluir Cadastro
 
-Fonte: Elaborado pelos Autores
+![confirmar-excluir-cadastro](https://user-images.githubusercontent.com/89549220/204157306-b66ab31c-54b0-4ada-bd4e-7c94c2cfe577.jpeg)
 
+![excluir-cadastro](https://user-images.githubusercontent.com/89549220/204157315-adef032a-5601-45f9-9e36-986732fffda1.jpeg)
+
+Fonte: Elaborado pelos Autores
+<br>
+<br>
 
 ### 9.1.5 Resulado Obtido Caso de Teste 06
 
@@ -66,14 +76,20 @@ Figura 52 - Formulário Fale Conosco
 ![fale-conosco-enviado](https://user-images.githubusercontent.com/89549220/204155582-0dcf272b-3aac-4c11-88a2-8cb97f89be60.jpg)
 
 Fonte: Elaborado pelos Autores
-
+<br>
+<br>
 
 ### 9.1.6 Resulado Obtido Caso de Teste 07
 
 Figura 53 - Redefinir Senha
 
-Fonte: Elaborado pelos Autores
+![redefinir-senha](https://user-images.githubusercontent.com/89549220/204163980-cf74e17e-669a-4526-ba78-8e6ac8dc2136.jpeg)
 
+![alert-redefinir senha](https://user-images.githubusercontent.com/89549220/204163991-f15cf700-2060-4ab3-aa81-4a7b1b78a5f7.jpeg)
+
+Fonte: Elaborado pelos Autores
+<br>
+<br>
 
 ### 9.1.7 Resulado Obtido Caso de Teste 08
 
@@ -82,7 +98,8 @@ Figura 54 - Políticas e Condições de Uso
 ![informações](https://user-images.githubusercontent.com/89549220/204155639-c189a5dc-c1a7-4fb1-8ce0-c72c6ab566b1.jpg)
 
 Fonte: Elaborado pelos Autores
-
+<br>
+<br>
 
 ### 9.1.8 Resulado Obtido Caso de Teste 09
 
@@ -95,6 +112,8 @@ Figura 55 - Redes Sociais
 ![facebook](https://user-images.githubusercontent.com/89549220/204155684-57e54689-4085-4e39-8a99-97110d89837f.jpg)
 
 Fonte: Elaborado pelos Autores
+<br>
+<br>
 
 
 ## 9.2 Relatório do Teste de Software
@@ -107,7 +126,7 @@ Quadro 13 - Resultado
 |CT-02         |Realizar login                                 |Resultado obtido com êxito. |
 |CT-03         |Realizar gerenciamento do cadastro (Editar)    |Resultado obtido com êxito. |
 |CT-04         |Realizar gerenciamento do cadastro (Excluir)   |Resultado obtido com êxito. |
-|CT-05         |Realizar busca por imóvel                      |Não foi possível implementar o filtro de busca em tempo hábil. (completar?) |
+|CT-05         |Realizar busca por imóvel                      |Não foi possível implementar o filtro de busca em tempo hábil. Foi realizado _Insert_ no banco de dados através da tabela relacionando os destinos, porém a implementação do mecanismo de busca não foi efetivado. |
 |CT-06         |Preencher formulário fale conosco              |Resultado obtido com êxito. |
 |CT-07         |Redefinir senha                                |Resultado alcançado parcialmente, pois a funcionalidade para o usuário receber o _link_ para redefinir sua senha não foi concluída. |
 |CT-08         |Acesso as Políticas e Condições de Uso         |Resultado obtido com êxito. |
