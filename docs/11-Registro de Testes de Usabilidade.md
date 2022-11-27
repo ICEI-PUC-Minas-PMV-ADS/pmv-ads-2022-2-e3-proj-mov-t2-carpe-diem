@@ -68,10 +68,10 @@ Quadro 17 - Resultado
 
 |TAREFA |TESTE REALIZADO                         |AVALIAÇÃO DO TESTE                    |
 |-------|----------------------------------------|--------------------------------------|
-|1      |Cadastro de novo usuário                |Sem dados, sistema em desenvolvimento.|
-|2      |Logar no sistema                        |Sem dados, sistema em desenvolvimento.|
-|3      |Editar o Cadastro                       |Sem dados, sistema em desenvolvimento.|
-|4      |Utilizar o Fale Conosco                 |Sem dados, sistema em desenvolvimento.|
+|1      |Cadastro de novo usuário                |Um voluntário identificou atraso no envio da mensagem de "cadastro realizado com sucesso".|
+|2      |Logar no sistema                        |Sem observações.|
+|3      |Editar o Cadastro                       |Ao editar a senha o teclado fica posicionado na frente do input, não sendo possível visualizar o que está sendo alterado.|
+|4      |Utilizar o Fale Conosco                 |Sem observações.|
 
 Fonte: Elaborado pelos autores
 <br>
