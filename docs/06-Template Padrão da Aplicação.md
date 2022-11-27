@@ -169,7 +169,7 @@ Fonte: Elaborado pelos autores
 
 Figura 35
 
-![detalhes-imovel](https://user-images.githubusercontent.com/89549220/204143709-26667432-dae5-4de6-bb40-99004b8d9160.jpg)
+![detalhes-imovel1](https://user-images.githubusercontent.com/89549220/204144565-9a616a59-9f14-42fc-af29-5d26d0404314.jpg)
 
 Fonte: Elaborado pelos autores
 
