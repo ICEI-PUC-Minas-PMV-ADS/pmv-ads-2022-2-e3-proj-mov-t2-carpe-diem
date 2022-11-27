@@ -54,6 +54,65 @@ export default function Perfil({ navigation }) {
     Botoes();
   };
 
+  const desejaSair = () => {
+    Alert.alert(
+      "LOGOFF",
+      "Tem certeza de que deseja desconectar da sua conta?",
+      [
+        {
+          text: "CANCELAR",
+          onPress: () => {},
+          style: "cancel",
+        },
+        {
+          text: "DESCONECTAR",
+          onPress: () => {
+            limparTela();
+            limparGlobais();
+            redirecionaTela();
+          },
+        },
+      ]
+    );
+  };
+
+  const desejaExcluir = (dados) => {
+    Alert.alert(
+      "EXCLUIR USUÁRIO",
+      "Tem certeza de que deseja apagar o seu usuário ? A exclusão será permanente!",
+      [
+        {
+          text: "CANCELAR",
+          onPress: () => {},
+          style: "cancel",
+        },
+        {
+          text: "EXCLUIR",
+          onPress: () => {
+            // excluirUsuario(dados);
+            // sucessoDelete();
+            limparTela();
+            limparGlobais();
+            redirecionaTela();
+          },
+        },
+      ]
+    );
+  };
+
+  const excluirUsuario = (dados) => {
+    if (dados === true) {
+      SQLExecutor.deleteUsuario(id);
+    }
+  };
+
+  const sucessoDelete = () => {
+    showMessage({
+      message: "Usuário excluido com sucesso!",
+      type: "success",
+    });
+  };
+
   const atualizarUsuario = (dados) => {
     if (dados === true) {
       let usuario = {
@@ -70,36 +129,6 @@ export default function Perfil({ navigation }) {
     }
   };
 
-  const desejaExcluir = (dados) => {
-    Alert.alert(
-      "EXCLUIR USUÁRIO",
-      "Tem certeza de que deseja apagar o seu usuário ? A exclusão será permanente!",
-      [
-        {
-          text: "CANCELAR",
-          onPress: () => {},
-          style: "cancel",
-        },
-        {
-          text: "EXCLUIR",
-          onPress: () => {
-            excluirUsuario(dados);
-            sucessoDelete();
-            limparTela();
-            limparGlobais();
-            redirecionaTela();
-          },
-        },
-      ]
-    );
-  };
-
-  const excluirUsuario = (dados) => {
-    if (dados === true) {
-      SQLExecutor.deleteUsuario(id);
-    }
-  };
-
   const sucessoUpdate = () => {
     showMessage({
       message: "Usuário atualizado com sucesso!",
@@ -107,27 +136,20 @@ export default function Perfil({ navigation }) {
     });
   };
 
-  const sucessoDelete = () => {
-    showMessage({
-      message: "Usuário excluido com sucesso!",
-      type: "success",
-    });
-  };
-
   const limparTela = () => {
-    setId('');
-    setNome('');
-    setCpf('');
-    setEmail('');
-    setSenha('');
+    setId("");
+    setNome("");
+    setCpf("");
+    setEmail("");
+    setSenha("");
   };
 
   const limparGlobais = () => {
-    global.id = '';
-    global.nome = '';
-    global.cpf = '';
-    global.email = '';
-    global.senha = '';
+    global.id = "";
+    global.nome = "";
+    global.cpf = "";
+    global.email = "";
+    global.senha = "";
     global.usuarioLogado = false;
   };
 
@@ -147,6 +169,7 @@ export default function Perfil({ navigation }) {
               modoEdicao={modoEdicao}
               atualizarUsuario={atualizarUsuario}
               desejaExcluir={desejaExcluir}
+              desejaSair={desejaSair}
             />
             <BtnBlue
               navigation={navigation}
@@ -154,6 +177,7 @@ export default function Perfil({ navigation }) {
               modoEdicao={modoEdicao}
               atualizarUsuario={atualizarUsuario}
               desejaExcluir={desejaExcluir}
+              desejaSair={desejaSair}
             />
             <BtnBlue
               navigation={navigation}
@@ -161,6 +185,7 @@ export default function Perfil({ navigation }) {
               modoEdicao={modoEdicao}
               atualizarUsuario={atualizarUsuario}
               desejaExcluir={desejaExcluir}
+              desejaSair={desejaSair}
             />
           </View>
         ) : (
@@ -171,6 +196,7 @@ export default function Perfil({ navigation }) {
               modoEdicao={modoEdicao}
               atualizarUsuario={atualizarUsuario}
               desejaExcluir={desejaExcluir}
+              desejaSair={desejaSair}
             />
             <BtnBlue
               navigation={navigation}
@@ -178,6 +204,7 @@ export default function Perfil({ navigation }) {
               modoEdicao={modoEdicao}
               atualizarUsuario={atualizarUsuario}
               desejaExcluir={desejaExcluir}
+              desejaSair={desejaSair}
             />
           </View>
         )}
