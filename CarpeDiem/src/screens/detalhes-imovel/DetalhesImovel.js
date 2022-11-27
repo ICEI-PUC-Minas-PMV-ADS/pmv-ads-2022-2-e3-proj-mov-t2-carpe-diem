@@ -117,9 +117,9 @@ export default function App({ navigation }) {
           <Text style={styles.text4}>Distância para a Praia </Text>
         </View>
 
-        <Text style={styles.text5}>Diárias a partir de R$ 240,00 / noite </Text>
+        <Text style={styles.text6}>Diárias a partir de R$ 240,00 / noite </Text>
 
-        <Text style={styles.text5}>
+        <Text style={styles.text6}>
           Entre em Contato para {"\n"} Verificar a Disponibilidade e {"\n"}{" "}
           Realizar sua Reserva!{" "}
         </Text>
@@ -149,7 +149,8 @@ const styles = StyleSheet.create({
   },
   text3: {
     fontSize: 20,
-    textAlign: "center",
+    textAlign: "left",
+    padding: 5,
     paddingTop: 24,
     fontWeight: "bold",
   },
@@ -159,6 +160,12 @@ const styles = StyleSheet.create({
     padding: 15,
   },
   text5: {
+    fontSize: 16,
+    textAlign: "left",
+    fontWeight: "bold",
+    padding: 5,
+  },
+  text6: {
     fontSize: 16,
     textAlign: "center",
     fontWeight: "bold",
