@@ -122,7 +122,7 @@ Quadro 13 - Resultado
 |CT-02         |Realizar login                                 |Resultado obtido com êxito. |
 |CT-03         |Realizar gerenciamento do cadastro (Editar)    |Resultado obtido com êxito. |
 |CT-04         |Realizar gerenciamento do cadastro (Excluir)   |Resultado obtido com êxito. |
-|CT-05         |Realizar busca por imóvel                      |Não foi possível implementar o filtro de busca em tempo hábil. (completar?) |
+|CT-05         |Realizar busca por imóvel                      |Não foi possível implementar o filtro de busca em tempo hábil. Insert no banco de dados através da tabela relacionando os destinos, porém  |
 |CT-06         |Preencher formulário fale conosco              |Resultado obtido com êxito. |
 |CT-07         |Redefinir senha                                |Resultado alcançado parcialmente, pois a funcionalidade para o usuário receber o _link_ para redefinir sua senha não foi concluída. |
 |CT-08         |Acesso as Políticas e Condições de Uso         |Resultado obtido com êxito. |
