@@ -14,6 +14,7 @@ Quadro 15 - Perfil dos Voluntários
 
 Fonte: Elaborado pelos autores
 <br>
+<br>
 
 No teste de usabilidade, conforme pode ser observado no Quadro 16, será avaliado: <br>
 a) Concretização da tarefa. <br>
@@ -32,10 +33,10 @@ Quadro 16 - Testes de Usabilidade
 
 |IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 02 |Cadastro de novo usuário                |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 02 |Logar no Sistema                        |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 02 |Editar o Cadastro                       |Sem dados     |Sem dados            |Sem dados           |
-|Voluntário 02 |Utilizar o Fale Conosco                 |Sem dados     |Sem dados            |Sem dados           |
+|Voluntário 02 |Cadastro de novo usuário                |69 segundos   | 5                   | 4                  |
+|Voluntário 02 |Logar no Sistema                        |27 segundos   | 5                   | 5                  |
+|Voluntário 02 |Editar o Cadastro                       |39 segundos   | 4                   | 4                  |
+|Voluntário 02 |Utilizar o Fale Conosco                 |37 segundos   | 5                   | 5                  |
 
 |IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
