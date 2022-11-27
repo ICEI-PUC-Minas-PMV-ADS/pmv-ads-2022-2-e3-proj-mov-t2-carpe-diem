@@ -1,4 +1,5 @@
-global.usuarioLogado = false;
+global.usuarioLogado = Boolean;
+global.id = '';
 global.nome = '';
 global.cpf = '';
 global.email = '';

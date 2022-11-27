@@ -15,6 +15,7 @@ function LoginInputs({ navigation }) {
   const [senha, setSenha] = useState("");
 
   const setGlobais = (usuarioEncontrado) => {
+    global.id = usuarioEncontrado.id;
     global.nome = usuarioEncontrado.nome;
     global.cpf = usuarioEncontrado.cpf;
     global.email = usuarioEncontrado.email;
