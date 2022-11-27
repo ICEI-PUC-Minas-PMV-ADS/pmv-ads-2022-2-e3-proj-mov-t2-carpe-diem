@@ -6,7 +6,8 @@ export default function BtnBlue({
   label,
   modoEdicao,
   atualizarUsuario,
-  desejaExcluir
+  desejaExcluir,
+  desejaSair
 }) {
   const redirecionaTela = () => {
     navigation.push("Login");
@@ -23,7 +24,7 @@ export default function BtnBlue({
     } else if (label === "EDITAR") {
       modoEdicao(true);
     } else if (label === "SAIR") {
-      redirecionaTela();
+      desejaSair();
     }
   };
 
