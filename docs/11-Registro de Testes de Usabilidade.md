@@ -81,30 +81,48 @@ Fonte: Elaborado pelos autores
 
 No que tange ao tempo gasto, os resultados serão convertidos para segundos, aspirando uma melhor visualização.
 
-Figura 56 - Sem dados, sistema em desenvolvimento
+Figura 56 - Resultado Tempo Gasto
 
-![Gráfico](img/Em_breve.png)
+![image](https://user-images.githubusercontent.com/89549220/204166791-829d8f0f-7965-4563-b33f-9622c3165519.png)
 
-Fonte da imagem: https://icon-icons.com/pt
+![image](https://user-images.githubusercontent.com/89549220/204166854-b642480a-16bd-4a41-b2aa-93a89686df2c.png)
+
+![image](https://user-images.githubusercontent.com/89549220/204166862-fe2eb092-c70a-4912-b182-ac411f47c0e5.png)
+
+![image](https://user-images.githubusercontent.com/89549220/204166884-6c56adec-a408-4171-9b83-df3b3f902783.png)
+
+Fonte: Elaborado pelos Autores
 
 
 ### 11.1.2 Resultados Gráficos Relacionados ao Nível de Dificuldade
 
 No que tange ao nível de dificuldade, os resultados serão direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
 
-Figura 57 - Sem dados, sistema em desenvolvimento
+Figura 57 - Resultado Nível de Dificuldade
 
-![Gráfico](img/Em_breve.png)
+![image](https://user-images.githubusercontent.com/89549220/204166955-692cb404-7180-4ba4-bb69-f922f05ae5ba.png)
 
-Fonte da imagem: https://icon-icons.com/pt
+![image](https://user-images.githubusercontent.com/89549220/204166962-f4f91a09-5e6e-4078-aee9-d3899d5f022e.png)
+
+![image](https://user-images.githubusercontent.com/89549220/204166969-3757c828-4681-437c-ad39-7d5a836c6a77.png)
+
+![image](https://user-images.githubusercontent.com/89549220/204166984-40ee9314-364d-4454-add3-5c0d668fc446.png)
+
+Fonte: Elaborado pelos Autores
 
 
 ### 11.1.3 Resultados Gráficos Relacionados ao Nível de Satisfação
 
 Em se tratando do nível de satisfação, os resultados serão direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
 
-Figura 58 - Sem dados, sistema em desenvolvimento
+Figura 58 - Resultado Nível de Satisfação
 
-![Gráfico](img/Em_breve.png)
+![image](https://user-images.githubusercontent.com/89549220/204167002-9b4898b8-d207-4aad-bf7d-d52f2150b0d9.png)
 
-Fonte da imagem: https://icon-icons.com/pt
+![image](https://user-images.githubusercontent.com/89549220/204167008-c635ce6a-d573-4663-b97e-669443c687a8.png)
+
+![image](https://user-images.githubusercontent.com/89549220/204167015-fe2f3f5a-dc47-4ee4-9efe-62bbab291b84.png)
+
+![image](https://user-images.githubusercontent.com/89549220/204167019-0b8627b7-c61f-4760-8161-b846dcdadcdb.png)
+
+Fonte: Elaborado pelos Autores
