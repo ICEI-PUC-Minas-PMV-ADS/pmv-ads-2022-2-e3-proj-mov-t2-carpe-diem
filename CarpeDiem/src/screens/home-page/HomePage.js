@@ -1,6 +1,7 @@
+import React, { useEffect, useState } from "react";
+import { Searchbar } from "react-native-paper";
 import {
   SafeAreaView,
-  TextInput,
   Text,
   Image,
   ScrollView,
@@ -17,6 +18,12 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 
 export default function HomePage({ navigation }) {
+  const redirecionaTela = () => {
+    navigation.push("ResultadoBusca");
+  };
+
+  const [searchQuery, setSearchQuery] = useState("");
+
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
@@ -24,25 +31,13 @@ export default function HomePage({ navigation }) {
 
         <HeaderLogo />
 
-        <View style={styles.containerSearchbar}>
-          <TextInput
-            style={styles.TextInput}
+        <View>
+          <Searchbar
             placeholder="Escolha seu Destino"
-            autoCapitalize="none"
-            autoCorrect={false}
-          />
-          <Ionicons
-            name="search"
-            size={16}
-            color="#2C9196"
-            onPress={() => {}}
-            style={{
-              padding: 12,
-              height: 40,
-              borderRadius: 20,
-              backgroundColor: "#F36E2B",
-              color: "#FFFFFF",
-            }}
+            onIconPress={redirecionaTela}
+            value={searchQuery}
+            onChangeText={setSearchQuery}
+            autoCorrect={true}
           />
         </View>
 
