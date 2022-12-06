@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
+import { Searchbar } from "react-native-paper";
 import {
   StyleSheet,
   SafeAreaView,
@@ -9,11 +9,8 @@ import {
   TextInput,
   Image,
 } from "react-native";
-
 import { StatusBar } from "expo-status-bar";
-
 import { Ionicons } from "@expo/vector-icons";
-
 import { HeaderIcons } from "../../shared/components/header/header-icons";
 import { HeaderLogo } from "../../shared/components/header/header-logo";
 import { LinhaSeparadora } from "../../shared/components/visuais/linha-separadora";
@@ -25,6 +22,11 @@ import BtnBlue from "../../shared/components/visuais/BtnBlue";
 
 export default function ResultadoBusca({ navigation }) {
   const btnDetalhesLabel = "DETALHES";
+  const redirecionaTela = () => {
+    navigation.push("ResultadoBusca");
+  };
+
+  const [searchQuery, setSearchQuery] = useState("");
 
   return (
     <SafeAreaView style={styles.container}>
@@ -33,26 +35,13 @@ export default function ResultadoBusca({ navigation }) {
         <HeaderLogo />
         <StatusBar style="auto" />
 
-        <View style={styles.containerSearchbar}>
-          <TextInput
-            style={styles.TextInput}
-            placeholder="(nome da cidade procurada)"
-            autoCapitalize="none"
-            autoCorrect={false}
-            onChangeText={(value) => setText(value)}
-          />
-          <Ionicons
-            name="search"
-            size={16}
-            color="#2C9196"
-            onPress={() => {}}
-            style={{
-              padding: 12,
-              height: 40,
-              borderRadius: 20,
-              backgroundColor: "#F36E2B",
-              color: "#FFFFFF",
-            }}
+        <View>
+          <Searchbar
+            placeholder="Bahia"
+            onIconPress={redirecionaTela}
+            value={searchQuery}
+            onChangeText={setSearchQuery}
+            autoCorrect={true}
           />
         </View>
 
